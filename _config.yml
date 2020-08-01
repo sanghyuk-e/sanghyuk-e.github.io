@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "SANGHYUK LEE"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "iOS 개발을 하고 있습니다."
   location         : "Seoul"
   email            :
   links:
