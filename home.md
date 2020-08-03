@@ -9,7 +9,8 @@ header:
     - label: "<i class='fas fa-download'></i> Install now"
       url: "/docs/quick-start-guide/"
 excerpt: >
-  안녕하세요. 이건 제 블로그입니다. A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
+  안녕하세요. 이곳은 개발 및 개인 블로그입니다.<br />
+  iOS 개발에 관련된 부분과 개인적인 일상들이 기록되어 있습니다.<br />
   <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.19.3">Latest release v4.19.3</a></small>
 feature_row:
   - image_path: /assets/images/sample.jpeg
@@ -35,4 +36,6 @@ feature_row:
     btn_label: "Learn more"      
 ---
 
+{% include header %}
+{% include feature_row %}
 {% include feature_row %}
