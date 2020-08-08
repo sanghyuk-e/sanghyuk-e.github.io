@@ -22,9 +22,9 @@ feature_row:
     btn_label: "View"
   - image_path: /assets/images/sample.jpeg
     alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+    title: "Repositories"
+    excerpt: "프로젝트와 블로그 소스가 있는 저장소입니다."
+    url: "https://github.com/sanghyuk-e"
     btn_class: "btn--primary"
     btn_label: "View"
   - image_path: /assets/images/sample.jpeg

@@ -1,4 +1,4 @@
-I"�
+I"�
 <div class="feature__wrapper">
 
   
@@ -41,18 +41,18 @@
 
         <div class="archive__item-body">
           
-            <h2 class="archive__item-title">Responsive layouts</h2>
+            <h2 class="archive__item-title">Repositories</h2>
           
 
           
             <div class="archive__item-excerpt">
-              <p>Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content.</p>
+              <p>프로젝트와 블로그 소스가 있는 저장소입니다.</p>
 
             </div>
           
 
           
-            <p><a href="/docs/layouts/" class="btn btn--primary">View</a></p>
+            <p><a href="https://github.com/sanghyuk-e" class="btn btn--primary">View</a></p>
           
         </div>
       </div>
