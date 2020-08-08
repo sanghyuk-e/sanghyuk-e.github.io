@@ -15,18 +15,18 @@ excerpt: >
 feature_row:
   - image_path: /assets/images/sample.jpeg
     alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+    title: "Resume"
+    excerpt: "개발을 시작해서 지금까지의 이력이 정리되어있습니다."
+    url: "https://www.notion.so/Resume-ee94936743e146e9922525556b9de5d3"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
+    btn_label: "View"
   - image_path: /assets/images/sample.jpeg
     alt: "fully responsive"
     title: "Responsive layouts"
     excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
     url: "/docs/layouts/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
+    btn_label: "View"
   - image_path: /assets/images/sample.jpeg
     alt: "100% free"
     title: "100% free"
