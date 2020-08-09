@@ -1,4 +1,4 @@
-I"�
+I"�
 <div class="feature__wrapper">
 
   
@@ -6,7 +6,7 @@
       <div class="archive__item">
         
           <div class="archive__item-teaser">
-            <img src="/assets/images/sample.jpeg" alt="customizable" />
+            <img src="/assets/images/notion_icon.png" alt="customizable" />
             
           </div>
         
@@ -24,7 +24,7 @@
           
 
           
-            <p><a href="https://www.notion.so/Resume-ee94936743e146e9922525556b9de5d3" class="btn btn--primary">View</a></p>
+            <p><a href="https://www.notion.so/Resume-ee94936743e146e9922525556b9de5d3" class="btn btn--success">노션으로 보러가기</a></p>
           
         </div>
       </div>
@@ -52,7 +52,7 @@
           
 
           
-            <p><a href="https://github.com/sanghyuk-e" class="btn btn--primary">View</a></p>
+            <p><a href="https://github.com/sanghyuk-e" class="btn btn--warning">깃허브로 보러가기</a></p>
           
         </div>
       </div>
