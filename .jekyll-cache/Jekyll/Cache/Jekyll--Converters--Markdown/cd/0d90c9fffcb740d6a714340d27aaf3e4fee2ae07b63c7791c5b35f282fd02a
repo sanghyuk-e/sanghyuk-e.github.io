@@ -1,0 +1,64 @@
+I"�
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/sample.jpeg" alt="customizable" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Resume</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>개발을 시작해서 지금까지의 이력이 정리되어있습니다.</p>
+
+            </div>
+          
+
+          
+            <p><a href="https://www.notion.so/Resume-ee94936743e146e9922525556b9de5d3" class="btn btn--primary">View</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/github_icon.png" alt="fully responsive" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Repositories</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>프로젝트와 블로그 소스가 있는 저장소입니다.</p>
+
+            </div>
+          
+
+          
+            <p><a href="https://github.com/sanghyuk-e" class="btn btn--primary">View</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+:ET

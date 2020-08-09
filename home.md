@@ -20,20 +20,20 @@ feature_row:
     url: "https://www.notion.so/Resume-ee94936743e146e9922525556b9de5d3"
     btn_class: "btn--primary"
     btn_label: "View"
-  - image_path: /assets/images/sample.jpeg
+  - image_path: /assets/images/github_icon.png
     alt: "fully responsive"
     title: "Repositories"
     excerpt: "프로젝트와 블로그 소스가 있는 저장소입니다."
     url: "https://github.com/sanghyuk-e"
     btn_class: "btn--primary"
     btn_label: "View"
-  - image_path: /assets/images/sample.jpeg
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"      
+  #- image_path: /assets/images/sample.jpeg
+   # alt: "100% free"
+   # title: "100% free"
+   # excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
+   # url: "/docs/license/"
+   # btn_class: "btn--primary"
+   # btn_label: "Learn more"      
 ---
 
 {% include feature_row %}
