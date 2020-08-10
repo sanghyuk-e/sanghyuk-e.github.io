@@ -6,7 +6,7 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/sample.jpg
   actions:
-    - label: "<i class='fas fa-enter'></i> 보러가기"
+    - label: "보러가기 <i class='fas fa-arrow-right'></i>"
       url: "/categories/"
 excerpt: >
   안녕하세요. 이곳은 개발 및 개인 블로그입니다.<br />
@@ -15,14 +15,18 @@ feature_row:
   - image_path: /assets/images/notion_icon.png
     alt: "customizable"
     title: "Resume"
-    excerpt: "개발을 시작해서 지금까지의 이력이 정리되어있습니다."
+    excerpt: >
+      노션으로 정리한 이력서입니다.<br />
+      경력에 관한 모든부분이 정리되어있습니다.
     url: "https://www.notion.so/Resume-ee94936743e146e9922525556b9de5d3"
     btn_class: "btn--success"
     btn_label: "노션으로 보러가기"
   - image_path: /assets/images/github_icon.png
     alt: "fully responsive"
     title: "Repositories"
-    excerpt: "프로젝트와 블로그 소스가 있는 저장소입니다."
+    excerpt: >
+      깃허브 개인 저장소입니다.<br />
+      블로그와 프로젝트 코드들이 저장되어있습니다.<br />
     url: "https://github.com/sanghyuk-e"
     btn_class: "btn--warning"
     btn_label: "깃허브로 보러가기"
