@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/sample.jpg
   actions:
     - label: "보러가기 <i class='fas fa-arrow-right'></i>"
-      url: "/categories/"
+      url: "/index/"
 excerpt: >
   안녕하세요. 이곳은 개발 및 개인 블로그입니다.<br />
   iOS 개발에 관련된 부분과 개인적인 일상들이 기록되어 있습니다.<br />
