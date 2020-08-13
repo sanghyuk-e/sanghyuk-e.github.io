@@ -8,7 +8,7 @@ var store = [{
         "title": "두번째 글",
         "excerpt":"두번째 글 입니다.   안녕하세요   ","categories": ["Blog"],
         "tags": ["Blog"],
-        "url": "http://localhost:4000/blog/2/",
+        "url": "http://localhost:4000/blog/1/",
         "teaser": "http://localhost:4000/assets/images/sample.jpeg"
       },{
         "title": "[git] 버전 관리 무시 목록(.gitignore) 설정",
