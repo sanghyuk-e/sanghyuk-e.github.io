@@ -1,9 +1,12 @@
 ---
-title: "이 블로그 설명서"
-permalink: /about/
+title: "이직 일지"
+permalink: /changeJobs/
 layout: single
 ---
 
-## sanghyuk-e.github.io 블로그
+# 이직 일지
 
-이 블로그는 Github Pages 블로그 서비스인 github.io를 이용한 블로그이다.
+> 이직을 위해 지원했던 기업들에 대해서 적은 글입니다.
+
+
+
