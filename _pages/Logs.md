@@ -1,6 +1,6 @@
 ---
-title: "Change Jobs Log"
-permalink: /changeJobs/
+title: "Logs💬"
+permalink: /logs/
 layout: single
 
 last_modified_at: 2020-08-20
@@ -46,7 +46,10 @@ last_modified_at: 2020-08-20
 ```
 
 ### 코딩테스트 (과제)
-
+- 기간 : 1주 (주말 포함)
+- 제출 방법 : 과제 업로드 or 이메일 or Github URL
+- 내용 : iOS 앱스토어 검색탭 구현 (iTunes API 이용)
+- 제약 : Xcode 11, Swift5, Storyboard, Autolayout, 라이브러리 사용 가능(네트워크 관련 제외)
 
 ### 결과
 과제를 작성하여 이메일을 통해 제출하였고, 코딩테스트에서 탈락하였다.
@@ -56,3 +59,9 @@ last_modified_at: 2020-08-20
 이 부분을 헤드헌터에게 이야기 하였고, 코딩테스트 일정을 조정받을 수 있었다.
 지원자의 일정에 맞춰 코딩테스트일정을 조절해준 부분이 나를 담당한 헤드헌터의 능력인지, 
 해당 기업의 배려인지 알 수 없지만 지원자 입장에서 매우 고마운 부분이었다.
+
+***
+
+## X플 코리아
+
+comming soon..

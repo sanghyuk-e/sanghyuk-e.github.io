@@ -1,4 +1,4 @@
-I"¤
+I"Ÿ
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -10,11 +10,11 @@
           <span class="site-subtitle">Version 0.1</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/changeJobs/">Change Jobs Log</a>
+              <a href="/categories/">CategriesðŸ“š</a>
             </li><li class="masthead__menu-item">
-              <a href="/categories/">Categries</a>
+              <a href="/logs/">LogsðŸ’¬</a>
             </li><li class="masthead__menu-item">
-              <a href="https://github.com/sanghyuk-e/resume">Resume</a>
+              <a href="https://github.com/sanghyuk-e/resume">ResumeðŸ“‘</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">

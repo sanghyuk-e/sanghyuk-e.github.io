@@ -2,11 +2,11 @@
 main:
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-   - title: "Change Jobs Log"
-     url: /changeJobs/
-   - title: "Categries"
+   - title: "Categries📚"
      url: /categories/
-   - title: "Resume"
+   - title: "Logs💬"
+     url: /logs/
+   - title: "Resume📑"
      url: https://github.com/sanghyuk-e/resume
   # - title: "Sample Collections"
   #   url: /collection-archive/
