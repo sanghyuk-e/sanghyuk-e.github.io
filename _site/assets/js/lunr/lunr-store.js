@@ -1,6 +1,6 @@
 var store = [{
-        "title": "test title",
-        "excerpt":"깃헙 첫 글이다.   일단 커밋을 채워보자   커밋 수정하는 법을 알아본다  ","categories": ["Blog"],
+        "title": "블로그 시작",
+        "excerpt":"블로그 제대로 된 블로그를 만들어보자는 생각을 가지고서 몇 번이나 블로그를 만들었지만 매번 얼마 지나지 않아 더 이상 글을 올리지 않게 되었습니다. 이유는 여러 가지지만 가장 큰 이유는 ‘방법을 몰라서’ 였던 것 같습니다. 좋은 기술 블로그 업무를 하면서 많은 블로그들을 봅니다. 글을 잘 작성하고 정리가 잘 되어 보기 편한 블로그가 있다면...","categories": ["Blog"],
         "tags": ["Blog"],
         "url": "http://localhost:4000/blog/1/",
         "teaser": "http://localhost:4000/assets/images/sample.jpeg"
@@ -8,7 +8,7 @@ var store = [{
         "title": "두번째 글",
         "excerpt":"두번째 글 입니다.   안녕하세요   ","categories": ["Blog"],
         "tags": ["Blog"],
-        "url": "http://localhost:4000/blog/1/",
+        "url": "http://localhost:4000/blog/2/",
         "teaser": "http://localhost:4000/assets/images/sample.jpeg"
       },{
         "title": "[git] 버전 관리 무시 목록(.gitignore) 설정",

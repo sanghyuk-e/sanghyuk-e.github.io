@@ -1,7 +1,9 @@
 ---
-title: "이직 일지"
+title: "Change Jobs Log"
 permalink: /changeJobs/
 layout: single
+
+last_modified_at: 2020-08-20
 ---
 
 # 이직 일지
@@ -10,6 +12,7 @@ layout: single
 
 
 ## X카X X크
+***기간 : 2020.07.22 ~ 2020.08.19***
 ### 정보
 - 지원 경로 : LinkedIn 헤드헌터
 - 지원 직군 : [모바일개발] iOS 개발자
