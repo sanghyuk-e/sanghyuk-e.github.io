@@ -67,4 +67,5 @@ last_modified_at: 2020-08-20
 
 ## ● X플 코리아
 
+### X플 코리아는 채용 정보를 비공개요청 했습니다.
 comming soon..
