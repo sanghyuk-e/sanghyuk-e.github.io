@@ -4,8 +4,8 @@ main:
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
    - title: "Categries📚"
      url: /categories/
-   - title: "Logs💬"
-     url: /logs/
+   #- title: "Logs💬"
+     #url: /logs/
    - title: "Resume📑"
      url: https://github.com/sanghyuk-e/resume
   # - title: "Sample Collections"

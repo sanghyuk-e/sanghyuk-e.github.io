@@ -1,7 +1,7 @@
-I"�<ul class="toc__menu">
+I"P<ul class="toc__menu">
   <li><a href="#이직-일지">이직 일지</a>
     <ul>
-      <li><a href="#-x카x-x크">● X카X X크</a>
+      <li><a href="#-x카오-x크">● X카오 X크</a>
         <ul>
           <li><a href="#--정보">- 정보</a></li>
           <li><a href="#--채용-공고">- 채용 공고</a></li>
@@ -11,7 +11,11 @@
           <li><a href="#--후기">- 후기</a></li>
         </ul>
       </li>
-      <li><a href="#-x플-코리아">● X플 코리아</a></li>
+      <li><a href="#-x플-코리아">● X플 코리아</a>
+        <ul>
+          <li><a href="#x플-코리아는-채용-정보를-비공개요청-했습니다">X플 코리아는 채용 정보를 비공개요청 했습니다.</a></li>
+        </ul>
+      </li>
     </ul>
   </li>
 </ul>
