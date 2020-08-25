@@ -6,8 +6,10 @@ main:
      url: /categories/
    #- title: "Logs💬"
      #url: /logs/
-   - title: "Resume📑"
+   - title: "Repositories🗄"
      url: https://github.com/sanghyuk-e/resume
+   - title: "Resume📑"
+     url: https://www.notion.so/Jack-ee94936743e146e9922525556b9de5d3
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
