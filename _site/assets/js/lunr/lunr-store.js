@@ -5,10 +5,10 @@ var store = [{
         "url": "http://localhost:4000/blog/1/",
         "teaser": "http://localhost:4000/assets/images/sample.jpeg"
       },{
-        "title": "두번째 글",
-        "excerpt":"두번째 글 입니다.   안녕하세요   ","categories": ["Blog"],
-        "tags": ["Blog"],
-        "url": "http://localhost:4000/blog/2/",
+        "title": "이력서 작성하기",
+        "excerpt":"두번째 글 입니다.   안녕하세요   ","categories": ["Resume"],
+        "tags": ["Resume"],
+        "url": "http://localhost:4000/resume/2/",
         "teaser": "http://localhost:4000/assets/images/sample.jpeg"
       },{
         "title": "[git] 버전 관리 무시 목록(.gitignore) 설정",

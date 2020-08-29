@@ -1,4 +1,4 @@
-I"?
+I"�
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -12,7 +12,9 @@
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/categories/">Categries📚</a>
             </li><li class="masthead__menu-item">
-              <a href="https://github.com/sanghyuk-e/resume">Resume📑</a>
+              <a href="https://github.com/sanghyuk-e">Repositories🗄</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://www.notion.so/Jack-ee94936743e146e9922525556b9de5d3">Resume📑</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
