@@ -6,9 +6,9 @@ var store = [{
         "teaser": "http://localhost:4000/assets/images/sample.jpeg"
       },{
         "title": "이력서 작성하기",
-        "excerpt":"두번째 글 입니다.   안녕하세요   ","categories": ["Resume"],
+        "excerpt":"이력서 이직을 하기 위해서 계속 이력서를 작성해왔다. 채용 사이트인 원티드의 양식을 이용하여 가장 기본적인 내용들을 작성하였고 내용은 계속해서 수정하는 방식으로 작성했다. 이렇게 작성한 이력서를 통해서 많은 곳에 지원서를 넣어보았고, 합격을 하기도 했다. 당연하게도 불합격도 있었고 그 수는 적은편이 아니었다고 생각한다. 요즘에는 이력서는 엉망이 아니라면 패스시키고, 코딩테스트로 변별력을 확보하려는 회사가 많은...","categories": ["Resume"],
         "tags": ["Resume"],
-        "url": "http://localhost:4000/resume/2/",
+        "url": "http://localhost:4000/resume/1/",
         "teaser": "http://localhost:4000/assets/images/sample.jpeg"
       },{
         "title": "[git] 버전 관리 무시 목록(.gitignore) 설정",
