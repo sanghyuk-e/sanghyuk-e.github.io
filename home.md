@@ -12,7 +12,7 @@ excerpt: >
   안녕하세요. 이곳은 개발 및 개인 블로그입니다.<br />
   iOS 개발에 관련된 부분과 개인적인 일상들이 기록되어 있습니다.<br />
 feature_row:
-  - image_path: /assets/images/notion_icon.png
+  - image_path: /assets/images/notion-logo.png
     alt: "customizable"
     title: "Resume"
     excerpt: >
@@ -21,7 +21,7 @@ feature_row:
     url: "https://www.notion.so/Resume-ee94936743e146e9922525556b9de5d3"
     btn_class: "btn--success"
     btn_label: "노션으로 보러가기"
-  - image_path: /assets/images/github_icon.png
+  - image_path: /assets/images/github-logo.png
     alt: "fully responsive"
     title: "Repositories"
     excerpt: >
