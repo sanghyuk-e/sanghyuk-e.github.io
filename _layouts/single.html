@@ -39,9 +39,11 @@ layout: default
             </a>
           </div>
           <!-- 방문자수 표시 끝 -->
-          {% if page.date %}
+          <!-- 업데이트 날짜 시작 -->
+          <!-- {% if page.date %}
             <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }} <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
-          {% endif %}
+          {% endif %} -->
+          <!-- 업데이트 날짜 끝-->
         </header>
       {% endunless %}
 
