@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-03T18:33:46+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sanghyuk’s Blog</title><subtitle>Sanghyuk's Blog</subtitle><author><name>SANGHYUK LEE</name></author><entry><title type="html">[git] 버전 관리 무시 목록(.gitignore) 설정</title><link href="http://localhost:4000/git/1/" rel="alternate" type="text/html" title="[git] 버전 관리 무시 목록(.gitignore) 설정" /><published>2020-08-12T00:00:00+09:00</published><updated>2020-08-12T00:00:00+09:00</updated><id>http://localhost:4000/git/1</id><content type="html" xml:base="http://localhost:4000/git/1/">&lt;h1 id=&quot;gitignore&quot;&gt;.gitignore&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-08T17:28:34+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sanghyuk’s Blog</title><subtitle>Sanghyuk's Blog</subtitle><author><name>SANGHYUK LEE</name></author><entry><title type="html">[git] 버전 관리 무시 목록(.gitignore) 설정</title><link href="http://localhost:4000/git/1/" rel="alternate" type="text/html" title="[git] 버전 관리 무시 목록(.gitignore) 설정" /><published>2020-08-12T00:00:00+09:00</published><updated>2020-08-12T00:00:00+09:00</updated><id>http://localhost:4000/git/1</id><content type="html" xml:base="http://localhost:4000/git/1/">&lt;h1 id=&quot;gitignore&quot;&gt;.gitignore&lt;/h1&gt;
 
 &lt;h2 id=&quot;1-위험성&quot;&gt;1. 위험성&lt;/h2&gt;
 &lt;p&gt;특정 파일은 git에서 버전 관리 대상에서 제외해야 합니다.&lt;/p&gt;
@@ -215,11 +215,6 @@
 
 &lt;p&gt;좋은 이력서 작성을 위해서 많은 글을 읽었다. 그 중 많이 참고하고 좋은 글들을 링크로 공유한다.&lt;/p&gt;
 
-&lt;h2 id=&quot;공개-이력서&quot;&gt;공개 이력서&lt;/h2&gt;
-
-&lt;p&gt;다른 사람의 이력서를 읽는 것은 피드백 요청을 받거나, 채용을 담당하는 사람이 아니라면 힘들다.
-아래는 공개되어있고 잘 작성된 이력서들이다. 다른 사람들의 이력서를 참고하는 것이 큰 도움이 되었다.&lt;/p&gt;
-
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://brunch.co.kr/@wantedlab/29&quot;&gt;인사담당자가 직접 말하는, 서류 통과가 잘 되는 이력서&lt;/a&gt; - 원티드&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://woowabros.github.io/experience/2017/07/17/resume.html&quot;&gt;이직초보 어느 개발자의 력서 만들기&lt;/a&gt; - 구인본(우아한형제들)&lt;/li&gt;
@@ -229,6 +224,18 @@
   &lt;li&gt;&lt;a href=&quot;https://blog.outsider.ne.kr/1234&quot;&gt;이력서&lt;/a&gt; - Outsider&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h2 id=&quot;공개-이력서&quot;&gt;공개 이력서&lt;/h2&gt;
+
+&lt;p&gt;다른 사람의 이력서를 읽는 것은 피드백 요청을 받거나, 채용을 담당하는 사람이 아니라면 힘들다.
+아래는 공개되어있고 잘 작성된 이력서들이다. 다른 사람들의 이력서를 참고하는 것이 큰 도움이 되었다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://woowabros.github.io/experience/2017/07/17/resume.html&quot;&gt;구인본&lt;/a&gt; - 배달의민족 개발자&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.outsider.ne.kr/1234&quot;&gt;변정훈(Outsider)&lt;/a&gt; - OnDemandKorea 개발자&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jojoldu.github.io/&quot;&gt;이동욱&lt;/a&gt; - 배달의민족&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hyunseob.github.io/resume/&quot;&gt;이현섭&lt;/a&gt; - 비바리퍼블리카&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&quot;마침&quot;&gt;마침&lt;/h2&gt;
 
 &lt;p&gt;사실 이력서는 작성자가 어떤 경험을 했는지, 어떤 역량을 쌓아왔는지, 자신의 경험과 역량을 얼마나 잘 보여주는지가 가장 중요하다고 생각한다.
@@ -236,9 +243,13 @@
 좋은 경험을 가지고 있고 뛰어난 역량을 가지고 있는데 이력서를 잘 못 작성하여 서류부터 광탈하는 경우가 없기를 바란다.
 가슴이 웅장해지는 이직을 하는데 도움이 되었다면 좋겠다.&lt;/p&gt;
 
-&lt;p&gt;ps. 처음 입사지원을 할 당시의 이력서 수십통을 찾아내어 다시 보는 계기가 되었다.
-어떻게 서류에서 합격을 했고 면접을 보러 다녔는지 정말 신기하다. 
-그만큼 간절했던 시기였지만 지금 돌이켜보면 이력서에 적으면 좋지 않다는 점을 죄다 적었으며 굉장히 촌스럽다.&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Resume" /><category term="Resume" /><summary type="html">이력서를 작성 체크리스트</summary></entry><entry><title type="html">블로그 시작</title><link href="http://localhost:4000/blog/1/" rel="alternate" type="text/html" title="블로그 시작" /><published>2020-08-03T00:00:00+09:00</published><updated>2020-08-03T00:00:00+09:00</updated><id>http://localhost:4000/blog/1</id><content type="html" xml:base="http://localhost:4000/blog/1/">&lt;h2 id=&quot;블로그&quot;&gt;블로그&lt;/h2&gt;
+&lt;p&gt;ps.&lt;/p&gt;
+
+&lt;p&gt;처음 입사지원을 할 당시의 이력서 수십통을 찾아내어 다시 보는 계기가 되었다.
+어떻게 서류에서 합격을 했고 면접을 보러 다녔는지 정말 신기할 정도로 엉망이었다.
+간절했던 시기였지만 따로 정보를 찾아보지는 않았던 것이 문제였던 것 같다.
+지금 살펴보면 이력서를 작성할 때 하면 안되는 것들을 모조리 한 것이나 다름이 없고, 결정적으로 굉장히 촌스럽다고 느껴졌다.
+그 당시에 나의 이력서를 뽑아주고 합격을 준 인사 담당자가 고마워지려고 한다.&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Resume" /><category term="Resume" /><summary type="html">이력서를 작성 체크리스트</summary></entry><entry><title type="html">블로그 시작</title><link href="http://localhost:4000/blog/1/" rel="alternate" type="text/html" title="블로그 시작" /><published>2020-08-03T00:00:00+09:00</published><updated>2020-08-03T00:00:00+09:00</updated><id>http://localhost:4000/blog/1</id><content type="html" xml:base="http://localhost:4000/blog/1/">&lt;h2 id=&quot;블로그&quot;&gt;블로그&lt;/h2&gt;
 &lt;p&gt;제대로 된 블로그를 만들어보자는 생각을 가지고서 몇 번이나 블로그를 만들었지만 매번 얼마 지나지 않아 더 이상 글을 올리지 않게 되었습니다. 이유는 여러 가지지만 가장 큰 이유는 &lt;strong&gt;‘방법을 몰라서’&lt;/strong&gt; 였던 것 같습니다.&lt;/p&gt;
 
 &lt;h2 id=&quot;좋은-기술-블로그&quot;&gt;좋은 기술 블로그&lt;/h2&gt;
