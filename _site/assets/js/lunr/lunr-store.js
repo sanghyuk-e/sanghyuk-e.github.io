@@ -23,8 +23,8 @@ var store = [{
         "url": "http://localhost:4000/swift-grammar/1-1/",
         "teaser": null
       },{
-        "title": "CHAPTER01:스위프트 - 2.스위프트 언어의 탄생과 배경",
-        "excerpt":"2. 스위프트 언어의 특징   WWDC 2014에서 발표한 스위프트는 상대적으로 언어에 대한 진입  ","categories": ["Swift-Grammar"],
+        "title": "CHAPTER01:스위프트 - 2.스위프트 언어의 특징",
+        "excerpt":"2. 스위프트 언어의 특징 상대적으로 언어에 대한 진입장벽이 낮고 개발하기 쉬운 자바스크립트나 파이썬, 루비와 같은 동적 바인딩 타입의 언어는 생산성이 좋지만 성능이 부족한 경우가 많고, 성능이 좋은 언어일수록 진입 장벽이 높고 개발하기 어려워 생산성이 낮은 경우가 많다. 이에 비해 스위프트는 개발 생산성과 앱 성능 모두에서 만족할 만한 결과를 가져오는 언어로...","categories": ["Swift-Grammar"],
         "tags": ["Swift","Swift-Grammar","꼼곰한 재은 씨의 스위프트:문법편","이재은","루비페이퍼","ISBN:979-11-86710-23-4"],
         "url": "http://localhost:4000/swift-grammar/1-2/",
         "teaser": null
