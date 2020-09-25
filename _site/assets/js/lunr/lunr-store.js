@@ -20,6 +20,12 @@ var store = [{
         "title": "CHAPTER01:스위프트 - 1.스위프트 언어의 탄생과 배경",
         "excerpt":"1. 스위프트 언어의 탄생과 배경 스위프트(Swift)는 애플이 2014 세계 개발자 대회(WWDC)에서 발표한 iOS나 macOS 앱 개발의 새로운 언어이다. 그동안 앱을 개발하는 데에 사용되던 오브젝티브-C를 대체할 목적으로 발표되었다. 애플의 이전 주력 언어였던 오프젝티브-C는 C언어를 기초로 하여 스몰토크의 메시지 전달 개념과 객체지향 개념을 반영한, 객체지향형 C 언어이다. C 언어의 장점이자 단점인 포인터...","categories": ["Swift-Grammar"],
         "tags": ["Swift","Swift-Grammar","꼼곰한 재은 씨의 스위프트:문법편","이재은","루비페이퍼","ISBN:979-11-86710-23-4"],
-        "url": "http://localhost:4000/swift-grammar/1/",
+        "url": "http://localhost:4000/swift-grammar/1-1/",
+        "teaser": null
+      },{
+        "title": "CHAPTER01:스위프트 - 2.스위프트 언어의 탄생과 배경",
+        "excerpt":"2. 스위프트 언어의 특징   WWDC 2014에서 발표한 스위프트는 상대적으로 언어에 대한 진입  ","categories": ["Swift-Grammar"],
+        "tags": ["Swift","Swift-Grammar","꼼곰한 재은 씨의 스위프트:문법편","이재은","루비페이퍼","ISBN:979-11-86710-23-4"],
+        "url": "http://localhost:4000/swift-grammar/1-2/",
         "teaser": null
       }]

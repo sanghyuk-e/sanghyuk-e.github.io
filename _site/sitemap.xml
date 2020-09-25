@@ -13,8 +13,12 @@
 <lastmod>2020-08-12T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/swift-grammar/1/</loc>
+<loc>http://localhost:4000/swift-grammar/1-1/</loc>
 <lastmod>2020-09-23T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/swift-grammar/1-2/</loc>
+<lastmod>2020-09-25T00:00:00+09:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/logs/</loc>
