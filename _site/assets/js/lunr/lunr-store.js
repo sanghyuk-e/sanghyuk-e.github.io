@@ -28,4 +28,10 @@ var store = [{
         "tags": ["Swift","Swift-Grammar","꼼곰한 재은 씨의 스위프트:문법편","이재은","루비페이퍼","ISBN:979-11-86710-23-4"],
         "url": "http://localhost:4000/swift-grammar/1-2/",
         "teaser": null
+      },{
+        "title": "CHAPTER01:스위프트 - 3. 오브젝티브-C vs 스위프트",
+        "excerpt":"3. 오브젝티브-C vs 스위프트 오브젝티브-C는 20여 년 동안 애플의 주력 개발 언어로 사용된 만큼 튼튼한 아키텍처와 검증된 성능을 가지고 있다. 이런 오브젝티브-C를 대체할 목적으로 스위프트가 출현했을 때 많은 사람의 관심은 과연 스위프트가 오브젝티브-C를 대체할 수 있을까였다. 언어를 대체한다는 것은 기존 언어가 담당하던 모든 역할을 처리할 수 있는 역량이 되어야 가능하다....","categories": ["Swift-Grammar"],
+        "tags": ["Swift","Swift-Grammar","꼼곰한 재은 씨의 스위프트:문법편","이재은","루비페이퍼","ISBN:979-11-86710-23-4"],
+        "url": "http://localhost:4000/swift-grammar/1-3/",
+        "teaser": null
       }]

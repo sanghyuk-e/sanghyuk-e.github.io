@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>CHAPTER01:스위프트 - 1.스위프트 언어의 탄생과 배경 - Sanghyuk’s Blog</title>
+<!-- begin _includes/seo.html --><title>CHAPTER01:스위프트 - 3. 오브젝티브-C vs 스위프트 - Sanghyuk’s Blog</title>
 <meta name="description" content="스위프트 문법 스터디">
 
 
@@ -19,8 +19,8 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Sanghyuk's Blog">
-<meta property="og:title" content="CHAPTER01:스위프트 - 1.스위프트 언어의 탄생과 배경">
-<meta property="og:url" content="http://localhost:4000/swift-grammar/1-1/">
+<meta property="og:title" content="CHAPTER01:스위프트 - 3. 오브젝티브-C vs 스위프트">
+<meta property="og:url" content="http://localhost:4000/swift-grammar/1-3/">
 
 
   <meta property="og:description" content="스위프트 문법 스터디">
@@ -31,7 +31,7 @@
 
 
 
-  <meta property="article:published_time" content="2020-09-23T00:00:00+09:00">
+  <meta property="article:published_time" content="2020-09-27T00:00:00+09:00">
 
 
 
@@ -42,7 +42,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/swift-grammar/1-1/">
+<link rel="canonical" href="http://localhost:4000/swift-grammar/1-3/">
 
 
 
@@ -284,15 +284,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="CHAPTER01:스위프트 - 1.스위프트 언어의 탄생과 배경">
+    <meta itemprop="headline" content="CHAPTER01:스위프트 - 3. 오브젝티브-C vs 스위프트">
     <meta itemprop="description" content="스위프트 문법 스터디">
-    <meta itemprop="datePublished" content="2020-09-23T00:00:00+09:00">
+    <meta itemprop="datePublished" content="2020-09-27T00:00:00+09:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">CHAPTER01:스위프트 - 1.스위프트 언어의 탄생과 배경
+          <h1 id="page-title" class="page__title" itemprop="headline">CHAPTER01:스위프트 - 3. 오브젝티브-C vs 스위프트
 </h1>
           <!-- 기존 읽는데 필요한 시간 표시
           
@@ -301,14 +301,14 @@
 
 
 
-  1 minute read
+  2 minute read
 
 </p>
           
           -->
           <!-- 업데이트 날짜 시작 -->
           <!-- 
-            <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2020-09-23T00:00:00+09:00">September 23, 2020</time></p>
+            <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2020-09-27T00:00:00+09:00">September 27, 2020</time></p>
            -->
           <!-- 업데이트 날짜 끝-->
         </header>
@@ -320,32 +320,83 @@
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
               <ul class="toc__menu">
-  <li><a href="#1-스위프트-언어의-탄생과-배경">1. 스위프트 언어의 탄생과 배경</a></li>
+  <li><a href="#3-오브젝티브-c-vs-스위프트">3. 오브젝티브-C vs 스위프트</a></li>
 </ul>
 
             </nav>
           </aside>
         
-        <h2 id="1-스위프트-언어의-탄생과-배경">1. 스위프트 언어의 탄생과 배경</h2>
+        <h2 id="3-오브젝티브-c-vs-스위프트">3. 오브젝티브-C vs 스위프트</h2>
 
-<p>스위프트(Swift)는 애플이 2014 세계 개발자 대회(WWDC)에서 발표한 iOS나 macOS 앱 개발의 새로운 언어이다. 그동안 앱을 개발하는 데에 사용되던 오브젝티브-C를 대체할 목적으로 발표되었다.</p>
+<p>오브젝티브-C는 20여 년 동안 애플의 주력 개발 언어로 사용된 만큼 튼튼한 아키텍처와 검증된 성능을 가지고 있다. 이런 오브젝티브-C를 대체할 목적으로 스위프트가 출현했을 때 많은 사람의 관심은 과연 스위프트가 오브젝티브-C를 대체할 수 있을까였다. 언어를 대체한다는 것은 기존 언어가 담당하던 모든 역할을 처리할 수 있는 역량이 되어야 가능하다. 이런 점에서 스위프트를 이야기할 때 오브젝티브-C와의 비교는 빠질 수 없다. 애플에 의해 탄생한, 형제라면 형제일 수 있는 두 언어 사이의 공통점과 차이점에 대해서 알아보자.</p>
 
-<p>애플의 이전 주력 언어였던 오프젝티브-C는 C언어를 기초로 하여 스몰토크의 메시지 전달 개념과 객체지향 개념을 반영한, 객체지향형 C 언어이다. C 언어의 장점이자 단점인 포인터 개념은 오브젝티브-C를 강력한 언어로 만들어주긴 했지만, 처음 접근하는 사람에게는 그만큼 높은 장벽으로 작용한 것도 사실이다.</p>
+<hr />
 
-<p>프로그래밍 언어를 익히는 데에만 수개월이 걸리다 보니, 앱을 개발하기 위해 언어만 죽어라 익히다 포기하는 일이 잦았다. 언어 자체가 어렵다 보니 앱의 다양한 기능에 집중해야 할 개발자가 성능 개선에 더 많은 노력과 시간을 소모하는 현상을 가져왔다.</p>
+<blockquote>
+  <p>파일 통합</p>
+</blockquote>
 
-<p>애플은 앱 개발자들이 기능적으로 더 다양한 종류의 앱을 만들기를 원했다. 개방성을 강력한 무기로 내세우는 구글의 안드로이드에 점차 스마트폰 시장을 잠식당하고 있는 상황에서, 어떤 방식으로든 다시 앱스토어의 콘텐츠 다양성을 무기로 하는 시장 지배력을 갖추고 싶어했다. 현재 개발자뿐만 아니라 아이디어를 가진 많은 잠재적 개발자들까지 마음만 먹으면 손쉽게 앱을 구현할 수 있는 환경을 만들어주는 것이 당연한 과제였다.</p>
+<p>오브젝티브-C는 C를 기초로 하여 만들어진 언어이므로 파일 구조도 C 문법을 따라 헤더 파일과 소스 파일로 구분된다. .h 확장자로 작성되는 헤더 파일은 변수나 상수에 대한 선언, 인터페이스에 대한 정의가 작성되고, .m 확장자로 작성되는 소스 파일은 헤더 파일에서 정의한 인터페이스를 구현하는 내용이 작성된다. 선언과 구현이 분리되는 형태이다. 그러나 스위프트는 헤더 파일과 소수 파일이 모두 .swift 확장자를 갖는 파일 하나로 통합되어있다. 변수나 상수, 각종 객체의 형식에 대한 선언과 실질적인 내용 구현이 모두 하나의 파일에서 이루어진다.</p>
 
-<p>이러한 목적에 맞추어 기능이 아니라 성능에 관련된 많은 부분, 특히 코드 최적화나 메모리 관리, 성능 관리 등의 기술 경험 기반 개발 이슈를 시스템이 전담하여 개발자들의 부담을 덜어주는 것이 가장 중요했다. 아이디어를 가진 많은 사람이 기술에 제한받지 않고 마음껏 아이디어를 구현할 수 있는 손쉬운 개발 환경을 만들어 주고 싶었던 것이다.</p>
+<blockquote>
+  <p>클래스의 정의와 구현</p>
+</blockquote>
 
-<p>이런 목표를 위해서 만들어진 언어 플랫폼이 바로 스위프트이다. 스위프트는 기존의 오브젝티브-C가 C 언어로부터 가져온 저수준 프로그래밍을 자동 관리 영역으로 대체했고, 생소한 문법이지만 객체지향을 위해 사용할 수 밖에 없었던 스몰토크의 메시지 문법을 사람들에게 익숙한 자바, 파이썬, C#의 문법으로 바꾸었으며, 오브젝티브-C와 호환까지 가능하도록 설계되는 등 여러 가지 언어적 강점을 지녔다.</p>
+<p>클래스를 작성할 때 오브젝티브-C는 헤더 파일에 클래스의 인터페이스를 정의하고, 소스파일에서는 정의된 인터페이스를 구현한다. 그러나 스위프트에서는 클래스의 인터페이스 정의 없이 바로 클래스를 구현하면 된다. 또한 오브젝티브-C는 반드시 클래스 선언 시 반드시 상위 클래스를 상속 받아야 하며, 아무것도 상속받을 필요가 없을 때라도 최상위 클래스인 NSObject를 상속받아야 하지만, 스위프트에서는 상속받아야 할 클래스가 없다면 아무것도 상속받지 않아도 된다.</p>
 
-<p>오브젝티브-C가 고급 개발자를 대상으로 사용된 언어라면 스위프트는 개발에 갓 입문하는 사람들까지 무리 없이 사용할 수 있는 언어이다. 그 대표적인 기능이 바로 인터랙티브 플레이그라운드이다.</p>
+<blockquote>
+  <p>상속</p>
+</blockquote>
 
-<p>직관적으로 코드를 작성하여 그 결과까지 볼 수 있는 플레이그라운드는 왼쪽의 편집 창에서 코드를 작성하면 중간 결과물을 보여줄 뿐만 아니라 즉석에서 컴파일하여 처리 결과까지 제공한다. 단순히 텍스트 결과를 나타내는 것만이 아니다. 반복적인 증감값의 경우 그래프를 통해 직관적인 결과를 볼 수 있도록 처리해 주며, 필요에 따라 다양한 멀티미디어 객체를 사용하여 풍부한 사용자 정보를 제공해 주기도 한다. 직관적인 사용자 인터페이스를 통해 쉬운 접근을 추구하는 애플의 철학이 반영된 결과물이다.</p>
+<p>오브젝티브-C는 다중 상속을 지원하지 않지만, 자바의 인터페이스(Interface)에 해당하는 개념인 프로토콜(Protocol)을 정의하여 클래스 객체가 준수해야 할 형식을 제공할 수 있다. 또한 카테고리(Category) 개념을 통해 상속 대신 기존 객체 자체를 직접 확장할 수 있다.</p>
 
-<p>기술적인 관점에서 스위프트는 애플의 메인 프레임워크인 코코아 프레임워크와 코코아 터치 프레임워크 모두 사용할 수 있다. LLVM 컴파일러, 옵티마이저, 오토백터링, ARC 메모리 관리, 런타임 환경 등을 기존 언어의 개발 환경과 거의 동일하게 사용할 수 있다는 장점도 있다. 이처럼 다양한 강점을 통해 스위프트는 점차 iOS 앱 개발의 강력한 플랫폼 언어로서 자리매김하고 있다.</p>
+<p>스위프트도 마찬가지이다. 다중 상속을 지원하지 않으며 프로토콜을 정의할 수있다. 또한, 기존 객체를 직접 확장할 수있도록 Extention이 제공되는데, 이는 오브젝티브-C의 카테고리에 대응하는 개념이다. 단, 그보다는 더 넓고 강력한 개념으로 오브젝티브-C에서 클래스 객체만 확장할 수 있었던 카테고리에 비해 스위프트의 Extention은 클래스, 구조체, 프로토콜 등 대부분 객체에 사용할 수 있다.</p>
 
+<blockquote>
+  <p>범용 타입</p>
+</blockquote>
+
+<p>개발의 편의와 효율성을 높이기 위해 모든 데이터 타입을 저장할 수 있는 범용 타입 객체가 필요할 때가 있는데, 오브젝티브-C에서는 이와 같은 범용 타입으로 id 타입을 제공한다. id 타입은 모든 타입의 데이터를 저장할 수 있을 뿐만 아니라, 호환성만 보장된다면 저장된 데이터를 어떠한 타입으로든 변환할 수 있는 특성을 가지고 있다. 코코아 프레임워크나 코코아 터치 프레임워크에서는 범용 타입을 이용한 API들이 많이 사용되고 있다.</p>
+
+<p>스위프트 역시 동일한 코코아 프레임워크나 코코아 터치 프레임워크를 사용하기 때문에, 오브젝티브-C의 id 타입에 대응하는 범용 타입의 객체가 필요하다. 이 때문에 제공되는 것이 Any 타입과 AnyObject 클래스이다. Any는 구조체, 클래스, 열거형, 함수 등 스위프트에서 제공하는 모든 타입의 값을 저장할 수 있는 타입인 반면, AnyObject는 클래스에 한해 범용으로 사용 가능한 데이터 타입이다.</p>
+
+<blockquote>
+  <p>메소드 호출</p>
+</blockquote>
+
+<p>오브젝티브-C는 스몰토크의 문법을 차용한 결과, 메소드 호출을 메시지 전송 방식으로 처리한다. 즉, 객체의 메소드를 호출하는 대신 객체에 메시지를 보내서 필요한 기능을 처리한다. 객체와 메시지는 공백을 통해 연결되며 대괄호([])를 사용하여 메시지 전송 단위를 감싸서 구분한다. 이런 스몰토크의 문법이 낯설거나 익숙하지 않은 사람들이 많아서 오브젝티브-C를 다룰 때에는 종종 주의가 필요하기도 했다.</p>
+
+<p>그러나 스위프트는 일반적인 객체지향에서의 메소드 호출 방식을 따른다. 객체와 메소드 사이는 점(.)을 통해 연결되고, 메소드 호출 단위를 감싸는 구분자는 사용하지 않는다. 아래는 오브젝티브-C와 스위프트에서의 메소드 호출 방식 예제이다.</p>
+
+<ul>
+  <li>오브젝티브-C에서의 메소드 호출
+    <div class="language-objectivec highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="err">인스턴스명</span> <span class="nf">increment</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span>
+</code></pre></div>    </div>
+  </li>
+  <li>스위프트에서의 메소드 호출
+    <div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">인스턴스명</span><span class="o">.</span><span class="nf">incrementBy</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<blockquote>
+  <p>nil의 의미</p>
+</blockquote>
+
+<p>오브젝티브-C에서는 존재하지 않는 객체에 대한 참조를 위해 nil이라는 상수를 사용한다. nil과 NULL의 차이에 대해 궁굼해 하는 사람들이 있는데, 엄격하게 말해서 오브젝티브-C에서 정의된 nil 상수와 C에서 정의된 NULL 상수 간에 차이는 있지만, 오브젝티브-C 문법에서 두 상수는 기술적으로 혼용할 수 있다. 일반적으로 nil은 클래스 객체를 참조하는 데에 사용되고, NULL은 그 밖에 다른 포인터 자료형에 사용된다.</p>
+
+<div class="language-objectivec highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// 객체의 빈 참조에 사용되는 nil</span>
+<span class="n">UIViewController</span> <span class="o">*</span><span class="n">uvc</span> <span class="o">=</span> <span class="nb">nil</span><span class="p">;</span>
+
+<span class="c1">// 포인터 자료형의 빈 참조에 사용되는 NULL</span>
+<span class="kt">int</span> <span class="o">*</span><span class="n">sPtr</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>반면, 스위프트에서 nil은 옵셔널 타입의 기본값으로 사용되며 <strong>‘값이 존재하지 않음’</strong>을 의마한다. 스위프트에서는 NULL 상수가 정의되어 있지 않다.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// 옵셔널 타입의 기본값으로 nil이 대입</span>
+<span class="k">var</span> <span class="nv">name</span> <span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span>
+</code></pre></div></div>
 
         
       </section>
@@ -414,7 +465,7 @@
 
 
         
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-09-23T00:00:00+09:00">September 23, 2020</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-09-27T00:00:00+09:00">September 27, 2020</time></p>
 
 
       </footer>
@@ -424,23 +475,22 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=CHAPTER01%3A%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8+-+1.%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8+%EC%96%B8%EC%96%B4%EC%9D%98+%ED%83%84%EC%83%9D%EA%B3%BC+%EB%B0%B0%EA%B2%BD%20http%3A%2F%2Flocalhost%3A4000%2Fswift-grammar%2F1-1%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=CHAPTER01%3A%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8+-+3.+%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8B%B0%EB%B8%8C-C+vs+%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8%20http%3A%2F%2Flocalhost%3A4000%2Fswift-grammar%2F1-3%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fswift-grammar%2F1-1%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fswift-grammar%2F1-3%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fswift-grammar%2F1-1%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fswift-grammar%2F1-3%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/git/1/" class="pagination--pager" title="[git] 버전 관리 무시 목록(.gitignore) 설정
+      <a href="/swift-grammar/1-2/" class="pagination--pager" title="CHAPTER01:스위프트 - 2.스위프트 언어의 특징
 ">Previous</a>
     
     
-      <a href="/swift-grammar/1-2/" class="pagination--pager" title="CHAPTER01:스위프트 - 2.스위프트 언어의 특징
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
@@ -454,40 +504,6 @@
     <div class="page__related">
       <h4 class="page__related-title">You may also enjoy</h4>
       <div class="grid__wrapper">
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/swift-grammar/1-3/" rel="permalink">CHAPTER01:스위프트 - 3. 오브젝티브-C vs 스위프트
-</a>
-      
-    </h2>
-    <!-- 기존 읽는데 필요한 시간이 보이는 부분 / 변경 후 작성날짜로 표기
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  3 minute read
-
-</p>
-    
-    -->
-    
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> September 27 2020</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">스위프트 문법 스터디
-</p>
-  </article>
-</div>
-
         
           
 
@@ -516,6 +532,40 @@
     -->
     
       <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> September 25 2020</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">스위프트 문법 스터디
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/swift-grammar/1-1/" rel="permalink">CHAPTER01:스위프트 - 1.스위프트 언어의 탄생과 배경
+</a>
+      
+    </h2>
+    <!-- 기존 읽는데 필요한 시간이 보이는 부분 / 변경 후 작성날짜로 표기
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+
+</p>
+    
+    -->
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> September 23 2020</p>
     
     <p class="archive__item-excerpt" itemprop="description">스위프트 문법 스터디
 </p>
