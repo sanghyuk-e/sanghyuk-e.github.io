@@ -1,12 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-04T18:28:21+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sanghyuk’s Blog</title><subtitle>Sanghyuk's Blog</subtitle><author><name>SANGHYUK LEE</name></author><entry><title type="html">CHAPTER02:Xcode - 1. 통합개발 환경</title><link href="http://localhost:4000/swift-grammar/2-1/" rel="alternate" type="text/html" title="CHAPTER02:Xcode - 1. 통합개발 환경" /><published>2020-10-03T00:00:00+09:00</published><updated>2020-10-03T00:00:00+09:00</updated><id>http://localhost:4000/swift-grammar/2-1</id><content type="html" xml:base="http://localhost:4000/swift-grammar/2-1/">&lt;h1 id=&quot;1-통합개발-환경&quot;&gt;1. 통합개발 환경&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-06T18:59:52+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sanghyuk’s Blog</title><subtitle>Sanghyuk's Blog</subtitle><author><name>SANGHYUK LEE</name></author><entry><title type="html">CHAPTER02: Xcode - 1. 통합개발 환경</title><link href="http://localhost:4000/swift-grammar/2-1/" rel="alternate" type="text/html" title="CHAPTER02: Xcode - 1. 통합개발 환경" /><published>2020-10-03T00:00:00+09:00</published><updated>2020-10-03T00:00:00+09:00</updated><id>http://localhost:4000/swift-grammar/2-1</id><content type="html" xml:base="http://localhost:4000/swift-grammar/2-1/">&lt;p&gt;이번에 다룰 내용은 툴(Tool)이다. 프로그래밍 환경에서 툴이 차지하는 비중은 상당하다. 얼마나 빠르고 쉽게 개발할 수 있는지가 툴에 달려 있기 때문이다. 그래서 툴에 대해 자세히 알고, 마음대로 다룰 수 있도록 능력을 갖추는 것은 매우 중요하다. 현대 프로그래밍은 상당히 많은 부분을 툴에 의존하는 경향이 있지만, 이는 툴과 프로그래밍 개발이 이제 떼려야 뗄 수 없는 관계에 들어섰다는 증거이기도 하다.&lt;/p&gt;
 
-&lt;p&gt;오브젝티브-C는 20여 년 동안 애플의 주력 개발 언어로 사용된 만큼 튼튼한 아키텍처와 검증된 성능을 가지고 있다. 이런 오브젝티브-C를 대체할 목적으로 스위프트가 출현했을 때 많은 사람의 관심은 과연 스위프트가 오브젝티브-C를 대체할 수 있을까였다. 언어를 대체한다는 것은 기존 언어가 담당하던 모든 역할을 처리할 수 있는 역량이 되어야 가능하다. 이런 점에서 스위프트를 이야기할 때 오브젝티브-C와의 비교는 빠질 수 없다. 애플에 의해 탄생한, 형제라면 형제일 수 있는 두 언어 사이의 공통점과 차이점에 대해서 알아보자.&lt;/p&gt;
+&lt;p&gt;프로그래밍 과정에서 툴이 갖는 위치와 필요성, 그리고 실무에서 꼭 필요한 통합개발 환경에 대해 살펴보고, 스위프트로 앱을 개발하기 위해 사용해야 할 툴인 Xcode에 대해 알아보고자 한다.&lt;/p&gt;
+
+&lt;p&gt;프로그래밍 경험이 충분하거나 과거에 Xcode를 다루어 본 경험이 있다면 읽지 않아도 좋다. 하지만 Xcode가 낱설거나 새로운 Xcode의 특성을 알아보고 싶다면 이번 장을 통해 Xcode의 사용법을 숙지해 둘 필요가 있다. 좋은 집을 만들기 위해 아무리 완벽한 설계도와 훌륭한 재료가 있다 하더라도 망치와 끌, 정 같은 기본 연장을 숙련되게 사용하지 못한다면 결코 좋은 집을 빠르게 만들 수 없는 것과 같은 이치이다.&lt;/p&gt;
+
+&lt;p&gt;최근 12번째 버전까지 발표된 Xcode는 역사도 길고, 매우 방대한 기능을 갖춘 툴이다. 세세한 내부 구성을 제대로 소개하려면 책 한 권으로도 부족할 정도이다. Xcode의 기본적인 내용과 더불어 앱을 만들 때 꼭 필요한 항목을 중심으로 설명하겠다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;1-통합개발-환경&quot;&gt;1. 통합개발 환경&lt;/h1&gt;
+
+&lt;p&gt;Xcode에 대해 이야기 하기 전에, 먼저 ‘통합개발 환경’ 개념에 대해 알아본다. 외우거나 논리적으로 이해해야 하는 내용은 아니므로 편하게 읽어보면 된다.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&quot;11-통합개발-환경-이전의-프로그래밍&quot;&gt;1.1 통합개발 환경 이전의 프로그래밍&lt;/h2&gt;
 
-&lt;p&gt;블라블라블라블라&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Swift-Grammar" /><category term="Swift" /><category term="Swift-Grammar" /><category term="꼼곰한 재은 씨의 스위프트:문법편" /><category term="이재은" /><category term="루비페이퍼" /><category term="ISBN:979-11-86710-23-4" /><summary type="html">스위프트 문법 스터디</summary></entry><entry><title type="html">CHAPTER01:스위프트 - 3. 오브젝티브-C vs 스위프트</title><link href="http://localhost:4000/swift-grammar/1-3/" rel="alternate" type="text/html" title="CHAPTER01:스위프트 - 3. 오브젝티브-C vs 스위프트" /><published>2020-09-27T00:00:00+09:00</published><updated>2020-09-27T00:00:00+09:00</updated><id>http://localhost:4000/swift-grammar/1-3</id><content type="html" xml:base="http://localhost:4000/swift-grammar/1-3/">&lt;h2 id=&quot;3-오브젝티브-c-vs-스위프트&quot;&gt;3. 오브젝티브-C vs 스위프트&lt;/h2&gt;
+&lt;p&gt;최근에 널리 사용되는 프로그래밍 언어 대부분은 개발 생산성을 높이기 위해 여러 가지 기능이 집약된 전용 개발 툴을 제공하거나, 또는 유명한 개발 툴에 플러그인 방식으로 사용할 수 있도록 컴포넌트를 제공한다. 이같은 도구들은 개발을 무척 편리하게 해 줄 뿐만 아니라, 하나의 툴 안에서 개발에 필요한 모든 것을 해결할 수 있도록 All-In-One 형식으로 구성되어 있어, 개발을 위해 여러 개의 툴을 사용할 필요가 없는 것이 장점이다.&lt;/p&gt;
+
+&lt;p&gt;하지만 과거에는 그렇지 않았다. 프로그래머들은 하나의 소프트웨어를 완성하기 위해 용도별로 여러 가지 툴을 바꿔가며 사용하는 과정을 수백 수천 번 반복해야 했다. 대표적으로 C/C++ 언어를 이용하여 소프트웨어를 개발하는 과정을 예로 들어 보자. 먼저 프로그래머가 편집기(메모장이나 vi, vim, emacs 등)에서 소스 코딩을 마치면, 커맨드 창을 열고 GCC 컴파일러에게 이 소스를 컴파일하라는 명령을 입력한다. 컴파일러가 소스 코드를 컴파일하는 과정에서 오류가 발생하면(물론, 이 경우 대부분은 문법 오류거나 오타인 경우가 많다) 그 오류 내용은 화면에 표시된다. 이를 확인한 프로그래머가 잘못된 부분과 원인을 찾아 고친 후 다시 컴파일한다. 이 과정이 수없이 반복된 끝에 드디어 오류 없이 컴파일이 완료되면, 이제 그 결과로 만들어진 파일을 실행해 보는 단계에 접어든다.&lt;/p&gt;
+
+&lt;p&gt;지금까지의 과정에서 발생했던 오류를 컴파일 오류(Compile Error)로 분류하는 반면, 파일을 직접 실행하면서 발생하는 오류는 런타임 오류(Runtime Error)라고 한다. 실행 시점에서 발생하는 오류라는 의미다(컴파일 오류보다 런타임 오류가 훨씬 잡아내기 힘들다).&lt;/p&gt;
+
+&lt;p&gt;런타임 오류가 발생하면 이제부터는 순수하게 경험의 영역이다. 프로그래머가 사용할 수 있는 온갖 수단을 동원해 원인을 찾아내야 한다. 이런 작업을 기계 사이에 끼어 들어가 있는 버그, 즉 벌레는 잡아낸다는 뜻으로 디버깅(Debugging)이라고 부른다. 코드 중간중간에 브레이크 코드나 로그 출력 구문을 집어넣어서 실행 과정 중 어느 단계에서 오류가 발생하는지 알아내는 방법을 많이 사용하지만, 경우에 따라서는 메모리 덤프(Memory Dump)를 떠서 메모리에 입력된 데이터를 분석하기도 한다. 이를 편리하게 해주는 툴인 디버거를 사용하는 경우도 많다. 실무 현장에서는 앞서 설명한 것보다 더 다양한 방법들이 런타임 오류를 찾아내는 데에 동원된다. 소프트웨어를 개발하는 데에 걸리는 시간의 절반 이상이 오류를 수정하는 과정에 사용된다는 것이 일반적인 지론이다.&lt;/p&gt;
+
+&lt;p&gt;이제 오류의 원인을 찾아내었다면 이를 고치기 위해 소스 코드를 다시 수정한다. 수정이 완료되면 커맨드 창을 열어 컴파일하고, 다시 그 결과로 나온 파일을 실행해본다. 먼저 기존의 런타임 오류가 제대로 해결되었는지 확인하고, 새로운 런타임 오류가 발생하지 않는지 체크한다. 실행한 애플리케이션이 원하는 결과를 내어놓을 때까지 이 과정을 무수히 반복하면 드디어 하나의 소프트웨어가 만들어진다.&lt;/p&gt;
+
+&lt;p&gt;개발 과정을 진행하는 동안 개발자들은 소스 코딩과 컴파일, 실행 및 디버깅을 위해 여러 가지 관련 툴들을 번갈아가며 사용해야 했다. 그러다 보니 번거롭기도 하고, 이 과정에서 오류가 발생하는 경우도 생겨서 개발 생산성이 좀처럼 나아지지 않는 문제가 대두하였다. 굳이 무어(Moore, Gordon)의 법칙을 예로 들지 않더라도 하드웨어는 폭발적으로 생산성이 극대화되고 있는 상황에서 소프트웨어의 발전 속도는 이에 따라가지 못하게 된 거다. 이른바 소프트웨어의 위기라고 하는 상황이다. 이를 극복하기 위한 노력의 하나로 소프트웨어의 개발 생산성 향상에 대한 방법이 모색되기 시작했다.&lt;/p&gt;
+
+&lt;h2 id=&quot;12-통합개발-환경의-등장&quot;&gt;1.2 통합개발 환경의 등장&lt;/h2&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Swift-Grammar" /><category term="Swift" /><category term="Swift-Grammar" /><category term="꼼곰한 재은 씨의 스위프트:문법편" /><category term="이재은" /><category term="루비페이퍼" /><category term="ISBN:979-11-86710-23-4" /><summary type="html">스위프트 문법 스터디</summary></entry><entry><title type="html">CHAPTER01: 스위프트 - 3. 오브젝티브-C vs 스위프트</title><link href="http://localhost:4000/swift-grammar/1-3/" rel="alternate" type="text/html" title="CHAPTER01: 스위프트 - 3. 오브젝티브-C vs 스위프트" /><published>2020-09-27T00:00:00+09:00</published><updated>2020-09-27T00:00:00+09:00</updated><id>http://localhost:4000/swift-grammar/1-3</id><content type="html" xml:base="http://localhost:4000/swift-grammar/1-3/">&lt;h1 id=&quot;3-오브젝티브-c-vs-스위프트&quot;&gt;3. 오브젝티브-C vs 스위프트&lt;/h1&gt;
 
 &lt;p&gt;오브젝티브-C는 20여 년 동안 애플의 주력 개발 언어로 사용된 만큼 튼튼한 아키텍처와 검증된 성능을 가지고 있다. 이런 오브젝티브-C를 대체할 목적으로 스위프트가 출현했을 때 많은 사람의 관심은 과연 스위프트가 오브젝티브-C를 대체할 수 있을까였다. 언어를 대체한다는 것은 기존 언어가 담당하던 모든 역할을 처리할 수 있는 역량이 되어야 가능하다. 이런 점에서 스위프트를 이야기할 때 오브젝티브-C와의 비교는 빠질 수 없다. 애플에 의해 탄생한, 형제라면 형제일 수 있는 두 언어 사이의 공통점과 차이점에 대해서 알아보자.&lt;/p&gt;
 
@@ -121,7 +143,7 @@
 
 &lt;p&gt;일반적으로 객체 지향 언어에서 제공하는 오류 처리 기능은 오류 발생이 예상되는 지점에 미리 오류를 검출하는 코드를 작성해두고, 실제로 오류가 발생했을 때 정해진 코드 블록 바깥으로 오류 정보를 던져 처리할 수 있도록 지원하는 방식이다. 오브젝티브-C에서도 오류를 검출하기 위한 기능은 제공되었지만, 이는 읽고 쓸 수 있는 매개변수를 사용하여 오류를 검출해내는 방법이었을 뿐 오류 처리를 위한 구문이 별도로 제공된 것은 아니었다.&lt;/p&gt;
 
-&lt;p&gt;스위프트는 2.0 버전부터 오류를 검출해내고 각 오류에 효과적으로 대응할 수 있도록 전용 구문을 제공하고 있다. 많은 프로그래밍 언어에서 널리 사용하는 Try ~ Catch 구문을 채택한 스위프트는 코드를 실행하는 과정에서 오류가 발생하더라도 프로그램이 중단되는 것을 막아주고, 미리 준비된 대응 구문을 실행하여 효율적으로 오류에 대응할 수 있게 한다.&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Swift-Grammar" /><category term="Swift" /><category term="Swift-Grammar" /><category term="꼼곰한 재은 씨의 스위프트:문법편" /><category term="이재은" /><category term="루비페이퍼" /><category term="ISBN:979-11-86710-23-4" /><summary type="html">스위프트 문법 스터디</summary></entry><entry><title type="html">CHAPTER01:스위프트 - 2.스위프트 언어의 특징</title><link href="http://localhost:4000/swift-grammar/1-2/" rel="alternate" type="text/html" title="CHAPTER01:스위프트 - 2.스위프트 언어의 특징" /><published>2020-09-25T00:00:00+09:00</published><updated>2020-09-25T00:00:00+09:00</updated><id>http://localhost:4000/swift-grammar/1-2</id><content type="html" xml:base="http://localhost:4000/swift-grammar/1-2/">&lt;h2 id=&quot;2-스위프트-언어의-특징&quot;&gt;2. 스위프트 언어의 특징&lt;/h2&gt;
+&lt;p&gt;스위프트는 2.0 버전부터 오류를 검출해내고 각 오류에 효과적으로 대응할 수 있도록 전용 구문을 제공하고 있다. 많은 프로그래밍 언어에서 널리 사용하는 Try ~ Catch 구문을 채택한 스위프트는 코드를 실행하는 과정에서 오류가 발생하더라도 프로그램이 중단되는 것을 막아주고, 미리 준비된 대응 구문을 실행하여 효율적으로 오류에 대응할 수 있게 한다.&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Swift-Grammar" /><category term="Swift" /><category term="Swift-Grammar" /><category term="꼼곰한 재은 씨의 스위프트:문법편" /><category term="이재은" /><category term="루비페이퍼" /><category term="ISBN:979-11-86710-23-4" /><summary type="html">스위프트 문법 스터디</summary></entry><entry><title type="html">CHAPTER01: 스위프트 - 2.스위프트 언어의 특징</title><link href="http://localhost:4000/swift-grammar/1-2/" rel="alternate" type="text/html" title="CHAPTER01: 스위프트 - 2.스위프트 언어의 특징" /><published>2020-09-25T00:00:00+09:00</published><updated>2020-09-25T00:00:00+09:00</updated><id>http://localhost:4000/swift-grammar/1-2</id><content type="html" xml:base="http://localhost:4000/swift-grammar/1-2/">&lt;h1 id=&quot;2-스위프트-언어의-특징&quot;&gt;2. 스위프트 언어의 특징&lt;/h1&gt;
 
 &lt;p&gt;상대적으로 언어에 대한 진입장벽이 낮고 개발하기 쉬운 자바스크립트나 파이썬, 루비와 같은 동적 바인딩 타입의 언어는 생산성이 좋지만 성능이 부족한 경우가 많고, 성능이 좋은 언어일수록 진입 장벽이 높고 개발하기 어려워 생산성이 낮은 경우가 많다. 이에 비해 스위프트는 개발 생산성과 앱 성능 모두에서 만족할 만한 결과를 가져오는 언어로 포지셔닝되어있다.&lt;/p&gt;
 
@@ -133,7 +155,7 @@
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;21-스위프트-언어에서-차용하고-있는-주요-기능들&quot;&gt;2.1 스위프트 언어에서 차용하고 있는 주요 기능들&lt;/h3&gt;
+&lt;h2 id=&quot;21-스위프트-언어에서-차용하고-있는-주요-기능들&quot;&gt;2.1 스위프트 언어에서 차용하고 있는 주요 기능들&lt;/h2&gt;
 
 &lt;p&gt;세상에 존재하는 수많은 프로그래밍 언어 대부분이 그렇겠지만, 특히 현대에 와서 발표되는 언어 중 전적으로 새로운 언어는 거의 없다고 해도 과언이 아니다. 대부분의 언어는 앞선 시대의 언어에서 아이디어를 차용하여 자신의 것으로 발전시키고, 시간이 지나면 또 다른 언어가 이를 차용하는 과정이 반복된다.&lt;/p&gt;
 
@@ -220,7 +242,7 @@
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;22-구조적-특징&quot;&gt;2.2 구조적 특징&lt;/h3&gt;
+&lt;h2 id=&quot;22-구조적-특징&quot;&gt;2.2 구조적 특징&lt;/h2&gt;
 
 &lt;p&gt;스위프트의 발표 자료에 따른 스위프트 언어의 구조적 특징은 여섯 가지 정도로 구분된다. 이들 특성은 스위프트가 지향하는 방향성이기도 하다.&lt;/p&gt;
 
@@ -260,7 +282,7 @@
   &lt;p&gt;통홥(Unified)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;스위프트는 C 언어나 오브젝티브-C 언어를 완전히 대체할 수 있다. 스위프트는 객체지향 언어의 특성을 모두 제공하는 동시에 자료형과 흐름 제어, 연산자 같은 저수준 언어의 기본 요소들도 모두 포함한다. 하나의 앱 프로젝트에서 오브젝티브-C와 함께 사용할 수 있도록 통합성도 지니고 있다. 오브젝티브-C 객체를 스위프트에서 참조할 수 있으며, 각각의 화면별로 오브젝티브-C 또는 스위프트로 나누어 작성하는 것도 가능하디.&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Swift-Grammar" /><category term="Swift" /><category term="Swift-Grammar" /><category term="꼼곰한 재은 씨의 스위프트:문법편" /><category term="이재은" /><category term="루비페이퍼" /><category term="ISBN:979-11-86710-23-4" /><summary type="html">스위프트 문법 스터디</summary></entry><entry><title type="html">CHAPTER01:스위프트 - 1.스위프트 언어의 탄생과 배경</title><link href="http://localhost:4000/swift-grammar/1-1/" rel="alternate" type="text/html" title="CHAPTER01:스위프트 - 1.스위프트 언어의 탄생과 배경" /><published>2020-09-23T00:00:00+09:00</published><updated>2020-09-23T00:00:00+09:00</updated><id>http://localhost:4000/swift-grammar/1-1</id><content type="html" xml:base="http://localhost:4000/swift-grammar/1-1/">&lt;h2 id=&quot;1-스위프트-언어의-탄생과-배경&quot;&gt;1. 스위프트 언어의 탄생과 배경&lt;/h2&gt;
+&lt;p&gt;스위프트는 C 언어나 오브젝티브-C 언어를 완전히 대체할 수 있다. 스위프트는 객체지향 언어의 특성을 모두 제공하는 동시에 자료형과 흐름 제어, 연산자 같은 저수준 언어의 기본 요소들도 모두 포함한다. 하나의 앱 프로젝트에서 오브젝티브-C와 함께 사용할 수 있도록 통합성도 지니고 있다. 오브젝티브-C 객체를 스위프트에서 참조할 수 있으며, 각각의 화면별로 오브젝티브-C 또는 스위프트로 나누어 작성하는 것도 가능하디.&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Swift-Grammar" /><category term="Swift" /><category term="Swift-Grammar" /><category term="꼼곰한 재은 씨의 스위프트:문법편" /><category term="이재은" /><category term="루비페이퍼" /><category term="ISBN:979-11-86710-23-4" /><summary type="html">스위프트 문법 스터디</summary></entry><entry><title type="html">CHAPTER01: 스위프트 - 1.스위프트 언어의 탄생과 배경</title><link href="http://localhost:4000/swift-grammar/1-1/" rel="alternate" type="text/html" title="CHAPTER01: 스위프트 - 1.스위프트 언어의 탄생과 배경" /><published>2020-09-23T00:00:00+09:00</published><updated>2020-09-23T00:00:00+09:00</updated><id>http://localhost:4000/swift-grammar/1-1</id><content type="html" xml:base="http://localhost:4000/swift-grammar/1-1/">&lt;h1 id=&quot;1-스위프트-언어의-탄생과-배경&quot;&gt;1. 스위프트 언어의 탄생과 배경&lt;/h1&gt;
 
 &lt;p&gt;스위프트(Swift)는 애플이 2014 세계 개발자 대회(WWDC)에서 발표한 iOS나 macOS 앱 개발의 새로운 언어이다. 그동안 앱을 개발하는 데에 사용되던 오브젝티브-C를 대체할 목적으로 발표되었다.&lt;/p&gt;
 
