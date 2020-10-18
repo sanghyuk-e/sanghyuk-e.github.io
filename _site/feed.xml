@@ -1,4 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-09T20:54:55+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sanghyuk’s Blog</title><subtitle>Sanghyuk's Blog</subtitle><author><name>SANGHYUK LEE</name></author><entry><title type="html">CHAPTER02: Xcode - 1. 통합개발 환경</title><link href="http://localhost:4000/swift-grammar/2-1/" rel="alternate" type="text/html" title="CHAPTER02: Xcode - 1. 통합개발 환경" /><published>2020-10-03T00:00:00+09:00</published><updated>2020-10-03T00:00:00+09:00</updated><id>http://localhost:4000/swift-grammar/2-1</id><content type="html" xml:base="http://localhost:4000/swift-grammar/2-1/">&lt;p&gt;이번에 다룰 내용은 툴(Tool)이다. 프로그래밍 환경에서 툴이 차지하는 비중은 상당하다. 얼마나 빠르고 쉽게 개발할 수 있는지가 툴에 달려 있기 때문이다. 그래서 툴에 대해 자세히 알고, 마음대로 다룰 수 있도록 능력을 갖추는 것은 매우 중요하다. 현대 프로그래밍은 상당히 많은 부분을 툴에 의존하는 경향이 있지만, 이는 툴과 프로그래밍 개발이 이제 떼려야 뗄 수 없는 관계에 들어섰다는 증거이기도 하다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-12T19:26:35+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sanghyuk’s Blog</title><subtitle>Sanghyuk's Blog</subtitle><author><name>SANGHYUK LEE</name></author><entry><title type="html">Swift 개발자 면접 질문 List</title><link href="http://localhost:4000/interview/1/" rel="alternate" type="text/html" title="Swift 개발자 면접 질문 List" /><published>2020-11-12T00:00:00+09:00</published><updated>2020-11-12T00:00:00+09:00</updated><id>http://localhost:4000/interview/1</id><content type="html" xml:base="http://localhost:4000/interview/1/">&lt;h1 id=&quot;swift-개발자-면접-질문-list&quot;&gt;Swift 개발자 면접 질문 List&lt;/h1&gt;
+
+&lt;p&gt;개발자를 채용하는 면접에는 기술 면접이 있다. 여러번 면접을 경험하다 보니 특정 질문들을 자주 받는 느낌이 들었다. 업무를 진행하는데 있어서 중요한 부분들을 주로 질문한다고 생각이 들었고, 그 말은 반대로 꼭 공부해야 알아야 할 부분이라는 생각이 들었다. 그래서 실제 면접을 통해서 받는 질문들을 정리하려고 한다.&lt;/p&gt;
+
+&lt;p&gt;우선 나는 Swift 언어로 개발하는 iOS 개발자이므로 Swift 와 관련된 질문들이 주가 될 것이다. 기술적인 질문들과 개발자 한 사람 자체를 평가하기 위해 하는 질문들도 포함하여 정리해보겠다.&lt;/p&gt;
+
+&lt;h2 id=&quot;기술-관련&quot;&gt;기술 관련&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Class 와 Struct 의 차이점&lt;/li&gt;
+  &lt;li&gt;동기와 비동기의 차이점&lt;/li&gt;
+  &lt;li&gt;Swift 의 접근제어자의 종류와 범위&lt;/li&gt;
+  &lt;li&gt;Swift 에서으 소켓통신&lt;/li&gt;
+  &lt;li&gt;프로세스와 스레드&lt;/li&gt;
+  &lt;li&gt;프로세스와 스레드의 차이점&lt;/li&gt;
+  &lt;li&gt;Serial Queue, Concurrent Queue 차이&lt;/li&gt;
+  &lt;li&gt;깃 플로우&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;협업-관련&quot;&gt;협업 관련&lt;/h2&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Interview" /><category term="Interview" /></entry><entry><title type="html">Single Sign On (SSO)</title><link href="http://localhost:4000/development/1/" rel="alternate" type="text/html" title="Single Sign On (SSO)" /><published>2020-10-15T00:00:00+09:00</published><updated>2020-10-15T00:00:00+09:00</updated><id>http://localhost:4000/development/1</id><content type="html" xml:base="http://localhost:4000/development/1/">&lt;h1 id=&quot;single-sign-on-sso&quot;&gt;Single Sign On (SSO)&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;한 번의 로그인으로 여러 개의 서비스들을 이용할 수 있게 해주는 시스템&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;SSO(Single Sign On)는 가장 기본적인 &lt;strong&gt;인증 시스템&lt;/strong&gt;이다. ‘모든 인증을 하나의 시스템에서’라는 목적하에 개발된 것이다. 즉 시스템이 몇 대가 되어도 하나의 시스템에서 인증에 성공하면 다른 시스템에 대한 접근 권한도 모두 얻는 것이다.&lt;/p&gt;
+
+&lt;p&gt;SK텔레콤의 연계 사이트에서는 하나의 패스워드를 가지고 중복 가입 없이 이용할 수 있다. 이러한 웹 기반의 SSO는 가입자의 인터넷 사용에 대한 정보를 좀 더 효과적으로 얻어낼 수 있다는 이점 때문에 사용률이 매년 증가하고 있다. 하지만 개인정보 보호 측면에는 우려되는 점이 많아 기업과 개인간의 입장이 상반된다고 볼 수 있다.&lt;/p&gt;
+
+&lt;p&gt;SSO의 가장 큰 약점은 일단 최초 인증을 통과하고 나면 모든 서버나 사이트에 접속할 수 있다는 것이다. 이를 Single Point of Failure 라 한다. 이러한 치명적인 약점을 보완하기 위해 중요 정보에 대한 접근 및 동작 시 지속적인 인증(Continuos Authentication)을 하도록 되어 있다.&lt;/p&gt;
+
+&lt;h2 id=&quot;opensource&quot;&gt;Opensource&lt;/h2&gt;
+
+&lt;h3 id=&quot;keycloak&quot;&gt;&lt;a href=&quot;https://github.com/keycloak/keycloak&quot;&gt;Keycloak&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://tech.socarcorp.kr/security/2019/07/31/keycloak-sso.html&quot;&gt;사내 SSO(Single Sign-On) 구축하기&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://subji.github.io/posts/2020/07/08/keycloak1&quot;&gt;MSA 인증 서비스 Keycloak 소개&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://tech.osci.kr/2020/04/04/91699412/&quot;&gt;Kubernetes상에서 Keycloak과 Jenkins 그리고 Spinnaker 연동하기&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@auscunningham/create-a-custom-theme-for-keycloak-8781207be604&quot;&gt;Create a custom theme for Keycloak&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Alfresco/alfresco-keycloak-theme&quot;&gt;Alfresco Keycloak Theme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;authelia&quot;&gt;&lt;a href=&quot;https://github.com/authelia/authelia&quot;&gt;Authelia&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Several kind of second factor:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://docs.authelia.com/features/2fa/security-key&quot;&gt;Security Key (U2F)&lt;/a&gt; with &lt;a href=&quot;https://www.yubico.com/products/yubikey-hardware/yubikey4/&quot;&gt;Yubikey.&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://docs.authelia.com/features/2fa/one-time-password&quot;&gt;Time-based One-Time password&lt;/a&gt; with &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;amp;hl=en&quot;&gt;Google Authenticator&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://docs.authelia.com/features/2fa/push-notifications&quot;&gt;Mobile Push Notifications&lt;/a&gt; with &lt;a href=&quot;https://duo.com/&quot;&gt;Duo&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Password reset with identity verification using email confirmation.&lt;/li&gt;
+  &lt;li&gt;Single-factor only authentication method available.&lt;/li&gt;
+  &lt;li&gt;Access restriction after too many authentication attempts.&lt;/li&gt;
+  &lt;li&gt;Fine-grained access control per subdomain, user, resource and network.&lt;/li&gt;
+  &lt;li&gt;Support of basic authentication for endpoints protected by single factor.&lt;/li&gt;
+  &lt;li&gt;Highly available using a remote database and Redis as a highly available KV store.&lt;/li&gt;
+  &lt;li&gt;Compatible with Kubernetes ingress-nginx controller out of the box.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;hydra&quot;&gt;&lt;a href=&quot;https://github.com/ory/hydra&quot;&gt;Hydra&lt;/a&gt;&lt;/h3&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Development" /><category term="Development" /></entry><entry><title type="html">CHAPTER02: Xcode - 1. 통합개발 환경</title><link href="http://localhost:4000/swift-grammar/2-1/" rel="alternate" type="text/html" title="CHAPTER02: Xcode - 1. 통합개발 환경" /><published>2020-10-03T00:00:00+09:00</published><updated>2020-10-03T00:00:00+09:00</updated><id>http://localhost:4000/swift-grammar/2-1</id><content type="html" xml:base="http://localhost:4000/swift-grammar/2-1/">&lt;p&gt;이번에 다룰 내용은 툴(Tool)이다. 프로그래밍 환경에서 툴이 차지하는 비중은 상당하다. 얼마나 빠르고 쉽게 개발할 수 있는지가 툴에 달려 있기 때문이다. 그래서 툴에 대해 자세히 알고, 마음대로 다룰 수 있도록 능력을 갖추는 것은 매우 중요하다. 현대 프로그래밍은 상당히 많은 부분을 툴에 의존하는 경향이 있지만, 이는 툴과 프로그래밍 개발이 이제 떼려야 뗄 수 없는 관계에 들어섰다는 증거이기도 하다.&lt;/p&gt;
 
 &lt;p&gt;프로그래밍 과정에서 툴이 갖는 위치와 필요성, 그리고 실무에서 꼭 필요한 통합개발 환경에 대해 살펴보고, 스위프트로 앱을 개발하기 위해 사용해야 할 툴인 Xcode에 대해 알아보고자 한다.&lt;/p&gt;
 
@@ -28,7 +90,76 @@
 
 &lt;p&gt;개발 과정을 진행하는 동안 개발자들은 소스 코딩과 컴파일, 실행 및 디버깅을 위해 여러 가지 관련 툴들을 번갈아가며 사용해야 했다. 그러다 보니 번거롭기도 하고, 이 과정에서 오류가 발생하는 경우도 생겨서 개발 생산성이 좀처럼 나아지지 않는 문제가 대두하였다. 굳이 무어(Moore, Gordon)의 법칙을 예로 들지 않더라도 하드웨어는 폭발적으로 생산성이 극대화되고 있는 상황에서 소프트웨어의 발전 속도는 이에 따라가지 못하게 된 거다. 이른바 소프트웨어의 위기라고 하는 상황이다. 이를 극복하기 위한 노력의 하나로 소프트웨어의 개발 생산성 향상에 대한 방법이 모색되기 시작했다.&lt;/p&gt;
 
-&lt;h2 id=&quot;12-통합개발-환경의-등장&quot;&gt;1.2 통합개발 환경의 등장&lt;/h2&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Swift-Grammar" /><category term="Swift" /><category term="Swift-Grammar" /><category term="꼼곰한 재은 씨의 스위프트:문법편" /><category term="이재은" /><category term="루비페이퍼" /><category term="ISBN:979-11-86710-23-4" /><summary type="html">스위프트 문법 스터디</summary></entry><entry><title type="html">CHAPTER01: 스위프트 - 3. 오브젝티브-C vs 스위프트</title><link href="http://localhost:4000/swift-grammar/1-3/" rel="alternate" type="text/html" title="CHAPTER01: 스위프트 - 3. 오브젝티브-C vs 스위프트" /><published>2020-09-27T00:00:00+09:00</published><updated>2020-09-27T00:00:00+09:00</updated><id>http://localhost:4000/swift-grammar/1-3</id><content type="html" xml:base="http://localhost:4000/swift-grammar/1-3/">&lt;h1 id=&quot;3-오브젝티브-c-vs-스위프트&quot;&gt;3. 오브젝티브-C vs 스위프트&lt;/h1&gt;
+&lt;h2 id=&quot;12-통합개발-환경의-등장&quot;&gt;1.2 통합개발 환경의 등장&lt;/h2&gt;
+
+&lt;p&gt;개발 생산성을 향상시키기 위한 방법론적 시작은 단순히 소스 코드를 작성하던 편집기에 컴파일러를 연동할 수 있는 기능을 제공하는 것에 불과했다. 편집기에서 소스 코드를 작성한 후 단축키나 정해진 버튼을 클릭하면 연결된 컴파일러를 실행하여 그 결과를 바로바로 콘솔창에 보여주는 수준이었다. 그 전에 편집기와 컴파일러를 서로 연동하는 과정이 필요했다. 그 정도에 만족하고 사용하는 사람들이 있는가 하면, 만족하지 못한 사람들도 많아서 소스 코딩과 컴파일, 실행, 디버깅, 그리고 배포 환경 등의 여러 가지 툴을 하나로 갖춘 통합적인 개발도구의 필요성이 증대되어 갔다.&lt;/p&gt;
+
+&lt;p&gt;이 과정에서 윈도우나 맥 OS, 리눅스의 X-Window, iOS나 안드로이드 등 그래픽 사용자 인터페이스를 기반으로 하는 다양한 운영체제들이 등장하면서, 소프트웨어 개발 시 UI 작업을 좀 더 쉽게 할 수 있는 도구들까지 만들어졌다. 시간이 지나면서 이런 그래픽 기반 도구들 역시 하나의 통합적인 개발 도구에 흡수되어 갔다. 다양한 툴들이 통합된 결과, 소스 코딩부터 디버깅뿐만 아니라 사용자 화면을 직접 그리거나 데이터 구조를 설계하고, 코딩의 편의를 돕는 자동 완성 기능까지 포함된 툴들이 등장하게 되었다. 이른바, 통합개발 환경(Integrated Development Environment, IDE)의 탄생이다.&lt;/p&gt;
+
+&lt;p&gt;통합개발 환경은 프로그래밍 개발과 관련된 모든 작업을 하나의 프로그램 안에서 처리할 수 있도록 개발 환경을 통합적으로 제공해주는 툴로서, 이 툴 이외의 부가적인 툴 설치가 거의 필요하지 않을 뿐만 아니라 내부에 포함된 여러 가지 도구가 서로 연동되기 때문에 개발 생산성을 극대화할 수 있다는 장점이 있다. 현대 프로그래밍에 와서 이들 통합개발 환경이 소프트웨어 개발에 미치는 영향은 무척 지대해서 이제는 IDE 없이 단순히 SDK만으로 상용 소프트웨어를 만든다는 것이 거의 불가능한 일이 되어 버렸다.&lt;/p&gt;
+
+&lt;p&gt;대중적이면서 주류인 언어들은 대부분 완성도 높은 IDE들을 하나 이상 가지고 있는데, 대표적인 것들이 자바 플랫폼 계열의 이클립스(Eclipse), MS 계열의 비주얼스튜디오(Visual Studio), Mac 계열의 Xcode 등이다. 물론 이들 이외에도 훨씬 더 많은 IDE가 공개되어 있으며, 일부는 무료로 제공되지만 일부는 유료로 판매되기도 한다. 잘 알려진 IDE에는 다음과 같은 것들이 있다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;통합개발 환경&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;개발사&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;운영체제&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;언어&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;이클립스&lt;br /&gt;(Eclipse)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;IBM, 이클립스 재단&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Window, Linux, Solaris, Mac OS X, AIX&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;JAVA, C, C++, PHP, JSP, Python&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;비주얼 스튜디오&lt;br /&gt;(Visual Studio)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;마이크로 소프트&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Window&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Visual Basic, Visual C++, Visual C, Visual C#, F#&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;델파이&lt;br /&gt;(Delphi)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;코드기어&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Window&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Object Pascal&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;엑스코드&lt;br /&gt;(Xcode)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;애플&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Mac OS X&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;C, C++, Objective-C, &lt;br /&gt;Objective-C++, Java, Cocoa, &lt;br /&gt;Carbon, GNU Pascal, C#, Perl, D&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;넷빈즈&lt;br /&gt;(Net Beans)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;썬 마이크로시스템즈, &lt;br /&gt;넷빈즈 재단&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;MS-DOS&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;JAVA&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;제이 디벨로퍼&lt;br /&gt;(J Developer)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;오라클&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Linux, Solaris, Windows, HP-UX, OS-X&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;JAVA, SML, PL/SQL, BPEL, PHP, HTML&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;제이 빌더&lt;br /&gt;(J Builder)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;코드 기어&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Window&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;JAVA&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;터보 C&lt;br /&gt;(Turbo-C)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;코드 기어&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;MS-DOS&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;C, C++&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Swift-Grammar" /><category term="Swift" /><category term="Swift-Grammar" /><category term="꼼곰한 재은 씨의 스위프트:문법편" /><category term="이재은" /><category term="루비페이퍼" /><category term="ISBN:979-11-86710-23-4" /><summary type="html">스위프트 문법 스터디</summary></entry><entry><title type="html">CHAPTER01: 스위프트 - 3. 오브젝티브-C vs 스위프트</title><link href="http://localhost:4000/swift-grammar/1-3/" rel="alternate" type="text/html" title="CHAPTER01: 스위프트 - 3. 오브젝티브-C vs 스위프트" /><published>2020-09-27T00:00:00+09:00</published><updated>2020-09-27T00:00:00+09:00</updated><id>http://localhost:4000/swift-grammar/1-3</id><content type="html" xml:base="http://localhost:4000/swift-grammar/1-3/">&lt;h1 id=&quot;3-오브젝티브-c-vs-스위프트&quot;&gt;3. 오브젝티브-C vs 스위프트&lt;/h1&gt;
 
 &lt;p&gt;오브젝티브-C는 20여 년 동안 애플의 주력 개발 언어로 사용된 만큼 튼튼한 아키텍처와 검증된 성능을 가지고 있다. 이런 오브젝티브-C를 대체할 목적으로 스위프트가 출현했을 때 많은 사람의 관심은 과연 스위프트가 오브젝티브-C를 대체할 수 있을까였다. 언어를 대체한다는 것은 기존 언어가 담당하던 모든 역할을 처리할 수 있는 역량이 되어야 가능하다. 이런 점에서 스위프트를 이야기할 때 오브젝티브-C와의 비교는 빠질 수 없다. 애플에 의해 탄생한, 형제라면 형제일 수 있는 두 언어 사이의 공통점과 차이점에 대해서 알아보자.&lt;/p&gt;
 
@@ -355,7 +486,7 @@
 &lt;p&gt;일반적으로 사용되는 무시 패턴을 해당 서비스를 통해 작성하고, 추가적으로 필요한 부분만 무시 목록을 작성하면 편리하게 사용할 수 있습니다.&lt;/p&gt;
 
 &lt;h2 id=&quot;6-참고&quot;&gt;6. 참고&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://git-scm.com/docs/gitignore&quot;&gt;https://git-scm.com/docs/gitignore&lt;/a&gt;&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="git" /><category term="git" /><summary type="html">git의 버전 관리 무시 목록에 대해 다룹니다.</summary></entry><entry><title type="html">이력서 작성하기</title><link href="http://localhost:4000/resume/1/" rel="alternate" type="text/html" title="이력서 작성하기" /><published>2020-08-07T00:00:00+09:00</published><updated>2020-08-07T00:00:00+09:00</updated><id>http://localhost:4000/resume/1</id><content type="html" xml:base="http://localhost:4000/resume/1/">&lt;h2 id=&quot;이력서&quot;&gt;이력서&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://git-scm.com/docs/gitignore&quot;&gt;https://git-scm.com/docs/gitignore&lt;/a&gt;&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="git" /><category term="git" /></entry><entry><title type="html">좋은 개발자의 좋은 이력서 작성하기</title><link href="http://localhost:4000/resume/1/" rel="alternate" type="text/html" title="좋은 개발자의 좋은 이력서 작성하기" /><published>2020-08-07T00:00:00+09:00</published><updated>2020-08-07T00:00:00+09:00</updated><id>http://localhost:4000/resume/1</id><content type="html" xml:base="http://localhost:4000/resume/1/">&lt;h2 id=&quot;이력서&quot;&gt;이력서&lt;/h2&gt;
 
 &lt;p&gt;이직을 하기 위해서 계속 이력서를 작성해왔다.
 채용 사이트인 원티드의 양식을 이용하여 가장 기본적인 내용들을 작성하였고 내용은 계속해서 수정하는 방식으로 작성했다.&lt;/p&gt;
@@ -551,11 +682,11 @@
 어떻게 서류에서 합격을 했고 면접을 보러 다녔는지 정말 신기할 정도로 엉망이었다.
 간절했던 시기였지만 따로 정보를 찾아보지는 않았던 것이 문제였던 것 같다.
 지금 살펴보면 이력서를 작성할 때 하면 안되는 것들을 모조리 한 것이나 다름이 없고, 결정적으로 굉장히 촌스럽다고 느껴졌다.
-그 당시에 나의 이력서를 뽑아주고 합격을 준 인사 담당자가 고마워지려고 한다.&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Resume" /><category term="Resume" /><summary type="html">이력서를 작성 체크리스트</summary></entry><entry><title type="html">블로그 시작</title><link href="http://localhost:4000/blog/1/" rel="alternate" type="text/html" title="블로그 시작" /><published>2020-08-03T00:00:00+09:00</published><updated>2020-08-03T00:00:00+09:00</updated><id>http://localhost:4000/blog/1</id><content type="html" xml:base="http://localhost:4000/blog/1/">&lt;h2 id=&quot;블로그&quot;&gt;블로그&lt;/h2&gt;
-&lt;p&gt;제대로 된 블로그를 만들어보자는 생각을 가지고서 몇 번이나 블로그를 만들었지만 매번 얼마 지나지 않아 더 이상 글을 올리지 않게 되었습니다. 이유는 여러 가지지만 가장 큰 이유는 &lt;strong&gt;‘방법을 몰라서’&lt;/strong&gt; 였던 것 같습니다.&lt;/p&gt;
+그 당시에 나의 이력서를 뽑아주고 합격을 준 인사 담당자가 고마워지려고 한다.&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Resume" /><category term="Resume" /><summary type="html">이력서를 작성 체크리스트</summary></entry><entry><title type="html">좋은 블로그</title><link href="http://localhost:4000/blog/1/" rel="alternate" type="text/html" title="좋은 블로그" /><published>2020-08-03T00:00:00+09:00</published><updated>2020-08-03T00:00:00+09:00</updated><id>http://localhost:4000/blog/1</id><content type="html" xml:base="http://localhost:4000/blog/1/">&lt;h2 id=&quot;블로그&quot;&gt;블로그&lt;/h2&gt;
+&lt;p&gt;제대로 된 블로그를 만들어보자는 생각을 가지고서 몇 번이나 블로그를 만들었지만 매번 얼마 지나지 않아 더 이상 글을 올리지 않게 되었다. 이유는 여러 가지지만 가장 큰 이유는 &lt;strong&gt;‘방법을 몰라서’&lt;/strong&gt; 였던 것 같다.&lt;/p&gt;
 
 &lt;h2 id=&quot;좋은-기술-블로그&quot;&gt;좋은 기술 블로그&lt;/h2&gt;
-&lt;p&gt;업무를 하면서 많은 블로그들을 봅니다. 글을 잘 작성하고 정리가 잘 되어 보기 편한 블로그가 있다면 정반대인 블로그도 있습니다. 읽는 사람이 보기 편하고 원하는 정보를 정확하게 얻을 수 있다면 그것이 좋은 블로그인 것 같습니다. 좋은 블로그가 되기 위한 방법을 블로그에서 보게 되었습니다.&lt;/p&gt;
+&lt;p&gt;업무를 하면서 많은 블로그들을 본다. 글을 잘 작성하고 정리가 잘 되어 보기 편한 블로그가 있다면 정반대인 블로그도 있다. 읽는 사람이 보기 편하고 원하는 정보를 정확하게 얻을 수 있다면 그것이 좋은 블로그인 것 같다. 좋은 블로그가 되기 위한 방법을 블로그에서 보게 되었다.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;완성된 글을 작성한다.&lt;/li&gt;
@@ -568,9 +699,7 @@
   &lt;li&gt;검색 엔진 최적화(SEO)를 한다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;이전에 만들었던 블로그에 작성된 글들은 제시된 8가지 중 한 가지도 제대로 지키지 못했습니다. 좋은 블로그를 만들기 위해서는 공부가 필요하다는 것을 알았습니다. 앞으로는 나와 내 글을 읽는 사람을 위해 완벽하진 않아도 최대한 좋은 글을 쓰고, 좋은 블로그를 만들어보려고 합니다.&lt;/p&gt;
-
-&lt;p&gt;수익이라는 항목은 블로그의 수익 구조가 어떤 형태인지 모르겠지만 수익을 얻을 만큼 고급 정보는 없을 테니 기대는 말아야겠습니다.😅&lt;/p&gt;
+&lt;p&gt;이전에 만들었던 블로그에 작성된 글들은 제시된 8가지 중 한 가지도 제대로 지키지 못했다. 좋은 블로그를 만들기 위해서는 공부가 필요하다는 것을 알았다. 앞으로는 나와 내 글을 읽는 사람을 위해 완벽하진 않아도 최대한 좋은 글을 쓰고, 좋은 블로그를 만들어보려고 한다.&lt;/p&gt;
 
 &lt;h2 id=&quot;참고&quot;&gt;참고&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.44bits.io/ko/post/8-suggestions-for-tech-programming-blog&quot;&gt;좋은 기술 블로그를 만들어 나가기 위한 8가지 제언&lt;/a&gt;&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Blog" /><category term="Blog" /></entry></feed>

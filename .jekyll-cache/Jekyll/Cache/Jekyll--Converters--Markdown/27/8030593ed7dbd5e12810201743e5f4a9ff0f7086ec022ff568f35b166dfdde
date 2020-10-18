@@ -1,0 +1,46 @@
+I"�<h1 id="single-sign-on-sso">Single Sign On (SSO)</h1>
+
+<blockquote>
+  <p>한 번의 로그인으로 여러 개의 서비스들을 이용할 수 있게 해주는 시스템</p>
+</blockquote>
+
+<p>SSO(Single Sign On)는 가장 기본적인 <strong>인증 시스템</strong>이다. ‘모든 인증을 하나의 시스템에서’라는 목적하에 개발된 것이다. 즉 시스템이 몇 대가 되어도 하나의 시스템에서 인증에 성공하면 다른 시스템에 대한 접근 권한도 모두 얻는 것이다.</p>
+
+<p>SK텔레콤의 연계 사이트에서는 하나의 패스워드를 가지고 중복 가입 없이 이용할 수 있다. 이러한 웹 기반의 SSO는 가입자의 인터넷 사용에 대한 정보를 좀 더 효과적으로 얻어낼 수 있다는 이점 때문에 사용률이 매년 증가하고 있다. 하지만 개인정보 보호 측면에는 우려되는 점이 많아 기업과 개인간의 입장이 상반된다고 볼 수 있다.</p>
+
+<p>SSO의 가장 큰 약점은 일단 최초 인증을 통과하고 나면 모든 서버나 사이트에 접속할 수 있다는 것이다. 이를 Single Point of Failure 라 한다. 이러한 치명적인 약점을 보완하기 위해 중요 정보에 대한 접근 및 동작 시 지속적인 인증(Continuos Authentication)을 하도록 되어 있다.</p>
+
+<h2 id="opensource">Opensource</h2>
+
+<h3 id="keycloak"><a href="https://github.com/keycloak/keycloak">Keycloak</a></h3>
+<p><strong>Example</strong></p>
+<ul>
+  <li><a href="https://tech.socarcorp.kr/security/2019/07/31/keycloak-sso.html">사내 SSO(Single Sign-On) 구축하기</a></li>
+  <li><a href="https://subji.github.io/posts/2020/07/08/keycloak1">MSA 인증 서비스 Keycloak 소개</a></li>
+  <li><a href="https://tech.osci.kr/2020/04/04/91699412/">Kubernetes상에서 Keycloak과 Jenkins 그리고 Spinnaker 연동하기</a></li>
+  <li><a href="https://medium.com/@auscunningham/create-a-custom-theme-for-keycloak-8781207be604">Create a custom theme for Keycloak</a></li>
+  <li><a href="https://github.com/Alfresco/alfresco-keycloak-theme">Alfresco Keycloak Theme</a></li>
+</ul>
+
+<h3 id="authelia"><a href="https://github.com/authelia/authelia">Authelia</a></h3>
+<p><strong>Features</strong></p>
+
+<ul>
+  <li>Several kind of second factor:
+    <ul>
+      <li><a href="https://docs.authelia.com/features/2fa/security-key">Security Key (U2F)</a> with <a href="https://www.yubico.com/products/yubikey-hardware/yubikey4/">Yubikey.</a></li>
+      <li><a href="https://docs.authelia.com/features/2fa/one-time-password">Time-based One-Time password</a> with <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=en">Google Authenticator</a>.</li>
+      <li><a href="https://docs.authelia.com/features/2fa/push-notifications">Mobile Push Notifications</a> with <a href="https://duo.com/">Duo</a>.</li>
+    </ul>
+  </li>
+  <li>Password reset with identity verification using email confirmation.</li>
+  <li>Single-factor only authentication method available.</li>
+  <li>Access restriction after too many authentication attempts.</li>
+  <li>Fine-grained access control per subdomain, user, resource and network.</li>
+  <li>Support of basic authentication for endpoints protected by single factor.</li>
+  <li>Highly available using a remote database and Redis as a highly available KV store.</li>
+  <li>Compatible with Kubernetes ingress-nginx controller out of the box.</li>
+</ul>
+
+<h3 id="hydra"><a href="https://github.com/ory/hydra">Hydra</a></h3>
+:ET

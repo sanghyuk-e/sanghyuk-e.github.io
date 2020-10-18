@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>CHAPTER01: 스위프트 - 1.스위프트 언어의 탄생과 배경 - Sanghyuk’s Blog</title>
-<meta name="description" content="스위프트 문법 스터디">
+<!-- begin _includes/seo.html --><title>Single Sign On (SSO) - Sanghyuk’s Blog</title>
+<meta name="description" content="Sanghyuk’s Blog">
 
 
   <meta name="author" content="SANGHYUK LEE">
@@ -19,30 +19,30 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Sanghyuk's Blog">
-<meta property="og:title" content="CHAPTER01: 스위프트 - 1.스위프트 언어의 탄생과 배경">
-<meta property="og:url" content="http://localhost:4000/swift-grammar/1-1/">
+<meta property="og:title" content="Single Sign On (SSO)">
+<meta property="og:url" content="http://localhost:4000/development/1/">
 
 
-  <meta property="og:description" content="스위프트 문법 스터디">
-
-
-
-
-
-
-
-  <meta property="article:published_time" content="2020-09-23T00:00:00+09:00">
+  <meta property="og:description" content="Sanghyuk’s Blog">
 
 
 
 
 
-  
+
+
+  <meta property="article:published_time" content="2020-10-15T00:00:00+09:00">
+
+
+
+
 
   
 
+  
 
-<link rel="canonical" href="http://localhost:4000/swift-grammar/1-1/">
+
+<link rel="canonical" href="http://localhost:4000/development/1/">
 
 
 
@@ -284,15 +284,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="CHAPTER01: 스위프트 - 1.스위프트 언어의 탄생과 배경">
-    <meta itemprop="description" content="스위프트 문법 스터디">
-    <meta itemprop="datePublished" content="2020-09-23T00:00:00+09:00">
+    <meta itemprop="headline" content="Single Sign On (SSO)">
+    <meta itemprop="description" content="">
+    <meta itemprop="datePublished" content="2020-10-15T00:00:00+09:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">CHAPTER01: 스위프트 - 1.스위프트 언어의 탄생과 배경
+          <h1 id="page-title" class="page__title" itemprop="headline">Single Sign On (SSO)
 </h1>
           <!-- 기존 읽는데 필요한 시간 표시
           
@@ -308,7 +308,7 @@
           -->
           <!-- 업데이트 날짜 시작 -->
           <!-- 
-            <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2020-09-23T00:00:00+09:00">September 23, 2020</time></p>
+            <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2020-10-15T00:00:00+09:00">October 15, 2020</time></p>
            -->
           <!-- 업데이트 날짜 끝-->
         </header>
@@ -320,32 +320,67 @@
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
               <ul class="toc__menu">
-  <li><a href="#1-스위프트-언어의-탄생과-배경">1. 스위프트 언어의 탄생과 배경</a></li>
+  <li><a href="#single-sign-on-sso">Single Sign On (SSO)</a>
+    <ul>
+      <li><a href="#opensource">Opensource</a>
+        <ul>
+          <li><a href="#keycloak">Keycloak</a></li>
+          <li><a href="#authelia">Authelia</a></li>
+          <li><a href="#hydra">Hydra</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
 </ul>
 
             </nav>
           </aside>
         
-        <h1 id="1-스위프트-언어의-탄생과-배경">1. 스위프트 언어의 탄생과 배경</h1>
+        <h1 id="single-sign-on-sso">Single Sign On (SSO)</h1>
 
-<p>스위프트(Swift)는 애플이 2014 세계 개발자 대회(WWDC)에서 발표한 iOS나 macOS 앱 개발의 새로운 언어이다. 그동안 앱을 개발하는 데에 사용되던 오브젝티브-C를 대체할 목적으로 발표되었다.</p>
+<blockquote>
+  <p>한 번의 로그인으로 여러 개의 서비스들을 이용할 수 있게 해주는 시스템</p>
+</blockquote>
 
-<p>애플의 이전 주력 언어였던 오프젝티브-C는 C언어를 기초로 하여 스몰토크의 메시지 전달 개념과 객체지향 개념을 반영한, 객체지향형 C 언어이다. C 언어의 장점이자 단점인 포인터 개념은 오브젝티브-C를 강력한 언어로 만들어주긴 했지만, 처음 접근하는 사람에게는 그만큼 높은 장벽으로 작용한 것도 사실이다.</p>
+<p>SSO(Single Sign On)는 가장 기본적인 <strong>인증 시스템</strong>이다. ‘모든 인증을 하나의 시스템에서’라는 목적하에 개발된 것이다. 즉 시스템이 몇 대가 되어도 하나의 시스템에서 인증에 성공하면 다른 시스템에 대한 접근 권한도 모두 얻는 것이다.</p>
 
-<p>프로그래밍 언어를 익히는 데에만 수개월이 걸리다 보니, 앱을 개발하기 위해 언어만 죽어라 익히다 포기하는 일이 잦았다. 언어 자체가 어렵다 보니 앱의 다양한 기능에 집중해야 할 개발자가 성능 개선에 더 많은 노력과 시간을 소모하는 현상을 가져왔다.</p>
+<p>SK텔레콤의 연계 사이트에서는 하나의 패스워드를 가지고 중복 가입 없이 이용할 수 있다. 이러한 웹 기반의 SSO는 가입자의 인터넷 사용에 대한 정보를 좀 더 효과적으로 얻어낼 수 있다는 이점 때문에 사용률이 매년 증가하고 있다. 하지만 개인정보 보호 측면에는 우려되는 점이 많아 기업과 개인간의 입장이 상반된다고 볼 수 있다.</p>
 
-<p>애플은 앱 개발자들이 기능적으로 더 다양한 종류의 앱을 만들기를 원했다. 개방성을 강력한 무기로 내세우는 구글의 안드로이드에 점차 스마트폰 시장을 잠식당하고 있는 상황에서, 어떤 방식으로든 다시 앱스토어의 콘텐츠 다양성을 무기로 하는 시장 지배력을 갖추고 싶어했다. 현재 개발자뿐만 아니라 아이디어를 가진 많은 잠재적 개발자들까지 마음만 먹으면 손쉽게 앱을 구현할 수 있는 환경을 만들어주는 것이 당연한 과제였다.</p>
+<p>SSO의 가장 큰 약점은 일단 최초 인증을 통과하고 나면 모든 서버나 사이트에 접속할 수 있다는 것이다. 이를 Single Point of Failure 라 한다. 이러한 치명적인 약점을 보완하기 위해 중요 정보에 대한 접근 및 동작 시 지속적인 인증(Continuos Authentication)을 하도록 되어 있다.</p>
 
-<p>이러한 목적에 맞추어 기능이 아니라 성능에 관련된 많은 부분, 특히 코드 최적화나 메모리 관리, 성능 관리 등의 기술 경험 기반 개발 이슈를 시스템이 전담하여 개발자들의 부담을 덜어주는 것이 가장 중요했다. 아이디어를 가진 많은 사람이 기술에 제한받지 않고 마음껏 아이디어를 구현할 수 있는 손쉬운 개발 환경을 만들어 주고 싶었던 것이다.</p>
+<h2 id="opensource">Opensource</h2>
 
-<p>이런 목표를 위해서 만들어진 언어 플랫폼이 바로 스위프트이다. 스위프트는 기존의 오브젝티브-C가 C 언어로부터 가져온 저수준 프로그래밍을 자동 관리 영역으로 대체했고, 생소한 문법이지만 객체지향을 위해 사용할 수 밖에 없었던 스몰토크의 메시지 문법을 사람들에게 익숙한 자바, 파이썬, C#의 문법으로 바꾸었으며, 오브젝티브-C와 호환까지 가능하도록 설계되는 등 여러 가지 언어적 강점을 지녔다.</p>
+<h3 id="keycloak"><a href="https://github.com/keycloak/keycloak">Keycloak</a></h3>
+<p><strong>Example</strong></p>
+<ul>
+  <li><a href="https://tech.socarcorp.kr/security/2019/07/31/keycloak-sso.html">사내 SSO(Single Sign-On) 구축하기</a></li>
+  <li><a href="https://subji.github.io/posts/2020/07/08/keycloak1">MSA 인증 서비스 Keycloak 소개</a></li>
+  <li><a href="https://tech.osci.kr/2020/04/04/91699412/">Kubernetes상에서 Keycloak과 Jenkins 그리고 Spinnaker 연동하기</a></li>
+  <li><a href="https://medium.com/@auscunningham/create-a-custom-theme-for-keycloak-8781207be604">Create a custom theme for Keycloak</a></li>
+  <li><a href="https://github.com/Alfresco/alfresco-keycloak-theme">Alfresco Keycloak Theme</a></li>
+</ul>
 
-<p>오브젝티브-C가 고급 개발자를 대상으로 사용된 언어라면 스위프트는 개발에 갓 입문하는 사람들까지 무리 없이 사용할 수 있는 언어이다. 그 대표적인 기능이 바로 인터랙티브 플레이그라운드이다.</p>
+<h3 id="authelia"><a href="https://github.com/authelia/authelia">Authelia</a></h3>
+<p><strong>Features</strong></p>
 
-<p>직관적으로 코드를 작성하여 그 결과까지 볼 수 있는 플레이그라운드는 왼쪽의 편집 창에서 코드를 작성하면 중간 결과물을 보여줄 뿐만 아니라 즉석에서 컴파일하여 처리 결과까지 제공한다. 단순히 텍스트 결과를 나타내는 것만이 아니다. 반복적인 증감값의 경우 그래프를 통해 직관적인 결과를 볼 수 있도록 처리해 주며, 필요에 따라 다양한 멀티미디어 객체를 사용하여 풍부한 사용자 정보를 제공해 주기도 한다. 직관적인 사용자 인터페이스를 통해 쉬운 접근을 추구하는 애플의 철학이 반영된 결과물이다.</p>
+<ul>
+  <li>Several kind of second factor:
+    <ul>
+      <li><a href="https://docs.authelia.com/features/2fa/security-key">Security Key (U2F)</a> with <a href="https://www.yubico.com/products/yubikey-hardware/yubikey4/">Yubikey.</a></li>
+      <li><a href="https://docs.authelia.com/features/2fa/one-time-password">Time-based One-Time password</a> with <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=en">Google Authenticator</a>.</li>
+      <li><a href="https://docs.authelia.com/features/2fa/push-notifications">Mobile Push Notifications</a> with <a href="https://duo.com/">Duo</a>.</li>
+    </ul>
+  </li>
+  <li>Password reset with identity verification using email confirmation.</li>
+  <li>Single-factor only authentication method available.</li>
+  <li>Access restriction after too many authentication attempts.</li>
+  <li>Fine-grained access control per subdomain, user, resource and network.</li>
+  <li>Support of basic authentication for endpoints protected by single factor.</li>
+  <li>Highly available using a remote database and Redis as a highly available KV store.</li>
+  <li>Compatible with Kubernetes ingress-nginx controller out of the box.</li>
+</ul>
 
-<p>기술적인 관점에서 스위프트는 애플의 메인 프레임워크인 코코아 프레임워크와 코코아 터치 프레임워크 모두 사용할 수 있다. LLVM 컴파일러, 옵티마이저, 오토백터링, ARC 메모리 관리, 런타임 환경 등을 기존 언어의 개발 환경과 거의 동일하게 사용할 수 있다는 장점도 있다. 이처럼 다양한 강점을 통해 스위프트는 점차 iOS 앱 개발의 강력한 플랫폼 언어로서 자리매김하고 있다.</p>
-
+<h3 id="hydra"><a href="https://github.com/ory/hydra">Hydra</a></h3>
 
         
       </section>
@@ -366,27 +401,7 @@
     
       
       
-      <a href="/tags/#isbn-979-11-86710-23-4" class="page__taxonomy-item" rel="tag">ISBN:979-11-86710-23-4</a><span class="sep">, </span>
-    
-      
-      
-      <a href="/tags/#swift-grammar" class="page__taxonomy-item" rel="tag">Swift-Grammar</a><span class="sep">, </span>
-    
-      
-      
-      <a href="/tags/#swift" class="page__taxonomy-item" rel="tag">Swift</a><span class="sep">, </span>
-    
-      
-      
-      <a href="/tags/#%EA%BC%BC%EA%B3%B0%ED%95%9C-%EC%9E%AC%EC%9D%80-%EC%94%A8%EC%9D%98-%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8-%EB%AC%B8%EB%B2%95%ED%8E%B8" class="page__taxonomy-item" rel="tag">꼼곰한 재은 씨의 스위프트:문법편</a><span class="sep">, </span>
-    
-      
-      
-      <a href="/tags/#%EB%A3%A8%EB%B9%84%ED%8E%98%EC%9D%B4%ED%8D%BC" class="page__taxonomy-item" rel="tag">루비페이퍼</a><span class="sep">, </span>
-    
-      
-      
-      <a href="/tags/#%EC%9D%B4%EC%9E%AC%EC%9D%80" class="page__taxonomy-item" rel="tag">이재은</a>
+      <a href="/tags/#development" class="page__taxonomy-item" rel="tag">Development</a>
     
     </span>
   </p>
@@ -407,14 +422,14 @@
     
       
       
-      <a href="/categories/#swift-grammar" class="page__taxonomy-item" rel="tag">Swift-Grammar</a>
+      <a href="/categories/#development" class="page__taxonomy-item" rel="tag">Development</a>
     
     </span>
   </p>
 
 
         
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-09-23T00:00:00+09:00">September 23, 2020</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-10-15T00:00:00+09:00">October 15, 2020</time></p>
 
 
       </footer>
@@ -424,22 +439,22 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=CHAPTER01%3A+%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8+-+1.%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8+%EC%96%B8%EC%96%B4%EC%9D%98+%ED%83%84%EC%83%9D%EA%B3%BC+%EB%B0%B0%EA%B2%BD%20http%3A%2F%2Flocalhost%3A4000%2Fswift-grammar%2F1-1%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Single+Sign+On+%28SSO%29%20http%3A%2F%2Flocalhost%3A4000%2Fdevelopment%2F1%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fswift-grammar%2F1-1%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fdevelopment%2F1%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fswift-grammar%2F1-1%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fdevelopment%2F1%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/git/1/" class="pagination--pager" title="[git] 버전 관리 무시 목록(.gitignore) 설정
+      <a href="/swift-grammar/2-1/" class="pagination--pager" title="CHAPTER02: Xcode - 1. 통합개발 환경
 ">Previous</a>
     
     
-      <a href="/swift-grammar/1-2/" class="pagination--pager" title="CHAPTER01: 스위프트 - 2.스위프트 언어의 특징
+      <a href="/interview/1/" class="pagination--pager" title="Swift 개발자 면접 질문 List
 ">Next</a>
     
   </nav>
@@ -482,40 +497,6 @@
     -->
     
       <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> November 12 2020</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">
-</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/development/1/" rel="permalink">Single Sign On (SSO)
-</a>
-      
-    </h2>
-    <!-- 기존 읽는데 필요한 시간이 보이는 부분 / 변경 후 작성날짜로 표기
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  1 minute read
-
-</p>
-    
-    -->
-    
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> October 15 2020</p>
     
     <p class="archive__item-excerpt" itemprop="description">
 </p>
@@ -584,6 +565,40 @@
     -->
     
       <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> September 27 2020</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">스위프트 문법 스터디
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/swift-grammar/1-2/" rel="permalink">CHAPTER01: 스위프트 - 2.스위프트 언어의 특징
+</a>
+      
+    </h2>
+    <!-- 기존 읽는데 필요한 시간이 보이는 부분 / 변경 후 작성날짜로 표기
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  6 minute read
+
+</p>
+    
+    -->
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> September 25 2020</p>
     
     <p class="archive__item-excerpt" itemprop="description">스위프트 문법 스터디
 </p>
