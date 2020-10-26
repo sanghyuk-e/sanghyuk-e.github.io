@@ -47,6 +47,18 @@ var store = [{
         "url": "http://localhost:4000/development/1/",
         "teaser": null
       },{
+        "title": "CHAPTER02: Xcode - 2. Xcode란?",
+        "excerpt":"2. Xcode란? Xcode는 앞으로 우리가 인터넷 브라우저만큼이나 자유자재로 다루어야 할 툴로서, iOS와 macOS용 앱을 개발할 수 있도록 애플에서 제공하는 IDE이다. ‘엑스코드’라고 읽으며, 맥북 등 애플 컴퓨터의 운영체제인 맥 OS에서만 실행되는 애플리케이션이다. 우리는 이 Xcode를 이용하여 오브젝티브-C나 스위프트를 작성하고, 애플리케이션을 개발한다. 일반적으로 C 기반의 코드를 컴파일할 때 많이 사용되는 GCC라는 컴파일러가...","categories": ["Swift-Grammar"],
+        "tags": ["Swift","Swift-Grammar","꼼곰한 재은 씨의 스위프트:문법편","이재은","루비페이퍼","ISBN:979-11-86710-23-4"],
+        "url": "http://localhost:4000/swift-grammar/2-2/",
+        "teaser": null
+      },{
+        "title": "CHAPTER02: Xcode - 3. Xcode 설치",
+        "excerpt":"3. Xcode 설치   Xcode는 애플 전용 데스크톱 운영체제인 macOS에서만 실행할 수 있다. 따라서 애플에서 출시한 맥북(MacBook), 맥북 프로(MacBook Pro), 맥북 에어(MacBook Air), 아이맥(iMac), 맥 미니(Mac Mini), 맥 프로(Mac Pro) 중 하나가 필요하다. 마이크로소프트사의 Windows 운영체제가 설치된 일반 PC에서는 Xcode를 설치할 수 없다.     ","categories": ["Swift-Grammar"],
+        "tags": ["Swift","Swift-Grammar","꼼곰한 재은 씨의 스위프트:문법편","이재은","루비페이퍼","ISBN:979-11-86710-23-4"],
+        "url": "http://localhost:4000/swift-grammar/2-3/",
+        "teaser": null
+      },{
         "title": "Swift 개발자 면접 질문 List",
         "excerpt":"Swift 개발자 면접 질문 List 개발자를 채용하는 면접에는 기술 면접이 있다. 여러번 면접을 경험하다 보니 특정 질문들을 자주 받는 느낌이 들었다. 업무를 진행하는데 있어서 중요한 부분들을 주로 질문한다고 생각이 들었고, 그 말은 반대로 꼭 공부해야 알아야 할 부분이라는 생각이 들었다. 그래서 실제 면접을 통해서 받는 질문들을 정리하려고 한다. 우선 나는...","categories": ["Interview"],
         "tags": ["Interview"],

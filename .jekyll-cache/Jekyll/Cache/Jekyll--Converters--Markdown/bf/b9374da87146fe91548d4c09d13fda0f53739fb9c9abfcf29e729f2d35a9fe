@@ -1,4 +1,4 @@
-I"�'<p>이번에 다룰 내용은 툴(Tool)이다. 프로그래밍 환경에서 툴이 차지하는 비중은 상당하다. 얼마나 빠르고 쉽게 개발할 수 있는지가 툴에 달려 있기 때문이다. 그래서 툴에 대해 자세히 알고, 마음대로 다룰 수 있도록 능력을 갖추는 것은 매우 중요하다. 현대 프로그래밍은 상당히 많은 부분을 툴에 의존하는 경향이 있지만, 이는 툴과 프로그래밍 개발이 이제 떼려야 뗄 수 없는 관계에 들어섰다는 증거이기도 하다.</p>
+I"o/<p>이번에 다룰 내용은 툴(Tool)이다. 프로그래밍 환경에서 툴이 차지하는 비중은 상당하다. 얼마나 빠르고 쉽게 개발할 수 있는지가 툴에 달려 있기 때문이다. 그래서 툴에 대해 자세히 알고, 마음대로 다룰 수 있도록 능력을 갖추는 것은 매우 중요하다. 현대 프로그래밍은 상당히 많은 부분을 툴에 의존하는 경향이 있지만, 이는 툴과 프로그래밍 개발이 이제 떼려야 뗄 수 없는 관계에 들어섰다는 증거이기도 하다.</p>
 
 <p>프로그래밍 과정에서 툴이 갖는 위치와 필요성, 그리고 실무에서 꼭 필요한 통합개발 환경에 대해 살펴보고, 스위프트로 앱을 개발하기 위해 사용해야 할 툴인 Xcode에 대해 알아보고자 한다.</p>
 
@@ -12,7 +12,7 @@
 
 <p>Xcode에 대해 이야기 하기 전에, 먼저 ‘통합개발 환경’ 개념에 대해 알아본다. 외우거나 논리적으로 이해해야 하는 내용은 아니므로 편하게 읽어보면 된다.</p>
 
-<p>—ㅇ</p>
+<hr />
 
 <h2 id="11-통합개발-환경-이전의-프로그래밍">1.1 통합개발 환경 이전의 프로그래밍</h2>
 
@@ -41,10 +41,10 @@
 <table>
   <thead>
     <tr>
-      <th style="text-align: center">통합개발 환경:</th>
-      <th style="text-align: center">개발사</th>
-      <th style="text-align: center">운영체제</th>
-      <th style="text-align: center">언어</th>
+      <th style="text-align: center"><strong>통합개발 환경</strong></th>
+      <th style="text-align: center"><strong>개발사</strong></th>
+      <th style="text-align: center"><strong>운영체제</strong></th>
+      <th style="text-align: center"><strong>언어</strong></th>
     </tr>
   </thead>
   <tbody>
@@ -60,6 +60,44 @@
       <td style="text-align: center">Window</td>
       <td style="text-align: center">Visual Basic, Visual C++, Visual C, Visual C#, F#</td>
     </tr>
+    <tr>
+      <td style="text-align: center">델파이<br />(Delphi)</td>
+      <td style="text-align: center">코드기어</td>
+      <td style="text-align: center">Window</td>
+      <td style="text-align: center">Object Pascal</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">엑스코드<br />(Xcode)</td>
+      <td style="text-align: center">애플</td>
+      <td style="text-align: center">Mac OS X</td>
+      <td style="text-align: center">C, C++, Objective-C, <br />Objective-C++, Java, Cocoa, <br />Carbon, GNU Pascal, C#, Perl, D</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">넷빈즈<br />(Net Beans)</td>
+      <td style="text-align: center">썬 마이크로시스템즈, <br />넷빈즈 재단</td>
+      <td style="text-align: center">MS-DOS</td>
+      <td style="text-align: center">JAVA</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">제이 디벨로퍼<br />(J Developer)</td>
+      <td style="text-align: center">오라클</td>
+      <td style="text-align: center">Linux, Solaris, Windows, HP-UX, OS-X</td>
+      <td style="text-align: center">JAVA, SML, PL/SQL, BPEL, PHP, HTML</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">제이 빌더<br />(J Builder)</td>
+      <td style="text-align: center">코드 기어</td>
+      <td style="text-align: center">Window</td>
+      <td style="text-align: center">JAVA</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">터보 C<br />(Turbo-C)</td>
+      <td style="text-align: center">코드 기어</td>
+      <td style="text-align: center">MS-DOS</td>
+      <td style="text-align: center">C, C++</td>
+    </tr>
   </tbody>
 </table>
+
+<p>위 표에 나열된 툴들이 개발 실무 현장에서 많이 사용되는 대표적인 IDE들이다. 그리고 이 중에서 iOS 개발자들이 사용하고, 우리가 실습 과정에서 사용할 툴은 바로 Xcode이다.</p>
 :ET

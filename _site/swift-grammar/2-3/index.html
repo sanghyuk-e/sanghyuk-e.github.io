@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Single Sign On (SSO) - Sanghyuk’s Blog</title>
-<meta name="description" content="Sanghyuk’s Blog">
+<!-- begin _includes/seo.html --><title>CHAPTER02: Xcode - 3. Xcode 설치 - Sanghyuk’s Blog</title>
+<meta name="description" content="스위프트 문법 스터디">
 
 
   <meta name="author" content="SANGHYUK LEE">
@@ -19,30 +19,30 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Sanghyuk's Blog">
-<meta property="og:title" content="Single Sign On (SSO)">
-<meta property="og:url" content="http://localhost:4000/development/1/">
+<meta property="og:title" content="CHAPTER02: Xcode - 3. Xcode 설치">
+<meta property="og:url" content="http://localhost:4000/swift-grammar/2-3/">
 
 
-  <meta property="og:description" content="Sanghyuk’s Blog">
-
-
-
-
-
-
-
-  <meta property="article:published_time" content="2020-10-15T00:00:00+09:00">
+  <meta property="og:description" content="스위프트 문법 스터디">
 
 
 
 
 
-  
+
+
+  <meta property="article:published_time" content="2020-10-26T00:00:00+09:00">
+
+
+
+
 
   
 
+  
 
-<link rel="canonical" href="http://localhost:4000/development/1/">
+
+<link rel="canonical" href="http://localhost:4000/swift-grammar/2-3/">
 
 
 
@@ -284,15 +284,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Single Sign On (SSO)">
-    <meta itemprop="description" content="">
-    <meta itemprop="datePublished" content="2020-10-15T00:00:00+09:00">
+    <meta itemprop="headline" content="CHAPTER02: Xcode - 3. Xcode 설치">
+    <meta itemprop="description" content="스위프트 문법 스터디">
+    <meta itemprop="datePublished" content="2020-10-26T00:00:00+09:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Single Sign On (SSO)
+          <h1 id="page-title" class="page__title" itemprop="headline">CHAPTER02: Xcode - 3. Xcode 설치
 </h1>
           <!-- 기존 읽는데 필요한 시간 표시
           
@@ -301,14 +301,14 @@
 
 
 
-  1 minute read
+  less than 1 minute read
 
 </p>
           
           -->
           <!-- 업데이트 날짜 시작 -->
           <!-- 
-            <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2020-10-15T00:00:00+09:00">October 15, 2020</time></p>
+            <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2020-10-26T00:00:00+09:00">October 26, 2020</time></p>
            -->
           <!-- 업데이트 날짜 끝-->
         </header>
@@ -320,67 +320,17 @@
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
               <ul class="toc__menu">
-  <li><a href="#single-sign-on-sso">Single Sign On (SSO)</a>
-    <ul>
-      <li><a href="#opensource">Opensource</a>
-        <ul>
-          <li><a href="#keycloak">Keycloak</a></li>
-          <li><a href="#authelia">Authelia</a></li>
-          <li><a href="#hydra">Hydra</a></li>
-        </ul>
-      </li>
-    </ul>
-  </li>
+  <li><a href="#3-xcode-설치">3. Xcode 설치</a></li>
 </ul>
 
             </nav>
           </aside>
         
-        <h1 id="single-sign-on-sso">Single Sign On (SSO)</h1>
+        <h1 id="3-xcode-설치">3. Xcode 설치</h1>
 
-<blockquote>
-  <p>한 번의 로그인으로 여러 개의 서비스들을 이용할 수 있게 해주는 시스템</p>
-</blockquote>
+<p>Xcode는 애플 전용 데스크톱 운영체제인 macOS에서만 실행할 수 있다. 따라서 애플에서 출시한 맥북(MacBook), 맥북 프로(MacBook Pro), 맥북 에어(MacBook Air), 아이맥(iMac), 맥 미니(Mac Mini), 맥 프로(Mac Pro) 중 하나가 필요하다. 마이크로소프트사의 Windows 운영체제가 설치된 일반 PC에서는 Xcode를 설치할 수 없다.</p>
 
-<p>SSO(Single Sign On)는 가장 기본적인 <strong>인증 시스템</strong>이다. ‘모든 인증을 하나의 시스템에서’라는 목적하에 개발된 것이다. 즉 시스템이 몇 대가 되어도 하나의 시스템에서 인증에 성공하면 다른 시스템에 대한 접근 권한도 모두 얻는 것이다.</p>
-
-<p>SK텔레콤의 연계 사이트에서는 하나의 패스워드를 가지고 중복 가입 없이 이용할 수 있다. 이러한 웹 기반의 SSO는 가입자의 인터넷 사용에 대한 정보를 좀 더 효과적으로 얻어낼 수 있다는 이점 때문에 사용률이 매년 증가하고 있다. 하지만 개인정보 보호 측면에는 우려되는 점이 많아 기업과 개인간의 입장이 상반된다고 볼 수 있다.</p>
-
-<p>SSO의 가장 큰 약점은 일단 최초 인증을 통과하고 나면 모든 서버나 사이트에 접속할 수 있다는 것이다. 이를 Single Point of Failure 라 한다. 이러한 치명적인 약점을 보완하기 위해 중요 정보에 대한 접근 및 동작 시 지속적인 인증(Continuos Authentication)을 하도록 되어 있다.</p>
-
-<h2 id="opensource">Opensource</h2>
-
-<h3 id="keycloak"><a href="https://github.com/keycloak/keycloak">Keycloak</a></h3>
-<p><strong>Example</strong></p>
-<ul>
-  <li><a href="https://tech.socarcorp.kr/security/2019/07/31/keycloak-sso.html">사내 SSO(Single Sign-On) 구축하기</a></li>
-  <li><a href="https://subji.github.io/posts/2020/07/08/keycloak1">MSA 인증 서비스 Keycloak 소개</a></li>
-  <li><a href="https://tech.osci.kr/2020/04/04/91699412/">Kubernetes상에서 Keycloak과 Jenkins 그리고 Spinnaker 연동하기</a></li>
-  <li><a href="https://medium.com/@auscunningham/create-a-custom-theme-for-keycloak-8781207be604">Create a custom theme for Keycloak</a></li>
-  <li><a href="https://github.com/Alfresco/alfresco-keycloak-theme">Alfresco Keycloak Theme</a></li>
-</ul>
-
-<h3 id="authelia"><a href="https://github.com/authelia/authelia">Authelia</a></h3>
-<p><strong>Features</strong></p>
-
-<ul>
-  <li>Several kind of second factor:
-    <ul>
-      <li><a href="https://docs.authelia.com/features/2fa/security-key">Security Key (U2F)</a> with <a href="https://www.yubico.com/products/yubikey-hardware/yubikey4/">Yubikey.</a></li>
-      <li><a href="https://docs.authelia.com/features/2fa/one-time-password">Time-based One-Time password</a> with <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=en">Google Authenticator</a>.</li>
-      <li><a href="https://docs.authelia.com/features/2fa/push-notifications">Mobile Push Notifications</a> with <a href="https://duo.com/">Duo</a>.</li>
-    </ul>
-  </li>
-  <li>Password reset with identity verification using email confirmation.</li>
-  <li>Single-factor only authentication method available.</li>
-  <li>Access restriction after too many authentication attempts.</li>
-  <li>Fine-grained access control per subdomain, user, resource and network.</li>
-  <li>Support of basic authentication for endpoints protected by single factor.</li>
-  <li>Highly available using a remote database and Redis as a highly available KV store.</li>
-  <li>Compatible with Kubernetes ingress-nginx controller out of the box.</li>
-</ul>
-
-<h3 id="hydra"><a href="https://github.com/ory/hydra">Hydra</a></h3>
+<p><img src="/assets/images/posts/Swift-Grammar/2020-10-26-2-3/1.png" alt="앱스토어에서 Xcode 검색" /></p>
 
         
       </section>
@@ -401,7 +351,27 @@
     
       
       
-      <a href="/tags/#development" class="page__taxonomy-item" rel="tag">Development</a>
+      <a href="/tags/#isbn-979-11-86710-23-4" class="page__taxonomy-item" rel="tag">ISBN:979-11-86710-23-4</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#swift-grammar" class="page__taxonomy-item" rel="tag">Swift-Grammar</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#swift" class="page__taxonomy-item" rel="tag">Swift</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#%EA%BC%BC%EA%B3%B0%ED%95%9C-%EC%9E%AC%EC%9D%80-%EC%94%A8%EC%9D%98-%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8-%EB%AC%B8%EB%B2%95%ED%8E%B8" class="page__taxonomy-item" rel="tag">꼼곰한 재은 씨의 스위프트:문법편</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#%EB%A3%A8%EB%B9%84%ED%8E%98%EC%9D%B4%ED%8D%BC" class="page__taxonomy-item" rel="tag">루비페이퍼</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#%EC%9D%B4%EC%9E%AC%EC%9D%80" class="page__taxonomy-item" rel="tag">이재은</a>
     
     </span>
   </p>
@@ -422,14 +392,14 @@
     
       
       
-      <a href="/categories/#development" class="page__taxonomy-item" rel="tag">Development</a>
+      <a href="/categories/#swift-grammar" class="page__taxonomy-item" rel="tag">Swift-Grammar</a>
     
     </span>
   </p>
 
 
         
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-10-15T00:00:00+09:00">October 15, 2020</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-10-26T00:00:00+09:00">October 26, 2020</time></p>
 
 
       </footer>
@@ -439,22 +409,22 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=Single+Sign+On+%28SSO%29%20http%3A%2F%2Flocalhost%3A4000%2Fdevelopment%2F1%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=CHAPTER02%3A+Xcode+-+3.+Xcode+%EC%84%A4%EC%B9%98%20http%3A%2F%2Flocalhost%3A4000%2Fswift-grammar%2F2-3%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fdevelopment%2F1%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fswift-grammar%2F2-3%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fdevelopment%2F1%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fswift-grammar%2F2-3%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/swift-grammar/2-1/" class="pagination--pager" title="CHAPTER02: Xcode - 1. 통합개발 환경
+      <a href="/swift-grammar/2-2/" class="pagination--pager" title="CHAPTER02: Xcode - 2. Xcode란?
 ">Previous</a>
     
     
-      <a href="/swift-grammar/2-2/" class="pagination--pager" title="CHAPTER02: Xcode - 2. Xcode란?
+      <a href="/interview/1/" class="pagination--pager" title="Swift 개발자 면접 질문 List
 ">Next</a>
     
   </nav>
@@ -513,40 +483,6 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/swift-grammar/2-3/" rel="permalink">CHAPTER02: Xcode - 3. Xcode 설치
-</a>
-      
-    </h2>
-    <!-- 기존 읽는데 필요한 시간이 보이는 부분 / 변경 후 작성날짜로 표기
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  less than 1 minute read
-
-</p>
-    
-    -->
-    
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> October 26 2020</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">스위프트 문법 스터디
-</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
         <a href="/swift-grammar/2-2/" rel="permalink">CHAPTER02: Xcode - 2. Xcode란?
 </a>
       
@@ -567,6 +503,40 @@
       <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> October 19 2020</p>
     
     <p class="archive__item-excerpt" itemprop="description">스위프트 문법 스터디
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/development/1/" rel="permalink">Single Sign On (SSO)
+</a>
+      
+    </h2>
+    <!-- 기존 읽는데 필요한 시간이 보이는 부분 / 변경 후 작성날짜로 표기
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+
+</p>
+    
+    -->
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> October 15 2020</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">
 </p>
   </article>
 </div>
