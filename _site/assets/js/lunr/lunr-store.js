@@ -54,7 +54,7 @@ var store = [{
         "teaser": null
       },{
         "title": "CHAPTER02: Xcode - 3. Xcode 설치",
-        "excerpt":"3. Xcode 설치   Xcode는 애플 전용 데스크톱 운영체제인 macOS에서만 실행할 수 있다. 따라서 애플에서 출시한 맥북(MacBook), 맥북 프로(MacBook Pro), 맥북 에어(MacBook Air), 아이맥(iMac), 맥 미니(Mac Mini), 맥 프로(Mac Pro) 중 하나가 필요하다. 마이크로소프트사의 Windows 운영체제가 설치된 일반 PC에서는 Xcode를 설치할 수 없다.     ","categories": ["Swift-Grammar"],
+        "excerpt":"3. Xcode 설치 Xcode는 애플 전용 데스크톱 운영체제인 macOS에서만 실행할 수 있다. 따라서 애플에서 출시한 맥북(MacBook), 맥북 프로(MacBook Pro), 맥북 에어(MacBook Air), 아이맥(iMac), 맥 미니(Mac Mini), 맥 프로(Mac Pro) 중 하나가 필요하다. 마이크로소프트사의 Windows 운영체제가 설치된 일반 PC에서는 Xcode를 설치할 수 없다. 과거에는 Xcode를 내려받기 위해서 맥 OS 개발자 프로그램이나...","categories": ["Swift-Grammar"],
         "tags": ["Swift","Swift-Grammar","꼼곰한 재은 씨의 스위프트:문법편","이재은","루비페이퍼","ISBN:979-11-86710-23-4"],
         "url": "http://localhost:4000/swift-grammar/2-3/",
         "teaser": null
