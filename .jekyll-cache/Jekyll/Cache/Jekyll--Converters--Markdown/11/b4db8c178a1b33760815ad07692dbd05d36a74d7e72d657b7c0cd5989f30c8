@@ -1,4 +1,4 @@
-I"u<p><img src="/assets/images/posts/Swift-Grammer/swift.png" alt="Swift" /></p>
+I"G<p><img src="/assets/images/posts/Swift-Grammar/swift.png" alt="Swift" /></p>
 
 <h1 id="3-xcode-설치">3. Xcode 설치</h1>
 
@@ -33,4 +33,8 @@
 <p><img src="/assets/images/posts/Swift-Grammar/2020-10-26-2-3/3.png" alt="애플 개발자 사이트(https://developer.apple.com/download/)" /></p>
 
 <p>개발자 사이트를 통해 내려받은 파일은 xip 확장자 형식으로, ‘Extract in Place’ 또는 ‘Execute in Place’의 약자이다. ZIP 형식의 압축 파일과 비슷하지만, 파일의 압축을 해제하기 전에 먼저 파일의 변경이 없었는지 여부를 애플로부터 인증을 받는 압축 형식으로, Xcode 8 버전의 다운로드부터 적용되었다. macOS는 유닉스 시스템을 기반으로 하고 있기 때문에, 다운로드된 xip 파일은 압축을 해제한 결과물을 응용프로그램 폴더에 복사하는 형태로 프로그램이 설치된다. 설치된 프로그램을 제거할 때는 프로그램이 설치된 디렉터리를 응용프로그램 폴더로부터 삭제하기만 하면 된다.</p>
+
+<p>내려받은 xip 파일을 더블클릭하면 압축된 파일이 해제되면서 자동으로 설치되는데, 만약 옵션을 선택하는 과정이 나온다면 모두 기본값으로 선택하여 진행하면 된다. 설치 도중에 다음과 같은 창이 표시되면 왼쪽의 Xcode 아이콘을 오른쪽의 Application 폴더 쪽으로 드래그한다. 이는 압축이 해제된 Xcode 파일을 응용 프로그램 폴더로 복사한다는 뜻이다. 복사가 끝나면 별도의 설치 완료 메시지가 없더라도 설치가 완료된 것으로 볼 수 있다.</p>
+
+<p><img src="/assets/images/posts/Swift-Grammar/2020-10-26-2-3/2.png" alt="앱스토어를 통한 Xcode 정식 버전 설치" /></p>
 :ET
