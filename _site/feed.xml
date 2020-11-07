@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-19T20:58:31+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sanghyuk’s Blog</title><subtitle>Sanghyuk's Blog</subtitle><author><name>SANGHYUK LEE</name></author><entry><title type="html">Firebase 시작하기</title><link href="http://localhost:4000/firebase/1/" rel="alternate" type="text/html" title="Firebase 시작하기" /><published>2020-12-08T00:00:00+09:00</published><updated>2020-12-08T00:00:00+09:00</updated><id>http://localhost:4000/firebase/1</id><content type="html" xml:base="http://localhost:4000/firebase/1/">&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Firebase/firebase.png&quot; alt=&quot;Firebase&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-19T23:14:26+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sanghyuk’s Blog</title><subtitle>Sanghyuk's Blog</subtitle><author><name>SANGHYUK LEE</name></author><entry><title type="html">Firebase 시작하기</title><link href="http://localhost:4000/firebase/1/" rel="alternate" type="text/html" title="Firebase 시작하기" /><published>2020-12-08T00:00:00+09:00</published><updated>2020-12-08T00:00:00+09:00</updated><id>http://localhost:4000/firebase/1</id><content type="html" xml:base="http://localhost:4000/firebase/1/">&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Firebase/firebase.png&quot; alt=&quot;Firebase&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;firbase란&quot;&gt;Firbase란?&lt;/h2&gt;
 
@@ -137,7 +137,141 @@ $ brew link --overwrite cocoapods
   &lt;li&gt;깃 플로우&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;협업-관련&quot;&gt;협업 관련&lt;/h2&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Interview" /><category term="Interview" /></entry><entry><title type="html">CHAPTER02: Xcode - 3. Xcode 설치</title><link href="http://localhost:4000/swift-grammar/2-3/" rel="alternate" type="text/html" title="CHAPTER02: Xcode - 3. Xcode 설치" /><published>2020-10-26T00:00:00+09:00</published><updated>2020-10-26T00:00:00+09:00</updated><id>http://localhost:4000/swift-grammar/2-3</id><content type="html" xml:base="http://localhost:4000/swift-grammar/2-3/">&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/swift.png&quot; alt=&quot;Swift&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;협업-관련&quot;&gt;협업 관련&lt;/h2&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Interview" /><category term="Interview" /></entry><entry><title type="html">CHAPTER02: Xcode - 5. Xcode의 구성 요소</title><link href="http://localhost:4000/swift-grammar/2-5/" rel="alternate" type="text/html" title="CHAPTER02: Xcode - 5. Xcode의 구성 요소" /><published>2020-11-05T00:00:00+09:00</published><updated>2020-11-05T00:00:00+09:00</updated><id>http://localhost:4000/swift-grammar/2-5</id><content type="html" xml:base="http://localhost:4000/swift-grammar/2-5/">&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/swift.png&quot; alt=&quot;Swift&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;5-xcode의-구성-요소&quot;&gt;5. Xcode의 구성 요소&lt;/h1&gt;
+
+&lt;p&gt;프로젝트를 생성하거나 생성된 프로젝트를 실행하면 Xcode는 여러 개의 작은 영역으로 분할된 커다란 윈도우 형태로 나타난다. ‘워크 스페이스(Work Space)’라고 불리는 이 윈도우는 개발에 관련된 모든 것을 처리하기 위해 만들어진 Xcode의 가장 기본적인 작업 공간이다. 워크스페이슨는 기능에 따라 여러 개의 작은 영역으로 다시 분할되는데, 각각의 영역은 저마다 고유한 기능을 갖추고 개발 과정에서 중요한 역할을 담당한다. 아래 그림은 Xcode를 구성하는 각 영역을 보여주고 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/1.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/1.png&quot; alt=&quot;Xcode 각 부분과 명칭&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;이들 영역의 명칭은 다음과 같다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;툴바 영역 (Toolbar Area)&lt;/li&gt;
+  &lt;li&gt;내비게이터 영역 (Navigator Area)&lt;/li&gt;
+  &lt;li&gt;에디터 영역 (Editor Area)&lt;/li&gt;
+  &lt;li&gt;디버그 영역 (Debug Area)&lt;/li&gt;
+  &lt;li&gt;인스펙터 영역 (Inspector Area)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;각각의 영역은 특성에 따라 더 작은 영역으로 나누어 지기도 한다. 차례대로 알아보자.&lt;/p&gt;
+
+&lt;h2 id=&quot;51-툴-바-영역&quot;&gt;5.1 툴 바 영역&lt;/h2&gt;
+
+&lt;p&gt;툴바 영역은 워크스페이스의 가장 위쪽에 위치한 영역으로, 작업을 도와주는 도구가 모여 있는 곳이다. 앱의 빌드 및 실행이나 시뮬레이터의 설정이 여기에서 관리된다. 전체적인 프로젝트의 상태와 결과를 나타내기도 하며, 각종 보조적인 창을 여닫는 기능을 담당하기도 한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/2.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/2.png&quot; alt=&quot;툴바 영역&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;툴바 영역은 처리하는 기능에 따라 다시 다섯 개의 작은 영역으로 나눌 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/3.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/3.png&quot; alt=&quot;앱 실행 및 중지 버튼&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;툴바의 맨 앞에 놓인 두 개의 버튼은 앱의 실행과 중지를 담당하는 버튼이다. ► 버튼을 클릭하면 실행에 앞서 소스 코드가 컴파일되고, 이 과정에서 오류가 발생하지 않으면 이어서 앱이 실행된다. 개발용 맥에 실제 기기가 연결되어 있다면 연결된 기기에서 앱을 실행할 수도 있지만 그렇지 않으면 앱 시뮬레이터를 통해 앱이 실행된다. 이를 통해 앱을 테스트해서 정상적으로 기능이 동작하는지를 확인해 볼 수 있다. 앱의 실행을 중지하고 싶다면 오른쪽 ◼︎ 버튼을 클릭하면 된다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/4.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/4.png&quot; alt=&quot;스키마와 시뮬레이터 선택 옵션&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;앱의 실행 및 중지 버튼 옆에 있는 것은 시뮬레이터 선택 옵션이다. 어떤 기기에서 앱을 실행할지 선택할 수 있는 옵션이다. 이 옵션을 클릭하면 여러 가지 버전의 동작 가능한 시뮬레이터들이 그림과 같이 나열된다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/5.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/5.png&quot; alt=&quot;앱 시뮬레이터 버전 선택&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;원하는 기기를 선택한 후 앞의 ► 버튼을 클릭하면 선택한 버전의 시뮬레이터가 기동되고, 제작 중인 앱이 시뮬레이터를 통해 실행된다. Xcode의 버전 업그레이드에 따라 앱 시뮬레이터가 지원하는 버전도 함께 확장되므로 최신 기능을 테스트하기 위해서는 항상 Xcode의 버전을 최신으로 유지해야 한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/6.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/6.png&quot; alt=&quot;보조 에디터 모드&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;에디터 영역 상단의 오른쪽에 놓인 버튼은 어시스턴트 에디터, 즉 보조 에디터를 여닫을 수 있는 기능이다. 앱을 제작하다 보면 화면 UI와 소스 코드를 함께 작업해야 하는 일이 많이 생기는데, 이때 이 버튼을 이용해 보조 에디터를 열면 UI와 소스 코드를 나란히 놓고 작업할 수 있어 편리하다. 버튼을 눌러 어떤 보조 에디터를 열지 선택할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/7.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/7.png&quot; alt=&quot;Xcode 레이아웃 편집 버튼&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Xcode의 레이아웃을 조절할 수 있는 버튼들이다. 버튼에 표시된 영역들을 열고 닫을 수 있는 토글 버튼들이다. 왼쪽의 버튼은 내비게이션 영역을, 하단의 버튼은 디버그 영역을, 오른쪽 버튼은 인스펙터 영역을 열고 닫는데 사용된다. 실제로 작업을 하다 보면 화면이 좁아서 Xcode에 열려있는 창들이 무척 거추장스러울 때가 있는데, 이때 이 버튼들을 이용하여 필요 없는 창을 닫으면 훨씬 넓은 화면으로 작업할 수 있어 유용하다. 더 이상 설명이 필요 없을 만큼 직관적인 버튼들이므로 직접 눌러보면서 확인해 보도록 하자.&lt;/p&gt;
+
+&lt;h2 id=&quot;52-내비게이터-영역&quot;&gt;5.2 내비게이터 영역&lt;/h2&gt;
+
+&lt;p&gt;내비게이터 영역은 워크스페이스 왼쪽에 위피한 영역이다. 이 영역은 우리 말로 ‘탐색기 영역’ 정도로 해석할 수 있는데, 뭔가 탐색이 필요한 항목들을 쉽게 찾을 수 있도록 도와주는 역할을 담당한다. 내비게이터 영역은 효율적인 탐색을 위해, 탐색할 대상의 성격에 따른 아홉가지 세부 탐색기로 나누어진다. 차례대로 살펴보자.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/8.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/8.png&quot; alt=&quot;내비게이터 영역&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;프로젝트 내비게이터&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;프로젝트 내비게이터는 프로젝트의 파일을 탐색할 때 사용하는 내비게이터이다. 내비게이터 영역 상단의 탭 중에서 첫 번째 아이콘을 선택하거나 키보드 단축키 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;⌘ + 1&lt;/code&gt; 을 눌러서 선택할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;앞에서 생성한 MyFirstApp 프로젝트에 과련된 파일을 펼쳐보면 아래 그림과 같다. 현재는 프로젝트에 포함된 소스 파일인 AppDelegate.swift와 ViewController.swift, 그리고 화면을 그리기 위한 Main.storyboard 파일 등 몇 개밖에 없지만, 프로젝트가 진행되면서 필요한 파일들이 점차 늘어날 것이다. 프로젝트 내비게이터는 이들 파일을 한눈에 살펴보고 관리할 수 있도록 트리 형식의 목록을 제공하여 프로젝트 내 파일에 대한 접근성을 높여준다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/9.png&quot; class=&quot;align-center&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/9.png&quot; alt=&quot;프로젝트 내비게이터&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Swift-Grammar" /><category term="Swift" /><category term="Swift-Grammar" /><category term="꼼곰한 재은 씨의 스위프트:문법편" /><category term="이재은" /><category term="루비페이퍼" /><category term="ISBN:979-11-86710-23-4" /><summary type="html">스위프트 문법 스터디</summary></entry><entry><title type="html">CHAPTER02: Xcode - 4. Xcode 실행하기</title><link href="http://localhost:4000/swift-grammar/2-4/" rel="alternate" type="text/html" title="CHAPTER02: Xcode - 4. Xcode 실행하기" /><published>2020-11-01T00:00:00+09:00</published><updated>2020-11-01T00:00:00+09:00</updated><id>http://localhost:4000/swift-grammar/2-4</id><content type="html" xml:base="http://localhost:4000/swift-grammar/2-4/">&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/swift.png&quot; alt=&quot;Swift&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;4-xcode-실행하기&quot;&gt;4. Xcode 실행하기&lt;/h1&gt;
+
+&lt;p&gt;설치가 끝난 Xcode를 실행해 보자. 실행하는 방법은 간단하다. 맥 하단의 독(Dock)에서 응용프로그램(Launchpad) 아이콘을 누르면 앱 목록이 나타나는데, 이 중에서 Xocde 아이콘을 찾아 클릭하면 된다. Xcode를 처음 실행했을 때는 아래 그림처럼 추가 컴포넌트 설치를 요구하는 창이 나타날 수 있는데, 이때는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Install&lt;/code&gt;을 클릭하여 새로 추가된 컴포넌트들을 설치한다. 만약 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Quit&lt;/code&gt;을 클릭하면 Xcode가 그대로 종료되므로, Xcode를 싱행하기 위해서는 반드시 추가 컴포넌트를 설치해야 한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-01-2-4/1.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-01-2-4/1.png&quot; alt=&quot;추가 컴포넌트 설치&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Install&lt;/code&gt;을 클릭하고 잠시 기다리면 Xcode가 스스로 추가 컴포넌트를 내려받고 설치하는 과정을 진행한다. 설치가 완료되면 다시 Xcode가 실행되는데, 이때 가장 먼저 보이는 것이 다음 그림과 같은 시작 창이다. 앞으로 종종 자주 보게 될 창이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-01-2-4/2.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-01-2-4/2.png&quot; alt=&quot;Xcode 시작 창&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;시작 창 중앙에는 환영 문구와 함께 버전이 표시되고, 오른쪽에는 최근에 Xocde로 작업한 프로젝트 목록이 표시된다. 여러분의 Xcode가 처음 실행된 것이라면 필자와 다르게 빈 목록과 함께 ‘No Recent Project’라고 표시될 것이다.&lt;/p&gt;
+
+&lt;p&gt;왼쪽의 환영문구 아래에는 세 가지 선택 항목이 있다. 크게 중요한 것은 아니지만, 모르면 헤맬 수 있으므로 확이하고 넘어가자.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Create a new Xcode project&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;새로운 프로젝트를 만들어 시작하고자 할 때 선택하는 항목이다. Xcode에서 프로젝트라 함은 iOS, macOS, watchOS 또는 tvOS 등에서 동작하는 애플리케이션이나 혹은 C/C++ 모듈을 말한다. 앞으로 우리가 스위프트로 실제 앱을 만들어볼 때 아주 여러 번 선택해볼 메뉴이니 잘 기억해 두자.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Clone an existing project&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;깃허브 저장소로부터 소스를 내려받아 작업을 진행하고자 할 때 선택하는 항목이다. 오픈소스 라이브러리를 사용할 때나 또는 비교적 큰 프로젝트를 진행할 때 사용하는 항목이지만, 당분간은 해당 사항이 없으므로 기억에서 지워버려도 된다.&lt;/p&gt;
+
+&lt;p&gt;참고로, 위와 같은 시작 창을 거치지 않더라도 Xcode의 [File] 메뉴를 통해 플레이그라운드나 프로젝트를 생성할 수 있다. 처음부터 세 개의 항목 중 어느 하나를 정확히 선택해야 한다는 부담은 갖지 않아도 된다.&lt;/p&gt;
+
+&lt;h2 id=&quot;41-xcode-프로젝트-생성하기&quot;&gt;4.1 Xcode 프로젝트 생성하기&lt;/h2&gt;
+
+&lt;p&gt;스위프트 학습용으로 작성하는 코드나 간단한 프로토타이핑 등은 플레이그라운드 창에서도 얼마든지 가능하지만, 실제 앱을 만들 때에는 Xcode 프로젝트를 만들어 진행해야 한다. 앱은 하나의 파일로 이로어지는 것이 아니라, 여러 개의 파일이나 리소스를 모은 프로젝트를 바탕으로 개발되기 때문이다. 하나의 프로젝트가 대개 한의 앱을 의미한다고 생각하면 된다.&lt;/p&gt;
+
+&lt;p&gt;실제로 Xcode 프로젝트를 생성해보자. 생성 과정은 몇 단계로 이루어져 있지만 일단 익숙해 지고 나면 크게 복잡한 과정은 아니다. 프로젝트 생성은 다음 순서로 진행된다.&lt;/p&gt;
+
+&lt;p&gt;템플릿 선택 → 프로젝트 정보 입력 → 저장 위치 선택 → 프로젝트 생성&lt;/p&gt;
+
+&lt;p&gt;가장 먼저, Xcode를 실행하여 시작 창을 연다. Xcode가 이미 열려 있는 상태라서 시작 창이 나타나지 않으면 Xcode를 졸효했다가 다시 실행하자.&lt;/p&gt;
+
+&lt;p&gt;시작 창이 나타나면 첫 번째 메뉴인 [Create a new Xcode project]를 선택한다. 새로운 프로젝트를 생성하는 메뉴이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-01-2-4/3.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-01-2-4/3.png&quot; alt=&quot;시작 창에서 Create a new Xcode project 선택&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;프로젝트 템플릿 선택 창이 나타나면 창의 상단 영역에서 [iOS]를 선택하고, [Application] 그룹에서 [App] 템플릿을 선택하자. 선택이 끝나면 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Next&lt;/code&gt; 버튼을 클릭하여 다음 단계로 넘어간다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-01-2-4/4.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-01-2-4/4.png&quot; alt=&quot;프로젝트 템플릿 선택 창&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;이어서 프로젝트 정보를 입력하는 창이 나타난다. 프로젝트명(Product Name), 조직식별값(Organization Identifier)은 원하는 대로 넣을 수 있지만, 앞으로의 학습 과정에서 Language 항목만큼은 반드시 ‘Swift’를 선택해 주어야 한다. 그렇지 않으면 이 책의 실습 과정과 다른 결과를 볼 수도 있다. 이번에는 프로젝트 명을 ‘MyFirstApp’으로 입력한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-01-2-4/5.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-01-2-4/5.png&quot; alt=&quot;프로젝트 정보 입력&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;프로젝트 정보를 입력했으면 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Next&lt;/code&gt; 버튼을 누른다. 프로젝트 저장 위치를 저장하는 창이 나타날 것이다. 프로젝트 파일을 저장할 적당한 위치를 지정하고 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Create&lt;/code&gt; 버튼을 클릭하자. 여기까지 진행하면 프로젝트가 만들어진다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-01-2-4/6.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-01-2-4/6.png&quot; alt=&quot;프로젝트 저장 위치 지정&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;프로젝트가 생성되고 나면 화면에는 프로젝트에 대한 각종 설정 항목들이 표시된다. 앱 아이디나 버전, 앱 이름 및 앱이 지원할 iOS 버전, 화면 회전 여부 등 다양한 정보를 수정하고 편집할 수 있다. 앞으로 자주 등장할 이 화면을 우리는 편의상 ‘프로젝트 정보창’이라고 부르자. 프로젝트 정보창에 표시된 항목 중에서 중요한 것들은 이후 본격적으로 앱을 만들기 시작할 때 상세히 언급될 예정이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-01-2-4/7.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-01-2-4/7.png&quot; alt=&quot;프로젝트 첫 화면&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;프로젝트가 생성되었다면 앱 아이콘이라든가 로딩 화면, 그리고 (비록 비어 있기는 하지만) 첫 화면 등 앱에 필요한 기초적인 것드은 이미 자동을호 구현된 상태라고 보면 된다. 따라서 우리는 바로 앱을 실행시켜볼 수 있다. (사실 개발 관점에서는 프로젝트 자체가 앱이라고 할 수 있다.) Xcode 상단 왼쪽 버튼들 중에서 ► 모양의 아이콘을 클릭해 보자. 잠깐 기다리면 뭔가 아이폰을 빼닮은 창 하나가 뜰 텐데, 이것은 Xcode가 제공하는 가상의 테스트 기기인 ‘시뮬레이터(Simulator)’이다. 이 녀석 덕분에 우리는 디바이스를 직접 연결하지 않고도 앱을 만들고 테스트해볼 수 있다.&lt;/p&gt;
+
+&lt;p&gt;일단 시뮬레이터가 실행되면 프로젝트가 만들어 낸 앱이 자동으로 설치되고, 이어서 실행된다. 다만 아직 아무 것도 작업하지 않았으니 지금은 잠깐의 로딩 화면을 거친 다음, 빈 화면만 뜰 것이다. 이후 여러분의 작업에 따라 콘텐츠와 여러 기능이 채워지면서 이 앱 화면은 점점 멋있게 변해가겠지만, 일단 지금은 앱의 빈 껍데기가 만들어진 것이라고 이해하면 된다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-01-2-4/8.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-01-2-4/8.png&quot; alt=&quot;시뮬레이터&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;이번에는 Xcode 왼쪽에 나타난 프로젝트 파일 목록에서, 제일 위에 있는 프로젝트명을 마우스 오른쪽 버튼으로 클릭해 보자. 다음과 같은 메뉴가 나타나면 이 중에서 [Show in Finder]를 선택한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-01-2-4/9.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-01-2-4/9.png&quot; alt=&quot;[Show in Finder] 선택&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;이 메뉴는 선택된 파일 또는 폴더를 맥의 파인더(Finder)에서 열어주는 역할을 한다. 파인더는 윈도우 탐색기와 같은 기능이라고 생각하면 된다. 열린 파인더에는 우리가 생성한 ‘MyFirstApp’이라는 이름으로 두 개의 아이콘이 만들어져 있는데, 하나는 프로젝트 관련 파일들이 저장된 폴더이고, 또 다른 하나는 .xcodeproj라는 파일이다. Xcode가 프로젝트를 관리하기 위해 사용하는 프로젝트 파일이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-01-2-4/10.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-01-2-4/10.png&quot; alt=&quot;Xcode 프로젝트 관리 파일&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;xcodeproj 파일은 Xcode 프로젝트의 설정이 저장된 마스터 파일이므로, 만약 프로젝트를 작업하던 도중에 예기치 않게 Xcode가 꺼져버렸다거나 (실제로 이런 일 많이 일어난다. 누구나 한두 번쯤은 겪게 될 것이다) 혹은 예전에 진행하던 프로젝트를 다시 열어 진행하고 싶다면 .xcodeproj 파일을 더블클릭하면 된다. 해당 파일에 기록된 프로젝트 진행 정보를 Xcode가 읽고 다시 작업이 가능한 상태로 열어줄 것이다.&lt;/p&gt;
+
+&lt;p&gt;여기까지가 기본적인 프로젝트를 생성하고, 앱을 실행해 보는 과정이다. 비록 우리가 아무것도 하지 않아 텅 빈 화면에 불과하지만 그래도 이 안에는 기본적으로 앱이 갖추어야 할 각종 요소들이 담겨 있다. 여러분들이 앞으로 할 일은 이 안에 우리가 필요로 하는 화면 요소들을 추가하고, 원하는 대로 동작할 수 있도록 기능을 부여하는 것이다. 이를 위해 여러분들은 스위프트 문법을 알아야 하고, 코코아 터치 프레임워크를 이해해야 하며 Xcode의 기능을 습득해야 한다.&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Swift-Grammar" /><category term="Swift" /><category term="Swift-Grammar" /><category term="꼼곰한 재은 씨의 스위프트:문법편" /><category term="이재은" /><category term="루비페이퍼" /><category term="ISBN:979-11-86710-23-4" /><summary type="html">스위프트 문법 스터디</summary></entry><entry><title type="html">CHAPTER02: Xcode - 3. Xcode 설치</title><link href="http://localhost:4000/swift-grammar/2-3/" rel="alternate" type="text/html" title="CHAPTER02: Xcode - 3. Xcode 설치" /><published>2020-10-26T00:00:00+09:00</published><updated>2020-10-26T00:00:00+09:00</updated><id>http://localhost:4000/swift-grammar/2-3</id><content type="html" xml:base="http://localhost:4000/swift-grammar/2-3/">&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/swift.png&quot; alt=&quot;Swift&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;3-xcode-설치&quot;&gt;3. Xcode 설치&lt;/h1&gt;
 
@@ -352,262 +486,4 @@ $ brew link --overwrite cocoapods
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;위 표에 나열된 툴들이 개발 실무 현장에서 많이 사용되는 대표적인 IDE들이다. 그리고 이 중에서 iOS 개발자들이 사용하고, 우리가 실습 과정에서 사용할 툴은 바로 Xcode이다.&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Swift-Grammar" /><category term="Swift" /><category term="Swift-Grammar" /><category term="꼼곰한 재은 씨의 스위프트:문법편" /><category term="이재은" /><category term="루비페이퍼" /><category term="ISBN:979-11-86710-23-4" /><summary type="html">스위프트 문법 스터디</summary></entry><entry><title type="html">CHAPTER01: 스위프트 - 3. 오브젝티브-C vs 스위프트</title><link href="http://localhost:4000/swift-grammar/1-3/" rel="alternate" type="text/html" title="CHAPTER01: 스위프트 - 3. 오브젝티브-C vs 스위프트" /><published>2020-09-27T00:00:00+09:00</published><updated>2020-09-27T00:00:00+09:00</updated><id>http://localhost:4000/swift-grammar/1-3</id><content type="html" xml:base="http://localhost:4000/swift-grammar/1-3/">&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/swift.png&quot; alt=&quot;Swift&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;3-오브젝티브-c-vs-스위프트&quot;&gt;3. 오브젝티브-C vs 스위프트&lt;/h1&gt;
-
-&lt;p&gt;오브젝티브-C는 20여 년 동안 애플의 주력 개발 언어로 사용된 만큼 튼튼한 아키텍처와 검증된 성능을 가지고 있다. 이런 오브젝티브-C를 대체할 목적으로 스위프트가 출현했을 때 많은 사람의 관심은 과연 스위프트가 오브젝티브-C를 대체할 수 있을까였다. 언어를 대체한다는 것은 기존 언어가 담당하던 모든 역할을 처리할 수 있는 역량이 되어야 가능하다. 이런 점에서 스위프트를 이야기할 때 오브젝티브-C와의 비교는 빠질 수 없다. 애플에 의해 탄생한, 형제라면 형제일 수 있는 두 언어 사이의 공통점과 차이점에 대해서 알아보자.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;파일 통합&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;오브젝티브-C는 C를 기초로 하여 만들어진 언어이므로 파일 구조도 C 문법을 따라 헤더 파일과 소스 파일로 구분된다. .h 확장자로 작성되는 헤더 파일은 변수나 상수에 대한 선언, 인터페이스에 대한 정의가 작성되고, .m 확장자로 작성되는 소스 파일은 헤더 파일에서 정의한 인터페이스를 구현하는 내용이 작성된다. 선언과 구현이 분리되는 형태이다. 그러나 스위프트는 헤더 파일과 소수 파일이 모두 .swift 확장자를 갖는 파일 하나로 통합되어있다. 변수나 상수, 각종 객체의 형식에 대한 선언과 실질적인 내용 구현이 모두 하나의 파일에서 이루어진다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;클래스의 정의와 구현&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;클래스를 작성할 때 오브젝티브-C는 헤더 파일에 클래스의 인터페이스를 정의하고, 소스파일에서는 정의된 인터페이스를 구현한다. 그러나 스위프트에서는 클래스의 인터페이스 정의 없이 바로 클래스를 구현하면 된다. 또한 오브젝티브-C는 반드시 클래스 선언 시 반드시 상위 클래스를 상속 받아야 하며, 아무것도 상속받을 필요가 없을 때라도 최상위 클래스인 NSObject를 상속받아야 하지만, 스위프트에서는 상속받아야 할 클래스가 없다면 아무것도 상속받지 않아도 된다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;상속&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;오브젝티브-C는 다중 상속을 지원하지 않지만, 자바의 인터페이스(Interface)에 해당하는 개념인 프로토콜(Protocol)을 정의하여 클래스 객체가 준수해야 할 형식을 제공할 수 있다. 또한 카테고리(Category) 개념을 통해 상속 대신 기존 객체 자체를 직접 확장할 수 있다.&lt;/p&gt;
-
-&lt;p&gt;스위프트도 마찬가지이다. 다중 상속을 지원하지 않으며 프로토콜을 정의할 수있다. 또한, 기존 객체를 직접 확장할 수있도록 Extention이 제공되는데, 이는 오브젝티브-C의 카테고리에 대응하는 개념이다. 단, 그보다는 더 넓고 강력한 개념으로 오브젝티브-C에서 클래스 객체만 확장할 수 있었던 카테고리에 비해 스위프트의 Extention은 클래스, 구조체, 프로토콜 등 대부분 객체에 사용할 수 있다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;범용 타입&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;개발의 편의와 효율성을 높이기 위해 모든 데이터 타입을 저장할 수 있는 범용 타입 객체가 필요할 때가 있는데, 오브젝티브-C에서는 이와 같은 범용 타입으로 id 타입을 제공한다. id 타입은 모든 타입의 데이터를 저장할 수 있을 뿐만 아니라, 호환성만 보장된다면 저장된 데이터를 어떠한 타입으로든 변환할 수 있는 특성을 가지고 있다. 코코아 프레임워크나 코코아 터치 프레임워크에서는 범용 타입을 이용한 API들이 많이 사용되고 있다.&lt;/p&gt;
-
-&lt;p&gt;스위프트 역시 동일한 코코아 프레임워크나 코코아 터치 프레임워크를 사용하기 때문에, 오브젝티브-C의 id 타입에 대응하는 범용 타입의 객체가 필요하다. 이 때문에 제공되는 것이 Any 타입과 AnyObject 클래스이다. Any는 구조체, 클래스, 열거형, 함수 등 스위프트에서 제공하는 모든 타입의 값을 저장할 수 있는 타입인 반면, AnyObject는 클래스에 한해 범용으로 사용 가능한 데이터 타입이다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;메소드 호출&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;오브젝티브-C는 스몰토크의 문법을 차용한 결과, 메소드 호출을 메시지 전송 방식으로 처리한다. 즉, 객체의 메소드를 호출하는 대신 객체에 메시지를 보내서 필요한 기능을 처리한다. 객체와 메시지는 공백을 통해 연결되며 대괄호([])를 사용하여 메시지 전송 단위를 감싸서 구분한다. 이런 스몰토크의 문법이 낯설거나 익숙하지 않은 사람들이 많아서 오브젝티브-C를 다룰 때에는 종종 주의가 필요하기도 했다.&lt;/p&gt;
-
-&lt;p&gt;그러나 스위프트는 일반적인 객체지향에서의 메소드 호출 방식을 따른다. 객체와 메소드 사이는 점(.)을 통해 연결되고, 메소드 호출 단위를 감싸는 구분자는 사용하지 않는다. 아래는 오브젝티브-C와 스위프트에서의 메소드 호출 방식 예제이다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;오브젝티브-C에서의 메소드 호출
-    &lt;div class=&quot;language-objectivec highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;인스턴스명&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;increment&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;스위프트에서의 메소드 호출
-    &lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;인스턴스명&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;incrementBy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;nil의 의미&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;오브젝티브-C에서는 존재하지 않는 객체에 대한 참조를 위해 nil이라는 상수를 사용한다. nil과 NULL의 차이에 대해 궁굼해 하는 사람들이 있는데, 엄격하게 말해서 오브젝티브-C에서 정의된 nil 상수와 C에서 정의된 NULL 상수 간에 차이는 있지만, 오브젝티브-C 문법에서 두 상수는 기술적으로 혼용할 수 있다. 일반적으로 nil은 클래스 객체를 참조하는 데에 사용되고, NULL은 그 밖에 다른 포인터 자료형에 사용된다.&lt;/p&gt;
-
-&lt;div class=&quot;language-objectivec highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// 객체의 빈 참조에 사용되는 nil&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;UIViewController&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;uvc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// 포인터 자료형의 빈 참조에 사용되는 NULL&lt;/span&gt;
-&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sPtr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;NULL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;반면, 스위프트에서 nil은 옵셔널 타입의 기본값으로 사용되며 &lt;strong&gt;‘값이 존재하지 않음’&lt;/strong&gt;을 의마한다. 스위프트에서는 NULL 상수가 정의되어 있지 않다.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// 옵셔널 타입의 기본값으로 nil이 대입&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;nil&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;포인터 사용&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;오브젝티브-C는 C의 포인터 문법을 그대로 물려받았다. 객체에 대한 인스턴스 변수를 정의할 때에는 항상 포인터를 사용하는 레퍼런스 참조를 기본으로 사용했다. 모든 변수 앞에 포인터를 거의 의무적으로 붙여주다 보니, 오브젝티브-C에서 포인터를 사용한다고는 해도 C 코드를 직접 작성하는 부분을 제외하면 크게 신경 쓸 부분이 없기는 했지만, 그럼에도 포인터를 사용해야 한다는 것은 초보자들에게는 적지 않은 부담으로 작용했다.&lt;/p&gt;
-
-&lt;p&gt;스위프트에서는 이러한 포인터 개념을 제거하여 개발자가 직접 레퍼런스를 참조하지 않도록 하는 대신, 객체의 종류에 따라 컴파일러가 직접 레퍼런스를 참조할 것인지 아니면 객체를 복사할 것인지를 결정한다. 클래스틑 포인터를 사용하지 않아도 자동으로 레퍼런스를 참조하고, 구조체는 객체를 복사하여 사용하는 방식으로 처리된다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;객체지향 타입&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;오브젝티브-C는 객체지향을 위한 타입으로 클래스를 제공한다. @Interface 어노테이션을 이용하여 형식을 선언하고, @Implementation 어노테이션을 이용하여 실질적인 내용을 구현한다. 이렇게 작성된 클래스를 사용할 때에는 인스턴스를 생성하여 사용한다.&lt;/p&gt;
-
-&lt;p&gt;그러나 스위프트에서는 객체지향용 타입으로 클래스뿐만 아니라 구조체, 열거형까지 제공한다. 이들 객체 타입은 모두 인스턴스를 만들 수 있으며 인스턴스와 관련된 변수, 상수를 속성(property)으로 선언하여 사용할 수 있다. 그뿐만 아니라 이들 객체 타입에 인스턴스 메소드와 타입 메소드를 작성하여 사용할 수도 있다.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// 클래스 (Class)&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;SampleClass&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// 구조체 (Structure)&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;SampleStruct&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// 열거형 (Enumeration)&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;enum&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;SampleEnum&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;익명 함수&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;현대 프로그래밍 개념에서 익명 함수의 사용은 람다 함수를 사용할 수 잇게 해주는 리스프, 스킴 같은 함수형 프로그래밍 언어로부터 도입되었다고 할 수 있다. 람다 함수는 함수 기반으로 정의되는 코드 내에서 한 번만 사용하면 되는 코드마저 함수로 선언해서 사용해야 하는 번거로움을 피할 수 있게 해줌으로써 코드를 더욱 간결하게 만들어 준다.&lt;/p&gt;
-
-&lt;p&gt;람다 함수는 최근 자바 8에서도 도입되는 등 프로그래밍 언어의 강력한 기능으로 고려되고 있다. 오브젝티브-C에서는 블록(Block)이라는 개념으로 익명 함수를 표현할 수 있었는데, 이 기능이 스위프트에서는 클로저를 이용한 익명 함수 정의 문법으로 제공된다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;오류 처리&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;일반적으로 객체 지향 언어에서 제공하는 오류 처리 기능은 오류 발생이 예상되는 지점에 미리 오류를 검출하는 코드를 작성해두고, 실제로 오류가 발생했을 때 정해진 코드 블록 바깥으로 오류 정보를 던져 처리할 수 있도록 지원하는 방식이다. 오브젝티브-C에서도 오류를 검출하기 위한 기능은 제공되었지만, 이는 읽고 쓸 수 있는 매개변수를 사용하여 오류를 검출해내는 방법이었을 뿐 오류 처리를 위한 구문이 별도로 제공된 것은 아니었다.&lt;/p&gt;
-
-&lt;p&gt;스위프트는 2.0 버전부터 오류를 검출해내고 각 오류에 효과적으로 대응할 수 있도록 전용 구문을 제공하고 있다. 많은 프로그래밍 언어에서 널리 사용하는 Try ~ Catch 구문을 채택한 스위프트는 코드를 실행하는 과정에서 오류가 발생하더라도 프로그램이 중단되는 것을 막아주고, 미리 준비된 대응 구문을 실행하여 효율적으로 오류에 대응할 수 있게 한다.&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Swift-Grammar" /><category term="Swift" /><category term="Swift-Grammar" /><category term="꼼곰한 재은 씨의 스위프트:문법편" /><category term="이재은" /><category term="루비페이퍼" /><category term="ISBN:979-11-86710-23-4" /><summary type="html">스위프트 문법 스터디</summary></entry><entry><title type="html">CHAPTER01: 스위프트 - 2.스위프트 언어의 특징</title><link href="http://localhost:4000/swift-grammar/1-2/" rel="alternate" type="text/html" title="CHAPTER01: 스위프트 - 2.스위프트 언어의 특징" /><published>2020-09-25T00:00:00+09:00</published><updated>2020-09-25T00:00:00+09:00</updated><id>http://localhost:4000/swift-grammar/1-2</id><content type="html" xml:base="http://localhost:4000/swift-grammar/1-2/">&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/swift.png&quot; alt=&quot;Swift&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;2-스위프트-언어의-특징&quot;&gt;2. 스위프트 언어의 특징&lt;/h1&gt;
-
-&lt;p&gt;상대적으로 언어에 대한 진입장벽이 낮고 개발하기 쉬운 자바스크립트나 파이썬, 루비와 같은 동적 바인딩 타입의 언어는 생산성이 좋지만 성능이 부족한 경우가 많고, 성능이 좋은 언어일수록 진입 장벽이 높고 개발하기 어려워 생산성이 낮은 경우가 많다. 이에 비해 스위프트는 개발 생산성과 앱 성능 모두에서 만족할 만한 결과를 가져오는 언어로 포지셔닝되어있다.&lt;/p&gt;
-
-&lt;p&gt;스위프트가 파이썬이나 자바스크립트처럼 동적 바인딩(Dynamic Binding)을 채용하고 있는 언어는 아니다. C, C++, 오브젝티브-C, 자바처럼 정적 바인딩을 채용하고 있다. 비록 데이터 타입 추론 기능에 의해 컴파일러가 알아서 변수와 상수의 타입을 결정하기 때문에 마치 동적 바인딩 언어인 것처럼 착각되기도 하지만, 기본적으로 스위프트는 정적 바인딩 언어이다.&lt;/p&gt;
-
-&lt;p&gt;스위프트는 데이터 타입에 대한 구분이 엄격하다. 스위프트에서 선언된 변수와 상수는 컴파일 단계에서 데이터 타입이 미리 정의되어 있어야 하고, 변수의 데이터 타입이 정의되면 다른 타입으로 변경할 수 없다. 이러한 엄격성을 바탕으로 컴파일러는 타입에 맞지 않는 데이터가 변수에 대입되는 것을 사전에 차단하여 안정성을 높일 수 있다.&lt;/p&gt;
-
-&lt;p&gt;스위프트는 네임스페이스를 사용하여 필요한 객체들으 참조하는데, 일반적으로 프로젝트 전체가 네임스페이스의 범위로 지정된다. 이는 같은 프로젝트 내에 작성된 객체일지라도 오브젝티브-C에서는 참조를 위해 일일이 헤더 파일을 반입해 주어야 했던 것과 다르게, 스위프트에서는 같은 프로젝트 내에 작성된 객체들은 반입 과정 없이 참조할 수 있다는 뜻이다. 이 때문에 스위프트에서 import 구문은 UIKit, Foundation 등의 프레임워크나 라이브러리 정도에만 사용하게 되어 개발 생산성을 향항할 수 있게 되었다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;21-스위프트-언어에서-차용하고-있는-주요-기능들&quot;&gt;2.1 스위프트 언어에서 차용하고 있는 주요 기능들&lt;/h2&gt;
-
-&lt;p&gt;세상에 존재하는 수많은 프로그래밍 언어 대부분이 그렇겠지만, 특히 현대에 와서 발표되는 언어 중 전적으로 새로운 언어는 거의 없다고 해도 과언이 아니다. 대부분의 언어는 앞선 시대의 언어에서 아이디어를 차용하여 자신의 것으로 발전시키고, 시간이 지나면 또 다른 언어가 이를 차용하는 과정이 반복된다.&lt;/p&gt;
-
-&lt;p&gt;기술적으로 새롭다고 할 수 있는 스위프트이지만, 사실 알고 보면 다른 언어에서 채택된 개념들을 새로운 이름으로 조합한 것에 지나지 않는다. 이런 관점에서 마국의 IT 전문 저술가 피터 웨이너(Peter Wayner)는 InfoWorld.com에서 애플이 스위프트를 만들면서 주변 언어로부터 차용한 10가지 개념과 특징들에 관해 이야기 하고 있다. 이 글을 인용하여 스위프트의 특성을 다른 언어들과 비교해 보겠다. 다른 언어를 익힌 분들이라면 이 설명을 통해 스위프트의 특징에 대해 더욱 잘 이애할 수 있을 것이다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;딕셔너리(해시 테이블) - 자바스크립트, 파이썬&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;자바스크립트 프로그래머들은 대괄호 구문을 이용해 값을 배열로 만들거나 문자열을 입력받는데, 이것이 해시 테이블 역할을 한다. 스위프트도 마찬가지이다. 대괄호를 사용하여 해시 테이블을 만들 수 있다. 애플에서는 이것을 ‘딕셔너리(Dictionaries)’라고 부르며, 초기화할 수 있는 구문을 제공한다.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;airports&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?]()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;airports&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ICN&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Inchon International Airport&quot;&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// If close &quot;Inchon International Airport&quot;, then delete it&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;airports&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ICN&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;nil&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// ICN has now benn removed from the dictionary&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;데이터 타입 추론 - 함수형 프로그래밍 언어&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;프로그래머 관점에서 변수를 특정 데이터 형식으로 강제하면 코드를 실행해 보기 전에 버그를 미리 잡을 수 있어 효율적이다. 컴파일러가 데이터 형식을 확인하고 비호환성이 발견되면 오류를 검출해주기 때문이다. 편리함을 추구하는 프로그래밍에서 모든 변수마다 데이터 형식을 일일이 지정하는 고생을 감수할 사람은 그다지 많지 않다.&lt;/p&gt;
-
-&lt;p&gt;최근의 우수한 컴파일러들은 데이터로부터 스스로 형식을 추론할 수 있으므로 컴파일러가 알아서 변수에 데이터 형식을 지정할 수 있게 되었다. 이러한 움직임은 ML과 같은 함수형 언어부터 시작 됐으며, 이후 하스켈, 스칼라, 오파 등의 언어에도 등장했다. 마이크로소프트까지도 이같은 추론 기능을 닷넷 프레임워크에 추가한 만큼 이제는 주류 기능이라고 할 만하다. 데이터 타입은 강제하지만, 데이터 타입을 생략할 수 있는 스위프트 컴파일러의 발전 덕분에 iOS 개발자들도 이제 코드 입력에 드는 수고를 조금은 덜 수 있게 되었다.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;meaningOfLife&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;42&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// meaningOfLife is inferred to be of type Int&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;자동 참조(가비지 콜렉터 비슷) - 자바, C#, 오브젝티브-C&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;가비지 콜렉터는 메모리를 탐색하면서 더는 사용되지 않는 메모리 영역을 회수하는 자동 루틴으로, GC라고 불리기도 한다. 자바와 C# 프로그래머들은 가비지 콜렉터를 무척 좋아하지만, 때로는 가비지 콜렉터 때문에 프로그램이 잠깐 멈추는 현상이 발생해 스트레스를 받기도 한다. 가비지 콜렉터의 결과로 가용 메모리가 다시 늘어나는 장점이 있는 반면, 가비지 콜렉터를 실핼하는 동안 프로세스는 원활한 진행을 방해받는다는 단점도 있다.&lt;/p&gt;
-
-&lt;p&gt;스위프트는 자동 참조 카운트(ARC - Auto Referencing Counter)를 사용하는데, 이는 오브젝티브-C 사용자들 사이에서 널리 사용된 것과 비슷한 솔루션이다. 이 기능은 오브젝티브-C에서 물려받았다고 할 만한 기능이다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;부호 있는 정수와 부호 없는 정수 - C#과 오브젝티브-C&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;좋은 시스템 프로그램이란 바이트 레벨에서 작동하는 프로그랴ㅐㅁ을 의미하는 경우가 많다. 자바와 같은 일부 추상적 언어는 부호 없는 정수의 복잡성을 회피했지만, C# 언어는 이를 수용했다. 스위프트 역시 1, 2, 4, 8바이트의 부호 없는 정수와 부호 있는 정수를 제공한다.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;pink&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;UInt32&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0xCC6699&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;redComponent&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pink&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0xFF0000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// redComponent is 0xCC, or 204&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;greenComponent&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pink&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x00FF00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// greenComponent is 0x66, or 102&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;blueComponent&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pink&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x0000FF&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// blueComponent is 0x99, or 153&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;클로저(Closure) - 리스프와 스킴에서 자바스크립트까지&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;자바스크립트 프로그래머는 소량의 코드를 묶어서 함수처럼 전달하는 클로저를 사용할 수 있다. 이러한 클로저는 람다 함수 아이디어를 개발한 리스프, 스킴과 같은 언어에서 가져온 것이다. 스위프트는 클로저를 제공할 뿐만 아니라 함수를 1급 객체로 간주, 인자값으로 함수 자체를 전달하는 기능을 제공한다.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;numbers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]()&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;numbers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;멀티 라인 쿼우팅(Multi-Line Quoting)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;파이썬 프로그래머들은 세 개의 따옴표를 겹친 “”” ~ “”” 를 이용해 여러 줄의 문자열을 간편하게 입력해 왔다. 줄바꿈이나 범위에 삼관없이 “&quot;”로 시작하고 “&quot;”로 닫기만 하면 그 안에 표현된 모든 문자열(공백까지 포함한)이 그대로 처리된다는 장점 덕분에 긴 문자열을 입력할 때 요긴하게 사용되어 왔다. 스위프트 4 버전에서는 파이썬의 이와 같은 멀티 라인 쿼우팅 문법을 거의 그대로 도입했다. 파이썬처럼 큰따옴표 세 개 겹친 “&quot;”로 문자열의 시작과 끝을 나타내는 방식으로 우리는 여러 줄의 문자열을 간편하게 입력할 수 있게 되었다. 이는 여러 줄의 문자열을 입력하기 위해 더이상 문자열 내부에 인위적인 줄바꿈 문자(‘\n’)를 넣어주지 않아도 된다는 뜻이다.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;query&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
-    SELECT member_id, member_name, member_level, nick_name
-    FROM member
-    WHERE login_id = ? AND password = ?
-&quot;&quot;&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;22-구조적-특징&quot;&gt;2.2 구조적 특징&lt;/h2&gt;
-
-&lt;p&gt;스위프트의 발표 자료에 따른 스위프트 언어의 구조적 특징은 여섯 가지 정도로 구분된다. 이들 특성은 스위프트가 지향하는 방향성이기도 하다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;빠름(Fast)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;스위프트는 매우 빠른 언어로, 복합정렬 연산에서 오브젝티브-C보다 빠른 성능을 나타낸다. 애플에서는 고성능 앱을 만들기 위해 GCC 대신 LLVM 컴파일러를 사용해오고 있는데, 이 컴파일러에서 제공하는 코드 최적화기를 사용하여 소스 컴파일과 최적화를 수행함으로써 스위프트의 성능을 극대화할 수 있다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;설계에 의한 안정성(Safety by Design)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;스위프트는 언어 차원에서 안전성을 담보하기 위한 설계로 여러 장치를 해 두었다. 변수나 상수는 반드시 선언한 후에 사용하도록 강제하였으며 타입 추론 기능에 의해 변수의 초기값을 기준으로 타입을 정의함으로써 데이터 입력에 대한 안전성을 높이고자 하였다. 배열과 정수는 오버플로우에 대비하여 확인하며, 특히 개발자가 정의하지 않은 배열 값에 승인하지 않은 값들이 주입될 수 없도록 Array bounds check 기능을 추가하였다.&lt;/p&gt;
-
-&lt;p&gt;여기에 더하여 스위프트는 포인터에 직접 접근하는 시도를 차단하고, 클래스를 통해 간접적으로만 레퍼런스를 참조할 수 있도록 제한했다. 스위프트는 ARC를 이용하여 자동으로 메모리를 관리하므로 메모리 누수 현상에 대한 안전성도 높일 수 있다. 이처럼 설게 수준에서 안전성을 구현하는 것이 스위프트의 구조적 특징 중 하나이다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;현대적(Modern)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;스위프트는 파이썬 언어에 기반을 둔 읽고 쓰기 쉬운 문법을 채택하였다. 그 결과, 코드 작성이나 디버깅, 유지보수 과정에서 기존의 오브젝티브-C보다 훨씬 적은 양의 코드가 사용된다. 손쉬운 유지보수를 위해 헤더 파일 사용 대신 메인 파일에 통합하여 코드를 작성할 수 있도록 섳계되었다. 스위프트는 옵셔널(Optional), 제네릭(Generics), 클로저(Closure), 튜플(Tuple)뿐만 아니라 현대 프로그래밍 언어의 특성까지도 상당수 포함하고 있다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;상호반응(Interactive)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Xcode 6 버전부터 애플은 스위프트 코드의 프로토타이핑을 위해 플레이그라운드 편집기를 제공한다. 스위프트 코드를 작성하고, 그 결과와 메모리 스택 등의 정보 확인을 즉시 확인할 수 있어 상호반응적으로 코드를 작성할 수 있으며 디버깅도 무척 쉽다. 이러한 특징은 스위프트를 이용한 코딩의 효율성을 한껏 높였다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;완전한 플랫폼(Complete Platform)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;단순히 보조적인 수준으로만 스위프트를 사용할 수 있는 것이 아니라, 코코아 프레임워크나 코코아 터치 프레임워크의 모든 API를 스위프트로 호출할 수 있다. 오브젝티브-C로 작성되었던ㄴ 핵심 프레임워크의 모든 라인이 스위프트 언어를 이용하여 거의 모두 재작성되었고, 이를 이용하면 오브젝티브-C 코드에 의존하지 않고도 프로그램을 작성할 수 있다는 것은 애플의 발표에 의해 널리 알려진 사실이다. 스위프트만으로 하나의 완전한 앱을 만들 수 있다는 의미이다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;통홥(Unified)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;스위프트는 C 언어나 오브젝티브-C 언어를 완전히 대체할 수 있다. 스위프트는 객체지향 언어의 특성을 모두 제공하는 동시에 자료형과 흐름 제어, 연산자 같은 저수준 언어의 기본 요소들도 모두 포함한다. 하나의 앱 프로젝트에서 오브젝티브-C와 함께 사용할 수 있도록 통합성도 지니고 있다. 오브젝티브-C 객체를 스위프트에서 참조할 수 있으며, 각각의 화면별로 오브젝티브-C 또는 스위프트로 나누어 작성하는 것도 가능하디.&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Swift-Grammar" /><category term="Swift" /><category term="Swift-Grammar" /><category term="꼼곰한 재은 씨의 스위프트:문법편" /><category term="이재은" /><category term="루비페이퍼" /><category term="ISBN:979-11-86710-23-4" /><summary type="html">스위프트 문법 스터디</summary></entry></feed>
+&lt;p&gt;위 표에 나열된 툴들이 개발 실무 현장에서 많이 사용되는 대표적인 IDE들이다. 그리고 이 중에서 iOS 개발자들이 사용하고, 우리가 실습 과정에서 사용할 툴은 바로 Xcode이다.&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Swift-Grammar" /><category term="Swift" /><category term="Swift-Grammar" /><category term="꼼곰한 재은 씨의 스위프트:문법편" /><category term="이재은" /><category term="루비페이퍼" /><category term="ISBN:979-11-86710-23-4" /><summary type="html">스위프트 문법 스터디</summary></entry></feed>

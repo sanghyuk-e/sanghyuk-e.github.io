@@ -59,6 +59,18 @@ var store = [{
         "url": "http://localhost:4000/swift-grammar/2-3/",
         "teaser": "http://localhost:4000/assets/images/posts/Swift-Grammar/swift.png"
       },{
+        "title": "CHAPTER02: Xcode - 4. Xcode 실행하기",
+        "excerpt":"4. Xcode 실행하기 설치가 끝난 Xcode를 실행해 보자. 실행하는 방법은 간단하다. 맥 하단의 독(Dock)에서 응용프로그램(Launchpad) 아이콘을 누르면 앱 목록이 나타나는데, 이 중에서 Xocde 아이콘을 찾아 클릭하면 된다. Xcode를 처음 실행했을 때는 아래 그림처럼 추가 컴포넌트 설치를 요구하는 창이 나타날 수 있는데, 이때는 Install을 클릭하여 새로 추가된 컴포넌트들을 설치한다. 만약 Quit을...","categories": ["Swift-Grammar"],
+        "tags": ["Swift","Swift-Grammar","꼼곰한 재은 씨의 스위프트:문법편","이재은","루비페이퍼","ISBN:979-11-86710-23-4"],
+        "url": "http://localhost:4000/swift-grammar/2-4/",
+        "teaser": "http://localhost:4000/assets/images/posts/Swift-Grammar/swift.png"
+      },{
+        "title": "CHAPTER02: Xcode - 5. Xcode의 구성 요소",
+        "excerpt":"5. Xcode의 구성 요소 프로젝트를 생성하거나 생성된 프로젝트를 실행하면 Xcode는 여러 개의 작은 영역으로 분할된 커다란 윈도우 형태로 나타난다. ‘워크 스페이스(Work Space)’라고 불리는 이 윈도우는 개발에 관련된 모든 것을 처리하기 위해 만들어진 Xcode의 가장 기본적인 작업 공간이다. 워크스페이슨는 기능에 따라 여러 개의 작은 영역으로 다시 분할되는데, 각각의 영역은 저마다 고유한...","categories": ["Swift-Grammar"],
+        "tags": ["Swift","Swift-Grammar","꼼곰한 재은 씨의 스위프트:문법편","이재은","루비페이퍼","ISBN:979-11-86710-23-4"],
+        "url": "http://localhost:4000/swift-grammar/2-5/",
+        "teaser": "http://localhost:4000/assets/images/posts/Swift-Grammar/swift.png"
+      },{
         "title": "Swift 개발자 면접 질문 List",
         "excerpt":"Swift 개발자 면접 질문 List 개발자를 채용하는 면접에는 기술 면접이 있다. 여러번 면접을 경험하다 보니 특정 질문들을 자주 받는 느낌이 들었다. 업무를 진행하는데 있어서 중요한 부분들을 주로 질문한다고 생각이 들었고, 그 말은 반대로 꼭 공부해야 알아야 할 부분이라는 생각이 들었다. 그래서 실제 면접을 통해서 받는 질문들을 정리하려고 한다. 우선 나는...","categories": ["Interview"],
         "tags": ["Interview"],
