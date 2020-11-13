@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-19T23:28:37+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sanghyuk’s Blog</title><subtitle>Sanghyuk's Blog</subtitle><author><name>SANGHYUK LEE</name></author><entry><title type="html">Firebase 시작하기</title><link href="http://localhost:4000/firebase/1/" rel="alternate" type="text/html" title="Firebase 시작하기" /><published>2020-12-08T00:00:00+09:00</published><updated>2020-12-08T00:00:00+09:00</updated><id>http://localhost:4000/firebase/1</id><content type="html" xml:base="http://localhost:4000/firebase/1/">&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Firebase/firebase.png&quot; alt=&quot;Firebase&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-20T00:16:24+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sanghyuk’s Blog</title><subtitle>Sanghyuk's Blog</subtitle><author><name>SANGHYUK LEE</name></author><entry><title type="html">Firebase 시작하기</title><link href="http://localhost:4000/firebase/1/" rel="alternate" type="text/html" title="Firebase 시작하기" /><published>2020-12-08T00:00:00+09:00</published><updated>2020-12-08T00:00:00+09:00</updated><id>http://localhost:4000/firebase/1</id><content type="html" xml:base="http://localhost:4000/firebase/1/">&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Firebase/firebase.png&quot; alt=&quot;Firebase&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;firbase란&quot;&gt;Firbase란?&lt;/h2&gt;
 
@@ -191,9 +191,7 @@ $ brew link --overwrite cocoapods
 
 &lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/8.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/8.png&quot; alt=&quot;내비게이터 영역&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;프로젝트 내비게이터&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h3 id=&quot;521-프로젝트-내비게이터&quot;&gt;5.2.1 프로젝트 내비게이터&lt;/h3&gt;
 
 &lt;p&gt;프로젝트 내비게이터는 프로젝트의 파일을 탐색할 때 사용하는 내비게이터이다. 내비게이터 영역 상단의 탭 중에서 첫 번째 아이콘을 선택하거나 키보드 단축키 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;⌘ + 1&lt;/code&gt; 을 눌러서 선택할 수 있다.&lt;/p&gt;
 
@@ -201,9 +199,7 @@ $ brew link --overwrite cocoapods
 
 &lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/9.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/9.png&quot; alt=&quot;프로젝트 내비게이터&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;소스 컨트롤 내비게이터&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h3 id=&quot;522-소스-컨트롤-내비게이터&quot;&gt;5.2.2 소스 컨트롤 내비게이터&lt;/h3&gt;
 
 &lt;p&gt;소스 컨트롤 내비게이터는 소스 파일의 버전 관리를 위해 제공되는 내비게이터로, Xcode 9부터 새롭게 추가되었다. 내비게이터 상단 영역의 두 번쨰 탭에서 찾을 수 있으며, 키보드 단축키 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;⌘ + 2&lt;/code&gt; 를 눌러도 된다. 깃허브 시스템과 연동하는 형태로 기능을 제공하는데, 이를 이용하면 자신이 만든 소스를 깃허브 사이트(Https://github.com)에 올릴 수 있을 뿐만 아니라 깃허브에서 내려받은 오픈소스가 최신 버전으로 갱신될 경우 자동으로 알림을 받고 이를 업데이트할 수도 있다. 현재는 깃허브 시스템과 연동되지 않아 아무것도 보이지 않을 것이다.&lt;/p&gt;
 
@@ -211,7 +207,57 @@ $ brew link --overwrite cocoapods
 
 &lt;p&gt;이 영역은 ‘리파지토리(Repository)’라고 불리는 소스 관리 전용 공간을 생성했을 때에만 사용 할 수 있으므로, 이를 위해서는 신규 프로젝트 생성 시 옵션에서 [Create Git repository on my Mac]을 선택하거나 이미 생성된 상태라면 Xcode 메뉴에서 [Source Control] → [Create Git Repositories]를 차례로 선택해야 한다.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/11.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/11.png&quot; alt=&quot;리파지토리를 설정하기 위한 프로젝트 생성 옵션&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Swift-Grammar" /><category term="Swift" /><category term="Swift-Grammar" /><category term="꼼곰한 재은 씨의 스위프트:문법편" /><category term="이재은" /><category term="루비페이퍼" /><category term="ISBN:979-11-86710-23-4" /><summary type="html">스위프트 문법 스터디</summary></entry><entry><title type="html">CHAPTER02: Xcode - 4. Xcode 실행하기</title><link href="http://localhost:4000/swift-grammar/2-4/" rel="alternate" type="text/html" title="CHAPTER02: Xcode - 4. Xcode 실행하기" /><published>2020-11-01T00:00:00+09:00</published><updated>2020-11-01T00:00:00+09:00</updated><id>http://localhost:4000/swift-grammar/2-4</id><content type="html" xml:base="http://localhost:4000/swift-grammar/2-4/">&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/swift.png&quot; alt=&quot;Swift&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/11.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/11.png&quot; alt=&quot;리파지토리를 설정하기 위한 프로젝트 생성 옵션&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;523-심벌-내비게이터&quot;&gt;5.2.3 심벌 내비게이터&lt;/h3&gt;
+
+&lt;p&gt;심벌 내비게이터는 프로젝트에서 작성된 클래스나 구조체, 메소드 등의 심벌을 구조적으로 관리할 수 있는 내비게이터이다. 내비게이터 영역의 탭 중에서 세 번째 아이콘을 선택하거나 키보드 단축키 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;⌘ + 3&lt;/code&gt; 을 눌러서 선택할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/12.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/12.png&quot; alt=&quot;심벌 내비게이터&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;MyFirstApp 프로젝트를 처음 생성하면 표준 템플릿에 의해 만들어진 파일과 클래스가 추가되어 있다. 위 그림에서 보는 것 처럼 심벌 내비게이터를 통해 각각의 클래스와 그 안에 정의된 메소드를 확인할 수 있다. 심벌 내비게이터의 항목 앞에 붙어있는 영문자 이미지는 심벌의 종류를 나타내는 것으로 클래스는 C, 구조체는 S, 메소드는 M으로 표시되며, 함수는 F로, 열거형은 E로 나타낸다. C부터 E까지 영문자를 부여받은 모든 대상을 심벌이라고 표현한다.&lt;/p&gt;
+
+&lt;p&gt;심벌 내비게이터에 나열된 각각의 심벌을 클릭하면 소스 코드에 작성된 심벌의 상세 내용이 에디터 영역에 표시된다. 이를 통해 손쉽게 심벌의 코드 내용을 확인할 수 있다.&lt;/p&gt;
+
+&lt;h3 id=&quot;524-검색-내비게이터&quot;&gt;5.2.4 검색 내비게이터&lt;/h3&gt;
+
+&lt;p&gt;검색 내비게이터는 프로젝트 내부의 내용을 검색할 때 사용하는 기능으로, 빠른 검색과 깔끔한 정리를 자랑한다. 내비게이터 영역의 탭 아이콘 중에서 네 번째 아이콘을 선택하거나 키보드 단축키 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;⌘ + 4&lt;/code&gt; 를 눌러서 선택할 수 있다. 아래 그림은 검색 내비게이터를 이용하여 ‘version’ 이라는 키워드를 검색할 결과를 보여준다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/13.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/13.png&quot; alt=&quot;검색 내비게이터&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;검색 내비게이터는 소스 파일뿐만 아니라 설정 파일, 프로젝트 마스터 파일에 기록된 검색 키워드까지 검색할 정도로 광범위한 검색을 처리하기 때문에 프로젝트 전체에서 해당하는 키워드를 찾을 때 매우 요긴하게 사용할 수 있다. 필자의 경우, 특정 값이나 변수명을 모조리 바꾸어야 할 경우에 검색 내비게이터를 이용하여 해당하는 모든 키워드를 찾곤 한다.&lt;/p&gt;
+
+&lt;h3 id=&quot;525-이슈-내비게이터&quot;&gt;5.2.5 이슈 내비게이터&lt;/h3&gt;
+
+&lt;p&gt;Xcode는 코딩 도중에 잘못된 문장을 입력하거나 틀린 문법을 사용하면 문제가 있음을 알려주는 경고나 오류 표시가 즉각적으로 나타난다. 이 표시를 클릭하여 활성화하면 표시된 내용에 대한 상세한 정보를 볼 수 있는데, 이슈 내비게이터는 이런 경고나 오류 등의 이슈만 정리해서 보여주는 내비게이터이다. 이슈 네비게이터를 사용하면 현재 코드의 어느 부분이 문제이고, 어느 부분을 고쳐야 하는지를 한눈에 파악할 수 있다. 내비게이터 영역의 탭 중에서 다섯 번째 아이콘을 선택하거나 키보드 단축키 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;⌘ + 5&lt;/code&gt; 를 누르면 선택된다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/14.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/14.png&quot; alt=&quot;이슈 내비게이터&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;이슈 내비게이터에 표시되는 문구를 클릭하면 이슈가 발생한 소스 코드 위치로 즉시 이동하게 된다. 이를 통해 오류를 처리해야 할 지점을 손쉽게 찾아갈 수 있다. 이슈 내비게이터에 표시되는 내용은 항상 주의하여 문제점을 해결해주어야 하며, 그렇지 않을 경우 컴파일이 실패하거나 더 이상 진행되지 않는 등의 심각한 문제가 발생할 수도 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/15.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/15.png&quot; alt=&quot;이슈 내비게이터를 통해 오류 위치를 탐색한 모습&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;526-테스트-내비게이터&quot;&gt;5.2.6 테스트 내비게이터&lt;/h3&gt;
+
+&lt;p&gt;테스트 내비게이터는 MyFirstApp 프로젝트를 생성할 때 자동으로 구성된 테스트용 파일인 MyFirstAppTests.swift의 내용을 보여주는 영역이다. 테스트를 위한 목적으로 만들어진 이 파일에서 테스트 항목은 일반적인 클래스의 메소드로 작성되어 있지만, 다른 클래스는 메소드와 구분되는 이 클래스의 특징이 있는데 바로 XCTestCase라는 클래스를 상속받았다는 점이다. 이 클래스는 테스트를 목적으로 하는 클래스다. 이 클래스를 상속받은 클래스의 테스트 항목이 표시되는 영역이 테스트 내비게이터이다. 테스트 내비게이터는 내비게이터 영역의 탭 아이콘 중 여섯 번째 아이콘을 선택하거나 키보드 단축키 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;⌘ + 6&lt;/code&gt; 을 눌러서 선택할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/16.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/16.png&quot; alt=&quot;테스트 내비게이터&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;테스트 클래스는 프로젝트 생성 시 [Include Tests] 옵션에 체크 했을 때 생성된다. 이 기능을 사용하고자 하는 경우, 프로젝트 생성 설정에서 다음 그림과 같이 체크해 주도록 한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/17.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/17.png&quot; alt=&quot;테스트 클래스 추가 옵션&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;527-디버그-내비게이터&quot;&gt;5.2.7 디버그 내비게이터&lt;/h3&gt;
+
+&lt;p&gt;디버그 내비게이터 영역은 평소에는 아무것도 표시되지 않다가 시뮬레이터가 동작하면서 앱이 실행되면 디버그에 필요한 각종 정보를 보여주는 영역이다. 특히, 브레이크 포인트와 함께 사용할 경우 지정된 브레이크 포인트에서 실행을 일시적으로 멈추고 다음 명령을 기다리는 형태로 표시된다.&lt;/p&gt;
+
+&lt;p&gt;디버그 내비게이터는 내비게이터 영역의 탭 아이콘 중 일곱 번째 아이콘을 선택하거나 키보드 단축키 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;⌘ + 7&lt;/code&gt; 을 눌러서 선택할 수 있지만, 앱이 실행되는 동안에만 정보가 표시된다는 점을 꼭 기억하기 바란다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/18.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/18.png&quot; alt=&quot;디버그 내비게이터&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;디버그 내비게이터에 표시된 브레이크 포인트에서 실행이 멈춰 있을 때 다음 브레이크 포인트로 넘어가거나 실행을 재개하고 싶을 경우 디버그 영역의 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;continue&lt;/code&gt; 버튼을 클릭하거나 키보드에서 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;⌃ + ⌘ + Y&lt;/code&gt; 를 함께 누르면 된다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/19.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2020-11-05-2-5/19.png&quot; alt=&quot;디버그 내비게이터와 continue 버튼&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Swift-Grammar" /><category term="Swift" /><category term="Swift-Grammar" /><category term="꼼곰한 재은 씨의 스위프트:문법편" /><category term="이재은" /><category term="루비페이퍼" /><category term="ISBN:979-11-86710-23-4" /><summary type="html">스위프트 문법 스터디</summary></entry><entry><title type="html">CHAPTER02: Xcode - 4. Xcode 실행하기</title><link href="http://localhost:4000/swift-grammar/2-4/" rel="alternate" type="text/html" title="CHAPTER02: Xcode - 4. Xcode 실행하기" /><published>2020-11-01T00:00:00+09:00</published><updated>2020-11-01T00:00:00+09:00</updated><id>http://localhost:4000/swift-grammar/2-4</id><content type="html" xml:base="http://localhost:4000/swift-grammar/2-4/">&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/swift.png&quot; alt=&quot;Swift&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;4-xcode-실행하기&quot;&gt;4. Xcode 실행하기&lt;/h1&gt;
 
