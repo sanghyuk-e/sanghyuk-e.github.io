@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-22T19:26:26+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sanghyuk’s Blog</title><subtitle>Sanghyuk's Blog</subtitle><author><name>SANGHYUK LEE</name></author><entry><title type="html">Firebase 시작하기</title><link href="http://localhost:4000/firebase/1/" rel="alternate" type="text/html" title="Firebase 시작하기" /><published>2020-12-08T00:00:00+09:00</published><updated>2020-12-08T00:00:00+09:00</updated><id>http://localhost:4000/firebase/1</id><content type="html" xml:base="http://localhost:4000/firebase/1/">&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Firebase/firebase.png&quot; alt=&quot;Firebase&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-28T13:52:28+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sanghyuk’s Blog</title><subtitle>Sanghyuk's Blog</subtitle><author><name>SANGHYUK LEE</name></author><entry><title type="html">Firebase 시작하기</title><link href="http://localhost:4000/firebase/1/" rel="alternate" type="text/html" title="Firebase 시작하기" /><published>2020-12-08T00:00:00+09:00</published><updated>2020-12-08T00:00:00+09:00</updated><id>http://localhost:4000/firebase/1</id><content type="html" xml:base="http://localhost:4000/firebase/1/">&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Firebase/firebase.png&quot; alt=&quot;Firebase&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;firbase란&quot;&gt;Firbase란?&lt;/h2&gt;
 
@@ -119,7 +119,7 @@ $ brew link --overwrite cocoapods
 
 &lt;p&gt;위와 같이 진행하면 &lt;strong&gt;‘xcode-select’ 명령어는 명령어 라인 개발자 도구가 필요합니다. 도구를 지금 설치하겠습니까?&lt;/strong&gt; 라는 메시지와 함께 팝업창이 등장한다. 설치 버튼을 누르면 설치가 시작되고 설치에는 2분 정도 소요된 것 같다. 설치가 완료되면 git이 정상적으로 돌아온 것을 확인할 수 있다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Git/2020-12-03-2/3.png&quot; alt=&quot;정상으로 돌아온 git&quot; /&gt;&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="git" /><category term="Swift" /><category term="git" /><category term="terminal" /><category term="error" /></entry><entry><title type="html">[codeit - 컴퓨터 개론] 프로그래밍 시작하기 in Python</title><link href="http://localhost:4000/codeit/1/" rel="alternate" type="text/html" title="[codeit - 컴퓨터 개론] 프로그래밍 시작하기 in Python" /><published>2020-11-22T00:00:00+09:00</published><updated>2020-11-22T00:00:00+09:00</updated><id>http://localhost:4000/codeit/1</id><content type="html" xml:base="http://localhost:4000/codeit/1/">&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Codeit/Codeit.png&quot; alt=&quot;codeit&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Git/2020-12-03-2/3.png&quot; alt=&quot;정상으로 돌아온 git&quot; /&gt;&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="git" /><category term="Swift" /><category term="git" /><category term="terminal" /><category term="error" /></entry><entry><title type="html">[codeit - 컴퓨터 개론] 프로그래밍 시작하기 in Python</title><link href="http://localhost:4000/codeit/1/" rel="alternate" type="text/html" title="[codeit - 컴퓨터 개론] 프로그래밍 시작하기 in Python" /><published>2020-11-22T00:00:00+09:00</published><updated>2020-11-22T00:00:00+09:00</updated><id>http://localhost:4000/codeit/1</id><content type="html" xml:base="http://localhost:4000/codeit/1/">&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Codeit/codeit.png&quot; alt=&quot;codeit&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;프로그래밍-시작하기-in-python&quot;&gt;프로그래밍 시작하기 in Python”&lt;/h1&gt;
 
@@ -127,17 +127,21 @@ $ brew link --overwrite cocoapods
 
 &lt;p&gt;컴퓨터의 세계를 이해하려면 프로그래밍을 느껴봐야 하지 않겠는가? 파이썬을 사용하면 프로그래밍을 가장 심플하게 배워볼 수 있다.&lt;/p&gt;
 
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;예상 수강일 : 12 일 (하루 1시간 학습 기준)&lt;/strong&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;파이썬-첫-걸음&quot;&gt;파이썬 첫 걸음&lt;/h2&gt;
 
 &lt;h3 id=&quot;우리가-사용할-도구들&quot;&gt;우리가 사용할 도구들&lt;/h3&gt;
 
 &lt;p&gt;파이썬으로 코딩을 하기 위해 우리가 설치해야 하는 프로그램이 두 개 있다. &lt;strong&gt;Python interpreter&lt;/strong&gt; 와 &lt;strong&gt;PyCharm&lt;/strong&gt; 이 그것이다. 각각 어떤 역할을 하는지 설명하겠다.&lt;/p&gt;
 
-&lt;p&gt;우리가 쓴 파이썬 코드를 컴퓨터가 그대로 이해할 수 없다. 컴퓨터가 이해할 수 있는 언어는 Machine Code 이다. 그래서 우리가 쓴 파이썬 코드를 Machine Code 로 번역해야 할 필요가 있는데, 여기서 필요한 것이 Python interpreter 이다. 파이썬 코드를 번역해주는 프로그램이라고 생각하면 편하다.&lt;/p&gt;
+&lt;p&gt;우리가 쓴 파이썬 코드를 컴퓨터가 그대로 이해할 수 없다. 컴퓨터가 이해할 수 있는 언어는 Machine Code 이다. 그래서 우리가 쓴 파이썬 코드를 Machine Code 로 번역해야 할 필요가 있는데, 여기서 필요한 것이 &lt;strong&gt;Python interpreter&lt;/strong&gt; 이다. 파이썬 코드를 번역해주는 프로그램이라고 생각하면 편하다.&lt;/p&gt;
 
-&lt;p&gt;PyCharm 은 우리가 코딩을 더 편하게 할 수 있도록 도와주는 프로그램이라고 생각하면 된다. 코딩을 하는데 필요한 프로그램들이 있는데 PyCharm은 이 프로그램들을 하나로 모은 All in One 솔루션이다. 이와 같은 프로그램을 통합개발환경(Integrated Development Environment, IDE)라고 한다.&lt;/p&gt;
+&lt;p&gt;PyCharm 은 우리가 코딩을 더 편하게 할 수 있도록 도와주는 프로그램이라고 생각하면 된다. 코딩을 하는데 필요한 프로그램들이 있는데 PyCharm은 이 프로그램들을 하나로 모은 &lt;strong&gt;All in One&lt;/strong&gt; 솔루션이다. 이와 같은 프로그램을 &lt;strong&gt;통합개발환경(Integrated Development Environment, IDE)&lt;/strong&gt;라고 한다.&lt;/p&gt;
 
 &lt;p&gt;이제부터 Python interpreter 와 PyCharm 을 함께 설치해보자.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;h3 id=&quot;파이썬-설치-for-mac&quot;&gt;파이썬 설치 (for Mac)&lt;/h3&gt;
 
@@ -173,39 +177,159 @@ $ brew link --overwrite cocoapods
 
 &lt;p&gt;&lt;a href=&quot;/assets/images/posts/Codeit/2020-11-22-1/7.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Codeit/2020-11-22-1/7.png&quot; alt=&quot;파일 생성&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;파일의 이름을 입력하는 창이 등장한다. 원하는 이름을 입력하고 Python File 을 선택해준 뒤 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Enter&lt;/code&gt; 를 눌러 파일을 생성한다.&lt;/p&gt;
+&lt;p&gt;파일의 이름을 입력하는 창이 등장한다. 원하는 이름을 입력하고 아래쪽에서 Python File 을 선택해준 뒤 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Enter&lt;/code&gt; 를 눌러 파일을 생성한다.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/assets/images/posts/Codeit/2020-11-22-1/8.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Codeit/2020-11-22-1/8.png&quot; alt=&quot;파일 이름 지정&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
+&lt;p&gt;생성한 파일이 우리가 만든 파이썬 프로젝트 폴더 안에 들어있는 것을 확인할 수 있다. 파이썬 파일은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.py&lt;/code&gt; 확장자를 가지고 있다.&lt;/p&gt;
+
+&lt;p&gt;이제 파이썬 코드를 작성해보자. hello.py 파일에 다음과 같은 코드를 작성한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;코드를 작성했으면 좌측에서 생성한 파이썬 파일을 우클릭 한 뒤, &lt;strong&gt;Run ‘파일명’&lt;/strong&gt; 을 클릭한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Codeit/2020-11-22-1/9.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Codeit/2020-11-22-1/9.png&quot; alt=&quot;파이썬 코드 실행&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;올바르게 작성했다면 화면 아래 어떤 영역이 나타나고 ‘Hello world!’ 가 표시되는 것을 볼 수 있을 것이다. 여기까지 잘 따라왔다면 Python interpreter 와 PyCharm 이 정상적으로 잘 설치되었다고 볼 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Codeit/2020-11-22-1/10.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Codeit/2020-11-22-1/10.png&quot; alt=&quot;파이썬 코드 실행 결과&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
 &lt;h3 id=&quot;pycharm-둘러보기&quot;&gt;PyCharm 둘러보기&lt;/h3&gt;
 
+&lt;p&gt;Python interpreter 와 PyCharm 을 설치했으니 PyCharm을 조금 둘러보면서 코드도 작성해보도록 하자. 비어있는 파이썬 프로젝트를 생성하여 시작한다. 우측의 프로젝트 폴더를 우클릭하여 New → File 순으로 클릭하여 파일을 만들자.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Codeit/2020-11-22-1/11.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Codeit/2020-11-22-1/11.png&quot; alt=&quot;파일 생성&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;생성할 파일 이름을 입력하는 창이 등장하면 원하는 파일 이름과 확장자를 입력하고 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Enter&lt;/code&gt; 를 눌러 파일을 생성한다. 여기서는 hello.py 로 생성하겠다. 이름 뒤에 .py를 붙여 생성하면 파이썬 파일로 생성할 수 있다. 즉, hello 라는 이름의 파이썬 파일을 생성하는 것이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Codeit/2020-11-22-1/12.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Codeit/2020-11-22-1/12.png&quot; alt=&quot;파일 이름 지정&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;파일을 생성하는 방법은 이전에 설명한 방법까지 두 가지가 있다. 우측에 프로젝트 폴더를 우클릭하여 New → Python File 을 클릭한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Codeit/2020-11-22-1/13.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Codeit/2020-11-22-1/13.png&quot; alt=&quot;파일 생성 방법2&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;마찬가지로 이름을 입력하는 창이 등장하면 원하는 파일 이름’만’ 입력하고 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Enter&lt;/code&gt; 를 눌러 생성할 수 있다. 확장자를 입력하지 않아도 되기 때문에 이 방법이 조금 더 간단하다고 할 수 있다. 이번에는 goodbye 라는 이름으로 파일을 생성해보겠다. 그러면 총 두개의 파일을 생성한 것이 된다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Codeit/2020-11-22-1/14.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Codeit/2020-11-22-1/14.png&quot; alt=&quot;파일 생성 방법2&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;이제 코드를 작성해보자. 먼저 생성한 hello.py 파일을 더블클릭하여 연다. 다음의 코드를 작성해보자.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello world!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;이제 작성된 프로그램을 실행하기 위해서 좌측에서 hello.py 파일을 우클릭 한 뒤, &lt;strong&gt;Run ‘hello’&lt;/strong&gt; 를 클릭한다. 아래쪽에 어떤 창이 등장하는데 이 창을 &lt;strong&gt;콘솔&lt;/strong&gt; 이라고 부른다. 우리가 작성한 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;print&lt;/code&gt; 는 콘솔에 무언가를 출력하도록 하는 문법이다. 괄호 안에 작성된 것이 콘솔에 출력된다. print 문법에 Hello world! 로 작성했던 내용을 Hello Codeit! 으로 변경한 뒤 콘솔창 좌측의 초록색 ► 모양의 실행 아이콘을 클릭해보자. 실행 버튼은 가장 최근에 실행된 파일을 다시 실행한다. 콘솔에 출력되어있던 Hello world! 가 Hello Codeit! 으로 변경된 것을 확인할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Codeit/2020-11-22-1/15.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Codeit/2020-11-22-1/15.png&quot; alt=&quot;run 버튼으로 실행&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;print 문법을 이용해서 글자만이 아니라 숫자의 연산같은 것들도 출력할 수 있다. Hello Codeit! 으로 작성된 print문의 내용을 2 + 5 로 수정한 후 실행 버튼을 다시 클릭해보자. 2 + 5 의 값인 7이 출력되는 것을 확인할 수 있다. 2 * 5 등의 연산으로도 바꿔서 실행해보자. 역시 게산된 값이 출력되는 것을 확인할 수 있다. 참고사항으로 print 문을 사용할 때 Hello Codeit! 같은 글자를 출력할 때는 따옴표로 문장을 감싸주었는데, 숫자 연산을 표현할 때는 따옴표로 감싸주지 않았다. 이 부분을 잘 기억하도록 하자.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Codeit/2020-11-22-1/16.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Codeit/2020-11-22-1/16.png&quot; alt=&quot;숫자 연산 출력&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;등장한 콘솔은 필요가 없을 때 닫아놓을 수 있다. 콘솔영역의 오른쪽 상단에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-&lt;/code&gt; 버튼을 클릭하여 닫을 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Codeit/2020-11-22-1/17.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Codeit/2020-11-22-1/17.png&quot; alt=&quot;콘솔 닫기&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;이번에는 goodbye.py 파일을 더블클릭하여 연다. Goodbye world! 를 출력하는 코드를 작성하고 우측 상단의 실행 버튼을 클릭해보자.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Codeit/2020-11-22-1/18.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Codeit/2020-11-22-1/18.png&quot; alt=&quot;다른 파일 실행&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;콘솔에 Goodbye world! 대신 이전에 실행한 연산의 값인 7이 출력된 것을 확인할 수 있다. 왜 그럴까? 이전에 설명 했듯 실행 버튼은 가장 최근에 실행된 파일을 다시 실행하는 기능이다. 콘솔의 내용을 잘 보면 실행된 파일이 가장 최근에 실행했던 hello.py 파일인 것을 확인할 수 있다. goodbye.py 파일을 실행하기 위해서는 화면 좌측에 goodbye.py 파일을 우클릭 한 뒤 &lt;strong&gt;Run ‘goodbye’&lt;/strong&gt; 버튼을 클릭하면 된다. 콘솔에 정상적으로 Goodbye world! 가 출력되는것을 볼 수 있을 것이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Codeit/2020-11-22-1/19.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Codeit/2020-11-22-1/19.png&quot; alt=&quot;다른 파일 실행2&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Codeit/2020-11-22-1/20.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Codeit/2020-11-22-1/20.png&quot; alt=&quot;run 버튼 클릭&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Codeit/2020-11-22-1/21.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Codeit/2020-11-22-1/21.png&quot; alt=&quot;정상 출력 확인&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;매번 실행 버튼을 누르는 것이 불편하다면 실행을 더 편하게 하는 방법이 있다. 키보드 단축키를 활용하는 방법인데, Mac 기준으로 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;⌃ + R&lt;/code&gt; 을 눌러 실행할 수 있다. PyCharm의 설정이나 Windows 와 Mac 운영체제의 차이에 따라서 단축키는 다를 수 있다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
 &lt;h3 id=&quot;print-사용해보기&quot;&gt;print 사용해보기&lt;/h3&gt;
+
+&lt;p&gt;파이썬에서 print 를 사용하여 원하는 내용을 콘솔에 출력할 수 있다. 실습을 위해서 &lt;strong&gt;12&lt;/strong&gt; 라는 숫자를 출력하는 print 문을 여러가지 작성해보자. 아래 코드는 예시 코드이다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;15&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;모든 print 문의 결과가 12로 출력되었다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Codeit/2020-11-22-1/22.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Codeit/2020-11-22-1/22.png&quot; alt=&quot;12 출력하기 예시&quot; class=&quot;align-center&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;조금 변형해서 아래와 같은 코드를 작성하고 실행시켜 보자.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;15&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;print문 내부에 +, * 등의 연산자와 숫자 사이의 띄어쓰기를 모두 제거했음에도 불구하고 모두 동일하게 12를 출력하고 있는 것을 볼 수 있다. 연산을 할 때 숫자와 연산자 사이에 띄어쓰기를 하지 않아도 동작에는 문제가 없다. 하지만 파이썬에서는 코드를 적는 방법에 대한 스타일 가이드가 있다. 붙여서 작성해도 문법적으로 문제가 없지만 모두가 같은 방식으로 작성해야 다른 사람의 코드를 읽거나 수정하기에 수월하기 때문에 정해진 스타일 가이드를 따르는 것이 좋다. 여기서는 연산자와 숫자는 띄어쓰는 것이 가이드 내용이라고 할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;파이썬 개발자들은 &lt;strong&gt;PEP8&lt;/strong&gt; 이라는 규칙을 지키는 것을 권장한다. 다음의 링크에서 확인할 수 있다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot;&gt;https://www.python.org/dev/peps/pep-0008/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
 
 &lt;h2 id=&quot;프로그래밍-기본-개념&quot;&gt;프로그래밍 기본 개념&lt;/h2&gt;
 
 &lt;h3 id=&quot;코멘트&quot;&gt;코멘트&lt;/h3&gt;
 
+&lt;hr /&gt;
+
 &lt;h3 id=&quot;자료형-개요&quot;&gt;자료형 개요&lt;/h3&gt;
+
+&lt;hr /&gt;
 
 &lt;h3 id=&quot;추상화-개요&quot;&gt;추상화 개요&lt;/h3&gt;
 
+&lt;hr /&gt;
+
 &lt;h3 id=&quot;변수&quot;&gt;변수&lt;/h3&gt;
+
+&lt;hr /&gt;
 
 &lt;h3 id=&quot;칼로리-계산기&quot;&gt;칼로리 계산기&lt;/h3&gt;
 
+&lt;hr /&gt;
+
 &lt;h3 id=&quot;함수&quot;&gt;함수&lt;/h3&gt;
+
+&lt;hr /&gt;
 
 &lt;h3 id=&quot;카페-모카-레시피&quot;&gt;카페 모카 레시피&lt;/h3&gt;
 
+&lt;hr /&gt;
+
 &lt;h3 id=&quot;파라미터&quot;&gt;파라미터&lt;/h3&gt;
+
+&lt;hr /&gt;
 
 &lt;h3 id=&quot;여러-개의-파라미터&quot;&gt;여러 개의 파라미터&lt;/h3&gt;
 
+&lt;hr /&gt;
+
 &lt;h3 id=&quot;세-수의-곱&quot;&gt;세 수의 곱&lt;/h3&gt;
+
+&lt;hr /&gt;
 
 &lt;h3 id=&quot;return문&quot;&gt;return문&lt;/h3&gt;
 
-&lt;h3 id=&quot;프로그래밍-기초-퀴즈&quot;&gt;프로그래밍 기초 퀴즈&lt;/h3&gt;</content><author><name>SANGHYUK LEE</name></author><category term="codeit" /><category term="Python" /><category term="codeit" /><category term="programming" /></entry><entry><title type="html">Swift 개발자 면접 질문 List</title><link href="http://localhost:4000/interview/1/" rel="alternate" type="text/html" title="Swift 개발자 면접 질문 List" /><published>2020-11-12T00:00:00+09:00</published><updated>2020-11-12T00:00:00+09:00</updated><id>http://localhost:4000/interview/1</id><content type="html" xml:base="http://localhost:4000/interview/1/">&lt;h1 id=&quot;swift-개발자-면접-질문-list&quot;&gt;Swift 개발자 면접 질문 List&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;프로그래밍-기초-퀴즈&quot;&gt;프로그래밍 기초 퀴즈&lt;/h3&gt;
+
+&lt;hr /&gt;</content><author><name>SANGHYUK LEE</name></author><category term="codeit" /><category term="Python" /><category term="codeit" /><category term="programming" /></entry><entry><title type="html">Swift 개발자 면접 질문 List</title><link href="http://localhost:4000/interview/1/" rel="alternate" type="text/html" title="Swift 개발자 면접 질문 List" /><published>2020-11-12T00:00:00+09:00</published><updated>2020-11-12T00:00:00+09:00</updated><id>http://localhost:4000/interview/1</id><content type="html" xml:base="http://localhost:4000/interview/1/">&lt;h1 id=&quot;swift-개발자-면접-질문-list&quot;&gt;Swift 개발자 면접 질문 List&lt;/h1&gt;
 
 &lt;p&gt;개발자를 채용하는 면접에는 기술 면접이 있다. 여러번 면접을 경험하다 보니 특정 질문들을 자주 받는 느낌이 들었다. 업무를 진행하는데 있어서 중요한 부분들을 주로 질문한다고 생각이 들었고, 그 말은 반대로 꼭 공부해야 알아야 할 부분이라는 생각이 들었다. 그래서 실제 면접을 통해서 받는 질문들을 정리하려고 한다.&lt;/p&gt;
 

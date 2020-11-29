@@ -81,7 +81,7 @@ var store = [{
         "excerpt":"프로그래밍 시작하기 in Python” 프로그래밍 시장은 계속 커지고 있다. 하지만 사실 현업에서는 뛰어난 개발자를 없어서 못 구한다는 것. 프로그래밍의 세계는 광범위하기 때문에, 올바른 방향을 갖고 효과적으로 공부하는 것이 매우 중요하다. 코드잇의 컴퓨터 개론을 통해 프로그래밍 언어, 프로그래머, 프로그램에 대해 올바른 이해를 갖고, 나만의 커리어 로드맵을 만들어 보자. 컴퓨터의 세계를 이해하려면...","categories": ["codeit"],
         "tags": ["Python","codeit","programming"],
         "url": "http://localhost:4000/codeit/1/",
-        "teaser": "http://localhost:4000/assets/images/posts/Codeit/Codeit.png"
+        "teaser": "http://localhost:4000/assets/images/posts/Codeit/codeit.png"
       },{
         "title": "Mac 업데이트 후 xcrun error 해결방법",
         "excerpt":"MacOS를 업데이트를 할 때마다 여러 문제가 발생하는데, 이번에도 개발 관련 이슈가 터졌다. 매번 구글에 검색하여 해결했는데 이번에는 블로그에 간단하게 정리하려고 한다. 깃에 커밋을 하려고 디렉토리로 이동을 했는데 왠지 모르게 어색한 느낌이 들었다. 자세히 보니 터미널에 브랜치 표시도 나오지 않았고 해당 디렉토리의 현재 상태도 보이지 않았다. 아니나 다를까 깃에 문제가 생겨있었다....","categories": ["git"],
