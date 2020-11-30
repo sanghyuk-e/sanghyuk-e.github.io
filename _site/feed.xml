@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-28T14:20:50+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sanghyuk’s Blog</title><subtitle>Sanghyuk's Blog</subtitle><author><name>SANGHYUK LEE</name></author><entry><title type="html">Firebase 시작하기</title><link href="http://localhost:4000/firebase/1/" rel="alternate" type="text/html" title="Firebase 시작하기" /><published>2020-12-08T00:00:00+09:00</published><updated>2020-12-08T00:00:00+09:00</updated><id>http://localhost:4000/firebase/1</id><content type="html" xml:base="http://localhost:4000/firebase/1/">&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Firebase/firebase.png&quot; alt=&quot;Firebase&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-28T14:36:29+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sanghyuk’s Blog</title><subtitle>Sanghyuk's Blog</subtitle><author><name>SANGHYUK LEE</name></author><entry><title type="html">Firebase 시작하기</title><link href="http://localhost:4000/firebase/1/" rel="alternate" type="text/html" title="Firebase 시작하기" /><published>2020-12-08T00:00:00+09:00</published><updated>2020-12-08T00:00:00+09:00</updated><id>http://localhost:4000/firebase/1</id><content type="html" xml:base="http://localhost:4000/firebase/1/">&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Firebase/firebase.png&quot; alt=&quot;Firebase&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;firbase란&quot;&gt;Firbase란?&lt;/h2&gt;
 
@@ -119,7 +119,66 @@ $ brew link --overwrite cocoapods
 
 &lt;p&gt;위와 같이 진행하면 &lt;strong&gt;‘xcode-select’ 명령어는 명령어 라인 개발자 도구가 필요합니다. 도구를 지금 설치하겠습니까?&lt;/strong&gt; 라는 메시지와 함께 팝업창이 등장한다. 설치 버튼을 누르면 설치가 시작되고 설치에는 2분 정도 소요된 것 같다. 설치가 완료되면 git이 정상적으로 돌아온 것을 확인할 수 있다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Git/2020-12-03-2/3.png&quot; alt=&quot;정상으로 돌아온 git&quot; /&gt;&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="git" /><category term="Swift" /><category term="git" /><category term="terminal" /><category term="error" /></entry><entry><title type="html">[codeit - 컴퓨터 개론] 프로그래밍 시작하기 in Python</title><link href="http://localhost:4000/codeit/1/" rel="alternate" type="text/html" title="[codeit - 컴퓨터 개론] 프로그래밍 시작하기 in Python" /><published>2020-11-22T00:00:00+09:00</published><updated>2020-11-22T00:00:00+09:00</updated><id>http://localhost:4000/codeit/1</id><content type="html" xml:base="http://localhost:4000/codeit/1/">&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Codeit/codeit.png&quot; alt=&quot;codeit&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Git/2020-12-03-2/3.png&quot; alt=&quot;정상으로 돌아온 git&quot; /&gt;&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="git" /><category term="Swift" /><category term="git" /><category term="terminal" /><category term="error" /></entry><entry><title type="html">[codeit - 컴퓨터 개론] 프로그래밍 시작하기 in Python (Part. 2)</title><link href="http://localhost:4000/codeit/2/" rel="alternate" type="text/html" title="[codeit - 컴퓨터 개론] 프로그래밍 시작하기 in Python (Part. 2)" /><published>2020-11-30T00:00:00+09:00</published><updated>2020-11-30T00:00:00+09:00</updated><id>http://localhost:4000/codeit/2</id><content type="html" xml:base="http://localhost:4000/codeit/2/">&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Codeit/codeit.png&quot; alt=&quot;codeit&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;프로그래밍-시작하기-in-python&quot;&gt;프로그래밍 시작하기 in Python”&lt;/h1&gt;
+
+&lt;p&gt;프로그래밍 시장은 계속 커지고 있다. 하지만 사실 현업에서는 뛰어난 개발자를 없어서 못 구한다는 것. 프로그래밍의 세계는 광범위하기 때문에, 올바른 방향을 갖고 효과적으로 공부하는 것이 매우 중요하다. 코드잇의 컴퓨터 개론을 통해 프로그래밍 언어, 프로그래머, 프로그램에 대해 올바른 이해를 갖고, 나만의 커리어 로드맵을 만들어 보자.&lt;/p&gt;
+
+&lt;p&gt;컴퓨터의 세계를 이해하려면 프로그래밍을 느껴봐야 하지 않겠는가? 파이썬을 사용하면 프로그래밍을 가장 심플하게 배워볼 수 있다.&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;💡Infomation:&lt;/strong&gt;
+이 학습은 하루 1시간 학습을 기준으로 약 12일이 소요됩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;프로그래밍-기본-개념&quot;&gt;프로그래밍 기본 개념&lt;/h2&gt;
+
+&lt;h3 id=&quot;코멘트&quot;&gt;코멘트&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;자료형-개요&quot;&gt;자료형 개요&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;추상화-개요&quot;&gt;추상화 개요&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;변수&quot;&gt;변수&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;칼로리-계산기&quot;&gt;칼로리 계산기&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;함수&quot;&gt;함수&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;카페-모카-레시피&quot;&gt;카페 모카 레시피&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;파라미터&quot;&gt;파라미터&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;여러-개의-파라미터&quot;&gt;여러 개의 파라미터&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;세-수의-곱&quot;&gt;세 수의 곱&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;return문&quot;&gt;return문&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;프로그래밍-기초-퀴즈&quot;&gt;프로그래밍 기초 퀴즈&lt;/h3&gt;
+
+&lt;hr /&gt;</content><author><name>SANGHYUK LEE</name></author><category term="codeit" /><category term="Python" /><category term="codeit" /><category term="programming" /><summary type="html">프로그래밍 기본 개념</summary></entry><entry><title type="html">[codeit - 컴퓨터 개론] 프로그래밍 시작하기 in Python (Part. 1)</title><link href="http://localhost:4000/codeit/1/" rel="alternate" type="text/html" title="[codeit - 컴퓨터 개론] 프로그래밍 시작하기 in Python (Part. 1)" /><published>2020-11-22T00:00:00+09:00</published><updated>2020-11-22T00:00:00+09:00</updated><id>http://localhost:4000/codeit/1</id><content type="html" xml:base="http://localhost:4000/codeit/1/">&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Codeit/codeit.png&quot; alt=&quot;codeit&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;프로그래밍-시작하기-in-python&quot;&gt;프로그래밍 시작하기 in Python”&lt;/h1&gt;
 
@@ -280,57 +339,7 @@ $ brew link --overwrite cocoapods
   &lt;p&gt;&lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot;&gt;https://www.python.org/dev/peps/pep-0008/&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;프로그래밍-기본-개념&quot;&gt;프로그래밍 기본 개념&lt;/h2&gt;
-
-&lt;h3 id=&quot;코멘트&quot;&gt;코멘트&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;자료형-개요&quot;&gt;자료형 개요&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;추상화-개요&quot;&gt;추상화 개요&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;변수&quot;&gt;변수&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;칼로리-계산기&quot;&gt;칼로리 계산기&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;함수&quot;&gt;함수&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;카페-모카-레시피&quot;&gt;카페 모카 레시피&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;파라미터&quot;&gt;파라미터&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;여러-개의-파라미터&quot;&gt;여러 개의 파라미터&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;세-수의-곱&quot;&gt;세 수의 곱&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;return문&quot;&gt;return문&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;프로그래밍-기초-퀴즈&quot;&gt;프로그래밍 기초 퀴즈&lt;/h3&gt;
-
-&lt;hr /&gt;</content><author><name>SANGHYUK LEE</name></author><category term="codeit" /><category term="Python" /><category term="codeit" /><category term="programming" /></entry><entry><title type="html">Swift 개발자 면접 질문 List</title><link href="http://localhost:4000/interview/1/" rel="alternate" type="text/html" title="Swift 개발자 면접 질문 List" /><published>2020-11-12T00:00:00+09:00</published><updated>2020-11-12T00:00:00+09:00</updated><id>http://localhost:4000/interview/1</id><content type="html" xml:base="http://localhost:4000/interview/1/">&lt;h1 id=&quot;swift-개발자-면접-질문-list&quot;&gt;Swift 개발자 면접 질문 List&lt;/h1&gt;
+&lt;hr /&gt;</content><author><name>SANGHYUK LEE</name></author><category term="codeit" /><category term="Python" /><category term="codeit" /><category term="programming" /><summary type="html">파이썬 첫 걸음</summary></entry><entry><title type="html">Swift 개발자 면접 질문 List</title><link href="http://localhost:4000/interview/1/" rel="alternate" type="text/html" title="Swift 개발자 면접 질문 List" /><published>2020-11-12T00:00:00+09:00</published><updated>2020-11-12T00:00:00+09:00</updated><id>http://localhost:4000/interview/1</id><content type="html" xml:base="http://localhost:4000/interview/1/">&lt;h1 id=&quot;swift-개발자-면접-질문-list&quot;&gt;Swift 개발자 면접 질문 List&lt;/h1&gt;
 
 &lt;p&gt;개발자를 채용하는 면접에는 기술 면접이 있다. 여러번 면접을 경험하다 보니 특정 질문들을 자주 받는 느낌이 들었다. 업무를 진행하는데 있어서 중요한 부분들을 주로 질문한다고 생각이 들었고, 그 말은 반대로 꼭 공부해야 알아야 할 부분이라는 생각이 들었다. 그래서 실제 면접을 통해서 받는 질문들을 정리하려고 한다.&lt;/p&gt;
 
@@ -728,48 +737,4 @@ $ brew link --overwrite cocoapods
 
 &lt;p&gt;이처럼 해마다 버전이 업그레이드되면서 Xcode는 그 형태를 다양하게 바꾸어나가고 있다. 주의할 것은, 최신 iOS 버전을 기준으로 개발 작업을 진행하기 위해서는 항상 최신 벚번의 Xcode를 사용해야 한다는 점이다. 일부 IDE의 경우 최신 버전의 언어 문법을 사용하기 위해서는 플러그인 정도만 추가해주기도 하지만, Xcode는 새 버저의 전체 업데이트를 통해서만 최신 iOS를 지원하는 앱을 제작할 수 있다. 따라서 앱을 개발할 때에는 Xcode의 버전 업데이트 여부를 항상 신경 써야 한다(사실 방법이 있지만 나중에 소개하도록 한다).&lt;/p&gt;
 
-&lt;p&gt;스위프트 언어를 지원하기 시작하는 Xcode 버전은 6부터지만 여기서 다루는 스위프트 4 문법은 Xcode 9 버전부터 지원한다. 앱스토어를 통해 Xcode 정식 버전을 설치하는 방법과 개발자 사이트를 통해 베타 버전을 설치하는 방법 모두를 알아보자.&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Swift-Grammar" /><category term="Swift" /><category term="Swift-Grammar" /><category term="꼼곰한 재은 씨의 스위프트:문법편" /><category term="이재은" /><category term="루비페이퍼" /><category term="ISBN:979-11-86710-23-4" /><summary type="html">스위프트 문법 스터디</summary></entry><entry><title type="html">Single Sign On (SSO)</title><link href="http://localhost:4000/development/1/" rel="alternate" type="text/html" title="Single Sign On (SSO)" /><published>2020-10-15T00:00:00+09:00</published><updated>2020-10-15T00:00:00+09:00</updated><id>http://localhost:4000/development/1</id><content type="html" xml:base="http://localhost:4000/development/1/">&lt;h1 id=&quot;single-sign-on-sso&quot;&gt;Single Sign On (SSO)&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;한 번의 로그인으로 여러 개의 서비스들을 이용할 수 있게 해주는 시스템&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;SSO(Single Sign On)는 가장 기본적인 &lt;strong&gt;인증 시스템&lt;/strong&gt;이다. ‘모든 인증을 하나의 시스템에서’라는 목적하에 개발된 것이다. 즉 시스템이 몇 대가 되어도 하나의 시스템에서 인증에 성공하면 다른 시스템에 대한 접근 권한도 모두 얻는 것이다.&lt;/p&gt;
-
-&lt;p&gt;SK텔레콤의 연계 사이트에서는 하나의 패스워드를 가지고 중복 가입 없이 이용할 수 있다. 이러한 웹 기반의 SSO는 가입자의 인터넷 사용에 대한 정보를 좀 더 효과적으로 얻어낼 수 있다는 이점 때문에 사용률이 매년 증가하고 있다. 하지만 개인정보 보호 측면에는 우려되는 점이 많아 기업과 개인간의 입장이 상반된다고 볼 수 있다.&lt;/p&gt;
-
-&lt;p&gt;SSO의 가장 큰 약점은 일단 최초 인증을 통과하고 나면 모든 서버나 사이트에 접속할 수 있다는 것이다. 이를 Single Point of Failure 라 한다. 이러한 치명적인 약점을 보완하기 위해 중요 정보에 대한 접근 및 동작 시 지속적인 인증(Continuos Authentication)을 하도록 되어 있다.&lt;/p&gt;
-
-&lt;h2 id=&quot;opensource&quot;&gt;Opensource&lt;/h2&gt;
-
-&lt;h3 id=&quot;keycloak&quot;&gt;&lt;a href=&quot;https://github.com/keycloak/keycloak&quot;&gt;Keycloak&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://tech.socarcorp.kr/security/2019/07/31/keycloak-sso.html&quot;&gt;사내 SSO(Single Sign-On) 구축하기&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://subji.github.io/posts/2020/07/08/keycloak1&quot;&gt;MSA 인증 서비스 Keycloak 소개&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://tech.osci.kr/2020/04/04/91699412/&quot;&gt;Kubernetes상에서 Keycloak과 Jenkins 그리고 Spinnaker 연동하기&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://medium.com/@auscunningham/create-a-custom-theme-for-keycloak-8781207be604&quot;&gt;Create a custom theme for Keycloak&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/Alfresco/alfresco-keycloak-theme&quot;&gt;Alfresco Keycloak Theme&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;authelia&quot;&gt;&lt;a href=&quot;https://github.com/authelia/authelia&quot;&gt;Authelia&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Several kind of second factor:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://docs.authelia.com/features/2fa/security-key&quot;&gt;Security Key (U2F)&lt;/a&gt; with &lt;a href=&quot;https://www.yubico.com/products/yubikey-hardware/yubikey4/&quot;&gt;Yubikey.&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://docs.authelia.com/features/2fa/one-time-password&quot;&gt;Time-based One-Time password&lt;/a&gt; with &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;amp;hl=en&quot;&gt;Google Authenticator&lt;/a&gt;.&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://docs.authelia.com/features/2fa/push-notifications&quot;&gt;Mobile Push Notifications&lt;/a&gt; with &lt;a href=&quot;https://duo.com/&quot;&gt;Duo&lt;/a&gt;.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Password reset with identity verification using email confirmation.&lt;/li&gt;
-  &lt;li&gt;Single-factor only authentication method available.&lt;/li&gt;
-  &lt;li&gt;Access restriction after too many authentication attempts.&lt;/li&gt;
-  &lt;li&gt;Fine-grained access control per subdomain, user, resource and network.&lt;/li&gt;
-  &lt;li&gt;Support of basic authentication for endpoints protected by single factor.&lt;/li&gt;
-  &lt;li&gt;Highly available using a remote database and Redis as a highly available KV store.&lt;/li&gt;
-  &lt;li&gt;Compatible with Kubernetes ingress-nginx controller out of the box.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;hydra&quot;&gt;&lt;a href=&quot;https://github.com/ory/hydra&quot;&gt;Hydra&lt;/a&gt;&lt;/h3&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Development" /><category term="Development" /></entry></feed>
+&lt;p&gt;스위프트 언어를 지원하기 시작하는 Xcode 버전은 6부터지만 여기서 다루는 스위프트 4 문법은 Xcode 9 버전부터 지원한다. 앱스토어를 통해 Xcode 정식 버전을 설치하는 방법과 개발자 사이트를 통해 베타 버전을 설치하는 방법 모두를 알아보자.&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Swift-Grammar" /><category term="Swift" /><category term="Swift-Grammar" /><category term="꼼곰한 재은 씨의 스위프트:문법편" /><category term="이재은" /><category term="루비페이퍼" /><category term="ISBN:979-11-86710-23-4" /><summary type="html">스위프트 문법 스터디</summary></entry></feed>
