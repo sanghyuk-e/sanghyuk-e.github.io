@@ -1,0 +1,32 @@
+I":<ul class="toc__menu">
+  <li><a href="#프로그래밍-시작하기-in-python">프로그래밍 시작하기 in Python”</a>
+          - {:.} <a href="#new-site-features">New Site Features</a>
+    <ul>
+      <li><a href="#파이썬-첫-걸음">파이썬 첫 걸음</a>
+        <ul>
+          <li><a href="#우리가-사용할-도구들">우리가 사용할 도구들</a></li>
+          <li><a href="#파이썬-설치-for-mac">파이썬 설치 (for Mac)</a></li>
+          <li><a href="#pycharm-둘러보기">PyCharm 둘러보기</a></li>
+          <li><a href="#print-사용해보기">print 사용해보기</a></li>
+        </ul>
+      </li>
+      <li><a href="#프로그래밍-기본-개념">프로그래밍 기본 개념</a>
+        <ul>
+          <li><a href="#코멘트">코멘트</a></li>
+          <li><a href="#자료형-개요">자료형 개요</a></li>
+          <li><a href="#추상화-개요">추상화 개요</a></li>
+          <li><a href="#변수">변수</a></li>
+          <li><a href="#칼로리-계산기">칼로리 계산기</a></li>
+          <li><a href="#함수">함수</a></li>
+          <li><a href="#카페-모카-레시피">카페 모카 레시피</a></li>
+          <li><a href="#파라미터">파라미터</a></li>
+          <li><a href="#여러-개의-파라미터">여러 개의 파라미터</a></li>
+          <li><a href="#세-수의-곱">세 수의 곱</a></li>
+          <li><a href="#return문">return문</a></li>
+          <li><a href="#프로그래밍-기초-퀴즈">프로그래밍 기초 퀴즈</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+:ET
