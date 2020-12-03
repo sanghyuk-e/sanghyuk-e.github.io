@@ -1,0 +1,12 @@
+I"=<p>##</p>
+
+<p>MacOS를 업데이트를 할 때마다 여러 문제가 발생하는데, 이번에도 개발관련 이슈가 터졌다. 매번 구글에 검색하여 해결했는데 이번에는 블로그에 간단하게 정리하려고 한다.<sup id="fnref:myfootnote" role="doc-noteref"><a href="#fn:myfootnote" class="footnote">1</a></sup></p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:myfootnote" role="doc-endnote">
+      <p>dddd <a href="#fnref:myfootnote" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET
