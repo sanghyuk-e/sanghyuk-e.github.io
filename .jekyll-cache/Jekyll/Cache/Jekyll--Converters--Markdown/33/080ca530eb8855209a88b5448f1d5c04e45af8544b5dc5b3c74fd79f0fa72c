@@ -1,4 +1,4 @@
-I"�0<p><img src="/assets/images/posts/Swift-Grammar/swift.png" alt="Swift" /></p>
+I"�1<p><img src="/assets/images/posts/Swift-Grammar/swift.png" alt="Swift" /></p>
 
 <h1 id="3-오브젝티브-c-vs-스위프트">3. 오브젝티브-C vs 스위프트</h1>
 
@@ -116,4 +116,12 @@
 <p>일반적으로 객체 지향 언어에서 제공하는 오류 처리 기능은 오류 발생이 예상되는 지점에 미리 오류를 검출하는 코드를 작성해두고, 실제로 오류가 발생했을 때 정해진 코드 블록 바깥으로 오류 정보를 던져 처리할 수 있도록 지원하는 방식이다. 오브젝티브-C에서도 오류를 검출하기 위한 기능은 제공되었지만, 이는 읽고 쓸 수 있는 매개변수를 사용하여 오류를 검출해내는 방법이었을 뿐 오류 처리를 위한 구문이 별도로 제공된 것은 아니었다.</p>
 
 <p>스위프트는 2.0 버전부터 오류를 검출해내고 각 오류에 효과적으로 대응할 수 있도록 전용 구문을 제공하고 있다. 많은 프로그래밍 언어에서 널리 사용하는 Try ~ Catch 구문을 채택한 스위프트는 코드를 실행하는 과정에서 오류가 발생하더라도 프로그램이 중단되는 것을 막아주고, 미리 준비된 대응 구문을 실행하여 효율적으로 오류에 대응할 수 있게 한다.</p>
+
+<hr />
+
+<p><br /></p>
+<center>
+<a href="https://sanghyuk.dev/swift-grammar/1-2/" class="btn btn--info">이전 내용 보기</a> 
+<a href="https://sanghyuk.dev/swift-grammar/2-1/" class="btn btn--info">다음 내용 보기</a>
+</center>
 :ET

@@ -1,4 +1,4 @@
-I"�/<p><img src="/assets/images/posts/Swift-Grammar/swift.png" alt="Swift" /></p>
+I"�0<p><img src="/assets/images/posts/Swift-Grammar/swift.png" alt="Swift" /></p>
 
 <p>이번에 다룰 내용은 툴(Tool)이다. 프로그래밍 환경에서 툴이 차지하는 비중은 상당하다. 얼마나 빠르고 쉽게 개발할 수 있는지가 툴에 달려 있기 때문이다. 그래서 툴에 대해 자세히 알고, 마음대로 다룰 수 있도록 능력을 갖추는 것은 매우 중요하다. 현대 프로그래밍은 상당히 많은 부분을 툴에 의존하는 경향이 있지만, 이는 툴과 프로그래밍 개발이 이제 떼려야 뗄 수 없는 관계에 들어섰다는 증거이기도 하다.</p>
 
@@ -102,4 +102,12 @@
 </table>
 
 <p>위 표에 나열된 툴들이 개발 실무 현장에서 많이 사용되는 대표적인 IDE들이다. 그리고 이 중에서 iOS 개발자들이 사용하고, 우리가 실습 과정에서 사용할 툴은 바로 Xcode이다.</p>
+
+<hr />
+
+<p><br /></p>
+<center>
+<a href="https://sanghyuk.dev/swift-grammar/1-3/" class="btn btn--info">이전 내용 보기</a> 
+<a href="https://sanghyuk.dev/swift-grammar/2-2/" class="btn btn--info">다음 내용 보기</a>
+</center>
 :ET
