@@ -70,4 +70,16 @@ var store = [{
         "tags": ["Swift","git","terminal","error"],
         "url": "http://localhost:4000/git/2/",
         "teaser": null
+      },{
+        "title": "Mac 업데이트 후 CocoaPod 오류 해결방법",
+        "excerpt":"MacOS를 업데이트를 할 때마다 여러 문제가 발생하는데, xcrun error를 해결하고 나니 CocoaPods에서 다른 오류가 발생했다. CocoaPods로 새로운 라이브러리를 추가하려고 install 을 하려는데 다음과 같은 오류 메시지가 등장했다. 처음 보는 오류 메시지에 당연하게도 구글에 검색을 했고, 해결 방법을 찾을 수 있었다. Brew based CocoaPods CLI fails in MacOS 10.15 Catalina due...","categories": ["iOS"],
+        "tags": ["Swift","iOS","terminal","error"],
+        "url": "http://localhost:4000/ios/1/",
+        "teaser": null
+      },{
+        "title": "Firebase 시작하기",
+        "excerpt":"Firbase란? 구글에서 제공하는 Firebase라는 플랫폼은 여러가지 기능들을 제공하고 있어 많은 개발자가 사용하고 있다. 제공하는 기능은 인증, 데이터베이스, 푸시 알람, API 등이 있으며 복잡한 과정이 필요하지 않다는 것이 장점이다. Firebase 시작하기 기존 블로그들에 안드로이드를 기반으로 작성된 글이 매우 많다. iOS를 기반으로 작성된 글이 상대적으로 적은데, 연습하는 동시에 최신 과정을 한번 작성해보려고...","categories": ["Firebase"],
+        "tags": ["Firebase","Database","cloud"],
+        "url": "http://localhost:4000/firebase/1/",
+        "teaser": null
       }]

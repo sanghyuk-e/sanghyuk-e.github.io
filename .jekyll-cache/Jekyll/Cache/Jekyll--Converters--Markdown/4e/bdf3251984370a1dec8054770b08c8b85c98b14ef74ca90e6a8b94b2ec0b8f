@@ -1,0 +1,81 @@
+I"<p><img src="/assets/images/posts/Firebase/firebase.png" alt="Firebase" /></p>
+
+<h2 id="firbase란">Firbase란?</h2>
+
+<!-- asd
+{: .notice} -->
+
+<p>구글에서 제공하는 Firebase라는 플랫폼은 여러가지 기능들을 제공하고 있어 많은 개발자가 사용하고 있다. 제공하는 기능은 인증, 데이터베이스, 푸시 알람, API 등이 있으며 복잡한 과정이 필요하지 않다는 것이 장점이다.</p>
+
+<h2 id="firebase-시작하기">Firebase 시작하기</h2>
+
+<p>기존 블로그들에 안드로이드를 기반으로 작성된 글이 매우 많다. iOS를 기반으로 작성된 글이 상대적으로 적은데, 연습하는 동시에 최신 과정을 한번 작성해보려고 한다. 이 과정에서 Firebase Realtime Database 와 Firebase Cloud Messaging(FCM) 을 사용하려고 한다.</p>
+
+<hr />
+<h2 id="프로젝트-생성">프로젝트 생성</h2>
+
+<p>가장 먼저 <a href="https://google.com">Firebase 홈페이지</a> 에 접속 &amp; 로그인한다.</p>
+
+<p><img src="/assets/images/posts/Firebase/2020-12-08-1/1.png" alt="파이어베이스 홈페이지" /></p>
+
+<p>시작하기를 눌러 새 프로젝트를 생성한다.</p>
+
+<p><img src="/assets/images/posts/Firebase/2020-12-08-1/2.png" alt="프로젝트 이름 지정" /></p>
+
+<p>원하는 프로젝트의 이름을 설정하고 넘어간다.</p>
+
+<p><img src="/assets/images/posts/Firebase/2020-12-08-1/3.png" alt="애널리틱스 사용 설정" /></p>
+
+<p>애널리틱스는 어플리케이션 분석에 도움을 주기 때문에 동의하고 넘어간다.</p>
+
+<p><img src="/assets/images/posts/Firebase/2020-12-08-1/4.png" alt="애널리틱스 구성" /></p>
+
+<p>국가 정도만 원하는 곳으로 설정한 후 프로젝트 생성 버튼을 누르면 약간의 기다림과 함께 프로젝트 생성이 완료된다.</p>
+
+<p><img src="/assets/images/posts/Firebase/2020-12-08-1/5.png" alt="프로젝트 생성 중" /></p>
+
+<p><img src="/assets/images/posts/Firebase/2020-12-08-1/6.png" alt="프로젝트 생성 완료" /></p>
+
+<hr />
+
+<h2 id="ios-앱에-추가">iOS 앱에 추가</h2>
+
+<p>만들어진 프로젝트 안으로 들어가면 아무것도 설정되어있지 않아 초기 페이지가 나온다.</p>
+
+<p><img src="/assets/images/posts/Firebase/2020-12-08-1/7.png" alt="iOS 앱에 추가" /></p>
+
+<p>iOS 버튼을 클릭하여 iOS 앱에 추가하는 작업을 시작한다.</p>
+
+<p><img src="/assets/images/posts/Firebase/2020-12-08-1/8.png" alt="번들 추가" /></p>
+
+<p>정보를 입력하는 화면이 나온다. iOS 앱의 번들을 입력하고 넘어가자.</p>
+
+<p><img src="/assets/images/posts/Firebase/2020-12-08-1/9.png" alt="번들 위치" /></p>
+
+<p>번들은 Firebase를 사용하려고 하는 프로젝트의 번들을 입력하고 앱등록 버튼을 누른다.</p>
+
+<p><img src="/assets/images/posts/Firebase/2020-12-08-1/10.png" alt=".plist파일 다운로드" /></p>
+
+<p><strong>GoogleService-Info.plist</strong> 파일을 다운받아 프로젝트 위치에 넣는 방법을 설명한다. 그대로 따라서 진행한 뒤 다음 버튼을 누른다.</p>
+
+<p><img src="/assets/images/posts/Firebase/2020-12-08-1/11.png" alt="pod 파일 추가" /></p>
+
+<p><img src="/assets/images/posts/Firebase/2020-12-08-1/12.png" alt="pod 파일 추가" /></p>
+
+<p>코코아팟을 이용해서 팟 파일을 추가하는 방법을 안내하고 있다.</p>
+<ul>
+  <li>프로젝트가 있는 폴더로 이동하여 <code class="language-plaintext highlighter-rouge">pod init</code> 명령어를 이용해 팟 파일을 만들어 준다.</li>
+  <li>pod 파일을 열어 <code class="language-plaintext highlighter-rouge">pod 'Firebase/Analytics'</code> 를 추가한 뒤 저장한다.</li>
+  <li><code class="language-plaintext highlighter-rouge">pod install</code> 명령어를 입력해 설치한다.</li>
+</ul>
+
+<p>만약 cocoaPod 사용법을 모른다면 구글에 검색해보고 오면 된다.</p>
+
+<p><img src="/assets/images/posts/Firebase/2020-12-08-1/13.png" alt="초기화 코드 추가" /></p>
+
+<p>엑스코드에서 프로젝트를 열고 <code class="language-plaintext highlighter-rouge">Appdelegate.swift</code> 파일을 연다. <code class="language-plaintext highlighter-rouge">didFinishLaunchingWithOptions</code> 부분에 <code class="language-plaintext highlighter-rouge">FirebaseApp.configure()</code> 코드를 입력해주면 된다.</p>
+
+<p><img src="/assets/images/posts/Firebase/2020-12-08-1/14.png" alt="설정 마무리" /></p>
+
+<p>이 단계까지 무리없이 처리했다면 기본적인 프로젝트 세팅은 끝났다고 할 수 있다.</p>
+:ET

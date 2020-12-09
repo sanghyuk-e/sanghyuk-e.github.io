@@ -1,4 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-03T14:39:33+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sanghyuk’s Blog</title><subtitle>Sanghyuk's Blog</subtitle><author><name>SANGHYUK LEE</name></author><entry><title type="html">Mac 업데이트 후 xcrun error 해결방법</title><link href="http://localhost:4000/git/2/" rel="alternate" type="text/html" title="Mac 업데이트 후 xcrun error 해결방법" /><published>2020-12-03T00:00:00+09:00</published><updated>2020-12-03T00:00:00+09:00</updated><id>http://localhost:4000/git/2</id><content type="html" xml:base="http://localhost:4000/git/2/">&lt;p&gt;MacOS를 업데이트를 할 때마다 여러 문제가 발생하는데, 이번에도 개발 관련 이슈가 터졌다. 매번 구글에 검색하여 해결했는데 이번에는 블로그에 간단하게 정리하려고 한다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-08T17:22:26+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sanghyuk’s Blog</title><subtitle>Sanghyuk's Blog</subtitle><author><name>SANGHYUK LEE</name></author><entry><title type="html">Firebase 시작하기</title><link href="http://localhost:4000/firebase/1/" rel="alternate" type="text/html" title="Firebase 시작하기" /><published>2020-12-08T00:00:00+09:00</published><updated>2020-12-08T00:00:00+09:00</updated><id>http://localhost:4000/firebase/1</id><content type="html" xml:base="http://localhost:4000/firebase/1/">&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Firebase/firebase.png&quot; alt=&quot;Firebase&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;firbase란&quot;&gt;Firbase란?&lt;/h2&gt;
+
+&lt;!-- asd
+{: .notice} --&gt;
+
+&lt;p&gt;구글에서 제공하는 Firebase라는 플랫폼은 여러가지 기능들을 제공하고 있어 많은 개발자가 사용하고 있다. 제공하는 기능은 인증, 데이터베이스, 푸시 알람, API 등이 있으며 복잡한 과정이 필요하지 않다는 것이 장점이다.&lt;/p&gt;
+
+&lt;h2 id=&quot;firebase-시작하기&quot;&gt;Firebase 시작하기&lt;/h2&gt;
+
+&lt;p&gt;기존 블로그들에 안드로이드를 기반으로 작성된 글이 매우 많다. iOS를 기반으로 작성된 글이 상대적으로 적은데, 연습하는 동시에 최신 과정을 한번 작성해보려고 한다. 이 과정에서 Firebase Realtime Database 와 Firebase Cloud Messaging(FCM) 을 사용하려고 한다.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;프로젝트-생성&quot;&gt;프로젝트 생성&lt;/h2&gt;
+
+&lt;p&gt;가장 먼저 &lt;a href=&quot;https://google.com&quot;&gt;Firebase 홈페이지&lt;/a&gt; 에 접속 &amp;amp; 로그인한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/1.png&quot; alt=&quot;파이어베이스 홈페이지&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;시작하기를 눌러 새 프로젝트를 생성한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/2.png&quot; alt=&quot;프로젝트 이름 지정&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;원하는 프로젝트의 이름을 설정하고 넘어간다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/3.png&quot; alt=&quot;애널리틱스 사용 설정&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;애널리틱스는 어플리케이션 분석에 도움을 주기 때문에 동의하고 넘어간다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/4.png&quot; alt=&quot;애널리틱스 구성&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;국가 정도만 원하는 곳으로 설정한 후 프로젝트 생성 버튼을 누르면 약간의 기다림과 함께 프로젝트 생성이 완료된다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/5.png&quot; alt=&quot;프로젝트 생성 중&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/6.png&quot; alt=&quot;프로젝트 생성 완료&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;ios-앱에-추가&quot;&gt;iOS 앱에 추가&lt;/h2&gt;
+
+&lt;p&gt;만들어진 프로젝트 안으로 들어가면 아무것도 설정되어있지 않아 초기 페이지가 나온다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/7.png&quot; alt=&quot;iOS 앱에 추가&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;iOS 버튼을 클릭하여 iOS 앱에 추가하는 작업을 시작한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/8.png&quot; alt=&quot;번들 추가&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;정보를 입력하는 화면이 나온다. iOS 앱의 번들을 입력하고 넘어가자.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/9.png&quot; alt=&quot;번들 위치&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;번들은 Firebase를 사용하려고 하는 프로젝트의 번들을 입력하고 앱등록 버튼을 누른다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/10.png&quot; alt=&quot;.plist파일 다운로드&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GoogleService-Info.plist&lt;/strong&gt; 파일을 다운받아 프로젝트 위치에 넣는 방법을 설명한다. 그대로 따라서 진행한 뒤 다음 버튼을 누른다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/11.png&quot; alt=&quot;pod 파일 추가&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/12.png&quot; alt=&quot;pod 파일 추가&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;코코아팟을 이용해서 팟 파일을 추가하는 방법을 안내하고 있다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;프로젝트가 있는 폴더로 이동하여 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pod init&lt;/code&gt; 명령어를 이용해 팟 파일을 만들어 준다.&lt;/li&gt;
+  &lt;li&gt;pod 파일을 열어 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pod 'Firebase/Analytics'&lt;/code&gt; 를 추가한 뒤 저장한다.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pod install&lt;/code&gt; 명령어를 입력해 설치한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;만약 cocoaPod 사용법을 모른다면 구글에 검색해보고 오면 된다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/13.png&quot; alt=&quot;초기화 코드 추가&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;엑스코드에서 프로젝트를 열고 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Appdelegate.swift&lt;/code&gt; 파일을 연다. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;didFinishLaunchingWithOptions&lt;/code&gt; 부분에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FirebaseApp.configure()&lt;/code&gt; 코드를 입력해주면 된다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/14.png&quot; alt=&quot;설정 마무리&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이 단계까지 무리없이 처리했다면 기본적인 프로젝트 세팅은 끝났다고 할 수 있다.&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Firebase" /><category term="Firebase" /><category term="Database" /><category term="cloud" /><summary type="html">Firebase 따라하기</summary></entry><entry><title type="html">Mac 업데이트 후 CocoaPod 오류 해결방법</title><link href="http://localhost:4000/ios/1/" rel="alternate" type="text/html" title="Mac 업데이트 후 CocoaPod 오류 해결방법" /><published>2020-12-04T00:00:00+09:00</published><updated>2020-12-04T00:00:00+09:00</updated><id>http://localhost:4000/ios/1</id><content type="html" xml:base="http://localhost:4000/ios/1/">&lt;p&gt;MacOS를 업데이트를 할 때마다 여러 문제가 발생하는데, xcrun error를 해결하고 나니 CocoaPods에서 다른 오류가 발생했다. CocoaPods로 새로운 라이브러리를 추가하려고 install 을 하려는데 다음과 같은 오류 메시지가 등장했다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/iOS/2020-12-04-1/1.png&quot; alt=&quot;CocoaPods 에러&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;처음 보는 오류 메시지에 당연하게도 구글에 검색을 했고, 해결 방법을 찾을 수 있었다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://github.com/CocoaPods/CocoaPods/issues/8955&quot;&gt;Brew based CocoaPods CLI fails in MacOS 10.15 Catalina due incorrect fallback to Ruby 2.3 #8955&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;고맙게도 위의 링크에서 👍가 가장 많은 댓글에서 해결 방법을 얻었다. 해결 방법은 간단한데 각자 설치한 방법에 따라서 CocoaPods를 재설치 하면 되는 것 같았다. 회사의 맥은 Homebrew를 통해 설치되었으므로 다음과 같은 명령어를 사용하면 된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ brew install cocoapods --build-from-source
+$ brew link --overwrite cocoapods
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;하지만 한 번에 잘 되는 걸 본 적이 거의 없다. 첫 번째 명령어를 입력하니 다음과 같은 오류가 발생했다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/iOS/2020-12-04-1/2.png&quot; alt=&quot;brew 설치 에러&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;그래서 오류 내용에 있는 명령어를 입력해 주었더니 인스톨이 잘 진행되었다. 인스톨이 진행되고 나서 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;link&lt;/code&gt; 가 필요하다고 하여 위 링크 명령어를 입력했고 pod 명령어가 정상적으로 작동하는 것을 확인했다.&lt;/p&gt;
+
+&lt;p&gt;추가적으로 Homebrew를 이용하지 않고 일반적인 방법으로 CocoaPods를 설치한 사람은 다음과 같은 명령어를 사용하면 된다고 한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo gem install cocoapods
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>SANGHYUK LEE</name></author><category term="iOS" /><category term="Swift" /><category term="iOS" /><category term="terminal" /><category term="error" /></entry><entry><title type="html">Mac 업데이트 후 xcrun error 해결방법</title><link href="http://localhost:4000/git/2/" rel="alternate" type="text/html" title="Mac 업데이트 후 xcrun error 해결방법" /><published>2020-12-03T00:00:00+09:00</published><updated>2020-12-03T00:00:00+09:00</updated><id>http://localhost:4000/git/2</id><content type="html" xml:base="http://localhost:4000/git/2/">&lt;p&gt;MacOS를 업데이트를 할 때마다 여러 문제가 발생하는데, 이번에도 개발 관련 이슈가 터졌다. 매번 구글에 검색하여 해결했는데 이번에는 블로그에 간단하게 정리하려고 한다.&lt;/p&gt;
 
 &lt;p&gt;깃에 커밋을 하려고 디렉토리로 이동을 했는데 왠지 모르게 어색한 느낌이 들었다. 자세히 보니 터미널에 브랜치 표시도 나오지 않았고 해당 디렉토리의 현재 상태도 보이지 않았다. 아니나 다를까 깃에 문제가 생겨있었다.&lt;/p&gt;
 
@@ -492,77 +596,4 @@
   &lt;p&gt;통홥(Unified)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;스위프트는 C 언어나 오브젝티브-C 언어를 완전히 대체할 수 있다. 스위프트는 객체지향 언어의 특성을 모두 제공하는 동시에 자료형과 흐름 제어, 연산자 같은 저수준 언어의 기본 요소들도 모두 포함한다. 하나의 앱 프로젝트에서 오브젝티브-C와 함께 사용할 수 있도록 통합성도 지니고 있다. 오브젝티브-C 객체를 스위프트에서 참조할 수 있으며, 각각의 화면별로 오브젝티브-C 또는 스위프트로 나누어 작성하는 것도 가능하디.&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Swift-Grammar" /><category term="Swift" /><category term="Swift-Grammar" /><category term="꼼곰한 재은 씨의 스위프트:문법편" /><category term="이재은" /><category term="루비페이퍼" /><category term="ISBN:979-11-86710-23-4" /><summary type="html">스위프트 문법 스터디</summary></entry><entry><title type="html">CHAPTER01: 스위프트 - 1.스위프트 언어의 탄생과 배경</title><link href="http://localhost:4000/swift-grammar/1-1/" rel="alternate" type="text/html" title="CHAPTER01: 스위프트 - 1.스위프트 언어의 탄생과 배경" /><published>2020-09-23T00:00:00+09:00</published><updated>2020-09-23T00:00:00+09:00</updated><id>http://localhost:4000/swift-grammar/1-1</id><content type="html" xml:base="http://localhost:4000/swift-grammar/1-1/">&lt;h1 id=&quot;1-스위프트-언어의-탄생과-배경&quot;&gt;1. 스위프트 언어의 탄생과 배경&lt;/h1&gt;
-
-&lt;p&gt;스위프트(Swift)는 애플이 2014 세계 개발자 대회(WWDC)에서 발표한 iOS나 macOS 앱 개발의 새로운 언어이다. 그동안 앱을 개발하는 데에 사용되던 오브젝티브-C를 대체할 목적으로 발표되었다.&lt;/p&gt;
-
-&lt;p&gt;애플의 이전 주력 언어였던 오프젝티브-C는 C언어를 기초로 하여 스몰토크의 메시지 전달 개념과 객체지향 개념을 반영한, 객체지향형 C 언어이다. C 언어의 장점이자 단점인 포인터 개념은 오브젝티브-C를 강력한 언어로 만들어주긴 했지만, 처음 접근하는 사람에게는 그만큼 높은 장벽으로 작용한 것도 사실이다.&lt;/p&gt;
-
-&lt;p&gt;프로그래밍 언어를 익히는 데에만 수개월이 걸리다 보니, 앱을 개발하기 위해 언어만 죽어라 익히다 포기하는 일이 잦았다. 언어 자체가 어렵다 보니 앱의 다양한 기능에 집중해야 할 개발자가 성능 개선에 더 많은 노력과 시간을 소모하는 현상을 가져왔다.&lt;/p&gt;
-
-&lt;p&gt;애플은 앱 개발자들이 기능적으로 더 다양한 종류의 앱을 만들기를 원했다. 개방성을 강력한 무기로 내세우는 구글의 안드로이드에 점차 스마트폰 시장을 잠식당하고 있는 상황에서, 어떤 방식으로든 다시 앱스토어의 콘텐츠 다양성을 무기로 하는 시장 지배력을 갖추고 싶어했다. 현재 개발자뿐만 아니라 아이디어를 가진 많은 잠재적 개발자들까지 마음만 먹으면 손쉽게 앱을 구현할 수 있는 환경을 만들어주는 것이 당연한 과제였다.&lt;/p&gt;
-
-&lt;p&gt;이러한 목적에 맞추어 기능이 아니라 성능에 관련된 많은 부분, 특히 코드 최적화나 메모리 관리, 성능 관리 등의 기술 경험 기반 개발 이슈를 시스템이 전담하여 개발자들의 부담을 덜어주는 것이 가장 중요했다. 아이디어를 가진 많은 사람이 기술에 제한받지 않고 마음껏 아이디어를 구현할 수 있는 손쉬운 개발 환경을 만들어 주고 싶었던 것이다.&lt;/p&gt;
-
-&lt;p&gt;이런 목표를 위해서 만들어진 언어 플랫폼이 바로 스위프트이다. 스위프트는 기존의 오브젝티브-C가 C 언어로부터 가져온 저수준 프로그래밍을 자동 관리 영역으로 대체했고, 생소한 문법이지만 객체지향을 위해 사용할 수 밖에 없었던 스몰토크의 메시지 문법을 사람들에게 익숙한 자바, 파이썬, C#의 문법으로 바꾸었으며, 오브젝티브-C와 호환까지 가능하도록 설계되는 등 여러 가지 언어적 강점을 지녔다.&lt;/p&gt;
-
-&lt;p&gt;오브젝티브-C가 고급 개발자를 대상으로 사용된 언어라면 스위프트는 개발에 갓 입문하는 사람들까지 무리 없이 사용할 수 있는 언어이다. 그 대표적인 기능이 바로 인터랙티브 플레이그라운드이다.&lt;/p&gt;
-
-&lt;p&gt;직관적으로 코드를 작성하여 그 결과까지 볼 수 있는 플레이그라운드는 왼쪽의 편집 창에서 코드를 작성하면 중간 결과물을 보여줄 뿐만 아니라 즉석에서 컴파일하여 처리 결과까지 제공한다. 단순히 텍스트 결과를 나타내는 것만이 아니다. 반복적인 증감값의 경우 그래프를 통해 직관적인 결과를 볼 수 있도록 처리해 주며, 필요에 따라 다양한 멀티미디어 객체를 사용하여 풍부한 사용자 정보를 제공해 주기도 한다. 직관적인 사용자 인터페이스를 통해 쉬운 접근을 추구하는 애플의 철학이 반영된 결과물이다.&lt;/p&gt;
-
-&lt;p&gt;기술적인 관점에서 스위프트는 애플의 메인 프레임워크인 코코아 프레임워크와 코코아 터치 프레임워크 모두 사용할 수 있다. LLVM 컴파일러, 옵티마이저, 오토백터링, ARC 메모리 관리, 런타임 환경 등을 기존 언어의 개발 환경과 거의 동일하게 사용할 수 있다는 장점도 있다. 이처럼 다양한 강점을 통해 스위프트는 점차 iOS 앱 개발의 강력한 플랫폼 언어로서 자리매김하고 있다.&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Swift-Grammar" /><category term="Swift" /><category term="Swift-Grammar" /><category term="꼼곰한 재은 씨의 스위프트:문법편" /><category term="이재은" /><category term="루비페이퍼" /><category term="ISBN:979-11-86710-23-4" /><summary type="html">스위프트 문법 스터디</summary></entry><entry><title type="html">[git] 버전 관리 무시 목록(.gitignore) 설정</title><link href="http://localhost:4000/git/1/" rel="alternate" type="text/html" title="[git] 버전 관리 무시 목록(.gitignore) 설정" /><published>2020-08-12T00:00:00+09:00</published><updated>2020-08-12T00:00:00+09:00</updated><id>http://localhost:4000/git/1</id><content type="html" xml:base="http://localhost:4000/git/1/">&lt;h1 id=&quot;gitignore&quot;&gt;.gitignore&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-위험성&quot;&gt;1. 위험성&lt;/h2&gt;
-&lt;p&gt;특정 파일은 git에서 버전 관리 대상에서 제외해야 합니다.&lt;/p&gt;
-
-&lt;p&gt;프로젝트를 업로드할 때 개인키가 프로젝트 폴더내에 있을 수 있고, 이런 중요한 설정 정보는 git 저장소에 추가하지 말아야 합니다.&lt;/p&gt;
-
-&lt;p&gt;이로인해서 해킹에 대상이 될 수 있고, 심각한 피해를 입을 수 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;2-해결방안&quot;&gt;2. 해결방안&lt;/h2&gt;
-&lt;p&gt;git 에는 이러한 문제를 방지하기 위한 무시 목록을 작성할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;.gitignore 에 작성된 파일은 git add 명령시 제외됩니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;3-작성법&quot;&gt;3. 작성법&lt;/h2&gt;
-&lt;p&gt;.gitignore 의 각 라인에 무시할 파일 또는 디렉토리의 패턴을 적습니다.&lt;/p&gt;
-
-&lt;p&gt;여러 파일을 한번에 지정할 경우 * 을 사용합니다.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jdbc.properties
-*.class
-*.jar
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;위와 같이 작성하면 git add 명령어를 실행했을 때 jdbc.properties 파일을 제외하며, .class와 .jar 확장자를 가진 파일을 모두 무시합니다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;이미 추가되어 버전 관리중인 파일에는 영향을 미치지 않습니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;4-응용&quot;&gt;4. 응용&lt;/h2&gt;
-&lt;p&gt;만약 .gitignore 목록에 있는 파일을 추가해야 할 경우 -f 옵션을 이용해 추가할 수 있습니다.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add -f jdbc.properties
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;.gitignore 에 설정한 내용은 하위 디렉토리에도 동일하게 적용됩니다.&lt;/p&gt;
-
-&lt;p&gt;만약 특정 하위 디렉토리가 다른 ignore 를 적용해야 할 경우 해당 디렉토리에 .gitignore 을 새로 만들어줍니다.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*
-!jdbc.properties
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;위와 같은 .gitignore 을 새로 만들어 config 폴더에 넣을 경우, 기본적으로 config 의 모든 파일을 무시하면서 jdbc.properties 라는 파일은 버전을 관리합니다. !는 이전의 ignore 패턴을 무효화 하는 문자열입니다.&lt;/p&gt;
-
-&lt;p&gt;만약 파일명에 ! 가 들어갈 경우 escape 문자인 \ 를 ! 앞에 붙여줍니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;5-gitignoreio&quot;&gt;5. gitignore.io&lt;/h2&gt;
-&lt;p&gt;사용하는 운영체제, IDE, 언어마다 추가하는 패턴들이 있으며 이를 매번 기억하여 입력하는 것은 매우 귀찮습니다.&lt;/p&gt;
-
-&lt;p&gt;이런 귀찮은 일을 대신 처리해주는 &lt;a href=&quot;https://www.toptal.com/developers/gitignore&quot;&gt;gitignore.io&lt;/a&gt; 라는 서비스가 있습니다.&lt;/p&gt;
-
-&lt;p&gt;일반적으로 사용되는 무시 패턴을 해당 서비스를 통해 작성하고, 추가적으로 필요한 부분만 무시 목록을 작성하면 편리하게 사용할 수 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;6-참고&quot;&gt;6. 참고&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://git-scm.com/docs/gitignore&quot;&gt;https://git-scm.com/docs/gitignore&lt;/a&gt;&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="git" /><category term="git" /></entry></feed>
+&lt;p&gt;스위프트는 C 언어나 오브젝티브-C 언어를 완전히 대체할 수 있다. 스위프트는 객체지향 언어의 특성을 모두 제공하는 동시에 자료형과 흐름 제어, 연산자 같은 저수준 언어의 기본 요소들도 모두 포함한다. 하나의 앱 프로젝트에서 오브젝티브-C와 함께 사용할 수 있도록 통합성도 지니고 있다. 오브젝티브-C 객체를 스위프트에서 참조할 수 있으며, 각각의 화면별로 오브젝티브-C 또는 스위프트로 나누어 작성하는 것도 가능하디.&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Swift-Grammar" /><category term="Swift" /><category term="Swift-Grammar" /><category term="꼼곰한 재은 씨의 스위프트:문법편" /><category term="이재은" /><category term="루비페이퍼" /><category term="ISBN:979-11-86710-23-4" /><summary type="html">스위프트 문법 스터디</summary></entry></feed>

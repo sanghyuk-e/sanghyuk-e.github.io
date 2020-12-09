@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>CHAPTER02: Xcode - 3. Xcode 설치 - Sanghyuk’s Blog</title>
-<meta name="description" content="스위프트 문법 스터디">
+<!-- begin _includes/seo.html --><title>Mac 업데이트 후 CocoaPod 오류 해결방법 - Sanghyuk’s Blog</title>
+<meta name="description" content="Sanghyuk’s Blog">
 
 
   <meta name="author" content="SANGHYUK LEE">
@@ -19,30 +19,30 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Sanghyuk's Blog">
-<meta property="og:title" content="CHAPTER02: Xcode - 3. Xcode 설치">
-<meta property="og:url" content="http://localhost:4000/swift-grammar/2-3/">
+<meta property="og:title" content="Mac 업데이트 후 CocoaPod 오류 해결방법">
+<meta property="og:url" content="http://localhost:4000/ios/1/">
 
 
-  <meta property="og:description" content="스위프트 문법 스터디">
-
-
-
-
-
-
-
-  <meta property="article:published_time" content="2020-10-26T00:00:00+09:00">
+  <meta property="og:description" content="Sanghyuk’s Blog">
 
 
 
 
 
-  
+
+
+  <meta property="article:published_time" content="2020-12-04T00:00:00+09:00">
+
+
+
+
 
   
 
+  
 
-<link rel="canonical" href="http://localhost:4000/swift-grammar/2-3/">
+
+<link rel="canonical" href="http://localhost:4000/ios/1/">
 
 
 
@@ -284,15 +284,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="CHAPTER02: Xcode - 3. Xcode 설치">
-    <meta itemprop="description" content="스위프트 문법 스터디">
-    <meta itemprop="datePublished" content="2020-10-26T00:00:00+09:00">
+    <meta itemprop="headline" content="Mac 업데이트 후 CocoaPod 오류 해결방법">
+    <meta itemprop="description" content="">
+    <meta itemprop="datePublished" content="2020-12-04T00:00:00+09:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">CHAPTER02: Xcode - 3. Xcode 설치
+          <h1 id="page-title" class="page__title" itemprop="headline">Mac 업데이트 후 CocoaPod 오류 해결방법
 </h1>
           <!-- 기존 읽는데 필요한 시간 표시
           
@@ -301,14 +301,14 @@
 
 
 
-  2 minute read
+  less than 1 minute read
 
 </p>
           
           -->
           <!-- 업데이트 날짜 시작 -->
           <!-- 
-            <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2020-10-26T00:00:00+09:00">October 26, 2020</time></p>
+            <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2020-12-04T00:00:00+09:00">December 04, 2020</time></p>
            -->
           <!-- 업데이트 날짜 끝-->
         </header>
@@ -319,51 +319,37 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu">
-  <li><a href="#3-xcode-설치">3. Xcode 설치</a>
-    <ul>
-      <li><a href="#31-정식-버전-설치--앱스토어">3.1 정식 버전 설치 : 앱스토어</a></li>
-      <li><a href="#32-베타-버전-설치--애플-개발자-사이트">3.2 베타 버전 설치 : 애플 개발자 사이트</a></li>
-    </ul>
-  </li>
-</ul>
+              
 
             </nav>
           </aside>
         
-        <h1 id="3-xcode-설치">3. Xcode 설치</h1>
+        <p>MacOS를 업데이트를 할 때마다 여러 문제가 발생하는데, xcrun error를 해결하고 나니 CocoaPods에서 다른 오류가 발생했다. CocoaPods로 새로운 라이브러리를 추가하려고 install 을 하려는데 다음과 같은 오류 메시지가 등장했다.</p>
 
-<p>Xcode는 애플 전용 데스크톱 운영체제인 macOS에서만 실행할 수 있다. 따라서 애플에서 출시한 맥북(MacBook), 맥북 프로(MacBook Pro), 맥북 에어(MacBook Air), 아이맥(iMac), 맥 미니(Mac Mini), 맥 프로(Mac Pro) 중 하나가 필요하다. 마이크로소프트사의 Windows 운영체제가 설치된 일반 PC에서는 Xcode를 설치할 수 없다.</p>
+<p><img src="/assets/images/posts/iOS/2020-12-04-1/1.png" alt="CocoaPods 에러" /></p>
 
-<p>과거에는 Xcode를 내려받기 위해서 맥 OS 개발자 프로그램이나 iOS 개발자 프로그램에 가입해야 했다. 그렇지 않으면 별도 비용을 지불한 뒤에 내려받아야 했다. 물론 개발자 프로그램에 가입하는 것도 비용이 발생하므로 Xcode는 유료로 제공되는 툴이었다고 볼 수 있다. 하지만 스위프트의 발표와 함께 Xcode에 대한 라이선스를 무료 제공 방식으로 전환하면서 이제는 거의 제약 없이 무료로 내려받을 수 있게 되었다.</p>
-
-<p>Xcode의 정식 버전은 항상 앱스토어에서 받을 수 있지만, 베타 버전은 애플에서 제공하는 애플 개발자 사이트에서만 내려받을 수 있다. 베타 버전은 정식 버전보다 한발 앞서 최신 개선사항을 적용해 볼 수 있다는 장점이 있지만 아직 안정화되지 않은 버전이어서, 개발 도중 알 수 없는 오류로 인하여 Xcode가 다운되기도 한다. 호환성이 담보되지 않은 문법 및 구분 변경으로 인해 멀쩡하게 잘 돌아가던 스위프트 소스 코드들이 새 베타 버전의 Xcode에서 빨간 오류를 정신없이 뱉어낼 수도 있다. 이런 일들로 인한 스트레스를 덜 받고 안정적으로 사용하려면 가급적 앱스토어에서 제공하는 정식 버전을 이용하는 편이 좋다.</p>
-
-<h2 id="31-정식-버전-설치--앱스토어">3.1 정식 버전 설치 : 앱스토어</h2>
-
-<p>Xcode 정식 버전은 항상 앱 스토어를 통해 제공된다. 설치를 위해 맥 환경에서 앱스토어를 실행해 보자. 실행된 앱스토어 창의 왼쪽 위에 있는 검색 창에 Xcode를 입력하여 검색하면, 큼지막한 망치가 떡하니 자리 잡은 Xcode 앱 아이콘을 확인할 수 있다.</p>
-
-<p><img src="/assets/images/posts/Swift-Grammar/2020-10-26-2-3/1.png" alt="앱스토어에서 Xcode 검색" /></p>
-
-<p>앱 아이콘을 클릭하여 상세페이지로 진입한 다음 <code class="language-plaintext highlighter-rouge">&lt;설치&gt;</code> 버튼을 클릭하면 로그인 과정을 거쳐 자동으로 Xcode 설치가 시작된다.</p>
-
-<p><img src="/assets/images/posts/Swift-Grammar/2020-10-26-2-3/2.png" alt="앱스토어를 통한 Xcode 정식 버전 설치" /></p>
-
-<p>설치 과정에서 등장하는 로그인 창에서는 애플에 등록된 계정을 입력하면 된다. 앱스토어에서 다른 앱을 내려받을 때 사용하던 일반 계정으로도 Xcode를 내려받고 설치하는 데에 아무 문제 없으므로 그냥 사용하면 된다. 이와 달리 베타 버전을 내려받을 경우에는 애플에 등록된 개발자 계정이 있어야 하니, 이를 구분해서 알아두면 될 것 같다. 물론 개발자 계정 등록은 무료이다.</p>
-
-<p>설치는 비교적 간단하다. 정식 버전으로 출시된 Xcode는 단순히 앱스토어를 거쳐 설치하기만 하면 끝이므로 크게 신경 써야 할 부분은 없다. 설치가 완료되면 위 앱스토어에 표시된 Xcode 아이콘이 맥의 응용프로그램에도 자동으로 추가되므로, 이를 통해 Xcode가 정상으로 설치되었음을 확인할 수 있다.</p>
-
-<h2 id="32-베타-버전-설치--애플-개발자-사이트">3.2 베타 버전 설치 : 애플 개발자 사이트</h2>
-
-<p>만약 여러분이 최신 문법과 곧이어 발표될 새 iOS 버전에 한발 앞서 대응하고 싶다면, 앱 스토어를 통해 Xcode 정식 버전을 사용할 것이 아니라, 애플 개발자, 사이트에서, 베타 버전의 Xcode를 내려받아 사용해야 한다. 다음은 베타 버전을 받을 수 있는 URL이다.</p>
+<p>처음 보는 오류 메시지에 당연하게도 구글에 검색을 했고, 해결 방법을 찾을 수 있었다.</p>
 
 <blockquote>
-  <p>애플 개발자 사이트 : https://developer.apple.com/download/</p>
+  <p><a href="https://github.com/CocoaPods/CocoaPods/issues/8955">Brew based CocoaPods CLI fails in MacOS 10.15 Catalina due incorrect fallback to Ruby 2.3 #8955</a></p>
 </blockquote>
 
-<p><img src="/assets/images/posts/Swift-Grammar/2020-10-26-2-3/3.png" alt="애플 개발자 사이트(https://developer.apple.com/download/)" /></p>
+<p>고맙게도 위의 링크에서 👍가 가장 많은 댓글에서 해결 방법을 얻었다. 해결 방법은 간단한데 각자 설치한 방법에 따라서 CocoaPods를 재설치 하면 되는 것 같았다. 회사의 맥은 Homebrew를 통해 설치되었으므로 다음과 같은 명령어를 사용하면 된다.</p>
 
-<p>개발자 사이트를 통해 내려받은 파일은 xip 확장자 형식으로, ‘Extract in Place’ 또는 ‘Execute in Place’의 약자이다. ZIP 형식의 압축 파일과 비슷하지만, 파일의 압축을 해제하기 전에 먼저 파일의 변경이 없었는지 여부를 애플로부터 인증을 받는 압축 형식으로, Xcode 8 버전의 다운로드부터 적용되었다. macOS는 유닉스 시스템을 기반으로 하고 있기 때문에, 다운로드된 xip 파일은 압축을 해제한 결과물을 응용프로그램 폴더에 복사하는 형태로 프로그램이 설치된다. 설치된 프로그램을 제거할 때는 프로그램이 설치된 디렉터리를 응용프로그램 폴더로부터 삭제하기만 하면 된다.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ brew install cocoapods --build-from-source
+$ brew link --overwrite cocoapods
+</code></pre></div></div>
+
+<p>하지만 한 번에 잘 되는 걸 본 적이 거의 없다. 첫 번째 명령어를 입력하니 다음과 같은 오류가 발생했다.</p>
+
+<p><img src="/assets/images/posts/iOS/2020-12-04-1/2.png" alt="brew 설치 에러" /></p>
+
+<p>그래서 오류 내용에 있는 명령어를 입력해 주었더니 인스톨이 잘 진행되었다. 인스톨이 진행되고 나서 <code class="language-plaintext highlighter-rouge">link</code> 가 필요하다고 하여 위 링크 명령어를 입력했고 pod 명령어가 정상적으로 작동하는 것을 확인했다.</p>
+
+<p>추가적으로 Homebrew를 이용하지 않고 일반적인 방법으로 CocoaPods를 설치한 사람은 다음과 같은 명령어를 사용하면 된다고 한다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo gem install cocoapods
+</code></pre></div></div>
 
         
       </section>
@@ -384,11 +370,11 @@
     
       
       
-      <a href="/tags/#isbn-979-11-86710-23-4" class="page__taxonomy-item" rel="tag">ISBN:979-11-86710-23-4</a><span class="sep">, </span>
+      <a href="/tags/#error" class="page__taxonomy-item" rel="tag">error</a><span class="sep">, </span>
     
       
       
-      <a href="/tags/#swift-grammar" class="page__taxonomy-item" rel="tag">Swift-Grammar</a><span class="sep">, </span>
+      <a href="/tags/#ios" class="page__taxonomy-item" rel="tag">iOS</a><span class="sep">, </span>
     
       
       
@@ -396,15 +382,7 @@
     
       
       
-      <a href="/tags/#%EA%BC%BC%EA%B3%B0%ED%95%9C-%EC%9E%AC%EC%9D%80-%EC%94%A8%EC%9D%98-%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8-%EB%AC%B8%EB%B2%95%ED%8E%B8" class="page__taxonomy-item" rel="tag">꼼곰한 재은 씨의 스위프트:문법편</a><span class="sep">, </span>
-    
-      
-      
-      <a href="/tags/#%EB%A3%A8%EB%B9%84%ED%8E%98%EC%9D%B4%ED%8D%BC" class="page__taxonomy-item" rel="tag">루비페이퍼</a><span class="sep">, </span>
-    
-      
-      
-      <a href="/tags/#%EC%9D%B4%EC%9E%AC%EC%9D%80" class="page__taxonomy-item" rel="tag">이재은</a>
+      <a href="/tags/#terminal" class="page__taxonomy-item" rel="tag">terminal</a>
     
     </span>
   </p>
@@ -425,14 +403,14 @@
     
       
       
-      <a href="/categories/#swift-grammar" class="page__taxonomy-item" rel="tag">Swift-Grammar</a>
+      <a href="/categories/#ios" class="page__taxonomy-item" rel="tag">iOS</a>
     
     </span>
   </p>
 
 
         
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-10-26T00:00:00+09:00">October 26, 2020</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-12-04T00:00:00+09:00">December 4, 2020</time></p>
 
 
       </footer>
@@ -442,22 +420,22 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=CHAPTER02%3A+Xcode+-+3.+Xcode+%EC%84%A4%EC%B9%98%20http%3A%2F%2Flocalhost%3A4000%2Fswift-grammar%2F2-3%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Mac+%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8+%ED%9B%84+CocoaPod+%EC%98%A4%EB%A5%98+%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95%20http%3A%2F%2Flocalhost%3A4000%2Fios%2F1%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fswift-grammar%2F2-3%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fios%2F1%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fswift-grammar%2F2-3%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fios%2F1%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/swift-grammar/2-2/" class="pagination--pager" title="CHAPTER02: Xcode - 2. Xcode란?
+      <a href="/git/2/" class="pagination--pager" title="Mac 업데이트 후 xcrun error 해결방법
 ">Previous</a>
     
     
-      <a href="/interview/1/" class="pagination--pager" title="Swift 개발자 면접 질문 List
+      <a href="/firebase/1/" class="pagination--pager" title="Firebase 시작하기
 ">Next</a>
     
   </nav>
@@ -502,40 +480,6 @@
       <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> December 08 2020</p>
     
     <p class="archive__item-excerpt" itemprop="description">Firebase 따라하기
-</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/ios/1/" rel="permalink">Mac 업데이트 후 CocoaPod 오류 해결방법
-</a>
-      
-    </h2>
-    <!-- 기존 읽는데 필요한 시간이 보이는 부분 / 변경 후 작성날짜로 표기
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  less than 1 minute read
-
-</p>
-    
-    -->
-    
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> December 04 2020</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">
 </p>
   </article>
 </div>
@@ -604,6 +548,40 @@
       <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> November 12 2020</p>
     
     <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/swift-grammar/2-3/" rel="permalink">CHAPTER02: Xcode - 3. Xcode 설치
+</a>
+      
+    </h2>
+    <!-- 기존 읽는데 필요한 시간이 보이는 부분 / 변경 후 작성날짜로 표기
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+
+</p>
+    
+    -->
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> October 26 2020</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">스위프트 문법 스터디
 </p>
   </article>
 </div>
