@@ -1,4 +1,6 @@
-I"A<h1 id="gitignore">.gitignore</h1>
+I"�<p><img src="/assets/images/posts/Git/github.png" alt="Github" /></p>
+
+<h1 id="gitignore">.gitignore</h1>
 
 <h2 id="1-위험성">1. 위험성</h2>
 <p>특정 파일은 git에서 버전 관리 대상에서 제외해야 합니다.</p>
