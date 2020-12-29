@@ -6,7 +6,7 @@ var store = [{
         "teaser": null
       },{
         "title": "좋은 개발자의 좋은 이력서 작성하기",
-        "excerpt":"이력서 이직을 하기 위해서 계속 이력서를 작성해왔다. 채용 사이트인 원티드의 양식을 이용하여 가장 기본적인 내용들을 작성하였고 내용은 계속해서 수정하는 방식으로 작성했다. 이렇게 작성한 이력서를 통해서 많은 곳에 지원서를 넣어보았고, 합격을 하기도 했다. 당연하게도 불합격도 있었고 그 수는 적은편이 아니었다고 생각한다. 요즘에는 이력서는 엉망이 아니라면 패스시키고, 코딩테스트로 변별력을 확보하려는 회사가 많은...","categories": ["Resume"],
+        "excerpt":"이력서 이직을 하기 위해서 계속 이력서를 작성해왔다. 채용 사이트인 원티드의 양식을 이용하여 가장 기본적인 내용들을 작성하였고 내용은 계속해서 수정하는 방식으로 작성했다. 이렇게 작성한 이력서를 통해서 많은 곳에 지원서를 넣어보았고, 합격을 하기도 했다. 당연하게도 불합격도 있었고 그 수는 적은편이 아니었다고 생각한다. 요즘에는 이력서는 정말 엉망이 아니라면 패스시키고, 코딩테스트로 변별력을 확보하려는 회사가...","categories": ["Resume"],
         "tags": ["Resume"],
         "url": "http://localhost:4000/resume/1/",
         "teaser": null
@@ -78,7 +78,7 @@ var store = [{
         "teaser": null
       },{
         "title": "[codeit - 컴퓨터 개론] 프로그래밍 시작하기 in Python (Part. 1)",
-        "excerpt":"프로그래밍 시작하기 in Python” 프로그래밍 시장은 계속 커지고 있다. 하지만 사실 현업에서는 뛰어난 개발자를 없어서 못 구한다는 것. 프로그래밍의 세계는 광범위하기 때문에, 올바른 방향을 갖고 효과적으로 공부하는 것이 매우 중요하다. 코드잇의 컴퓨터 개론을 통해 프로그래밍 언어, 프로그래머, 프로그램에 대해 올바른 이해를 갖고, 나만의 커리어 로드맵을 만들어 보자. 컴퓨터의 세계를 이해하려면...","categories": ["codeit"],
+        "excerpt":"프로그래밍 시작하기 in Python 프로그래밍 시장은 계속 커지고 있다. 하지만 사실 현업에서는 뛰어난 개발자를 없어서 못 구한다는 것. 프로그래밍의 세계는 광범위하기 때문에, 올바른 방향을 갖고 효과적으로 공부하는 것이 매우 중요하다. 코드잇의 컴퓨터 개론을 통해 프로그래밍 언어, 프로그래머, 프로그램에 대해 올바른 이해를 갖고, 나만의 커리어 로드맵을 만들어 보자. 컴퓨터의 세계를 이해하려면...","categories": ["codeit"],
         "tags": ["Python","codeit","programming"],
         "url": "http://localhost:4000/codeit/1/",
         "teaser": "http://localhost:4000/assets/images/posts/Codeit/codeit.png"
@@ -106,4 +106,10 @@ var store = [{
         "tags": ["Firebase","Database","cloud"],
         "url": "http://localhost:4000/firebase/1/",
         "teaser": "http://localhost:4000/assets/images/posts/Firebase/firebase.png"
+      },{
+        "title": "Jekyll 블로그 검색엔진에 등록하기 - Naver",
+        "excerpt":"Jekyll 블로그 검색엔진에 등록하기 - NAVER 블로그에 작성한 글이 검색엔진에 노출시키기 위해서는 블로그를 등록하는 과정이 필요하다. 이번에는 Jekyll로 작성된 블로그가 네이버에서 검색되도록 설정하는 과정이다. 네이버 웹 마스터 도구에 속성 추가 네이버 서치어드바이저에 접속한다. 로그인을 진행하는데 Naver 계정이 필요하디. (대한민국 사람이면 없을리가 없다.) 웹 마스터 도구로 접속한다. 사이트 등록 란에 자신의...","categories": ["Blog"],
+        "tags": ["jekyll","blog","search engine"],
+        "url": "http://localhost:4000/blog/1/",
+        "teaser": "http://localhost:4000/assets/images/posts/Blog/Jekyll.jpeg"
       }]

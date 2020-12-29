@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>좋은 블로그 - Sanghyuk’s Blog</title>
+<!-- begin _includes/seo.html --><title>Jekyll 블로그 검색엔진에 등록하기 - Naver - Sanghyuk’s Blog</title>
 <meta name="description" content="Sanghyuk’s Blog">
 
 
@@ -19,7 +19,7 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Sanghyuk's Blog">
-<meta property="og:title" content="좋은 블로그">
+<meta property="og:title" content="Jekyll 블로그 검색엔진에 등록하기 - Naver">
 <meta property="og:url" content="http://localhost:4000/blog/1/">
 
 
@@ -27,11 +27,13 @@
 
 
 
+  <meta property="og:image" content="http://localhost:4000/assets/images/posts/Blog/Jekyll.jpeg">
 
 
 
 
-  <meta property="article:published_time" content="2020-08-03T00:00:00+09:00">
+
+  <meta property="article:published_time" content="2020-12-29T00:00:00+09:00">
 
 
 
@@ -127,7 +129,7 @@
         
         <a class="site-title" href="/">
           Sanghyuk's Blog
-          <span class="site-subtitle">Version 0.1</span>
+          <span class="site-subtitle">iOS Developer</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/categories/">Categries📚</a>
@@ -157,6 +159,47 @@
 
     <div class="initial-content">
       
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/posts/Blog/Jekyll.jpeg');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          Jekyll 블로그 검색엔진에 등록하기 - Naver
+
+        
+      </h1>
+      
+        <p class="page__lead">
+</p>
+      
+      
+        <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+
+</p>
+      
+      
+      
+    </div>
+  
+  
+</div>
+
+
 
 
 
@@ -284,34 +327,12 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="좋은 블로그">
+    <meta itemprop="headline" content="Jekyll 블로그 검색엔진에 등록하기 - Naver">
     <meta itemprop="description" content="">
-    <meta itemprop="datePublished" content="2020-08-03T00:00:00+09:00">
+    <meta itemprop="datePublished" content="2020-12-29T00:00:00+09:00">
     
 
     <div class="page__inner-wrap">
-      
-        <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">좋은 블로그
-</h1>
-          <!-- 기존 읽는데 필요한 시간 표시
-          
-            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  less than 1 minute read
-
-</p>
-          
-          -->
-          <!-- 업데이트 날짜 시작 -->
-          <!-- 
-            <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2020-08-03T00:00:00+09:00">August 03, 2020</time></p>
-           -->
-          <!-- 업데이트 날짜 끝-->
-        </header>
       
 
       <section class="page__content" itemprop="text">
@@ -320,35 +341,170 @@
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
               <ul class="toc__menu">
-  <li><a href="#블로그">블로그</a></li>
-  <li><a href="#좋은-기술-블로그">좋은 기술 블로그</a></li>
-  <li><a href="#참고">참고</a></li>
+  <li><a href="#jekyll-블로그-검색엔진에-등록하기---naver">Jekyll 블로그 검색엔진에 등록하기 - NAVER</a>
+    <ul>
+      <li><a href="#네이버-웹-마스터-도구에-속성-추가">네이버 웹 마스터 도구에 속성 추가</a></li>
+      <li><a href="#사이트-소유-확인">사이트 소유 확인</a></li>
+      <li><a href="#rss-feedxml-파일-생성">RSS feed.xml 파일 생성</a></li>
+      <li><a href="#sitemapxml-파일-생성">sitemap.xml 파일 생성</a>
+        <ul>
+          <li><a href="#sitemap-설정하기">sitemap 설정하기</a></li>
+        </ul>
+      </li>
+      <li><a href="#주의사항">주의사항</a>
+        <ul>
+          <li><a href="#_configyml-파일-설정-확인하기">_config.yml 파일 설정 확인하기</a></li>
+        </ul>
+      </li>
+      <li><a href="#robottxt-파일-생성">robot.txt 파일 생성</a></li>
+      <li><a href="#sitemapxml-robotstxt-feedxml-파일-github에-업로드">sitemap.xml, robots.txt, feed.xml 파일 GitHub에 업로드</a></li>
+      <li><a href="#네이버-웹마스터-도구에-feedxml-sitemapxml-제출하기">네이버 웹마스터 도구에 feed.xml, sitemap.xml 제출하기</a></li>
+    </ul>
+  </li>
 </ul>
 
             </nav>
           </aside>
         
-        <h2 id="블로그">블로그</h2>
-<p>제대로 된 블로그를 만들어보자는 생각을 가지고서 몇 번이나 블로그를 만들었지만 매번 얼마 지나지 않아 더 이상 글을 올리지 않게 되었다. 이유는 여러 가지지만 가장 큰 이유는 <strong>‘방법을 몰라서’</strong> 였던 것 같다.</p>
+        <p><img src="/assets/images/posts/Blog/Jekyll.jpeg" alt="jekyll" class="align-center" /></p>
 
-<h2 id="좋은-기술-블로그">좋은 기술 블로그</h2>
-<p>업무를 하면서 많은 블로그들을 본다. 글을 잘 작성하고 정리가 잘 되어 보기 편한 블로그가 있다면 정반대인 블로그도 있다. 읽는 사람이 보기 편하고 원하는 정보를 정확하게 얻을 수 있다면 그것이 좋은 블로그인 것 같다. 좋은 블로그가 되기 위한 방법을 블로그에서 보게 되었다.</p>
+<h1 id="jekyll-블로그-검색엔진에-등록하기---naver">Jekyll 블로그 검색엔진에 등록하기 - NAVER</h1>
+
+<p>블로그에 작성한 글이 검색엔진에 노출시키기 위해서는 블로그를 등록하는 과정이 필요하다. 이번에는 Jekyll로 작성된 블로그가 네이버에서 검색되도록 설정하는 과정이다.</p>
+
+<h2 id="네이버-웹-마스터-도구에-속성-추가">네이버 웹 마스터 도구에 속성 추가</h2>
+
+<ol>
+  <li><a href="https://searchadvisor.naver.com/">네이버 서치어드바이저</a>에 접속한다. 로그인을 진행하는데 Naver 계정이 필요하디. (대한민국 사람이면 없을리가 없다.)</li>
+</ol>
+
+<p><a href="/assets/images/posts/Blog/2020-12-29-1/1.png"><img src="/assets/images/posts/Blog/2020-12-29-1/1.png" alt="서치어드바이저 로그인" class="align-center" /></a></p>
+
+<ol>
+  <li>웹 마스터 도구로 접속한다.</li>
+</ol>
+
+<p><a href="/assets/images/posts/Blog/2020-12-29-1/2.png"><img src="/assets/images/posts/Blog/2020-12-29-1/2.png" alt="웹마스터 도구 접속" class="align-center" /></a></p>
+
+<ol>
+  <li>사이트 등록 란에 자신의 jekyll 블로그 주소를 입력하여 추가한다. (ex.http://[github 사용자명].github.io/ 또는 자신이 사용하는 도메인)</li>
+</ol>
+
+<p><a href="/assets/images/posts/Blog/2020-12-29-1/3.png"><img src="/assets/images/posts/Blog/2020-12-29-1/3.png" alt="사이트 등록" class="align-center" /></a></p>
+
+<h2 id="사이트-소유-확인">사이트 소유 확인</h2>
+
+<ol>
+  <li>제공하는 HTML 파일을 다운로드 한다.</li>
+</ol>
+
+<p><a href="/assets/images/posts/Blog/2020-12-29-1/4.png"><img src="/assets/images/posts/Blog/2020-12-29-1/4.png" alt="HTML 다운" class="align-center" /></a></p>
+
+<ol>
+  <li>다운받은 HTML 파일을 자신의 Jekyll 블로그의 가장 상위 디렉토리에 업로드한다. 이 과정에서 git에 commit 과 push 를 해야한다. 정상적으로 업로드 되었는지 확인한다.</li>
+</ol>
+
+<p><a href="/assets/images/posts/Blog/2020-12-29-1/5.png"><img src="/assets/images/posts/Blog/2020-12-29-1/5.png" alt="업로드 확인" class="align-center" /></a></p>
+
+<ol>
+  <li>정상 업로드 되었다면 <strong>소유확인</strong> 버튼을 누른다.</li>
+</ol>
+
+<p><a href="/assets/images/posts/Blog/2020-12-29-1/6.png"><img src="/assets/images/posts/Blog/2020-12-29-1/6.png" alt="소유확인" class="align-center" /></a></p>
+
+<ol>
+  <li>소유확인이 완료되면 정상이다.</li>
+</ol>
+
+<p><a href="/assets/images/posts/Blog/2020-12-29-1/7.png"><img src="/assets/images/posts/Blog/2020-12-29-1/7.png" alt="소유확인 완료" class="align-center" /></a></p>
+
+<ol>
+  <li>웹마스터 도구에서 등록된 사이트를 확인할 수 있다.</li>
+</ol>
+
+<p><a href="/assets/images/posts/Blog/2020-12-29-1/8.png"><img src="/assets/images/posts/Blog/2020-12-29-1/8.png" alt="사이트 등록 확인" class="align-center" /></a></p>
+
+<h2 id="rss-feedxml-파일-생성">RSS feed.xml 파일 생성</h2>
+
+<p>RSS(Rich Site Summary)는 뉴스나 블로그 사이트에서 주로 사용하는 콘텐츠 표현 방식이다. RSS Feed 는 다음과 같은 기능을 한다.</p>
 
 <ul>
-  <li>완성된 글을 작성한다.</li>
-  <li>적당한 분량의 글을 작성한다.</li>
-  <li>글의 형식을 정한다.</li>
-  <li>컨텐츠 관리가 가능한 블로그 도구를 선택한다.</li>
-  <li>보존, 보존, 그리고 보존</li>
-  <li>수익을 얻는다.</li>
-  <li>글을 홍보하기 위한 채널을 만든다.</li>
-  <li>검색 엔진 최적화(SEO)를 한다.</li>
+  <li>사이트에 방문하지 않고도 해당 사이트에 올라오는 글들을 자동으로 모아주는 기능</li>
+  <li>웹 사이트에서 게시하며 자주 업데이트되는 콘텐츠를 제공</li>
+  <li>네이버 및 다음 등의 검색엔진에 자신의 블로그 및 웹 사이트를 RSS 형태로 등록하여 많은 페이지를 더욱 쉽게 노출 가능</li>
 </ul>
 
-<p>이전에 만들었던 블로그에 작성된 글들은 제시된 8가지 중 한 가지도 제대로 지키지 못했다. 좋은 블로그를 만들기 위해서는 공부가 필요하다는 것을 알았다. 앞으로는 나와 내 글을 읽는 사람을 위해 완벽하진 않아도 최대한 좋은 글을 쓰고, 좋은 블로그를 만들어보려고 한다.</p>
+<p>Jekyll 에는 feed.xml 파일을 생성하는 방법이 두 가지 있다. 플러그인을 사용하는 방법과 수동으로 만드는 방법이 있는데 둘 중 편한 방법을 선택하여 만들면 된다. 여기서는 플러그인을 이용하여 만들어보도록 하겠다.</p>
 
-<h2 id="참고">참고</h2>
-<p><a href="https://www.44bits.io/ko/post/8-suggestions-for-tech-programming-blog">좋은 기술 블로그를 만들어 나가기 위한 8가지 제언</a></p>
+<p>Feed(feed.xml)를 자동으로 생성하려면 GitHub Jekyll 블로그의 _config.yml 파일 아래에 다음 내용을 추가한다.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">plugins</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="s">jekyll-feed</span>
+</code></pre></div></div>
+
+<p>플러그인에 대한 자세한 내용은 <a href="https://github.com/jekyll/jekyll-feed">이곳</a>에서 확인할 수 있다.</p>
+
+<h2 id="sitemapxml-파일-생성">sitemap.xml 파일 생성</h2>
+
+<p>Sitemap 은 웹 크롤링 로봇이 이용할 수 있는 웹사이트의 접근 가능한 페이지의 목록이다. 다음과 같은 기능을 한다.</p>
+
+<ul>
+  <li>웹사이트의 웹페이지를 계층별로 구분지어 웹사이트의 전체 구조를 보여주며, 검색엔진의 크롤링 로봇들이 크롤링 작업에 유용</li>
+  <li>sitemap.xml 파일을 사용하면 사이트 및 콘텐츠 구조를 Google 및 기타 검색엔진에 손쉽게 제출 가능</li>
+  <li>검색엔진에 크롤링해야하는 URL을 알려줌으로써 색인을 생성하는 방법과 색인을 생성하는 방법을 제어</li>
+</ul>
+
+<p>Jekyll 에는 sitemap.xml 파일을 생성하는 방법이 두 가지 있다. 플러그인을 사용하는 방법과 수동으로 만드는 방법이 있는데 둘 중 편한 방법을 선택하여 만들면 된다. 여기서는 플러그인을 이용하여 만들어보도록 하겠다.</p>
+
+<p>Sitemap(sitemap.xml)를 자동으로 생성하려면 GitHub Jekyll 블로그의 _config.yml 파일 아래에 다음 내용을 추가한다.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">plugins</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="s">jekyll-sitemap</span>
+</code></pre></div></div>
+
+<p>플러그인에 대한 자세한 내용은 <a href="https://github.com/jekyll/jekyll-sitemap">이곳</a>에서 확인할 수 있다.</p>
+
+<h3 id="sitemap-설정하기">sitemap 설정하기</h3>
+<p>포스트를 작성할 때 해당 포스트의 변경 주기나 우선순위 정보 등을 변경하고 싶으면, 아래와 같이 lastmod, sitemap.chagefreq, sitemap.priority 등의 태그 정보를 추가한다. 각 포스트의 맨 위에 아래와 같이 sitemap의 옵션을 추가하여 설정할 수 있다. 설정이 없을 때의 default 설정은 sitemap.xml에 정의되어 있다. sitemap의 changefreq를 너무 짧게 하면 빈번한 접속으로 안좋은 영향을 미칠 수도 있으니 중요한 변동이 없는 포스트는 일주일 정도로 잡아준다.</p>
+
+<pre><code class="language-Kramdown">---
+layout: post
+title: '제목'
+date: 2017-10-20
+lastmod : 2017-10-20 12:00:00
+sitemap :
+changefreq : daily
+priority : 1.0
+---
+</code></pre>
+
+<h2 id="주의사항">주의사항</h2>
+
+<h3 id="_configyml-파일-설정-확인하기">_config.yml 파일 설정 확인하기</h3>
+
+<p>루트 디렉터리(GitHub Jekyll 블로그의 가장 상위 디렉터리)에 존재하는 _config.yml 파일 내의 url 부분에 자신의 블로그 url을 입력해야 sitemap.xml에서 site.url 부분을 사용 할 수 있다. 즉 _config.yml 파일 내에 url: ‘http://[github 사용자명].github.io’ 이 있는지 확인한다.</p>
+
+<h2 id="robottxt-파일-생성">robot.txt 파일 생성</h2>
+
+<p>robots.txt 는 검색엔진의 웹 크롤러가 방문할 때 참고하는 정책을 명시하는 파일이다. robots.txt 파일에 sitemap.xml 위치를 등록해두면 검색엔진의 크롤러들이 홈페이지를 크롤링하는데 도움을 준다.</p>
+
+<p>robots.txt 파일을 자신의 GitHub Jekyll 블로그의 가장 상위 디렉터리에 생성한다. 아래의 코드를 붙여 넣는다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>User-agent: *
+Allow: /
+Sitemap: http://[자신의 github 사용자명].github.io/sitemap.xml
+</code></pre></div></div>
+
+<h2 id="sitemapxml-robotstxt-feedxml-파일-github에-업로드">sitemap.xml, robots.txt, feed.xml 파일 GitHub에 업로드</h2>
+
+<p>Local에서 sitemap.xml, feed.xml 확인해보자. jekyll serve 명령어를 이용하여 로컬 서버를 실행한다.
+http://127.0.0.1:4000/sitemap.xml 에 접속하여 내용을 확인한다.
+http://127.0.0.1:4000/feed.xml 에 접속하여 내용을 확인한다.
+자신의 GitHub Jekyll 블로그의 가장 상위 디렉터리에 올린다.
+Git Commit &amp; Push 작업이 필요하다.
+https://gmlwjd9405.github.io/2017/10/21/include-blog-in-a-NaverSearchEngine.html</p>
+
+<h2 id="네이버-웹마스터-도구에-feedxml-sitemapxml-제출하기">네이버 웹마스터 도구에 feed.xml, sitemap.xml 제출하기</h2>
 
         
       </section>
@@ -369,7 +525,15 @@
     
       
       
-      <a href="/tags/#blog" class="page__taxonomy-item" rel="tag">Blog</a>
+      <a href="/tags/#blog" class="page__taxonomy-item" rel="tag">blog</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#jekyll" class="page__taxonomy-item" rel="tag">jekyll</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#search-engine" class="page__taxonomy-item" rel="tag">search engine</a>
     
     </span>
   </p>
@@ -397,7 +561,7 @@
 
 
         
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-08-03T00:00:00+09:00">August 3, 2020</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-12-29T00:00:00+09:00">December 29, 2020</time></p>
 
 
       </footer>
@@ -407,7 +571,7 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=%EC%A2%8B%EC%9D%80+%EB%B8%94%EB%A1%9C%EA%B7%B8%20http%3A%2F%2Flocalhost%3A4000%2Fblog%2F1%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Jekyll+%EB%B8%94%EB%A1%9C%EA%B7%B8+%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84%EC%97%90+%EB%93%B1%EB%A1%9D%ED%95%98%EA%B8%B0+-+Naver%20http%3A%2F%2Flocalhost%3A4000%2Fblog%2F1%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
   <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fblog%2F1%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
@@ -418,11 +582,11 @@
       
   <nav class="pagination">
     
-      <a href="#" class="pagination--pager disabled">Previous</a>
+      <a href="/firebase/1/" class="pagination--pager" title="Firebase 시작하기
+">Previous</a>
     
     
-      <a href="/resume/1/" class="pagination--pager" title="좋은 개발자의 좋은 이력서 작성하기
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
@@ -571,7 +735,7 @@
 
 
 
-  less than 1 minute read
+  1 minute read
 
 </p>
     
