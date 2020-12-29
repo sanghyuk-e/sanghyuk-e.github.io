@@ -92,6 +92,12 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
+  jekyll
+  jekyll-feed
+  jekyll-gist
+  jekyll-include-cache
+  jekyll-paginate
+  jekyll-sitemap
   minimal-mistakes-jekyll!
   rake (>= 12.3.3)
 
