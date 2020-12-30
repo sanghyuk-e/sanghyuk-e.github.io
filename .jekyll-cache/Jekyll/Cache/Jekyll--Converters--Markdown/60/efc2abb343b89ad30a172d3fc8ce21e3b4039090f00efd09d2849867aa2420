@@ -1,0 +1,23 @@
+I"�<ul class="toc__menu">
+  <li><a href="#jekyll-블로그-검색엔진에-등록하기---naver">Jekyll 블로그 검색엔진에 등록하기 - NAVER</a>
+    <ul>
+      <li><a href="#네이버-웹-마스터-도구에-속성-추가">네이버 웹 마스터 도구에 속성 추가</a></li>
+      <li><a href="#사이트-소유-확인">사이트 소유 확인</a></li>
+      <li><a href="#rss-feedxml-파일-생성">RSS feed.xml 파일 생성</a></li>
+      <li><a href="#sitemapxml-파일-생성">sitemap.xml 파일 생성</a>
+        <ul>
+          <li><a href="#sitemap-설정하기">sitemap 설정하기</a></li>
+        </ul>
+      </li>
+      <li><a href="#주의사항">주의사항</a>
+        <ul>
+          <li><a href="#_configyml-파일-설정-확인하기">_config.yml 파일 설정 확인하기</a></li>
+        </ul>
+      </li>
+      <li><a href="#robottxt-파일-생성">robot.txt 파일 생성</a></li>
+      <li><a href="#sitemapxml-robotstxt-feedxml-파일-github에-업로드">sitemap.xml, robots.txt, feed.xml 파일 GitHub에 업로드</a></li>
+      <li><a href="#네이버-웹마스터-도구에-feedxml-sitemapxml-제출하기">네이버 웹마스터 도구에 feed.xml, sitemap.xml 제출하기</a></li>
+    </ul>
+  </li>
+</ul>
+:ET
