@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "SANGHYUK LEE"
-  avatar           : "/assets/images/bio-me.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-me.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "흥미롭고 즐거운 것들을 찾아 헤메고 있습니다."
   location         : "Seoul"
   email            : 
