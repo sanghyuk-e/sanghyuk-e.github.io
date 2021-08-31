@@ -291,3 +291,9 @@ defaults:
       comments: false
       share: true
       related: false
+
+# 다크모드를 위해 추가된 부분
+# _config.yml
+dark_theme_toggle        : true # 다크 모드 토글 기능 추가
+footer_scripts:
+  - /assets/js/custom/dark-theme.js
