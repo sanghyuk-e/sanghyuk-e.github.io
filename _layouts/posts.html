@@ -4,6 +4,16 @@ layout: archive
 
 {{ content }}
 
+<!-- utteranc comments -->
+<script src="https://utteranc.es/client.js"
+        repo="sanghyuk-e/comment"
+        issue-term="pathname"
+        label="Comments"
+        theme="preferred-color-scheme"
+        crossorigin="anonymous"
+        async>
+</script>
+
 <ul class="taxonomy__index">
   {% assign postsInYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
   {% for year in postsInYear %}
