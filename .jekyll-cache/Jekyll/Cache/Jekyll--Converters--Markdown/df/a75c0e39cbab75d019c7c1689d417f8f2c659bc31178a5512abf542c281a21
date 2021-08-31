@@ -1,0 +1,186 @@
+I"{U<p><img src="/assets/images/posts/iOS/2021-02-01-2/interview.png" alt="interview" class="align-center" /></p>
+
+<h1 id="ios-면접-질문-모음">iOS 면접 질문 모음</h1>
+
+<p>개발자를 채용하는 면접에는 기술 면접이 있다. 여러번 면접을 경험하다 보니 특정 질문들을 자주 받는 느낌이 들었다. 업무를 진행하는데 있어서 중요한 부분들을 주로 질문한다고 생각이 들었고, 그 말은 반대로 꼭 공부해야 알아야 할 부분이라는 생각이 들었다. 그래서 실제 면접을 통해서 받는 질문들을 정리하려고 한다. 관련 자료들을 찾던 중 iOS 개발자들이 면접에서 받는 질문들을 리스트로 정리한 글을 발견했다. 질문의 답을 아는 것도 있었지만, 모르는 것이 더 많았다. 원본 글에 공부하며 습득하는 것을 위해 답이 적혀있지 않아 따로 질문에 대한 답을 정리하기로 했다.</p>
+
+<p>원본 글은 <a href="https://github.com/JeaSungLEE/iOSInterviewquestions">이재성님의 깃허브</a>에서 볼 수 있다. 지속적으로 iOS 개발자들의 제보에 의해 채워지는 질문 리스트라고 한다. 이직을 준비하는 사람들은 유용한 글이 될 것 같다.</p>
+
+<p class="notice--info"><strong>💡 Notice :</strong>
+답을 정리한 글은 체크가 되어있으며, 클릭 시 정리한 글로 이동한다.</p>
+
+<h2 id="required">Required</h2>
+
+<p>아래 내용들은 최대한 많이 공부하는 것이 좋다고 한다.</p>
+
+<p>만약 면접시기가 WWDC 이후 라면 WWDC의 <a href="https://developer.apple.com/videos/all-videos/">세션들</a>을 봐 두는것이 좋다.</p>
+
+<h3 id="ios">iOS</h3>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Bounds 와 Frame 의 차이점을 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />실제 디바이스가 없을 경우 개발 환경에서 할 수 있는 것과 없는 것을 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />앱이 foreground에 있을 때와 background에 있을 때 어떤 제약사항이 있나요?</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />상태 변화에 따라 다른 동작을 처리하기 위한 앱델리게이트 메서드들을 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />scene delegate에 대해 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />앱이 In-Active 상태가 되는 시나리오를 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />NSOperationQueue 와 GCD Queue 의 차이점을 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />GCD API 동작 방식과 필요성에 대해 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />자신만의 Custom View를 만들려면 어떻게 해야하는지 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />iOS 앱을 만들고, User Interface를 구성하는 데 필수적인 프레임워크 이름은 무엇인가?</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Foundation Kit은 무엇이고 포함되어 있는 클래스들은 어떤 것이 있는지 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Delegate란 무언인가 설명하고, retain 되는지 안되는지 그 이유를 함께 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />NotificationCenter 동작 방식과 활용 방안에 대해 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />UIKit 클래스들을 다룰 때 꼭 처리해야하는 애플리케이션 쓰레드 이름은 무엇인가?</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />TableView를 동작 방식과 화면에 Cell을 출력하기 위해 최소한 구현해야 하는 DataSource 메서드를 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />하나의 View Controller 코드에서 여러 TableView Controller 역할을 해야 할 경우 어떻게 구분해서 구현해야 하는지 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />App Bundle의 구조와 역할에 대해 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />View 객체에 대해 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />UIView 에서 Layer 객체는 무엇이고 어떤 역할을 담당하는지 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />UIWindow 객체의 역할은 무엇인가?</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />UINavigationController 의 역할이 무엇인지 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />모든 View Controller 객체의 상위 클래스는 무엇이고 그 역할은 무엇인가?</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />앱이 시작할 때 main.c 에 있는 UIApplicationMain 함수에 의해서 생성되는 객체는 무엇인가?</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />UIApplication 객체의 컨트롤러 역할은 어디에 구현해야 하는가?</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />앱의 콘텐츠나 데이터 자체를 저장/보관하는 특별한 객체를 무엇이라고 하는가?</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />앱 화면의 콘텐츠를 표시하는 로직과 관리를 담당하는 객체를 무엇이라고 하는가?</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Swift의 클로저와 Objective-C의 블록은 어떤 차이가 있는가?</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />App의 Not running, Inactive, Active, Background, Suspended에 대해 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />App thinning에 대해서 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Global DispatchQueue 의 Qos 에는 어떤 종류가 있는지, 각각 어떤 의미인지 설명하시오.</li>
+</ul>
+
+<hr />
+
+<h3 id="autolayout">AutoLayout</h3>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />오토레이아웃을 코드로 작성하는 방법은 무엇인가? (3가지)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />hugging, resistance에 대해서 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Intrinsic Size에 대해서 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />스토리보드를 이용했을때의 장단점을 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Safearea에 대해서 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Left Constraint 와 Leading Constraint 의 차이점을 설명하시오.</li>
+</ul>
+
+<hr />
+
+<h3 id="swift">Swift</h3>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><a href="https://sanghyuk.dev/swift-grammar/6-1/">Optional 이란 무엇인지 설명하시오.</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Fast Enumeration 이란 무엇인지 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Struct 가 무엇이고 어떻게 사용하는지 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />instance 메서드와 class 메서드의 차이점을 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Delegate 패턴을 활용하는 경우를 예를 들어 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Singleton 패턴을 활용하는 경우를 예를 들어 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />KVO 동작 방식에 대해 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Delegates와 Notification 방식의 차이점에 대해 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />멀티 쓰레드로 동작하는 앱을 작성하고 싶을 때 고려할 수 있는 방식들을 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />MVC 구조에 대해 블록 그림을 그리고, 각 역할과 흐름을 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />프로토콜이란 무엇인지 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Hashable이 무엇이고, Equatable을 왜 상속해야 하는지 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />mutating 키워드에 대해 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />탈출 클로저에 대하여 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Extension에 대해 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />접근 제어자의 종류엔 어떤게 있는지 설명하시오</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />defer란 무엇인지 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />defer가 호출되는 순서는 어떻게 되고, defer가 호출되지 않는 경우를 설명하시오.</li>
+</ul>
+
+<hr />
+
+<h3 id="arc">ARC</h3>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />ARC란 무엇인지 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Retain Count 방식에 대해 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Strong 과 Weak 참조 방식에 대해 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />ARC 대신 Manual Reference Count 방식으로 구현할 때 꼭 사용해야 하는 메서드들을 쓰고 역할을 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />retain 과 assign 의 차이점을 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />순환 참조에 대하여 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />강한 순환 참조 (Strong Reference Cycle) 는 어떤 경우에 발생하는지 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />특정 객체를 autorelease 하기 위해 필요한 사항과 과정을 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Autorelease Pool을 사용해야 하는 상황을 두 가지 이상 예로 들어 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />다음 코드를 실행하면 어떤 일이 발생할까 추측해서 설명하시오.
+    <div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="kt">Ball</span> <span class="o">*</span><span class="n">ball</span> <span class="o">=</span> <span class="p">[[[[</span><span class="kt">Ball</span> <span class="n">alloc</span><span class="p">]</span> <span class="kd">init</span><span class="p">]</span> <span class="n">autorelease</span><span class="p">]</span> <span class="n">autorelease</span><span class="p">];</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<hr />
+
+<h3 id="functional-programming">Functional Programming</h3>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><a href="https://sanghyuk.dev/swift-grammar/7-1/">함수형 프로그래밍이 무엇인지 설명하시오.(작성중)</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />고차 함수가 무엇인지 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Swift Standard Library의 map, filter, reduce, compactMap, flatMap에 대하여 설명하시오.</li>
+</ul>
+
+<h2 id="optional">Optional</h2>
+
+<p>추가로 공부하면 좋을 내용들이라고 한다. Objective-C 나 rx는 회사, 팀마다 차이가 있다.</p>
+
+<h3 id="objective-c">Objective-C</h3>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Mutable 객체과 Immutable 객체는 어떤것이 있는지 예를 들고, 차이점을 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />dynamic과 property 의미와 차이를 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />@property로 선언한 NSString* title 의 getter/setter 메서드를 구현해보시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />@property에서 atomic과 nonatomic 차이점을 설명하고, 어떤것이 안전한지, 어느것이 기본인지 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />@property로 선언한다는 것의 의미를 설명하고, .h에 넣을 경우와 .m에 넣을 경우 차이점을 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />-performSelector:withObject:afterDelay: 메시지를 보내면 인자값의 객체는 retain되는가? 그 이유를 함께 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Objective-C 에서 캡슐화된 데이터를 접근하기 위한 방법들을 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />unnamed category 방식에 대해 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Category 확장과 Subclass 확장의 차이점을 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Category 방식에 대해 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Objective-C 에서 Protocol 이란 무엇인지 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Objective-C++ 방식이 무엇인지 설명하고, 어떤 경우 사용해야 하는지 설명하시오.</li>
+</ul>
+
+<hr />
+
+<h3 id="advanced">Advanced</h3>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />method swizzling이 무엇이고, 어떨 때 사용하는지 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />NSCoder 클래스는 어떤 상황에서 어떻게 써야 하는지 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Responder Chain 구조에 대해 설명하고, First Responder 역할에 대해 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />NSObject부터 UIButton 까지 상속 과정의 계층과 역할을 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />shallow copy와 deep copy의 차이점을 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Push Notification 방식에 대해 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Foundation 과 Core Foundation 프레임워크의 차이점을 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />NSURLConnection 에서 사용하는 Delegate 메서드들에 대해 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Synchronous 방식과 Asynchronous 방식으로 URL Connection을 처리할 경우의 장단점을 비교하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Plist 파일 구조와 Plist 파일에 저장된 데이터를 다루기 적합한 클래스를 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Core Data와 Sqlite 같은 데이터 베이스의 차이점을 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />JSON 데이터를 처리하는 방식과 파서, 객체 변환 방식에 대해 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />웹 서버와 HTTP 연결을 사용해서 데이터를 주거나 받으려면 사용해야 하는 클래스와 동작을 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Protocol에서는 왜 var만 되는지 설명하시요.</li>
+</ul>
+
+<hr />
+
+<h3 id="architecture">Architecture</h3>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />MVVM, MVC, Ribs, VIP 등 자신이 알고있는 아키텍쳐를 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />의존성 주입에 대하여 설명하시오.</li>
+</ul>
+
+<hr />
+
+<h3 id="rx">Rx</h3>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Reactive Programming이 무엇인지 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />RxSwift에서 Hot Observable과 Cold Observable의 차이를 설명하시오.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Subject와 drive의 차이를 설명하시오.</li>
+</ul>
+
+<hr />
+
+<p>출처 : <a href="https://github.com/JeaSungLEE/iOSInterviewquestions">이재성님의 깃허브</a></p>
+
+<p>날짜 : 2021년 2월 1일 기준</p>
+:ET

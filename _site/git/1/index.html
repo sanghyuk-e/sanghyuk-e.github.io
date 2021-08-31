@@ -20,14 +20,14 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Sanghyuk's Blog">
 <meta property="og:title" content="[git] 버전 관리 무시 목록(.gitignore) 설정">
-<meta property="og:url" content="http://localhost:4000/git/1/">
+<meta property="og:url" content="https://sanghyuk.dev/git/1/">
 
 
   <meta property="og:description" content="Sanghyuk’s Blog">
 
 
 
-  <meta property="og:image" content="http://localhost:4000/assets/images/posts/Git/github.png">
+  <meta property="og:image" content="https://sanghyuk.dev/assets/images/posts/Git/github.png">
 
 
 
@@ -44,7 +44,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/git/1/">
+<link rel="canonical" href="https://sanghyuk.dev/git/1/">
 
 
 
@@ -55,7 +55,7 @@
     
       "@type": "Person",
       "name": "SANGHYUK LEE",
-      "url": "http://localhost:4000/"
+      "url": "https://sanghyuk.dev/"
     
   }
 </script>
@@ -132,7 +132,7 @@
           <span class="site-subtitle">iOS Developer</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/categories/">Categries📚</a>
+              <a href="/categories/">Categories📚</a>
             </li><li class="masthead__menu-item">
               <a href="https://github.com/sanghyuk-e">Repositories🗄</a>
             </li><li class="masthead__menu-item">
@@ -214,7 +214,7 @@
   
     <div class="author__avatar">
       
-        <img src="/assets/images/bio-me.jpg" alt="SANGHYUK LEE" itemprop="image">
+        <img src="/assets/images/bio-me.png" alt="SANGHYUK LEE" itemprop="image">
       
     </div>
   
@@ -361,56 +361,56 @@
 <h1 id="gitignore">.gitignore</h1>
 
 <h2 id="1-위험성">1. 위험성</h2>
-<p>특정 파일은 git에서 버전 관리 대상에서 제외해야 합니다.</p>
+<p>특정 파일은 git에서 버전 관리 대상에서 제외해야 한다</p>
 
-<p>프로젝트를 업로드할 때 개인키가 프로젝트 폴더내에 있을 수 있고, 이런 중요한 설정 정보는 git 저장소에 추가하지 말아야 합니다.</p>
+<p>프로젝트를 업로드할 때 개인키가 프로젝트 폴더내에 있을 수 있고, 이런 중요한 설정 정보는 git 저장소에 추가하지 말아야 한다.</p>
 
-<p>이로인해서 해킹에 대상이 될 수 있고, 심각한 피해를 입을 수 있습니다.</p>
+<p>이로인해서 해킹에 대상이 될 수 있고, 심각한 피해를 입을 수 있다.</p>
 
 <h2 id="2-해결방안">2. 해결방안</h2>
-<p>git 에는 이러한 문제를 방지하기 위한 무시 목록을 작성할 수 있습니다.</p>
+<p>git 에는 이러한 문제를 방지하기 위한 무시 목록을 작성할 수 있다.</p>
 
-<p>.gitignore 에 작성된 파일은 git add 명령시 제외됩니다.</p>
+<p>.gitignore 에 작성된 파일은 git add 명령시 제외된다.</p>
 
 <h2 id="3-작성법">3. 작성법</h2>
-<p>.gitignore 의 각 라인에 무시할 파일 또는 디렉토리의 패턴을 적습니다.</p>
+<p>.gitignore 의 각 라인에 무시할 파일 또는 디렉토리의 패턴을 적는다.</p>
 
-<p>여러 파일을 한번에 지정할 경우 * 을 사용합니다.</p>
+<p>여러 파일을 한번에 지정할 경우 * 을 사용한다.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jdbc.properties
 *.class
 *.jar
 </code></pre></div></div>
 
-<p>위와 같이 작성하면 git add 명령어를 실행했을 때 jdbc.properties 파일을 제외하며, .class와 .jar 확장자를 가진 파일을 모두 무시합니다.</p>
+<p>위와 같이 작성하면 git add 명령어를 실행했을 때 jdbc.properties 파일을 제외하며, .class와 .jar 확장자를 가진 파일을 모두 무시한다.</p>
 
 <blockquote>
-  <p>이미 추가되어 버전 관리중인 파일에는 영향을 미치지 않습니다.</p>
+  <p>이미 추가되어 버전 관리중인 파일에는 영향을 미치지 않는다.</p>
 </blockquote>
 
 <h2 id="4-응용">4. 응용</h2>
-<p>만약 .gitignore 목록에 있는 파일을 추가해야 할 경우 -f 옵션을 이용해 추가할 수 있습니다.</p>
+<p>만약 .gitignore 목록에 있는 파일을 추가해야 할 경우 -f 옵션을 이용해 추가할 수 있다.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add -f jdbc.properties
 </code></pre></div></div>
 
-<p>.gitignore 에 설정한 내용은 하위 디렉토리에도 동일하게 적용됩니다.</p>
+<p>.gitignore 에 설정한 내용은 하위 디렉토리에도 동일하게 적용된다.</p>
 
-<p>만약 특정 하위 디렉토리가 다른 ignore 를 적용해야 할 경우 해당 디렉토리에 .gitignore 을 새로 만들어줍니다.</p>
+<p>만약 특정 하위 디렉토리가 다른 ignore 를 적용해야 할 경우 해당 디렉토리에 .gitignore 을 새로 만들어준다.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>*
 !jdbc.properties
 </code></pre></div></div>
-<p>위와 같은 .gitignore 을 새로 만들어 config 폴더에 넣을 경우, 기본적으로 config 의 모든 파일을 무시하면서 jdbc.properties 라는 파일은 버전을 관리합니다. !는 이전의 ignore 패턴을 무효화 하는 문자열입니다.</p>
+<p>위와 같은 .gitignore 을 새로 만들어 config 폴더에 넣을 경우, 기본적으로 config 의 모든 파일을 무시하면서 jdbc.properties 라는 파일은 버전을 관리한다. !는 이전의 ignore 패턴을 무효화 하는 문자열이다.</p>
 
-<p>만약 파일명에 ! 가 들어갈 경우 escape 문자인 \ 를 ! 앞에 붙여줍니다.</p>
+<p>만약 파일명에 ! 가 들어갈 경우 escape 문자인 \ 를 ! 앞에 붙여준다.</p>
 
 <h2 id="5-gitignoreio">5. gitignore.io</h2>
-<p>사용하는 운영체제, IDE, 언어마다 추가하는 패턴들이 있으며 이를 매번 기억하여 입력하는 것은 매우 귀찮습니다.</p>
+<p>사용하는 운영체제, IDE, 언어마다 추가하는 패턴들이 있으며 이를 매번 기억하여 입력하는 것은 매우 귀찮은 일이다.</p>
 
-<p>이런 귀찮은 일을 대신 처리해주는 <a href="https://www.toptal.com/developers/gitignore">gitignore.io</a> 라는 서비스가 있습니다.</p>
+<p>이런 귀찮은 일을 대신 처리해주는 <a href="https://www.toptal.com/developers/gitignore">gitignore.io</a> 라는 서비스가 있다.</p>
 
-<p>일반적으로 사용되는 무시 패턴을 해당 서비스를 통해 작성하고, 추가적으로 필요한 부분만 무시 목록을 작성하면 편리하게 사용할 수 있습니다.</p>
+<p>일반적으로 사용되는 무시 패턴을 해당 서비스를 통해 작성하고, 추가적으로 필요한 부분만 무시 목록을 작성하면 편리하게 사용할 수 있다.</p>
 
 <h2 id="6-참고">6. 참고</h2>
 <p><a href="https://git-scm.com/docs/gitignore">https://git-scm.com/docs/gitignore</a></p>
@@ -434,7 +434,23 @@
     
       
       
-      <a href="/tags/#git" class="page__taxonomy-item" rel="tag">git</a>
+      <a href="/tags/#github" class="page__taxonomy-item" rel="tag">github</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#gitignore" class="page__taxonomy-item" rel="tag">gitignore</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#git" class="page__taxonomy-item" rel="tag">git</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#%EA%B9%83" class="page__taxonomy-item" rel="tag">깃</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#%EA%B9%83%ED%97%99" class="page__taxonomy-item" rel="tag">깃헙</a>
     
     </span>
   </p>
@@ -467,23 +483,12 @@
 
       </footer>
 
-      <section class="page__share">
-  
-    <h4 class="page__share-title">Share on</h4>
-  
-
-  <a href="https://twitter.com/intent/tweet?text=%5Bgit%5D+%EB%B2%84%EC%A0%84+%EA%B4%80%EB%A6%AC+%EB%AC%B4%EC%8B%9C+%EB%AA%A9%EB%A1%9D%28.gitignore%29+%EC%84%A4%EC%A0%95%20http%3A%2F%2Flocalhost%3A4000%2Fgit%2F1%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
-
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fgit%2F1%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
-
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fgit%2F1%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
-</section>
-
+      
 
       
   <nav class="pagination">
     
-      <a href="/resume/1/" class="pagination--pager" title="좋은 개발자의 좋은 이력서 작성하기
+      <a href="/blog/1/" class="pagination--pager" title="좋은 블로그
 ">Previous</a>
     
     
@@ -510,85 +515,9 @@
 <div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
-      <div class="archive__item-teaser">
-        <img src="/assets/images/posts/Blog/Jekyll.jpeg" alt="">
-      </div>
-    
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/blog/1/" rel="permalink">Jekyll 블로그 검색엔진에 등록하기 - Naver
-</a>
-      
-    </h2>
-    <!-- 기존 읽는데 필요한 시간이 보이는 부분 / 변경 후 작성날짜로 표기
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  3 minute read
-
-</p>
-    
-    -->
-    
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> December 29 2020</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">
-</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src="/assets/images/posts/Firebase/firebase.png" alt="">
-      </div>
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/firebase/1/" rel="permalink">Firebase 시작하기
-</a>
-      
-    </h2>
-    <!-- 기존 읽는데 필요한 시간이 보이는 부분 / 변경 후 작성날짜로 표기
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  1 minute read
-
-</p>
-    
-    -->
-    
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> December 08 2020</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">Firebase 따라하기
-</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/ios/1/" rel="permalink">Mac 업데이트 후 CocoaPod 오류 해결방법
+        <a href="/planner/1/" rel="permalink">기획
 </a>
       
     </h2>
@@ -605,7 +534,7 @@
     
     -->
     
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> December 04 2020</p>
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> August 31 2021</p>
     
     <p class="archive__item-excerpt" itemprop="description">
 </p>
@@ -621,12 +550,12 @@
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
       <div class="archive__item-teaser">
-        <img src="/assets/images/posts/Git/github.png" alt="">
+        <img src="/assets/images/posts/Swift-Grammar/swift.png" alt="">
       </div>
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/git/2/" rel="permalink">Mac 업데이트 후 xcrun error 해결방법
+        <a href="/swift-grammar/7-1/" rel="permalink">CHAPTER07: 함수 - 1.함수의 기본 개념
 </a>
       
     </h2>
@@ -637,15 +566,91 @@
 
 
 
-  less than 1 minute read
+  5 minute read
 
 </p>
     
     -->
     
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> December 03 2020</p>
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> February 21 2021</p>
     
-    <p class="archive__item-excerpt" itemprop="description">
+    <p class="archive__item-excerpt" itemprop="description">스위프트 문법 스터디
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/posts/Swift-Grammar/swift.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/swift-grammar/6-2/" rel="permalink">CHAPTER06: 옵셔널 - 2. 옵셔널 값 처리
+</a>
+      
+    </h2>
+    <!-- 기존 읽는데 필요한 시간이 보이는 부분 / 변경 후 작성날짜로 표기
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  13 minute read
+
+</p>
+    
+    -->
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> February 16 2021</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">스위프트 문법 스터디
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/posts/Swift-Grammar/swift.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/swift-grammar/6-1/" rel="permalink">CHAPTER06: 옵셔널 - 1. 옵셔널 타입 선언과 정의
+</a>
+      
+    </h2>
+    <!-- 기존 읽는데 필요한 시간이 보이는 부분 / 변경 후 작성날짜로 표기
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  7 minute read
+
+</p>
+    
+    -->
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> February 05 2021</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">스위프트 문법 스터디
 </p>
   </article>
 </div>
@@ -707,7 +712,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2020 SANGHYUK LEE. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2021 SANGHYUK LEE. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
@@ -723,6 +728,30 @@
 <script src="/assets/js/lunr/lunr-en.js"></script>
 
 
+
+
+    <script>
+  'use strict';
+
+  (function() {
+    var commentContainer = document.querySelector('#utterances-comments');
+
+    if (!commentContainer) {
+      return;
+    }
+
+    var script = document.createElement('script');
+    script.setAttribute('src', 'https://utteranc.es/client.js');
+    script.setAttribute('repo', 'sanghyuk-e/sanghyuk-e.github.io');
+    script.setAttribute('issue-term', 'pathname');
+    script.setAttribute('theme', 'github-light');
+    script.setAttribute('crossorigin', 'anonymous');
+
+    commentContainer.appendChild(script);
+  })();
+</script>
+
+  
 
 
 
