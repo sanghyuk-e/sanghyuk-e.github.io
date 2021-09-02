@@ -1,4 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://sanghyuk.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sanghyuk.dev/" rel="alternate" type="text/html" /><updated>2021-09-01T02:54:52+09:00</updated><id>https://sanghyuk.dev/feed.xml</id><title type="html">Sanghyuk’s Blog</title><subtitle>Sanghyuk's Blog</subtitle><author><name>SANGHYUK LEE</name></author><entry><title type="html">기획</title><link href="https://sanghyuk.dev/planner/1/" rel="alternate" type="text/html" title="기획" /><published>2021-08-31T00:00:00+09:00</published><updated>2021-08-31T00:00:00+09:00</updated><id>https://sanghyuk.dev/planner/1</id><content type="html" xml:base="https://sanghyuk.dev/planner/1/">&lt;h1 id=&quot;제목&quot;&gt;제목&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://sanghyuk.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sanghyuk.dev/" rel="alternate" type="text/html" /><updated>2021-09-09T21:17:45+09:00</updated><id>https://sanghyuk.dev/feed.xml</id><title type="html">Sanghyuk’s Blog</title><subtitle>Sanghyuk's Blog</subtitle><author><name>SANGHYUK LEE</name></author><entry><title type="html">Part.1</title><link href="https://sanghyuk.dev/product%20manager/2/" rel="alternate" type="text/html" title="Part.1" /><published>2021-09-02T00:00:00+09:00</published><updated>2021-09-02T00:00:00+09:00</updated><id>https://sanghyuk.dev/product%20manager/2</id><content type="html" xml:base="https://sanghyuk.dev/product%20manager/2/">&lt;h1 id=&quot;part1&quot;&gt;Part.1&lt;/h1&gt;
+
+&lt;p&gt;제품을 만드는 사람들이 밤과 주말을 희생해 가며 오랜 기간 열심히 제품을 만들었다. 제품을 설명하는 자리를 가졌고 좋은 평가를 받았다. 성공을 위한 만반의 준비를 하고 마침내 제품을 출시했다. 그런데 제품은 실패했다. 원인은 제품을 구매하는 사람이 없었기 때문이다. 기술적으로 매우 훌륭한 제품이었고, 전문가들은 극찬을 아끼지 않았다. 하지만 결국 사람들이 원하는 제품이 아니었던 것이다. 여기서 알 수 있는 점은 &lt;strong&gt;만들 만한 가치가 있는 제품이 아니라면 엔지니어 팀이 얼마나 훌륭한지는 아무 의미가 없다는 것이다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;여기서 배울 점이 있다. 만들 제품을 정의하는 책임을 진 ‘제품 관리자’라는 사람이 무슨 제품을 만들지에 대한 의사결정을 한다는 것이다. 또 대부분의 회사가 제품 관리에 서툴고, 지금도 마찬가지라는 것이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;최고&lt;/strong&gt;의 기업들과 &lt;strong&gt;대부분&lt;/strong&gt; 기업이 제품을 만드는 방식에서 큰 차이가 있다. &lt;strong&gt;최신 기술을 잘 아는 것과 실제로 잘 만드는 것은 매우 다르다&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;대부분 기업은 여전히 오래되고 비효율적인 방법으로 제품을 발견하고 출시한다. 학계나 최고 경영대학의 프로그램, 산업 기관 등 모두 과거의 실패한 모델에 갇혀 있다.&lt;/p&gt;
+
+&lt;p&gt;대부분의 제품 리더들은 사람들에게 진정한 가치과 감동을 제공하는, 고객이 사랑하는 제품을 만들기 원한다. 하지만 많은 제품은 감동을 주지 못하며, 우리의 삶은 좋은 제품만을 사용하기에도 모자라다.&lt;/p&gt;
+
+&lt;h2 id=&quot;훌륭한-제품을-이끄는-사람&quot;&gt;훌륭한 제품을 이끄는 사람&lt;/h2&gt;
+
+&lt;p&gt;모든 훌륭한 제품 이면에는 지칠줄 모르고, 무대 뒤에서 최선을 다하는 누군가가 있다. 그 사람은 제품팀을 이끌며, 비즈니스 목표에 맞는 방향으로 기술과 디자인을 통해 고객의 실제 문제를 해결한다. 이런 사람들을 우리는 &lt;strong&gt;제품 관리자(product manager)&lt;/strong&gt;라고 부른다. 이들은 스타트업의 공동 창업자나 대표일 수 있다. 또한, 이미 다른 역할을 가지고 있지만, 필요에 의해 선택된 사람일 수도 있다. 제품 관리자로서 임무를 수행한다는 것은 디자이너, 엔지니어, 마케팅, 프로젝트 매니저의 역할과는 매우 다르다.&lt;/p&gt;
+
+&lt;p&gt;기술 제품을 만드는 팀에서 제품 관리자는 매우 특별하고 도전적인 책임을 지고 일을 한다. 어려운 역할이고, 다른 사람이 어떤 이야기를 해준다고 도움이 되지 않는다. 제품 관리자는 보통 풀타임 업무가 필요하다. 일반적으로 업무를 충실하게 수행하는 제품 관리자는 주 60시간보다 적게 일하는 경우를 찾아보기 힘들다.&lt;/p&gt;
+
+&lt;p&gt;디자이너나 엔지니어로서 제품 관리자의 역할을 동시에 수행하는 것도 충분히 가능하고, 실제로 몇 가지 장점들이 있다. 하지만 어마어마한 업무량을 소화해야 한다.&lt;/p&gt;
+
+&lt;p&gt;제품팀은 적어도 한 명의 제품 관리자 및 두 명에서 최대 10명의 엔지니어로 구성된다. 사용자 접점에 있는 제품을 만드는 경우라면 아마도 팀에 제품 디자이너도 필요할 것이다.&lt;/p&gt;
+
+&lt;p&gt;앞으로의 이야기는 팀의 구성이 어떻게 되었든 제품 관리자라는 역할, 그리고 함께 일하는 전담팀이 있다는 것을 가정한다. 그 팀은 제품을 설계-구현-출시를 위해 함께 업무를 하는 팀을 말한다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;a href=&quot;https://sanghyuk.dev/ProductManager/1/&quot; class=&quot;btn btn--info&quot;&gt;이전 내용 보기&lt;/a&gt;
+&lt;a href=&quot;https://sanghyuk.dev/ProductManager/3/&quot; class=&quot;btn btn--info&quot;&gt;다음 내용 보기&lt;/a&gt;
+&lt;/center&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Product Manager" /><category term="Product Manager" /></entry><entry><title type="html">Product Manager</title><link href="https://sanghyuk.dev/product%20manager/1/" rel="alternate" type="text/html" title="Product Manager" /><published>2021-09-01T00:00:00+09:00</published><updated>2021-09-01T00:00:00+09:00</updated><id>https://sanghyuk.dev/product%20manager/1</id><content type="html" xml:base="https://sanghyuk.dev/product%20manager/1/">&lt;h1 id=&quot;product-manager&quot;&gt;Product Manager&lt;/h1&gt;
+
+&lt;p&gt;요즘 기업에서는 많은 팀에 애자일(agile)이 정착되었고, 고객 개발(customer development)과 린 스타트업(lean startup)등의 방법을 수년간 사용하고 있으며, 이제는 린와 애자일을 넘어서는 무언가에 관심을 가지고 있다.&lt;/p&gt;
+
+&lt;p&gt;제품관리의 기법들은 계속 발전해왔다. 기업은 규모를 확장하면서 새로운 도전 과제들에 직면하게 된다. 빠르게 성장하며 생존한다는 것이 얼마나 어려운지를 표현할 때, 생존 그 자체를 ‘성공’이라고 부른다.&lt;/p&gt;
+
+&lt;p&gt;제품 관리자에게는 크게 두 가지의 중요한 주제가 있다.&lt;/p&gt;
+
+&lt;p&gt;첫째, 제품 관리자(product manager)에 대해 구체적으로 알아야 한다. 제품 관리자는 기술 제품(technology-powered)를 책임지는 중요한 사람인데도 잘 모르고 있다. 기술 제품을 만드는 회사의 제품 관리자 혹은 그 일을 희망하는 사람들은 반드시 제품 관리자가 하는 일을 알아야 정확하게 알아야 한다.&lt;/p&gt;
+
+&lt;p&gt;둘째, 고객이 사랑하는 훌륭한 제품을 만드는 지침이나 체계, 비법은 있을 수 있다. 하지만 그것만으로 훌륭한 제품을 만들 수 없다. 제품의 성공을 위해서는 올바른 제품 문화를 만들어야 한다. 또, 제품 발견(product discovery)과 제품 실행(product delivery)에 이르는 일련의 방법들을 이해해야 이슈가 발생하는 상황이 되었을 때 올바른 도구들을 선택할 수 있다. 제품 관리자의 일은 절대 쉽지 않으며, 이 일을 성공적으로 할 수 있도록 준비를 해야 한다.&lt;/p&gt;
+
+&lt;p&gt;이 모든 것을 고려하여 업계에서 제품 관리자는 매우 인기가 높은 직종이다. 특히 스타트업의 대표이사가 되거나 혹은 그러한 자질을 시험할 기회가 되기도 한다.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;a href=&quot;https://sanghyuk.dev/ProductManager/2/&quot; class=&quot;btn btn--info&quot;&gt;다음 내용 보기&lt;/a&gt;
+&lt;/center&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;제품 실행은 제품 발견 단계 이후부터 실제로 제품을 구현하고 테스트하고 고객에게 전달하는 과정을 모두 포함하는 용어이다. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Product Manager" /><category term="Product Manager" /></entry><entry><title type="html">기획</title><link href="https://sanghyuk.dev/planner/1/" rel="alternate" type="text/html" title="기획" /><published>2021-08-31T00:00:00+09:00</published><updated>2021-08-31T00:00:00+09:00</updated><id>https://sanghyuk.dev/planner/1</id><content type="html" xml:base="https://sanghyuk.dev/planner/1/">&lt;h1 id=&quot;제목&quot;&gt;제목&lt;/h1&gt;
 
 &lt;p&gt;내용&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Planner" /><category term="기획" /></entry><entry><title type="html">CHAPTER07: 함수 - 1.함수의 기본 개념</title><link href="https://sanghyuk.dev/swift-grammar/7-1/" rel="alternate" type="text/html" title="CHAPTER07: 함수 - 1.함수의 기본 개념" /><published>2021-02-21T00:00:00+09:00</published><updated>2021-02-21T00:00:00+09:00</updated><id>https://sanghyuk.dev/swift-grammar/7-1</id><content type="html" xml:base="https://sanghyuk.dev/swift-grammar/7-1/">&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/swift.png&quot; alt=&quot;Swift&quot; /&gt;&lt;/p&gt;
 
@@ -1034,108 +1092,4 @@ Sitemap: http://[자신의 github 사용자명].github.io/sitemap.xml
 &lt;center&gt;
 &lt;a href=&quot;https://sanghyuk.dev/codeit/2/&quot; class=&quot;btn btn--info&quot;&gt;이전 내용 보기&lt;/a&gt;
 &lt;a href=&quot;https://sanghyuk.dev/codeit/4/&quot; class=&quot;btn btn--info&quot;&gt;다음 내용 보기&lt;/a&gt;
-&lt;/center&gt;</content><author><name>SANGHYUK LEE</name></author><category term="codeit" /><category term="Python" /><category term="codeit" /><category term="programming" /><category term="tutorial" /><category term="파이썬" /><category term="튜토리얼" /><category term="개발" /><summary type="html">프로그래밍 언어 살펴보기</summary></entry><entry><title type="html">Firebase 시작하기</title><link href="https://sanghyuk.dev/firebase/1/" rel="alternate" type="text/html" title="Firebase 시작하기" /><published>2020-12-08T00:00:00+09:00</published><updated>2020-12-08T00:00:00+09:00</updated><id>https://sanghyuk.dev/firebase/1</id><content type="html" xml:base="https://sanghyuk.dev/firebase/1/">&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Firebase/firebase.png&quot; alt=&quot;Firebase&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;firbase란&quot;&gt;Firbase란?&lt;/h2&gt;
-
-&lt;!-- asd
-{: .notice} --&gt;
-
-&lt;p&gt;구글에서 제공하는 Firebase라는 플랫폼은 여러가지 기능들을 제공하고 있어 많은 개발자가 사용하고 있다. 제공하는 기능은 인증, 데이터베이스, 푸시 알람, API 등이 있으며 복잡한 과정이 필요하지 않다는 것이 장점이다.&lt;/p&gt;
-
-&lt;h2 id=&quot;firebase-시작하기&quot;&gt;Firebase 시작하기&lt;/h2&gt;
-
-&lt;p&gt;기존 블로그들에 안드로이드를 기반으로 작성된 글이 매우 많다. iOS를 기반으로 작성된 글이 상대적으로 적은데, 연습하는 동시에 최신 과정을 한번 작성해보려고 한다. 이 과정에서 Firebase Realtime Database 와 Firebase Cloud Messaging(FCM) 을 사용하려고 한다.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;h2 id=&quot;프로젝트-생성&quot;&gt;프로젝트 생성&lt;/h2&gt;
-
-&lt;p&gt;가장 먼저 &lt;a href=&quot;https://google.com&quot;&gt;Firebase 홈페이지&lt;/a&gt; 에 접속 &amp;amp; 로그인한다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Firebase/2020-12-08-1/1.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/1.png&quot; alt=&quot;파이어베이스 홈페이지&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;시작하기를 눌러 새 프로젝트를 생성한다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Firebase/2020-12-08-1/2.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/2.png&quot; alt=&quot;프로젝트 이름 지정&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;원하는 프로젝트의 이름을 설정하고 넘어간다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Firebase/2020-12-08-1/3.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/3.png&quot; alt=&quot;애널리틱스 사용 설정&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;애널리틱스는 어플리케이션 분석에 도움을 주기 때문에 동의하고 넘어간다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Firebase/2020-12-08-1/4.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/4.png&quot; alt=&quot;애널리틱스 구성&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;국가 정도만 원하는 곳으로 설정한 후 프로젝트 생성 버튼을 누르면 약간의 기다림과 함께 프로젝트 생성이 완료된다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Firebase/2020-12-08-1/5.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/5.png&quot; alt=&quot;프로젝트 생성 중&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Firebase/2020-12-08-1/6.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/6.png&quot; alt=&quot;프로젝트 생성 완료&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;ios-앱에-추가&quot;&gt;iOS 앱에 추가&lt;/h2&gt;
-
-&lt;p&gt;만들어진 프로젝트 안으로 들어가면 아무것도 설정되어있지 않아 초기 페이지가 나온다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Firebase/2020-12-08-1/7.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/7.png&quot; alt=&quot;iOS 앱에 추가&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;iOS 버튼을 클릭하여 iOS 앱에 추가하는 작업을 시작한다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Firebase/2020-12-08-1/8.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/8.png&quot; alt=&quot;번들 추가&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;정보를 입력하는 화면이 나온다. iOS 앱의 번들을 입력하고 넘어가자.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Firebase/2020-12-08-1/9.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/9.png&quot; alt=&quot;번들 위치&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;번들은 Firebase를 사용하려고 하는 프로젝트의 번들을 입력하고 앱등록 버튼을 누른다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Firebase/2020-12-08-1/10.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/10.png&quot; alt=&quot;.plist파일 다운로드&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;GoogleService-Info.plist&lt;/strong&gt; 파일을 다운받아 프로젝트 위치에 넣는 방법을 설명한다. 그대로 따라서 진행한 뒤 다음 버튼을 누른다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Firebase/2020-12-08-1/11.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/11.png&quot; alt=&quot;pod 파일 추가&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Firebase/2020-12-08-1/12.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/12.png&quot; alt=&quot;pod 파일 추가&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;코코아팟을 이용해서 팟 파일을 추가하는 방법을 안내하고 있다.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;프로젝트가 있는 폴더로 이동하여 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pod init&lt;/code&gt; 명령어를 이용해 팟 파일을 만들어 준다.&lt;/li&gt;
-  &lt;li&gt;pod 파일을 열어 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pod 'Firebase/Analytics'&lt;/code&gt; 를 추가한 뒤 저장한다.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pod install&lt;/code&gt; 명령어를 입력해 설치한다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;만약 cocoaPod 사용법을 모른다면 구글에 검색해보고 오면 된다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Firebase/2020-12-08-1/13.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/13.png&quot; alt=&quot;초기화 코드 추가&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;엑스코드에서 프로젝트를 열고 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Appdelegate.swift&lt;/code&gt; 파일을 연다. 상단에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;import Firebase&lt;/code&gt; 를 적어서 라이브러리를 추가하고 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;didFinishLaunchingWithOptions&lt;/code&gt; 부분에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FirebaseApp.configure()&lt;/code&gt; 코드를 입력해주면 된다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Firebase/2020-12-08-1/14.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Firebase/2020-12-08-1/14.png&quot; alt=&quot;설정 마무리&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;이 단계까지 무리없이 처리했다면 기본적인 프로젝트 세팅은 끝났다고 할 수 있다.&lt;/p&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Firebase" /><category term="Firebase" /><category term="Database" /><category term="cloud" /><category term="tutorial" /><category term="파이어베이스" /><category term="데이터베이스" /><category term="클라우드" /><category term="튜토리얼" /><summary type="html">Firebase 따라하기</summary></entry><entry><title type="html">Mac 업데이트 후 CocoaPod 오류 해결방법</title><link href="https://sanghyuk.dev/ios/1/" rel="alternate" type="text/html" title="Mac 업데이트 후 CocoaPod 오류 해결방법" /><published>2020-12-04T00:00:00+09:00</published><updated>2020-12-04T00:00:00+09:00</updated><id>https://sanghyuk.dev/ios/1</id><content type="html" xml:base="https://sanghyuk.dev/ios/1/">&lt;p&gt;MacOS를 업데이트를 할 때마다 여러 문제가 발생하는데, xcrun error를 해결하고 나니 CocoaPods에서 다른 오류가 발생했다. CocoaPods로 새로운 라이브러리를 추가하려고 install 을 하려는데 다음과 같은 오류 메시지가 등장했다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/posts/iOS/2020-12-04-1/1.png&quot; alt=&quot;CocoaPods 에러&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;처음 보는 오류 메시지에 당연하게도 구글에 검색을 했고, 해결 방법을 찾을 수 있었다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://github.com/CocoaPods/CocoaPods/issues/8955&quot;&gt;Brew based CocoaPods CLI fails in MacOS 10.15 Catalina due incorrect fallback to Ruby 2.3 #8955&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;고맙게도 위의 링크에서 👍가 가장 많은 댓글에서 해결 방법을 얻었다. 해결 방법은 간단한데 각자 설치한 방법에 따라서 CocoaPods를 재설치 하면 되는 것 같았다. 회사의 맥은 Homebrew를 통해 설치되었으므로 다음과 같은 명령어를 사용하면 된다.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ brew install cocoapods --build-from-source
-$ brew link --overwrite cocoapods
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;하지만 한 번에 잘 되는 걸 본 적이 거의 없다. 첫 번째 명령어를 입력하니 다음과 같은 오류가 발생했다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/posts/iOS/2020-12-04-1/2.png&quot; alt=&quot;brew 설치 에러&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;그래서 오류 내용에 있는 명령어를 입력해 주었더니 인스톨이 잘 진행되었다. 인스톨이 진행되고 나서 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;link&lt;/code&gt; 가 필요하다고 하여 위 링크 명령어를 입력했고 pod 명령어가 정상적으로 작동하는 것을 확인했다.&lt;/p&gt;
-
-&lt;p&gt;추가적으로 Homebrew를 이용하지 않고 일반적인 방법으로 CocoaPods를 설치한 사람은 다음과 같은 명령어를 사용하면 된다고 한다.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo gem install cocoapods
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>SANGHYUK LEE</name></author><category term="iOS" /><category term="Swift" /><category term="iOS" /><category term="terminal" /><category term="error" /><category term="CocoaPod" /><category term="코코아팟" /><category term="에러" /></entry></feed>
+&lt;/center&gt;</content><author><name>SANGHYUK LEE</name></author><category term="codeit" /><category term="Python" /><category term="codeit" /><category term="programming" /><category term="tutorial" /><category term="파이썬" /><category term="튜토리얼" /><category term="개발" /><summary type="html">프로그래밍 언어 살펴보기</summary></entry></feed>

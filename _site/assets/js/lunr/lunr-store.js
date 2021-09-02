@@ -142,4 +142,16 @@ var store = [{
         "tags": ["기획"],
         "url": "https://sanghyuk.dev/planner/1/",
         "teaser": null
+      },{
+        "title": "Product Manager",
+        "excerpt":"Product Manager 요즘 기업에서는 많은 팀에 애자일(agile)이 정착되었고, 고객 개발(customer development)과 린 스타트업(lean startup)등의 방법을 수년간 사용하고 있으며, 이제는 린와 애자일을 넘어서는 무언가에 관심을 가지고 있다. 제품관리의 기법들은 계속 발전해왔다. 기업은 규모를 확장하면서 새로운 도전 과제들에 직면하게 된다. 빠르게 성장하며 생존한다는 것이 얼마나 어려운지를 표현할 때, 생존 그 자체를 ‘성공’이라고...","categories": ["Product Manager"],
+        "tags": ["Product Manager"],
+        "url": "https://sanghyuk.dev/product%20manager/1/",
+        "teaser": null
+      },{
+        "title": "Part.1",
+        "excerpt":"Part.1 제품을 만드는 사람들이 밤과 주말을 희생해 가며 오랜 기간 열심히 제품을 만들었다. 제품을 설명하는 자리를 가졌고 좋은 평가를 받았다. 성공을 위한 만반의 준비를 하고 마침내 제품을 출시했다. 그런데 제품은 실패했다. 원인은 제품을 구매하는 사람이 없었기 때문이다. 기술적으로 매우 훌륭한 제품이었고, 전문가들은 극찬을 아끼지 않았다. 하지만 결국 사람들이 원하는 제품이...","categories": ["Product Manager"],
+        "tags": ["Product Manager"],
+        "url": "https://sanghyuk.dev/product%20manager/2/",
+        "teaser": null
       }]
