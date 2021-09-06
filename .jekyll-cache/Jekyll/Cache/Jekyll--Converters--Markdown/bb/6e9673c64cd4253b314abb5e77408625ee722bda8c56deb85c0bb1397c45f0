@@ -1,4 +1,4 @@
-I"A
+I"D	
 <div class="feature__wrapper">
 
   
@@ -24,7 +24,7 @@
           
 
           
-            <p><a href="https://www.notion.so/Resume-ee94936743e146e9922525556b9de5d3" class="btn btn--success">노션으로 보러가기</a></p>
+            <p><a href="https://www.notion.so/Resume-ee94936743e146e9922525556b9de5d3" class="btn btn--primary">노션으로 보러가기</a></p>
           
         </div>
       </div>
@@ -53,6 +53,34 @@
 
           
             <p><a href="https://github.com/sanghyuk-e" class="btn btn--warning">깃허브로 보러가기</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <img src="/assets/images/linkedin-logo.png" alt="fully responsive" />
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">LinkedIn</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>링크드인 프로필로 이동합니다.<br /> 경력에 관한 모든부분이 정리되어있습니다.</p>
+
+            </div>
+          
+
+          
+            <p><a href="https://www.linkedin.com/in/sanghyuk-lee/" class="btn btn--info">링크드인 프로필로</a></p>
           
         </div>
       </div>

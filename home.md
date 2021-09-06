@@ -19,7 +19,7 @@ feature_row:
       노션으로 정리한 이력서입니다.<br />
       경력에 관한 모든부분이 정리되어있습니다.
     url: "https://www.notion.so/Resume-ee94936743e146e9922525556b9de5d3"
-    btn_class: "btn--success"
+    btn_class: "btn--primary"
     btn_label: "노션으로 보러가기"
   - image_path: /assets/images/github-logo.png
     alt: "fully responsive"
@@ -30,6 +30,15 @@ feature_row:
     url: "https://github.com/sanghyuk-e"
     btn_class: "btn--warning"
     btn_label: "깃허브로 보러가기"
+  - image_path: /assets/images/linkedin-logo.png
+    alt: "fully responsive"
+    title: "LinkedIn"
+    excerpt: >
+      링크드인 프로필로 이동합니다.<br />
+      경력에 관한 모든부분이 정리되어있습니다.
+    url: "https://www.linkedin.com/in/sanghyuk-lee/"
+    btn_class: "btn--info"
+    btn_label: "링크드인 프로필로"
   #- image_path: /assets/images/sample.jpeg
    # alt: "100% free"
    # title: "100% free"

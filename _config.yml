@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default"  # "default", "air", "aqua", "contrast", "d
 locale                   : "en-US"
 title                    : "Sanghyuk's Blog"
 title_separator          : "-"
-subtitle                 : "iOS Developer" # site tagline that appears below site title in masthead
+subtitle                 : "iOS Developer & Service Planner" # site tagline that appears below site title in masthead
 name                     : "SANGHYUK LEE"
 description              : "Sanghyuk's Blog"
 url                      : "https://sanghyuk.dev" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -114,6 +114,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/sanghyuk-e/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/sanghyuk-lee/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/sanghyuk.e"
@@ -136,6 +139,9 @@ footer:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/sanghyuk-lee/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/sanghyuk.e"
