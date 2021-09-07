@@ -149,26 +149,26 @@ var store = [{
         "url": "https://sanghyuk.dev/product%20manager/1/",
         "teaser": null
       },{
-        "title": "Part.1",
-        "excerpt":"Part.1 제품을 만드는 사람들이 밤과 주말을 희생해 가며 오랜 기간 열심히 제품을 만들었다. 제품을 설명하는 자리를 가졌고 좋은 평가를 받았다. 성공을 위한 만반의 준비를 하고 마침내 제품을 출시했다. 그런데 제품은 실패했다. 원인은 제품을 구매하는 사람이 없었기 때문이다. 기술적으로 매우 훌륭한 제품이었고, 전문가들은 극찬을 아끼지 않았다. 하지만 결국 사람들이 원하는 제품이...","categories": ["Product Manager"],
+        "title": "[CHAPTER 1] 훌륭한 제품을 이끄는 사람",
+        "excerpt":"Part.1 최고의 기술 기업에서 배운 것 제품을 만드는 사람들이 밤과 주말을 희생해 가며 오랜 기간 열심히 제품을 만들었다. 제품을 설명하는 자리를 가졌고 좋은 평가를 받았다. 성공을 위한 만반의 준비를 하고 마침내 제품을 출시했다. 그런데 제품은 실패했다. 원인은 제품을 구매하는 사람이 없었기 때문이다. 기술적으로 매우 훌륭한 제품이었고, 전문가들은 극찬을 아끼지 않았다....","categories": ["Product Manager"],
         "tags": ["Product Manager"],
         "url": "https://sanghyuk.dev/product%20manager/2/",
         "teaser": null
       },{
-        "title": "Part.1",
-        "excerpt":"Part.1 기술 중심의 제품과 서비스 소비재 제품과 같은 비기술(non-tech) 제품 및 해당 제품의 관리자들을 위한 좋은 자료들은 이미 쉽게 구할 수 있을 정도로 충분하다. 여기서는 내가 현제 일하고 있는 분야인 오로지 기술 중심의 제품에만 집중한다. 기술 중심의 제품, 서비스, 사용자 경험을 만드는 것과 관련된 고유의 이슈와 도전들을 다룬다. 소비자 서비스...","categories": ["Product Manager"],
+        "title": "[CHAPTER 2] 기술 중심의 제품과 서비스",
+        "excerpt":"기술 중심의 제품과 서비스 소비재 제품과 같은 비기술(non-tech) 제품 및 해당 제품의 관리자들을 위한 좋은 자료들은 이미 쉽게 구할 수 있을 정도로 충분하다. 여기서는 내가 현제 일하고 있는 분야인 오로지 기술 중심의 제품에만 집중한다. 기술 중심의 제품, 서비스, 사용자 경험을 만드는 것과 관련된 고유의 이슈와 도전들을 다룬다. 소비자 서비스 제품들이...","categories": ["Product Manager"],
         "tags": ["Product Manager"],
         "url": "https://sanghyuk.dev/product%20manager/3/",
         "teaser": null
       },{
-        "title": "Part.1",
-        "excerpt":"Part.1 스타트업: 제품/시장 궁합 찾기 기술 산업에서 일반적으로 회사를 스타트업(startup), 성장 단계(growth-stage)의 기업, 대기업(enterprise companies)의 세 가지 단계로 정의한다. 스타트업은 ‘제품/시장 궁함(product/market fit)을 아직 찾지 못한, 새로운 제품을 만드는 회사’ 라고 간단히 정의할 수 있다. 제품/시장 궁합은 너무나도 중요한 개념이며, 다시 자세히 알아보자. 스타트업이란, ‘유효한 비즈니스를 창출하는 제품을 찾기 위해...","categories": ["Product Manager"],
+        "title": "[CHAPTER 3] 스타트업: 제품/시장 궁합 찾기",
+        "excerpt":"스타트업: 제품/시장 궁합 찾기 기술 산업에서 일반적으로 회사를 스타트업(startup), 성장 단계(growth-stage)의 기업, 대기업(enterprise companies)의 세 가지 단계로 정의한다. 스타트업은 ‘제품/시장 궁함(product/market fit)을 아직 찾지 못한, 새로운 제품을 만드는 회사’ 라고 간단히 정의할 수 있다. 제품/시장 궁합은 너무나도 중요한 개념이며, 다시 자세히 알아보자. 스타트업이란, ‘유효한 비즈니스를 창출하는 제품을 찾기 위해 여전히...","categories": ["Product Manager"],
         "tags": ["Product Manager"],
         "url": "https://sanghyuk.dev/product%20manager/4/",
         "teaser": null
       },{
-        "title": "Part.1",
-        "excerpt":"Part.1 성장 단계의 회사 : 성공을 위한 확장 충분한 역량과 운을 바탕으로 마침내 제품/시장 궁합을 달성한 스타트업들은 지금까지만큼이나 어려운 도전 상황을 이겨 낼 준비를 해야 한다. 어떻게 효과적으로 성장하고 확장해 나갈 것인가 하는 문제다. 스타트업이 큰 규모의 성공적인 비즈니스로 성장하고 확장하는 과정에는 여러 중대한 도전들이 있다. 엄청나게 어려운 도전이긴 하지만,...","categories": ["Product Manager"],
+        "title": "[CHAPTER 4] 성장 단계의 회사: 성공을 위한 확장",
+        "excerpt":"성장 단계의 회사: 성공을 위한 확장 충분한 역량과 운을 바탕으로 마침내 제품/시장 궁합을 달성한 스타트업들은 지금까지만큼이나 어려운 도전 상황을 이겨 낼 준비를 해야 한다. 어떻게 효과적으로 성장하고 확장해 나갈 것인가 하는 문제다. 스타트업이 큰 규모의 성공적인 비즈니스로 성장하고 확장하는 과정에는 여러 중대한 도전들이 있다. 엄청나게 어려운 도전이긴 하지만, 이른바 행복한...","categories": ["Product Manager"],
         "tags": ["Product Manager"],
         "url": "https://sanghyuk.dev/product%20manager/5/",
         "teaser": null
