@@ -1,4 +1,153 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://sanghyuk.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sanghyuk.dev/" rel="alternate" type="text/html" /><updated>2021-09-15T21:39:54+09:00</updated><id>https://sanghyuk.dev/feed.xml</id><title type="html">Sanghyuk’s Blog</title><subtitle>Sanghyuk's Blog</subtitle><author><name>SANGHYUK LEE</name></author><entry><title type="html">최고 제품 책임자(CPO)</title><link href="https://sanghyuk.dev/product-manager/6/" rel="alternate" type="text/html" title="최고 제품 책임자(CPO)" /><published>2021-09-04T00:00:00+09:00</published><updated>2021-09-04T00:00:00+09:00</updated><id>https://sanghyuk.dev/product-manager/6</id><content type="html" xml:base="https://sanghyuk.dev/product-manager/6/">&lt;h1 id=&quot;chief-product-officer&quot;&gt;Chief Product Officer&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://sanghyuk.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sanghyuk.dev/" rel="alternate" type="text/html" /><updated>2021-09-19T21:03:57+09:00</updated><id>https://sanghyuk.dev/feed.xml</id><title type="html">Sanghyuk’s Blog</title><subtitle>Sanghyuk's Blog</subtitle><author><name>SANGHYUK LEE</name></author><entry><title type="html">[CHAPTER 6] 실패한 제품의 근본 원인</title><link href="https://sanghyuk.dev/product-manager/8/" rel="alternate" type="text/html" title="[CHAPTER 6] 실패한 제품의 근본 원인" /><published>2021-09-11T00:00:00+09:00</published><updated>2021-09-11T00:00:00+09:00</updated><id>https://sanghyuk.dev/product-manager/8</id><content type="html" xml:base="https://sanghyuk.dev/product-manager/8/">&lt;h1 id=&quot;실패한-제품의-근본-원인&quot;&gt;실패한 제품의 근본 원인&lt;/h1&gt;
+
+&lt;p&gt;수 많은 제품이 실패하는 근본적인 원인이 무엇인지 알아보는 것으로 시작해보자.&lt;/p&gt;
+
+&lt;p&gt;어떤 규모이건, 어느 지역에 있든, 거의 모든 회사가 같은 방식으로 일하고 있음이 관찰됐다. 그리고 이러한 방식은 실제로 최고의 회사가 일하는 방식과는 거리가 멀다는 것이다.&lt;/p&gt;
+
+&lt;p&gt;이번 주제는 우리들을 무기력하게 만들 수도 있다. 참고 견뎌보자.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/ProductManager/2021-09-11-8/1.png&quot; alt=&quot;실패한 제품의 근본 원인&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;위 그림은 대부분 회사가 여전히 사용하고 있는 제품 개발 프로세스다. 모든 것은 &lt;strong&gt;아이디어&lt;/strong&gt;에서 출발한다. 대부분 아이디어는 내부(임원, 핵심 이해 관계자 또는 비즈니스 담당자) 혹은 외부(현재 또는 잠재 고객들)에서 유입된다. 아이디어가 어디에서 발생했건 간에, 항상 비즈니스의 각 분야에서 제품 관리자가 처리해 주기를 바라는 엄청난 양의 과제들이다.&lt;/p&gt;
+
+&lt;p&gt;이제 대부분 회사는 이러한 아이디어들의 우선순위를 매겨 &lt;strong&gt;로드맵&lt;/strong&gt;으로 전환하기를 원한다. 그들은 두 가지 이유로 로드맵을 사용한다. 첫째는 가장 중요한 일을 먼저 수행해 주기를 원하기 때문이며, 둘째는 각 업무가 언제 준비 상태가 될지 예측하고 싶기 때문이다.&lt;/p&gt;
+
+&lt;p&gt;로드맵을 작성하기 위해 보통 &lt;strong&gt;분기 또는 연간 계획 세션&lt;/strong&gt;과 같은 별도의 시간을 마련한다. 이때 리더들은 아이디어를 검토하면서 제품 로드맵에 대해 협의한다. 하지만 우선순위를 선정하기 위해 그들은 먼저 각 아이디어에 대한 &lt;strong&gt;비즈니스 케이스&lt;/strong&gt; 정의가 필요하다. 어떤 회사들은 비즈니스 케이스에 대한 별도 양식이 있고, 없는 회사도 있다. 어쨋든 각 아이디어에 대해 두 가지를 분명히 알아야 한다는 것이 핵심이다. ① 얼마만큼의 매출이나 가치를 만들어 내는 것인가? ② 얼마만큼의 비용이나 시간이 필요한 것인가? 이러한 정보는 다음 분기의 로드맵(때로는 1년의 로드맵)을 작성하는 데 활용된다.&lt;/p&gt;
+
+&lt;p&gt;이때 제품과 기술 조직은 진격 명령이 떻어지면 보통 가장 높은 우선운위의 아이디어부터 차례대로 실행하게 된다.&lt;/p&gt;
+
+&lt;p&gt;어떤 아이디어가 가장 높은 우선운위에 있으면 제품 관리자가 가장 먼저 해야 할 일은 해당 이해 관계자를 만나서 아이디어를 구체화하는 것이다. 이를 통해 일련의 ‘요구사항’을 정리한다.&lt;/p&gt;
+
+&lt;p&gt;이러한 요구사항은 사용자 스토리(user story) 형태이거나, 아마도 기능 명세와 같은 양식의 형태일 것이다. 요구사항은 디자이너와 엔지니어에게 무엇이 만들어져야 하는지를 커뮤니케이션하기 위함이다.&lt;/p&gt;
+
+&lt;p&gt;요구사항이 모두 수집되고 나면 &lt;strong&gt;사용자 경험 디자인팀&lt;/strong&gt;(그 팀이 회사에 존재한다고 가정)은 상호작용 디자인(interaction design), 시각 디자인(visual design), 물리적인 기기의 경우 산업 디자인(industrial design)에 대한 진행을 요청한다.&lt;/p&gt;
+
+&lt;p&gt;경국 그 요구사항과 디자인 결과물은 &lt;strong&gt;엔지니어&lt;/strong&gt;에게 전달된다. 대개 이 시점에서 애자일이 등장한다.&lt;/p&gt;
+
+&lt;p&gt;아무튼 엔지니어들은 보통 그 과제를 &lt;strong&gt;이터레이션(iteration, 반복 업무 단위)&lt;/strong&gt;으로 나눈다. 스크럼(scrum) 프로세스에서 말하는 ‘스프린트(sprint)’다. 아이디어를 구현하기 위해 한 번에서 세 번 정도의 스프린트가 걸린다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;QA 테스트(QA test)&lt;/strong&gt;가 스프린트 일부로 포함되어 있으면 다행이다. 혹은 별도 QA 팀이 있다면 그 신규 아이디어 과제가 예상대로 동작하는지, 다른 문제를 만들어 내지는 않는지(이런 것을 &lt;strong&gt;회귀 테스트&lt;/strong&gt;라고 한다)를 검증한다.&lt;/p&gt;
+
+&lt;p&gt;QA 담당자로부터 이상이 없음을 확인하는 녹색 신호를 받으면, 그 신규 아이디어는 마침내 실제 고객에게 &lt;strong&gt;배포(deploy)&lt;/strong&gt;된다.&lt;/p&gt;
+
+&lt;p&gt;대다수의 크고 작은 기업들은 이러한 방식을 필수적으로, 이미 오랫동안 사용하고 있다. 여전히 이런 기업들은 일관된 불평불만을 제기한다. &lt;strong&gt;혁신이 부족하고&lt;/strong&gt;, 제품을 고객에게 전달하기까지 &lt;strong&gt;너무 오랜 시간이 걸린다&lt;/strong&gt;는 것이다.&lt;/p&gt;
+
+&lt;p&gt;아마 눈치챘겠지만, 요즘 거의 모든 사람이 하고자 하는 ‘애자일’을 잠깐 언급했다. 반면에 방금 설명했던 상황은 완전히 &lt;strong&gt;‘폭포수(waterfall)’&lt;/strong&gt; 프로세스에 대한 것이었다. 엔지니어 관점에서 말하자면 그들은 보통 주어진 폭포수 프로세스의 환경에서 할 수 있는 최대한의 애자일을 실천하고 있다.&lt;/p&gt;
+
+&lt;p&gt;앞서 설명한 것이 대부분 팀이 하는 방식인 것은 알겠다. 그런데 왜 이것이 수많은 실패의 필연적인 이유인가? 그 이유를 찾기 위해 단편적인 내용의 조각들을 연결해 보자. 그래서 우리는 왜 이 보편적인 업무 방식이 많은 제품 실패에 대한 책임인지 보다 분명하게 알 수 있을 것이다.&lt;/p&gt;
+
+&lt;p&gt;다음의 목록을 통해 이러한 업무 방식이 가지는 가장 큰 문제 10가지를 공유할 것이다. 이 10가지 문제는 팀을 망칠 수 있는 &lt;strong&gt;매우 심각한 이슈&lt;/strong&gt;라는 것을 명심하자. 많은 회사에서 한 개 이상, 심지어는 모든 문제를 가지고 있다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;위에서부터 시작해 보자. 바로 &lt;strong&gt;아이디어의 출처&lt;/strong&gt;다. 이 모델을 사용하면 판매 확대를 위한 기능이나 이해 관계자 위주로 재품이 끌려가게 된다. 이 방식이 뛰어난 제품 아이디어를 가져오지는 못한다는 것이다. 또한, 이러한 접근 방법은 팀에게 필요한 권한 위임이 안 된다. 이 모델을 따르면 제품팀은 마치 외부 용병처럼 그저 열심히 실행할 뿐이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;다음으로 &lt;strong&gt;비즈니스 케이스&lt;/strong&gt;의 치명적인 결함에 관해 이야기해 보자. 큰 규모의 투자가 필요한 아이디어일 경우에 한해서는 비즈니스 케이스가 필요할 수 있다. 하지만 많은 회사가 로드맵을 작성하는 단계에서 비즈니스 케이스를 작성하는 것은 정말 말도 안된다. 그 이유를 설명해 보겠다. 모든 비즈니스 케이스의 핵심적인 두 가지 요소를 기억하는가? ‘얼마만큼의 돈을 벌 수 있는가’와 ‘얼마만큼의 비용이 드는가’다. 냉엄한 진실은, 현재 시점에서 우리는 이 두가지 수치에 대한 근거가 전혀 없다는 것이다. 솔직히 우리는 알 방법이 없다.
+우리가 만드는 것으로 얼마만큼의 돈을 벌 수 있을지는 결국 얼마나 좋은 솔루션을 만들어 낼지에 달려 있기 때문이다. 만일 팀이 환상적으로 일을 해냈다면 큰 성공을 만들어 낼 수도 있다. 말하자면 비즈니스 전체의 추세에 영향을 줄 수도 있다. 하지만 현실은, 많은 제품 아이디어가 결국 아무것도 이루어 내지 못한다는 것이다. 효과가 없었다는 것을 과장하는 표현이 아니다. &lt;strong&gt;말 그대로 아무것도 모른다&lt;/strong&gt;(A/B 테스트를 통해서 알 수 있다).
+어떤 경우에도 제품 개발의 가장 중요한 교훈 중 하나는 &lt;strong&gt;우리가 모르는 것을 알아간다&lt;/strong&gt;는 것이다. 그리고 단지 이 단계에서는 우리가 얼마만큼의 돈을 벌 수 있는지 알 수 없다.
+마찬가지로 우리가 제품을 만드는 데 얼마만큼의 비용이 들어갈지도 알 수 없다. 실제 어떤 솔루션을 만들지도 모르는 상태에서 엔지니어가 예측하는 것은 불가능에 가까운 일이다. 대부분의 내공 있는 엔지니어들은 이 단계에서 추정하는 것을 거부할 것이다. 하지만 일부는 티셔츠 사이즈를 측정하는 오래된 방법으로 타협한다. 이 아이디어가 ‘스몰, 미디움, 라지, 엑스라지’인지만 알게 해달라고 말이다.
+하지만 많은 회사가 우선순위 로드맵을 정말 원하고 있고, 일단 활용이 되면 아이디어를 평가한ㄴ 시스템이 필요하다. 그래서 사람들은 비즈니스 케이스 게임을 하게 된다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;회사가 &lt;strong&gt;제품 로드맵&lt;/strong&gt;에 대해 빠져들기 시작하면 더 큰 이슈가 발생하기 시작한다. 지난 수년간 셀 수 없을 정도로 많은 로드맵을 보아 왔으며, 대부분은 우선순위가 정해진 기능과 프로젝트들의 목록이 구성되어 있었다. 예를 들어 마케팅은 특정 캠페인을 위해 이런 기능을 원하고, 영업은 새로운 고객을 확보하기 위해 저 기능을 원하며, 또 누구는 페이팔(PayPal) 연동을 원할 수 있다.
+하지만 여기에 가장 큰 문제가 있다. &lt;strong&gt;제품에 관한 두 가지 불편한 진실&lt;/strong&gt;이다. 
+첫 번째 진실은, &lt;strong&gt;당신의 아이디어 중 최소 절반 이상은 유효하지 않을 것이라는 사실이다.&lt;/strong&gt; 아이디어가 기대한 효과를 만들지 못하는 데는 여러 이유가 있다. 가장 흔한 이유는, 이 아이디어에 대해 우리만큼 고객이 관심을 가지지 않는다는 것이다. 그래서 그들은 사용하지 않는 것을 선택한다. 때로는 그들이 사용하기 원하고 실제 사용해 보기도 한다. 하지만 제품이 지나치게 복잡해서 쓰임새보다 오히려 골칫거리가 더 많아진다. 그래서 사람들은 다시 사용하지 않게 된다. 그리고 가끔은 사람들이 좋아하는 제품을 생각해 냈지만, 우리가 예상했던 것보다 더 큰 비용이 드는 상황이 발생한다. 결국 고객에게 그 제품을 전달하는 데 필요한 시간과 비용을 감당하지 못하겠다는 결정을 하게 된다.
+그래서 제품 로드맵에 있는 최소 절반 이상의 아이디어는 기대했던 효과를 만들어 내지 못한다고 장담한다.(정말 훌륭한 제품팀은 네 개중 세 개의 아이더는 그들이 기대했던 성과를 내지 못한다고 가정한다).
+첫 번째가 충분하지 않다면 두 번째 불편한 진실이 여기 있다. 아이디어가 충분히 잠재적인 가치가 있는 것으로 파악되었더라도 필요한 비즈니스 가치를 만들어 내는 수준에 도달하려면 최소 몇 번의 &lt;strong&gt;이터레이션&lt;/strong&gt;을 반복해야 한다는 것이다. 우리는 이것을 &lt;strong&gt;돈을 버는 데 필요한 시간(time to money)&lt;/strong&gt;이라고 한다. 제품을 만들면서 깨달은 가장 중요한 교훈은 이 두 가지 불편한 진실에서 벗어나는 경우는 없다는 것이다. 엄청 똑똑하다고 해도 마찬가지다. 정말 뛰어난 팀들은 이러한 불편한 진실들을 대처하는 방법이 다르다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;다음은 이 모델에서 &lt;strong&gt;제품 관리의 역할&lt;/strong&gt;에 대해 생각해 보자. 사실 이러한 상황에서는 제품 관리라고 하는 것보다 프로젝트 관리라고 부르는 것이 더 맞을 것 같다. 이 모델에서는 엔지니어를 위해 &lt;strong&gt;요구사항을 수집하고 문서화해 주는 것&lt;/strong&gt;이 주요 업무다. 이는 실제 기술 제품 관리라고 하는 일과는 180도 다르다는 것을 짚고 넘어가고 싶다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;디자인의 역할도 상황이 비슷하다. 디자인의 진정한 가치를 담기에는 너무 늦은 상황이라서 대부분은 우리가 이른바 ‘돼지 입술에 립스틱 바르기(lipstick on the pig)’를 하게 된다. 이미 상황은 더 나빠졌으므로 엉망인 제품에 페인트 코팅이라도 씌우려고 시도한다. 사용자 경험(UX, User Experience) 디자이너도 이것이 바람직하지 않다는 것을 잘 알고 있지만, 이렇게라도 그들이 할 수 있는 방법으로 보기 좋고 일관된 디자인을 해나간다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;아마 이 모델에서 놓치는 가장 큰 기회는 &lt;strong&gt;엔지니어들이 너무 늦게 참여한다&lt;/strong&gt;는 것이다. 엔지니어들이 단지 코드를 짜는 일만 한다면 그들이 가진 가치의 절반만 활용하는 것이나 마찬가지다. 제품 개발에서 작은 비밀이 있다면 &lt;strong&gt;엔지니어가 보통 혁신을 하는 데 가장 훌륭한 원천&lt;/strong&gt;이라는 것이다. 그러나 이 모델에서 그들은 회의에도 초대받지 못한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;엔지니어팀을 너무 늦게 참여시키는 것뿐 아니라 애자일의 원칙과 핵심적인 장점이 너무 늦게 작동된다. 이러한 방식으로 업무를 하면 팀은 애자일 방법론의 실질적인 가치와 잠재성을 단지 20%만 활용하게 된다. 이는 제품 구현과 전달에만 애자일이 적용되는 것이며, 다른 모든 조직과 업무 상황에는 해당하지 않는다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;이 모든 프로세스는 다분히 &lt;strong&gt;프로젝트 중심적&lt;/strong&gt;이다. 회사는 프로젝트에 투자하고, 프로젝트에 인력을 지원하며, 조직에 프로젝트 단위로 압박하며, 결국 프로젝트를 출시하게 된다. 불행하게도 &lt;strong&gt;프로젝트는 결과물에 대한 것&lt;/strong&gt;이고, &lt;strong&gt;제품은 비즈니스 썽과에 대한 것&lt;/strong&gt;이다. 이 프로세스는 고아와 같은 신세의 프로젝트들을 일으킨다. 결과적으로 무언가 출시되었지만, 처음에 생각한 목표에 부합하지 못했다고 하자. 그렇다면 애초에 무엇이 중요했던 것일까? 어떤 경우에도 이것은 매우 치명적인 문제이며, 우리에게 필요한 제품 개발 방식과는 거리가 멀다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;전통적인 폭포수 방식이 여전히 가지고 있는 가장 큰 문제는 위험이 가장 마지막에 발견된다는 것이다. &lt;strong&gt;고객에 대한 검증이 너무 늦게 일어난다&lt;/strong&gt;는 의미다.
+린 방법(Lean method)의 핵심적인 원칙은 낭비를 줄이는 것이다. 가장 큰 낭비의 형태는 결국 원하지도 않는 기능이나 제품을 발견하기 위해 디자인-구현-테스트-배포해 나가는 것이다. 아이러니한 사실은 많은 팀이 폭포수 프로세스를 적용하고 있으면서도 스스로 린의 원칙을 적용하고 있다고 착각한다는 것이다. 그들은 가장 값비싸고 느린 방법으로 아이디어를 실행하고 있다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;끝으로, 우리가 이 프로세스로 시간과 비용을 낭비하느라 정신없을 때 발생하는 가장 큰 손실은 따로 있다. 바로 그 시간에 조직이 할 수 있었던 혹은 해야만 했던 것에 대한 &lt;strong&gt;기회비용&lt;/strong&gt;이다. 우리는 시간과 돈을 다시 돌릴 수 없다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;많은 기업이 엄청난 시간과 비용을 들이고도 매우 허망한 성과를 거두는 현상은 그리 놀라운 일도 아니다. 이 사실이 당신을 매우 우울하게 만든다고 미리 경고했다. 하지만 중요한 것은 이제 당신은 회사가 일하는 방식을 어떻게 바꿔야 하는지 깊이 이해하고 있다는 사실이다. 당신의 회사가 위에서 설명한 방식으로 일을 하고 있다면 말이다.&lt;/p&gt;
+
+&lt;p&gt;반가운 소식은 최고의 팀들은 절대 앞서 설명한 방식처럼 일하지 않는다고 약속할 수 있다는 것이다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;a href=&quot;https://sanghyuk.dev/Product-Manager/7/&quot; class=&quot;btn btn--info&quot;&gt;이전 내용 보기&lt;/a&gt;
+&lt;a href=&quot;https://sanghyuk.dev/Product-Manager/9/&quot; class=&quot;btn btn--info&quot;&gt;다음 내용 보기&lt;/a&gt;
+&lt;/center&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Product-Manager" /><category term="Product-Manager" /><category term="Product" /><category term="Manager" /><category term="PM" /><summary type="html">Part.1 최고의 기술 기업에서 배운 것</summary></entry><entry><title type="html">[CHAPTER 5] 대기업: 끊임없는 제품 혁신</title><link href="https://sanghyuk.dev/product-manager/7/" rel="alternate" type="text/html" title="[CHAPTER 5] 대기업: 끊임없는 제품 혁신" /><published>2021-09-10T00:00:00+09:00</published><updated>2021-09-10T00:00:00+09:00</updated><id>https://sanghyuk.dev/product-manager/7</id><content type="html" xml:base="https://sanghyuk.dev/product-manager/7/">&lt;h1 id=&quot;대기업-끊임없는-제품-혁신&quot;&gt;대기업: 끊임없는 제품 혁신&lt;/h1&gt;
+
+&lt;p&gt;규모의 확장에 성공했고 이제 영속하는 비즈니스를 만들기 원하는 기업들도 여전히 힘든 도전이 기다리고 있다.&lt;/p&gt;
+
+&lt;p&gt;강한 기술 제품 회사는 끊임없는 제픔 혁신이 필요하다는 것을 잘 알고 있다. 현재 고객과 비즈니스를 위해 지속해서 새로운 가치를 제공해야 하는 것을 의미한다. 현재 제품을 단순히 수정하고 최적화하는 것(이런 것을 가치 확보라 한다) 대신에 각 제품이 가진 잠재성을 최대한 끌어내기 위해 개발해야 한다.&lt;/p&gt;
+
+&lt;p&gt;많은 대기업은 이미 죽음의 소용돌이로 빠져든 상태다. 몇 년 혹은 심지어 수십 년 전에 만들었던 가치와 브랜드를 이용하는 것에만 의존하고 있다. 큰 기업은 하루아침에 망하는 경우가 드물고 몇 년 동안은 버틸 수 있다. 그렇다고 착각하지 마라. 조직은 가라앉고 있으며, 그 결과는 불 보듯 뻔하다.&lt;/p&gt;
+
+&lt;p&gt;물론 의도한 바는 아니지만, 일단 기업이 이 정도 규모가 되면(보통 상장회사가 된다) 회사가 이룩한 것들을 지켜 내고자 하는 수많은 이해 관계자들이 비즈니스 전반에 걸쳐 존재한다. 불행히도 이렇게 되면 비즈니스를 재창조할 수 있는 새로운 시도나 사내 벤처들을 막아 버리게 된다(잠재적으로는 기존 핵심 비즈니스도 위험으로 몰게 된다). 그리고 회사를 새로운 방향으로 도약시킬 수 있도록 소수 사람이 제안한 새로운 아이디어를 방해하는 수많은 장애물이 만들어진다. 이러한 상황이 발생하는 징후는 분명하다. 사기가 저하되고, 혁신이 없어지며, 고객의 손에 새로운 제품을 제공하기까지 엄청나게 오랜 시간이 걸리게 된다.&lt;/p&gt;
+
+&lt;p&gt;회사 초기에는 분명하고 멋진 비전이 있었다. 하지만 회사의 규모가 커지면서 회사는 본래 비전을 어느 정도 달성하였고, 사람들은 이제 다음 모습이 무엇인지 확신이 없다. 제품팀들은 비전의 부재, 권한 위임의 부재, 너무나 느린 의사결정에 대한 불만을 쏟아 낸다. 또한, 제품을 만드는 일은 점점 사공 많은 배처럼 되어 간다.&lt;/p&gt;
+
+&lt;p&gt;리더들도 마찬가지로 제품팀의 혁신 부재로 좌절하기 일쑤다. 다른 회사를 인수하거나 새로운 비즈니스를 보호받는 환경에서 키워 내기 위한 이른바 ‘혁신 센터(innovation center)’를 만드는 것에 의존하는 상황이 흔히 발생한다. 하지만 이런 방식으로는 그들이 갈망하는 혁신을 가져다주는 경우가 드물다.&lt;/p&gt;
+
+&lt;p&gt;그리고 우리는 어도비, 아마존, 애플, 페이스북, 구글, 넷플릭스와 같이 큰 기업들은 도대체 어떻게 이러한 어려움을 극복하는지에 대한 이야기들을 듣게 된다. 조직의 리더들은 도대체 이러한 기업들은 어떻게 해서 같은 문제가 발생하지 않는지 궁금해한다. 사실 그들도 똑같이 할 수 있다. 다만 그러기 위해서는 매우 큰 변화를 만들어 내야 한다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;a href=&quot;https://sanghyuk.dev/Product-Manager/5/&quot; class=&quot;btn btn--info&quot;&gt;이전 내용 보기&lt;/a&gt;
+&lt;a href=&quot;https://sanghyuk.dev/Product-Manager/8/&quot; class=&quot;btn btn--info&quot;&gt;다음 내용 보기&lt;/a&gt;
+&lt;/center&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Product-Manager" /><category term="Product-Manager" /><category term="Product" /><category term="Manager" /><category term="PM" /><summary type="html">Part.1 최고의 기술 기업에서 배운 것</summary></entry><entry><title type="html">[CHAPTER 4] 성장 단계의 회사: 성공을 위한 확장</title><link href="https://sanghyuk.dev/product-manager/5/" rel="alternate" type="text/html" title="[CHAPTER 4] 성장 단계의 회사: 성공을 위한 확장" /><published>2021-09-04T00:00:00+09:00</published><updated>2021-09-04T00:00:00+09:00</updated><id>https://sanghyuk.dev/product-manager/5</id><content type="html" xml:base="https://sanghyuk.dev/product-manager/5/">&lt;h1 id=&quot;성장-단계의-회사-성공을-위한-확장&quot;&gt;성장 단계의 회사: 성공을 위한 확장&lt;/h1&gt;
+
+&lt;p&gt;충분한 역량과 운을 바탕으로 마침내 제품/시장 궁합을 달성한 스타트업들은 지금까지만큼이나 어려운 도전 상황을 이겨 낼 준비를 해야 한다. 어떻게 효과적으로 성장하고 확장해 나갈 것인가 하는 문제다.&lt;/p&gt;
+
+&lt;p&gt;스타트업이 큰 규모의 성공적인 비즈니스로 성장하고 확장하는 과정에는 여러 중대한 도전들이 있다. 엄청나게 어려운 도전이긴 하지만, 이른바 행복한 고민이다.&lt;/p&gt;
+
+&lt;p&gt;많은 사람을 채용하는 동시에 초기 성공을 이어나가기 위해 새롭고 인접한 제품과 서비스를 어떻게 만들어 낼지 고민해야 한다. 동시에 핵심 비즈니스 또한 가능한 한 빠른 속도로 성장시켜야 한다.&lt;/p&gt;
+
+&lt;p&gt;성장 단계에서는 보통 25명에서 수백 명의 엔지니어로 구성이 되고, 더불어 이들을 돕는 많은 사람이 함께한다. 이 정도 규모가 되면 곳곳에 조직적인 스트레스의 신호들이 포착된다.&lt;/p&gt;
+
+&lt;p&gt;제품팀들은 큰 그림을 이해할 수 없다며 불평하기 시작한다. 그들이 하는 일이 전체 목표에 어떻게 기여하는지 도대체 알 수 없다고 한다. 또한, 권한을 가진 자율성 높은 팀에서 고군분투하며 일을 해나간다.&lt;/p&gt;
+
+&lt;p&gt;영업과 마케팅에서는 초기 제품에서 통했던 시장 진출 전략(go-to-market strategy)이 새로운 제품에서는 적합하지 않다며 자주 불만을 제기한다.&lt;/p&gt;
+
+&lt;p&gt;첫 제품의 요건에 부합했던 기술 인프라도 한 번씩 터질 듯한 상황이 온다. 당신이 이야기 나누는 모든 엔지니어의 입에서 ‘기술 부채(technical debt)&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;‘라는 단어가 들리기 시작한다.&lt;/p&gt;
+
+&lt;p&gt;리더들은 초기 스타트업 시절에 작동했던 리더십 스타일과 방식이 이제는 잘 통하지 않는 문제들을 겪는다. 리더들은 그들의 역할과 많은 상황에서의 행동이 바뀌어야 한다는 압박을 받는다.&lt;/p&gt;
+
+&lt;p&gt;반면 이런 변화를 극복해야만 한다는 동기부여는 매우 강한 상황이다. 회사는 기업 공개(public offering)나 다른 회사의 핵심 사업으로 피인수되는 기회를 만들어 나간다. 또한, 세상에 유의미하고 큰 영향을 줄 수 있다는 현실적인 가능성도 강한 동기부여 요인이 될 수 있다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;a href=&quot;https://sanghyuk.dev/Product-Manager/4/&quot; class=&quot;btn btn--info&quot;&gt;이전 내용 보기&lt;/a&gt;
+&lt;a href=&quot;https://sanghyuk.dev/Product-Manager/7/&quot; class=&quot;btn btn--info&quot;&gt;다음 내용 보기&lt;/a&gt;
+&lt;/center&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;기술 부채는 기술적으로 최선이 아님을 알면서도 비즈니스 성과를 앞당기는 선택을 함으로써 발생하는 기술적인 문제(비용)를 말한다. 자금을 앞당겨서 빌려 쓰면 이자가 발생하는 것과 비슷하다. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Product-Manager" /><category term="Product-Manager" /><category term="Product" /><category term="Manager" /><category term="PM" /><summary type="html">Part.1 최고의 기술 기업에서 배운 것</summary></entry><entry><title type="html">최고 제품 책임자(CPO)</title><link href="https://sanghyuk.dev/product-manager/6/" rel="alternate" type="text/html" title="최고 제품 책임자(CPO)" /><published>2021-09-04T00:00:00+09:00</published><updated>2021-09-04T00:00:00+09:00</updated><id>https://sanghyuk.dev/product-manager/6</id><content type="html" xml:base="https://sanghyuk.dev/product-manager/6/">&lt;h1 id=&quot;chief-product-officer&quot;&gt;Chief Product Officer&lt;/h1&gt;
 
 &lt;p&gt;최고 제품 책임자(CPO)는 조직 내 모든 제품 관련 활동의 전략 및 실행을 책임지는 C-Level 임원이다. CPO의 책임은 제품 혁신 및 비전 단계에서 시작해 마케팅 캠페인을 통해 계속되며 제품 출시 이후까지 확장된다. 최고 제품 책임자는 일반적으로 회사 최고 경영자(CEO)에게 보고한다. 역할은 제품의 부사장(VP) 또는 제품 책임자라고도 한다.&lt;/p&gt;
 
@@ -108,42 +257,7 @@
 
 &lt;p&gt;또한 CPO 구직자는 다년간의 상위 제품 관리 경험을 보유하고 있다.&lt;/p&gt;
 
-&lt;hr /&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Product-Manager" /><category term="Product-Manager" /><category term="CPO" /><category term="Chief Product Officer" /></entry><entry><title type="html">[CHAPTER 4] 성장 단계의 회사: 성공을 위한 확장</title><link href="https://sanghyuk.dev/product-manager/5/" rel="alternate" type="text/html" title="[CHAPTER 4] 성장 단계의 회사: 성공을 위한 확장" /><published>2021-09-04T00:00:00+09:00</published><updated>2021-09-04T00:00:00+09:00</updated><id>https://sanghyuk.dev/product-manager/5</id><content type="html" xml:base="https://sanghyuk.dev/product-manager/5/">&lt;h1 id=&quot;성장-단계의-회사-성공을-위한-확장&quot;&gt;성장 단계의 회사: 성공을 위한 확장&lt;/h1&gt;
-
-&lt;p&gt;충분한 역량과 운을 바탕으로 마침내 제품/시장 궁합을 달성한 스타트업들은 지금까지만큼이나 어려운 도전 상황을 이겨 낼 준비를 해야 한다. 어떻게 효과적으로 성장하고 확장해 나갈 것인가 하는 문제다.&lt;/p&gt;
-
-&lt;p&gt;스타트업이 큰 규모의 성공적인 비즈니스로 성장하고 확장하는 과정에는 여러 중대한 도전들이 있다. 엄청나게 어려운 도전이긴 하지만, 이른바 행복한 고민이다.&lt;/p&gt;
-
-&lt;p&gt;많은 사람을 채용하는 동시에 초기 성공을 이어나가기 위해 새롭고 인접한 제품과 서비스를 어떻게 만들어 낼지 고민해야 한다. 동시에 핵심 비즈니스 또한 가능한 한 빠른 속도로 성장시켜야 한다.&lt;/p&gt;
-
-&lt;p&gt;성장 단계에서는 보통 25명에서 수백 명의 엔지니어로 구성이 되고, 더불어 이들을 돕는 많은 사람이 함께한다. 이 정도 규모가 되면 곳곳에 조직적인 스트레스의 신호들이 포착된다.&lt;/p&gt;
-
-&lt;p&gt;제품팀들은 큰 그림을 이해할 수 없다며 불평하기 시작한다. 그들이 하는 일이 전체 목표에 어떻게 기여하는지 도대체 알 수 없다고 한다. 또한, 권한을 가진 자율성 높은 팀에서 고군분투하며 일을 해나간다.&lt;/p&gt;
-
-&lt;p&gt;영업과 마케팅에서는 초기 제품에서 통했던 시장 진출 전략(go-to-market strategy)이 새로운 제품에서는 적합하지 않다며 자주 불만을 제기한다.&lt;/p&gt;
-
-&lt;p&gt;첫 제품의 요건에 부합했던 기술 인프라도 한 번씩 터질 듯한 상황이 온다. 당신이 이야기 나누는 모든 엔지니어의 입에서 ‘기술 부채(technical debt)&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;‘라는 단어가 들리기 시작한다.&lt;/p&gt;
-
-&lt;p&gt;리더들은 초기 스타트업 시절에 작동했던 리더십 스타일과 방식이 이제는 잘 통하지 않는 문제들을 겪는다. 리더들은 그들의 역할과 많은 상황에서의 행동이 바뀌어야 한다는 압박을 받는다.&lt;/p&gt;
-
-&lt;p&gt;반면 이런 변화를 극복해야만 한다는 동기부여는 매우 강한 상황이다. 회사는 기업 공개(public offering)나 다른 회사의 핵심 사업으로 피인수되는 기회를 만들어 나간다. 또한, 세상에 유의미하고 큰 영향을 줄 수 있다는 현실적인 가능성도 강한 동기부여 요인이 될 수 있다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;
-&lt;a href=&quot;https://sanghyuk.dev/Product-Manager/4/&quot; class=&quot;btn btn--info&quot;&gt;이전 내용 보기&lt;/a&gt;
-&lt;a href=&quot;https://sanghyuk.dev/Product-Manager/7/&quot; class=&quot;btn btn--info&quot;&gt;다음 내용 보기&lt;/a&gt;
-&lt;/center&gt;
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;기술 부채는 기술적으로 최선이 아님을 알면서도 비즈니스 성과를 앞당기는 선택을 함으로써 발생하는 기술적인 문제(비용)를 말한다. 자금을 앞당겨서 빌려 쓰면 이자가 발생하는 것과 비슷하다. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Product-Manager" /><category term="Product-Manager" /><category term="Product" /><category term="Manager" /><category term="PM" /><summary type="html">Part.1 최고의 기술 기업에서 배운 것</summary></entry><entry><title type="html">[CHAPTER 3] 스타트업: 제품/시장 궁합 찾기</title><link href="https://sanghyuk.dev/product-manager/4/" rel="alternate" type="text/html" title="[CHAPTER 3] 스타트업: 제품/시장 궁합 찾기" /><published>2021-09-03T00:00:00+09:00</published><updated>2021-09-03T00:00:00+09:00</updated><id>https://sanghyuk.dev/product-manager/4</id><content type="html" xml:base="https://sanghyuk.dev/product-manager/4/">&lt;h1 id=&quot;스타트업-제품시장-궁합-찾기&quot;&gt;스타트업: 제품/시장 궁합 찾기&lt;/h1&gt;
+&lt;hr /&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Product-Manager" /><category term="Product-Manager" /><category term="CPO" /><category term="Chief Product Officer" /></entry><entry><title type="html">[CHAPTER 3] 스타트업: 제품/시장 궁합 찾기</title><link href="https://sanghyuk.dev/product-manager/4/" rel="alternate" type="text/html" title="[CHAPTER 3] 스타트업: 제품/시장 궁합 찾기" /><published>2021-09-03T00:00:00+09:00</published><updated>2021-09-03T00:00:00+09:00</updated><id>https://sanghyuk.dev/product-manager/4</id><content type="html" xml:base="https://sanghyuk.dev/product-manager/4/">&lt;h1 id=&quot;스타트업-제품시장-궁합-찾기&quot;&gt;스타트업: 제품/시장 궁합 찾기&lt;/h1&gt;
 
 &lt;p&gt;기술 산업에서 일반적으로 회사를 스타트업(startup), 성장 단계(growth-stage)의 기업, 대기업(enterprise companies)의 세 가지 단계로 정의한다.&lt;/p&gt;
 
@@ -165,6 +279,30 @@
 &lt;center&gt;
 &lt;a href=&quot;https://sanghyuk.dev/Product-Manager/3/&quot; class=&quot;btn btn--info&quot;&gt;이전 내용 보기&lt;/a&gt;
 &lt;a href=&quot;https://sanghyuk.dev/Product-Manager/5/&quot; class=&quot;btn btn--info&quot;&gt;다음 내용 보기&lt;/a&gt;
+&lt;/center&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Product-Manager" /><category term="Product-Manager" /><category term="Product" /><category term="Manager" /><category term="PM" /><summary type="html">Part.1 최고의 기술 기업에서 배운 것</summary></entry><entry><title type="html">[CHAPTER 2] 기술 중심의 제품과 서비스</title><link href="https://sanghyuk.dev/product-manager/3/" rel="alternate" type="text/html" title="[CHAPTER 2] 기술 중심의 제품과 서비스" /><published>2021-09-02T00:00:00+09:00</published><updated>2021-09-02T00:00:00+09:00</updated><id>https://sanghyuk.dev/product-manager/3</id><content type="html" xml:base="https://sanghyuk.dev/product-manager/3/">&lt;h1 id=&quot;기술-중심의-제품과-서비스&quot;&gt;기술 중심의 제품과 서비스&lt;/h1&gt;
+
+&lt;p&gt;소비재 제품과 같은 비기술(non-tech) 제품 및 해당 제품의 관리자들을 위한 좋은 자료들은 이미 쉽게 구할 수 있을 정도로 충분하다. 여기서는 내가 현제 일하고 있는 분야인 오로지 &lt;strong&gt;기술 중심의 제품&lt;/strong&gt;에만 집중한다.&lt;/p&gt;
+
+&lt;p&gt;기술 중심의 제품, 서비스, 사용자 경험을 만드는 것과 관련된 고유의 이슈와 도전들을 다룬다. 소비자 서비스 제품들이 도움이 된다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;전자상거래 사이트 및 중계 서비스 : 넷플릭스(Netflix), 에어비앤비(Airbnb), 엣시(Etsy)&lt;/li&gt;
+  &lt;li&gt;소셜 미디어 : 페이스북(Facebook), 링크드인(LinkedIn), 트위터(Twitter)&lt;/li&gt;
+  &lt;li&gt;비즈니스 서비스 : 세일즈포스(salesforce.com), 워크데이(Workday), 워키바(Workiva)&lt;/li&gt;
+  &lt;li&gt;소비자 디바이스 : 애플(Apple), 소노스(Sonos), 테슬라(Tesla)&lt;/li&gt;
+  &lt;li&gt;모바일 애플리케이션 : 우버(Uber), 오더블(Audible), 인스타그램(Instagram)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;기술 중심의 제품이라고 해서 순수하게 디지털이어야 할 필요는 없다. 요즘은 온라인과 오프라인이 연계된 훌륭한 사례들도 흔히 찾아볼 수 있다.&lt;/p&gt;
+
+&lt;p&gt;대부분 제품의 &lt;strong&gt;기술 중심의 제품&lt;/strong&gt;으로 변화하고 있다. 이러한 변화를 깨닫지 못하는 기업은 빠르게 무너질지도 모른다. 기술 변화를 빠르게 흡수하고 고객을 위해 끊임 없이 혁신해야만 한다고 믿는 기업들에 집중해보자.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;a href=&quot;https://sanghyuk.dev/Product-Manager/2/&quot; class=&quot;btn btn--info&quot;&gt;이전 내용 보기&lt;/a&gt;
+&lt;a href=&quot;https://sanghyuk.dev/Product-Manager/4/&quot; class=&quot;btn btn--info&quot;&gt;다음 내용 보기&lt;/a&gt;
 &lt;/center&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Product-Manager" /><category term="Product-Manager" /><category term="Product" /><category term="Manager" /><category term="PM" /><summary type="html">Part.1 최고의 기술 기업에서 배운 것</summary></entry><entry><title type="html">[CHAPTER 1] 훌륭한 제품을 이끄는 사람</title><link href="https://sanghyuk.dev/product-manager/2/" rel="alternate" type="text/html" title="[CHAPTER 1] 훌륭한 제품을 이끄는 사람" /><published>2021-09-02T00:00:00+09:00</published><updated>2021-09-02T00:00:00+09:00</updated><id>https://sanghyuk.dev/product-manager/2</id><content type="html" xml:base="https://sanghyuk.dev/product-manager/2/">&lt;h1 id=&quot;part1-최고의-기술-기업에서-배운-것&quot;&gt;Part.1 최고의 기술 기업에서 배운 것&lt;/h1&gt;
 
 &lt;p&gt;제품을 만드는 사람들이 밤과 주말을 희생해 가며 오랜 기간 열심히 제품을 만들었다. 제품을 설명하는 자리를 가졌고 좋은 평가를 받았다. 성공을 위한 만반의 준비를 하고 마침내 제품을 출시했다. 그런데 제품은 실패했다. 원인은 제품을 구매하는 사람이 없었기 때문이다. 기술적으로 매우 훌륭한 제품이었고, 전문가들은 극찬을 아끼지 않았다. 하지만 결국 사람들이 원하는 제품이 아니었던 것이다. 여기서 알 수 있는 점은 &lt;strong&gt;만들 만한 가치가 있는 제품이 아니라면 엔지니어 팀이 얼마나 훌륭한지는 아무 의미가 없다는 것이다.&lt;/strong&gt;&lt;/p&gt;
@@ -195,30 +333,6 @@
 &lt;center&gt;
 &lt;a href=&quot;https://sanghyuk.dev/Product-Manager/1/&quot; class=&quot;btn btn--info&quot;&gt;이전 내용 보기&lt;/a&gt;
 &lt;a href=&quot;https://sanghyuk.dev/Product-Manager/3/&quot; class=&quot;btn btn--info&quot;&gt;다음 내용 보기&lt;/a&gt;
-&lt;/center&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Product-Manager" /><category term="Product-Manager" /><category term="Product" /><category term="Manager" /><category term="PM" /><summary type="html">Part.1 최고의 기술 기업에서 배운 것</summary></entry><entry><title type="html">[CHAPTER 2] 기술 중심의 제품과 서비스</title><link href="https://sanghyuk.dev/product-manager/3/" rel="alternate" type="text/html" title="[CHAPTER 2] 기술 중심의 제품과 서비스" /><published>2021-09-02T00:00:00+09:00</published><updated>2021-09-02T00:00:00+09:00</updated><id>https://sanghyuk.dev/product-manager/3</id><content type="html" xml:base="https://sanghyuk.dev/product-manager/3/">&lt;h1 id=&quot;기술-중심의-제품과-서비스&quot;&gt;기술 중심의 제품과 서비스&lt;/h1&gt;
-
-&lt;p&gt;소비재 제품과 같은 비기술(non-tech) 제품 및 해당 제품의 관리자들을 위한 좋은 자료들은 이미 쉽게 구할 수 있을 정도로 충분하다. 여기서는 내가 현제 일하고 있는 분야인 오로지 &lt;strong&gt;기술 중심의 제품&lt;/strong&gt;에만 집중한다.&lt;/p&gt;
-
-&lt;p&gt;기술 중심의 제품, 서비스, 사용자 경험을 만드는 것과 관련된 고유의 이슈와 도전들을 다룬다. 소비자 서비스 제품들이 도움이 된다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;전자상거래 사이트 및 중계 서비스 : 넷플릭스(Netflix), 에어비앤비(Airbnb), 엣시(Etsy)&lt;/li&gt;
-  &lt;li&gt;소셜 미디어 : 페이스북(Facebook), 링크드인(LinkedIn), 트위터(Twitter)&lt;/li&gt;
-  &lt;li&gt;비즈니스 서비스 : 세일즈포스(salesforce.com), 워크데이(Workday), 워키바(Workiva)&lt;/li&gt;
-  &lt;li&gt;소비자 디바이스 : 애플(Apple), 소노스(Sonos), 테슬라(Tesla)&lt;/li&gt;
-  &lt;li&gt;모바일 애플리케이션 : 우버(Uber), 오더블(Audible), 인스타그램(Instagram)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;기술 중심의 제품이라고 해서 순수하게 디지털이어야 할 필요는 없다. 요즘은 온라인과 오프라인이 연계된 훌륭한 사례들도 흔히 찾아볼 수 있다.&lt;/p&gt;
-
-&lt;p&gt;대부분 제품의 &lt;strong&gt;기술 중심의 제품&lt;/strong&gt;으로 변화하고 있다. 이러한 변화를 깨닫지 못하는 기업은 빠르게 무너질지도 모른다. 기술 변화를 빠르게 흡수하고 고객을 위해 끊임 없이 혁신해야만 한다고 믿는 기업들에 집중해보자.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;
-&lt;a href=&quot;https://sanghyuk.dev/Product-Manager/2/&quot; class=&quot;btn btn--info&quot;&gt;이전 내용 보기&lt;/a&gt;
-&lt;a href=&quot;https://sanghyuk.dev/Product-Manager/4/&quot; class=&quot;btn btn--info&quot;&gt;다음 내용 보기&lt;/a&gt;
 &lt;/center&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Product-Manager" /><category term="Product-Manager" /><category term="Product" /><category term="Manager" /><category term="PM" /><summary type="html">Part.1 최고의 기술 기업에서 배운 것</summary></entry><entry><title type="html">Product Manager</title><link href="https://sanghyuk.dev/product-manager/1/" rel="alternate" type="text/html" title="Product Manager" /><published>2021-09-01T00:00:00+09:00</published><updated>2021-09-01T00:00:00+09:00</updated><id>https://sanghyuk.dev/product-manager/1</id><content type="html" xml:base="https://sanghyuk.dev/product-manager/1/">&lt;h1 id=&quot;product-manager&quot;&gt;Product Manager&lt;/h1&gt;
 
 &lt;p&gt;요즘 기업에서는 많은 팀에 애자일(agile)이 정착되었고, 고객 개발(customer development)과 린 스타트업(lean startup)등의 방법을 수년간 사용하고 있으며, 이제는 린와 애자일을 넘어서는 무언가에 관심을 가지고 있다.&lt;/p&gt;
@@ -349,463 +463,4 @@
 &lt;a href=&quot;https://sanghyuk.dev/swift-grammar/6-2/&quot; class=&quot;btn btn--info&quot;&gt;이전 내용 보기&lt;/a&gt;
 &lt;a href=&quot;https://sanghyuk.dev/ios/2/&quot; class=&quot;btn btn--success&quot;&gt;iOS 면접 질문 목록 보기&lt;/a&gt;
 &lt;a href=&quot;https://sanghyuk.dev/swift-grammar/7-2/&quot; class=&quot;btn btn--info&quot;&gt;다음 내용 보기&lt;/a&gt;
-&lt;/center&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Swift-Grammar" /><category term="Swift" /><category term="Swift-Grammar" /><category term="꼼곰한 재은 씨의 스위프트:문법편" /><category term="이재은" /><category term="루비페이퍼" /><category term="ISBN:979-11-86710-23-4" /><category term="함수" /><category term="문법" /><summary type="html">스위프트 문법 스터디</summary></entry><entry><title type="html">CHAPTER06: 옵셔널 - 2. 옵셔널 값 처리</title><link href="https://sanghyuk.dev/swift-grammar/6-2/" rel="alternate" type="text/html" title="CHAPTER06: 옵셔널 - 2. 옵셔널 값 처리" /><published>2021-02-16T00:00:00+09:00</published><updated>2021-02-16T00:00:00+09:00</updated><id>https://sanghyuk.dev/swift-grammar/6-2</id><content type="html" xml:base="https://sanghyuk.dev/swift-grammar/6-2/">&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/swift.png&quot; alt=&quot;Swift&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;text-center&quot;&gt;&lt;a href=&quot;https://hits.seeyoufarm.com&quot;&gt;&lt;img src=&quot;https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsanghyuk.dev%2Fswift-grammar%2F6-2%2F&amp;amp;count_bg=%23FA7343&amp;amp;title_bg=%23555555&amp;amp;icon=swift.svg&amp;amp;icon_color=%23E7E7E7&amp;amp;title=Views&amp;amp;edge_flat=false&quot; alt=&quot;Hits&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;2-옵셔널-값-처리&quot;&gt;2. 옵셔널 값 처리&lt;/h1&gt;
-
-&lt;p&gt;문자열을 숫자로 변환해주는 생성자 Int(문자열) 이야기를 조금 더 해보자. 숫자로 바꿀 수 있는 문자열 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;123&quot;&lt;/code&gt;이 입력되면 숫자로 변환할 수 있지만, 그럴 수 없는 일반 문자열이 입력되면 잠재적인 오류 가능성이 있다고 설명했다. 이 때문에 Int(문자열)은 그냥 정수가 아니라 옵셔널 타입의 정수값을 반환하도록 설계되어 있다. Int 구조체의 생성자를 정의하는 구문 일부를 살펴보면 알 수 있다.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;extension&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;radix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Int(문자열) 구문이 반환하는 옵셔널 타입을 분석해보면, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;안녕하세요&quot;&lt;/code&gt;처럼 숫자로 바꿀 수 없는 문자열이 입력되었을 떄 옵셔널 타입에는 nil이 할당된 상태로 반환된다. 다른 문자열이 입력되어 변환에 성공하면 Optional(123)이라는 옵셔널 값이 할당된다. 어쨋거나 두 경우 모두 옵셔널 타입으로 반환되는 것만은 분명하다.&lt;/p&gt;
-
-&lt;p&gt;이렇게 전달받은 옵셔널 타입의 결과값은 그 자체로는 아무것도 할 수 없다. 옵셔널 타입은 애초에 연산을 지원하지 않는 타입이다. 따라서 옵셔널 타입과 일반 타입은 서로 연산할 수 없으며 옵셔널 타입끼리의 연산이나 결합도 지원하지 않는다. 옵셔널 Int 타입과 일반 Int 타입의 연산도, 옵셔널 String과 일반 String 결합도 모두 불가능하다.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// ( x ) : 옵셔널 타입은 결합 연산 또는 더하기 연산이 가능한 데이터 타입이 아님&lt;/span&gt;
-&lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;123&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;123&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// ( x ) : Int? 와 Int 는 서로 다른 타입이므로 연산이 불가능함&lt;/span&gt;
-&lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;123&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;이 옵셔널 값을 그대로 사용하는 방법을 알아보자. 우리가 결과값으로 전달받은 것은 Optional이라는 객체이다. 그 내부에 우리가 원하는 값이 들어있을 것이다. 이 값을 우리가 원하는 대로 사용하려면 실제 값을 둘러싼 옵셔널 객체를 해제해야 한다. 옵셔널 객체를 해제하면 일반 타입의 값이 되는데, 이 값이 비로소 우리가 직접 사용할 수 잇는 값이다. 이처럼 옵셔널 객체를 해제하고 내부에 있는 값을 추출하는 과정을 옵셔널 해제라고 한다. 다른 말로 옵셔널 언래핑(Optional Unwrapping)이라고도 한다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2021-02-16-6-2/1.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2021-02-16-6-2/1.png&quot; alt=&quot;옵셔널 타입의 값을 연산에 사용할 수 있도록 처리하는 과정&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;옵셔널 해제 방식은 &lt;strong&gt;명시적 해제&lt;/strong&gt;와 &lt;strong&gt;묵시적 해제&lt;/strong&gt;로 나누어진다. 명시적 해제는 다시 &lt;strong&gt;강제적인 해제&lt;/strong&gt;와 &lt;strong&gt;비강제적인 해제&lt;/strong&gt;로 나눌 수 있고 묵시적 해제는 각각 &lt;strong&gt;컴파일러에 의한 자동 해제&lt;/strong&gt;와 &lt;strong&gt;연산자를 이용한 자동 해제&lt;/strong&gt;로 나눌 수 있다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2021-02-16-6-2/2.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2021-02-16-6-2/2.png&quot; alt=&quot;옵셔널 해제 방식&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;차례대로 각 해제 방법에 대해 알아보자. 우선 학습할 것은 명시적 해제, 특히 가장 많이 사용되는 강제 해제이다. 강제 해제는 옵셔널 값의 nil 여부와 관계없이 옵셔널을 무조건 해제하는 방식으로, 스위프트 공식 문서에서 사용하는 용어로는 Forced Unwrapping이다. 정확한 의미로는 옵셔널을 벗겨내는 것이지만, 이 강의에서는 편의상 강제 해제라고 부르겠다.&lt;/p&gt;
-
-&lt;h2 id=&quot;21-옵셔널-강제-해제&quot;&gt;2.1 옵셔널 강제 해제&lt;/h2&gt;
-
-&lt;p&gt;옵셔널을 강제 해제하는 방법은 무척 단순하다. 옵셔널 타입의 값 뒤에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;!&lt;/code&gt;기호만 붙여주면 된다. 이렇게 처리해 주면 옵셔널 객체가 해제되고, 그 내부에 저장된 값을 꺼내 사용할 수 있게 된다. 이때 사용된 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;!&lt;/code&gt; 기호를 가리켜 옵셔널에 대한 ‘강제 해제 연산자(Forced-Unwrapping Operator)’라고 한다. 이와 관련된 다음 예제를 살펴보자. 옵셔널 Int 타입으로 선언된 optInt를 강제 해제 연산자를 사용하여 값을 추출하는 구문이다.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// 옵셔널 타입의 변수 선언&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;optInt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
-
-&lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;옵셔널 자체의 값 : &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;optInt&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;!로 강제해제한 값 : &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;optInt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;다음은 위 구문을 실행한 결과이다.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;옵셔널 자체의 값 : Optional(3)
-!로 강제해제한 값 : 3
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;뱐수 optInt를 Int 타입으로 정의하면서 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?&lt;/code&gt;를 붙여 옵셔널 타입으로 선언했다. 옵셔널 타입에 대입된 값은 옵셔널 객체로 감싸 처리되므로, 변수 자체를 출력하면 ‘Optional(3)’이라는 값이 출력된다. 이어서 두 번째 print 구문을 살펴보자. optInt 뒤에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;!&lt;/code&gt; 연산자를 붙였더니 3이 출력되었다. 이는 옵셔널 타입의 값이 ! 연산자 덕분에 해제되었기 때문이다. 이처럼 옵셔널 타입으로부터 값을 추출하려면 옵셔널 값 뒤에 ! 연산자를 붙이면 된다. 앞에서 옵셔널 타입끼리 연산은 불가능하다고 이야기했지만, 강제 해제 연산자를 사용하면 일반 타입으로 해제되므로 연산이 가능하다.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;123&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;123&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 246&lt;/span&gt;
-&lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;123&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 153&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;여기서 이상한점이 있다. 옵셔널 타입의 변수나 상수에 ! 연산자만 붙이면 일반 타입처럼 사용할 수 있는 앞서 설명대로라면 그냥 모든 옵셔널 타입에 ! 연산자를 붙여서 사용해버리면 되는것이다. 게다가 옵셔널 변수의 값이 nil일 때도 강제 해제 연산자를 붙일수는 있는데, 실제로 값이 nil인 옵셔널 변수에 이 연산자를 붙이면 오류가 발생한다. 이렇게 된다면 굳이 힘들게 옵셔널 타입을 사용하는 의미가 있을까?&lt;/p&gt;
-
-&lt;p&gt;그래서 옵셔널 변수나 상수를 안전하게 사용하려면 조건이 따른다. 강제 해제 연산자를 사용할 때에는 먼저 옵셔널 값이 nil인지 점검해야 한다. 그리고 옵셔널 값이 nil이 아닐 떄에만 강제 해제 연산자를 붙여서 값을 추출해야 한다. 다음 구문을 보자.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;123&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;intFromStr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;intFromStr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;nil&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;값이 변환되었습니다. 변환된 값은 &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;intFromStr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;입니다.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// ①&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;값 변환에 실패하였습니다.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// ②&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;앞서 여러 차례 설명한 바와 같이 Int(문자열) 생성자는 옵셔널 정수값을 반환한다. 따라서 위 예제에서 Int(문자열)의 결과를 대입받는 intFromStr 상수 역시 옵셔널 타입으로 정의된다. 옵셔널은 값이 없는 nil이거나 정상적인 값을 옵셔널 객체로 둘러싼 두 가지 경우만 존재하므로 옵셔널 값이 nil인지를 if 조건절로 점검해야 한다. 그리고 그에 맞는 조건절 블록 내에서만 강제 해제 연산자를 사용해야 한다. 이것이 오류 없이 안전하게 옵셔널 타입을 해제하여 사용할 수 있는 방법이다.&lt;/p&gt;
-
-&lt;p&gt;위 예제에서 Int(문자열) 생성자의 변환 대상이 되는 문자열 “123”은 숫자로 변환할 수 있는 문자열이므로 intFromStr은 nil이 아니다. 정확히는 Optional(123)이다. 따라서 if 조건절이 참이 되면서 ①의 내용이 실행되므로 실행 결과는 다음과 같다.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;값이 변환되었습니다. 변환된 값은 123입니다.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;만약 대입된 값이 숫자로 변환할 수 없는 “Swift” 문자열이라면 어떻게 실행될까?&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Swift&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;intFromStr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;intFromStr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;nil&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;값이 변환되었습니다. 변환된 값은 &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;intFromStr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;입니다.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// ①&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;값 변환에 실패하였습니다.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// ②&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;입력된 문자열은 Int(&lt;문자열&gt;)을 통해 숫자로 변환할 수 없는 값이므로 실행 결과는 nil이다. if 조건절이 거짓이므로 else 블록 영역인 ②가 실행된다. 따라서 결과는 다음과 같다.&lt;/문자열&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;값 변환에 실패하였습니다.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;else 블록에서 ! 연산자를 사용하면 nil에 대한 옵셔널 강제 해제가 실행되어 오류가 발생한다. 따라서 ! 연산자는 확실히 옵셔널의 값이 nil이 아닌 조건에서만 사용해야 한다.&lt;/p&gt;
-
-&lt;p&gt;위 구문에서 주의 깊게 살펴보아야 할 부분이 있다. if에서 nil 값을 비교하는 데 사용된 조건절이다.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;intFromStr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;nil&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;이 조건절에서 intFromStr와 비교연산자 != 사이에 의도적인 공백이 있음을 알아야 한다. 이 공백은 단순히 가독성을 높이기 위해 추기된 것이 아니다. 일반적으로 연산자 앞에 공백이 있을 필요는 없다. 일부는 가독성을 위해 공백을 집어넣기도 하지만 그것은 습관일 뿐, 컴파일러의 규칙상 반드시 그래야 하는 것은 아니다.&lt;/p&gt;
-
-&lt;p&gt;그런데 이번처럼 옵셔널 타입의 nil 점검을 위한 != 연산자를 사용할 때는 반드시 앞에 공백을 두어야 한다. 문법의 오류를 방지하기 위한 목적이다. intFromStr 변수처럼 옵셔널 타입의 값을 비교 연산자와 함께 사용하면서 공백을 두지 않으면 컴파일러는 이 구문을 다음 두 가지로 해석할 수 있다.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;intFromStr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;nil&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// 해석 ① : (intFromStr)!=(nil) -&amp;gt; 원래 의도한 대로 intFromStr 변수와 nil의 비교&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// 해석 ② : (intFromStr)=nil -&amp;gt; intFromStr 변수의 옵셔널 강제 해제 + nil 값의 할당&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;결국, 해석의 차이가 발생할 수 있으므로 구문이 모호해지는 결과를 가져온다. 컴파일러는 이를 확실하게 해석하지 못하므로 구문 분석 오류가 발생하게 된다. 이러한 상황을 방지하기 위해 옵셔널 타입이 비교 대상이라면 부등 비교 연산자(!=)를 사용할 때 공백을 두어야 한다. ‘아버지가방에들어가십니다’가 생각나는, 의외로 띄어쓰기가 중요해지는 이야기라고 할 수 있겠다.&lt;/p&gt;
-
-&lt;h2 id=&quot;22-옵셔널-바인딩&quot;&gt;2.2 옵셔널 바인딩&lt;/h2&gt;
-
-&lt;p&gt;앞에서 우리는 nil 체크 조건절을 사용하여 안전하게 옵셔널 타입을 해제할 수 있었다. 이 예제는 동일한 기능을 하는 비강제적인 해제 구문으로 바꾸어 작성이 가능하다. 이는 if 구문 내에서 조건식 대신 옵셔널 값을 일반 변수나 상수에 할당하는 구문을 사용하는 방식으로, &lt;strong&gt;옵셔널 바인딩(Optional Binding)&lt;/strong&gt;이라고 한다.&lt;/p&gt;
-
-&lt;p&gt;옵셔널 바인딩은 &lt;strong&gt;조건문 내에서 일반 상수에 옵셔널 값을 대입하는 방식&lt;/strong&gt;으로 이루어진다. 반드시 조건문에서 사용해야만 하며, 상수에 옵셔널 값을 대입한 결과는 true/false 로 리턴된다. 우리가 배운 대표적인 조건절인 if를 사용하여 옵셔널 바인딩하는 예제를 살펴보자.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Swift&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;intFromStr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;값이 변환되었습니다. 변환된 값은 &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;intFromStr&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;입니다.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;값 변환에 실패하였습니다.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;앞의 구문과 매우 비슷하지만, infFromStr가 상수로 선언되었다는 점과 이 상수가 옵셔널이 아닌 일반 타입이라는 점이 다르다. 강제 해제 연산자를 사용하지 않아도 옵셔널 값이 일반 변수나 상수에 할당되면서 자연스럽게 옵셔널 타입이 해제되지만, 값이 nil이더라도 값의 할당이 실패하여 결과값이 false로 반환될 뿐이므로 오류는 발생하지 않는다. 단지 else 블록이 실행 될 뿐이다. 또다른 구문 하나를 보자.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;intStr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;guard&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;intFromStr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;값 변환에 실패하였습니다.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-    &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;값이 변환되었습니다. 변환된 값은 &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;intFromStr&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;입니다.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;위 구문은 guard 구문을 이용하여 옵셔널 바인딩을 구현한 예제이다. guard 구문은 특성상 함수나 메소드에만 사용할 수 있기 때문에 intStr() 함수를 정의하고 그 안에 guard 구문을 작성하였다. 실제로 앱을 만드는 과정 거의 대부분은 함수로 이루어지기 때문에, guard 구문을 사용할 여지는 많다.&lt;/p&gt;
-
-&lt;p&gt;guard 구문을 사용하더라도 옵셔널 바인딩 방식은 동일하다. 상수를 선언하고, 여기에 옵셔널 값을 대입하는 것이 전부다. 하지만 사용 용법상 if 구문 내에서 옵셔널 바인딩을 사용하는 것과 구분해야 할 필요는 있다. if 구문을 사용한 옵셔널 바인딩은 단순히 옵셔널 값의 처리 결과에 따라 서로 다른 피드백을 주고 싶을 때 사용한다. 하지만 guard 구문은 조건에 맞지 않으면 무조건 함수의 실행을 종료시키는 특성이 있기 때문에, 실행 흐름상 옵셔널 값이 해제되지 않으면 더 이상 진행이 불가능할 정도로 큰일이 생길 때에만 사용하는 것이 좋다. 참고로, 옵셔널 타입이긴 하지만 절대 nil 값이 들어가지 않을 것이라는 보장이 있을 때에는 강제 해제 연산자를 사용하여 옵셔널 타입을 처리하는 것이 효율적이다.&lt;/p&gt;
-
-&lt;p&gt;옵셔널과 관련하여, 앞 장에서 학습했던 딕셔너리에 값을 입력하고 사용하는 예제를 다시 살펴보자.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// 딕셔너리 선언&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;capital&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;KR&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Seoul&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;EN&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;London&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;FR&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Paris&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-
-&lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;capital&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;KR&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-&lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;capital&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;KR&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// 실행 결과
-Optional(&quot;Seoul&quot;)
-Seoul
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;딕셔너리에 키로 접근하면 그 결과값은 옵셔널 타입으로 반환된다. 값을 출력한 결과를 확인하면 금세 알 수 있다. 옵셔널 타입 대신 일반 타입의 값을 얻으려면 capital[“KR”] 뒤에 ! 연산자를 붙여야 한다. 그렇지 않으면 옵셔널 타입이 그대로 반환되어 예제에서 보는 것과 같이 Optional(“Seoul”)이 반환된다. 그런데 딕셔너리는 왜 옵셔널 타입의 값을 반환하는 것일까?&lt;/p&gt;
-
-&lt;p&gt;딕셔너리에 키로 사용될 수 있는 값은 Hashable 프로토콜이 구현된 모든 자료형이라고 설명했다. 정해진 숫자 0, 1, 2, 3…만 차례대로 들어갈 수 있는 배열과 달리 딕셔너리는 미리 정해진 키 값만 사용되는 것이 아니라 무작위로 키가 사용될 수도 있다. 키 사용에 대한 제한이 거의 없는 거나 마찬가지이므로 키가 있는지를 점검하기도 어렵다.&lt;/p&gt;
-
-&lt;p&gt;이 때문에, 딕셔너리에서 값을 읽을 때에는 존재하지 않는 키를 사용할 가능성이 있다. 이 경우 딕셔너리는 주어진 키에 값이 비어있거나 입력된 키가 아예 없다는 것을 표현하기 위해 nil을 반환해야 한다. 이 때문에 딕셔너리는 기본적으로 옵셔널 타입으로 정의된 값을 반환하게된다.&lt;/p&gt;
-
-&lt;p&gt;사실 위 코드 역시 잘 구성된 코드는 아니다. nil 여부를 체크하지 않고 ! 연산자를 사용하여 바로 강제 해제를 실행한 것 때문이다. 이를 그대로 실행하면 오류가 발생할 수 있으므로 다음과 같이 보완하는 것이 좋다.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;capital&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;KR&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;capital&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;KR&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// 또는&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;capital&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;KR&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;val&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;옵셔널 타입에서 ! 연산자를 사용할 떄는 반드시 nil 점검을 해 주어야 오류를 미연에 방지할 수 있다는 점, 잊지 말아야 한다.&lt;/p&gt;
-
-&lt;h2 id=&quot;23-컴파일러에-의한-옵셔널-자동-해제&quot;&gt;2.3 컴파일러에 의한 옵셔널 자동 해제&lt;/h2&gt;
-
-&lt;p&gt;옵셔널 타입의 값을 사용하려면 항상 ! 연산자를 사용하여 옵셔널을 &lt;strong&gt;강제 해제(Forced-unwrapping)&lt;/strong&gt;하든가, 아니면 옵셔널 바인딩을 통해 일반 자료형으로 바꾸어 주어야 한다. 이렇게 해야 옵셔널 객체로 감싸진 값을 꺼낼 수 있다. 하지만 명시적으로 강제 해제를 하지 않아도 컴파일러에서 자동으로 옵셔널을 해제해주는 경우가 있다. 다음 예제를 보자&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;optInt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;123&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;optInt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;123&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;optInt == 123&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;optInt != 123&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;문자열을 숫자로 변환한 옵셔널 상수의 값이 nil이 아니면 ! 연산자를 사용하여 옵셔널 값을 강제 해제하고 이 값을 정수 123과 비교하는 예제이다. 그 결과는 다음과 같다.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;optInt == 123
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;이번에는 강제 해제하지 않은 옵셔널 타입과 정수 123을 비교해보자.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;optInt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;123&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;optInt == 123&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;optInt != 123&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;강제 해제하지 않은 옵셔널 값은 Optional(123)이므로 정수값 123과 다르다. 따라서 위 예제에서는 else 영역이 실행되어야 한다. 하지만 실제로 실행한 결과는 그렇지 않다.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;optInt == 123
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;이상한 결과이다. 해제하지 않은 옵셔널 값 자체로 정수와 비교한 결과는 예상대로라면 일치하지 않는다고 나왔어야 한다. 그런데 결과는 값이 일치하는 것으로 보여주고 있다. 어떻게 된 것일까?&lt;/p&gt;
-
-&lt;p&gt;옵셔널 타입으로 감싼 변수나 상수는 그 값을 사용하기 위해 반드시 ! 연산자를 사용하여 옵셔널 객체를 해제해야 한다. 하지만 굳이 해제하지 않아도 괜찮을 때가 있다. 옵셔널 객체의 값을 비교 연산자를 사용하여 비교하는 경우가 그에 해당하는데, 명시적으로 옵셔널 객체를 강제 해제하지 않아도 한쪽이 옵셔널, 다른 한쪽이 일반 타입이라면 자동으로 옵셔널 타입을 해제하여 비교 연산을 수행한다. 따라서 아래의 예제에서 모든 결과는 true이다.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tempInt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;123&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;tempInt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;123&lt;/span&gt;              &lt;span class=&quot;c1&quot;&gt;// true&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;tempInt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Optional&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;123&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;// true&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;tempInt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;123&lt;/span&gt;             &lt;span class=&quot;c1&quot;&gt;// true&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;tempInt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Optional&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;123&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;// true&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;말하자면 비교 연산을 처리할 떄는 옵셔널 타입 여부에 구애받지 않고 일반 자료형처럼 값을 비교하면 된다는 것이다. 이는 옵셔널 타입에 값을 할당할 때도 마찬가지이다.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;optValue01&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Optional&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;123&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;// ①&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;optValue02&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;123&lt;/span&gt;      &lt;span class=&quot;c1&quot;&gt;// ②&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;원칙적으로 옵셔널 타입의 변수나 상수를 정의할 떄는 대입할 값을 Optional() 객체로 감싼 ①의 방식으로 처리해야 한다. 하지만 ②처럼 감싸지지 않은 순수 리터럴을 직접 대입할 수도 있다. 주의할 점은 타입 어노테이션 없이 직접 대입하면 단순히 일반 Int 타입의 변수로 선언되므로 타입 어노테이션을 추가하여 Int 타입이면서 동시에 옵셔널 타입이라는 것을 명시해 주어야 한다는 것 이다. 그러면 값 123은 대입될 대상이 옵셔널 타입이라는 것을 인지하고, 그것에 맞게 Optional(123)으로 변환된다.&lt;/p&gt;
-
-&lt;h2 id=&quot;24-옵셔널의-묵시적-해제&quot;&gt;2.4 옵셔널의 묵시적 해제&lt;/h2&gt;
-
-&lt;p&gt;옵셔널 타입을 해제하는 방법 중에는 &lt;strong&gt;묵시적 해제(Implicitly Unwrapped Optional)&lt;/strong&gt;라는 개념이 존재한다. 이것은 비록 옵셔널 타입이긴 하지만 값을 사용할 때에는 자동으로 옵셔널이 해제되기때문에 굳이 ! 연산자를 사용하여 해제할 필요가 없는 아주 편리한 구문이다. 컴파일러가 알아서 옵셔널을 해제해 준다는 점에서 방금 다루어 본 자동 해제와 유사하지만, 자동 해제가 비교 연산이나 값의 할당 등 일부 구문에 한정되는 것과 달리 묵시적 해제는 옵셔널 변수를 사용하는 모든 경우에 적용할 수 있으며, 옵셔널 변수의 타입을 선언할 떄 묵시적 해제를 미리 선언해 주어야 한다는 차이점이 있다.&lt;/p&gt;
-
-&lt;p&gt;옵셔널의 묵시적 해제 구문은(이하 &lt;strong&gt;묵시적 옵셔널&lt;/strong&gt;) 일반 옵셔널 타입의 변수 선언 구문과 매우 유사하다. ? 연산자 대신 ! 연산자만 붙여주면 그뿐이다. 먼저 일반 옵셔널 변수를 선언하는 구문을 보자.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// 명시적 옵셔널 선언&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Swift Optional&quot;&lt;/span&gt;
-&lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;위 구문의 실행 결과는 아래와 같다.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Optional(&quot;Swift Optional&quot;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;문자열 변수 str을 옵셔널 타입으로 선언하고, 여기에 “Swift Optional”이라는 문자열을 대입했다. 이를 출력해 보면 대입된 문자열이 옵셔널 객체로 감싸진 것을 확인할 수 있다. 이제 이 구문을 묵시적 옵셔널로 바꾸어 보자. 딱히 큰 수정이 필요하지는 않다. 단지 ? 연산자를 제거하고 ! 연산자로 그 자리를 대체하기만 하면 된다. 하지만 결과는 사뭇 다르다.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// 묵시적 옵셔널 선언&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Swift Optional&quot;&lt;/span&gt;
-&lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Swift Optional
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;타입 어노테이션 뒤에 붙은 연산자 하나만 바꾸었을 뿐인데 결과는 전혀 달라졌다. 출력된 구문에서 옵셔널 객체가 사라졌다. 컴파일러에 의해 옵셔널 객체가 자동으로 해제된 것이다. 혹시 str 변수가 일반 타입인 것을 아닐까? 혹시 모르니 nil 값을 대입해 보자.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;nil&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;nil을 대입해도 아무 문제가 없다. 이는 곧 str이 옵셔널 타입으로 정의되어 있음을 의미한다.&lt;/p&gt;
-
-&lt;p&gt;이처럼 ! 연산자를 붙여 변수를 정의하면 옵셔널 타입이 된다. 하지만 일반적으로 옵셔널 타입을 사용할 때 필요한 강제 해제 연산자나 옵셔널 바인딩 과정 없이, 일반 변수처럼 다루어도 된다. 이는 묵시적 해제 선언이 이루어졌기 때문이다.&lt;/p&gt;
-
-&lt;p&gt;묵시적 옵셔널을 사용하면 옵셔널 타입 변수의 연산도 간단하게 처리할 수 있다.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;value01&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;value01&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 오류&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;value02&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;value02&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 15&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;일반적으로 옵셔널 타입과 일반 타입을 직접 연산하는 것은 오류이지만, 묵시적 해제를 선언한 옵셔널 타입은 다르다. 직접 일반 타입과 연산해도 문제가 되지 않는다. 이처럼 묵시적 해제를 선언한 옵셔널은 일반 타입처럼 사용할 수 있기 때문에 굉장히 편리하게 사용할 수 있다.&lt;/p&gt;
-
-&lt;p&gt;하지만 무조건 모든 경우에 묵시적 옵셔널을 사용할 수 있는 것은 아니다. 옵셔널의 묵시적 해제 선언에서 염두에 두어야 할 것 한 가지가 있는데, 바로 &lt;strong&gt;변수의 값이 nil이 될 가능성이 있다면 묵시적 옵셔널 해제를 사용하지 않아야 한다&lt;/strong&gt;는 것이다.&lt;/p&gt;
-
-&lt;p&gt;의아할 것이다. 변수가 nil이 될 가능성이 있을 때 사용하는 것이 옵셔널 타입인데 변수가 nil이 될 가능성이 있다면 사용하지 말라니. 그렇다면 도대체 언제 사용하는 것일까?&lt;/p&gt;
-
-&lt;p&gt;묵시적 옵셔널 해제를 사용하는 경우는 한 가지로 정의할 수 있다. 바로,&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;“형식상 옵셔널로 정의해야 하지만, 실제로 사용할 때에는 절대 nil 값이 대입될 가능성이 없는 변수일 때”&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;이다. 다음 구문을 보자.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;123&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;이 구문은 Int(문자열)이 반환하는 값이 옵셔널 타입이기 떄문에 어쩔 수 없이 value 변수를 옵셔널 타입으로 선언해야 한다. 하지만 Int(“123”)은 누가 봐도 제대로 정수로 변환될 것이 확실하다. 이런 확실한 값에 굳이 옵셔널 처리를 해 줄 필요는 사실 거의 없다. 이때 위와 같이 value 변수를 묵시적 옵셔널로 선언한다면 옵셔널 타입 여부에 신경 쓰지 않고 일반 변수처럼 편하게 사용할 수 있다. 하지만 이 경우가 묵시적 옵셔널을 사용해야 하는 이유로 납득하기는 조금 어렵다. Int(“123”)! 처럼 대입하는 값 쪽에 강제 해제 연산자를 붙여주면 처음부터 value를 일반 변수로 만들어줄 수 있기 때문이다.&lt;/p&gt;
-
-&lt;p&gt;실제로 묵시적 옵셔널이 정말 유용하게 사용되는 경우는 클래스 또는 구조체 내에서 이다. 주로 멤버 변수를 정의할 때 선언과 초기화를 분리시켜야 하는 경우에 해당한다. 아직 클래스를 배우기 전이므로 이해하기 어려울 것이다. 지금은 그냥 클래스에서는 묵시적 옵셔널 해제가 많이 사용되는구나 하는 정도로만 알고 있으면 될 것 같다.&lt;/p&gt;
-
-&lt;p&gt;많은 사람이 옵셔널 개념의 도입 여부에 대해 의문을 표시한다. 필요할 떄만 값의 여부를 점검하여 정상적으로 값이 있을 때 처리할 수 있도록 코딩하면 될 것을 뭐하러 까다롭고 번거로운 옵셔널 개념을 도입했는가에 대해 말이다. 그러나 옵셔널의 강점은 안전성뿐만 아니라 안전성을 담보하는 과정에서 표현되는 코드의 간결성에 있다.&lt;/p&gt;
-
-&lt;p&gt;다음은 애플에서 스위프트 언어를 발표할 때 제시했던 코드로, nil 값을 점검하면서 사용하는 오브젝티브-C 코드와 이를 옵셔널을 사용하여 간결하게 표현한 스위프트 코드를 함께 보여주고 있다. 이 처럼 옵셔널을 이용하여 간결하게 처리할 수 있는 문법을 &lt;strong&gt;옵셔널 체인(Optional Chain)&lt;/strong&gt;이라고 하는데, 스위프트의 옵셔널 개념이 코드를 얼마나 간결하게 만들어줄 수 있는지 보여주는 대표적인 예라고 할 수 있다. 옵셔널 체인에 대한 문법은 클래스에 대해 학습하는 과정에서 자세히 다루겠다.&lt;/p&gt;
-
-&lt;div class=&quot;language-objectivec highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// 오브젝티브-C 코드&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;myDelegate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;myDelegate&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;respondsToSelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;@selector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;scrollViewDidScroll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:)])&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;myDelegate&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;scrollViewDidScroll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;myScrollView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// 스위프트 코드&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;myDelegate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;scrollViewDidScroll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;myScrollView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;
-&lt;a href=&quot;https://sanghyuk.dev/swift-grammar/6-1/&quot; class=&quot;btn btn--info&quot;&gt;이전 내용 보기&lt;/a&gt;
-&lt;a href=&quot;https://sanghyuk.dev/ios/2/&quot; class=&quot;btn btn--success&quot;&gt;iOS 면접 질문 목록 보기&lt;/a&gt;
-&lt;a href=&quot;https://sanghyuk.dev/swift-grammar/7-1/&quot; class=&quot;btn btn--info&quot;&gt;다음 내용 보기&lt;/a&gt;
-&lt;/center&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Swift-Grammar" /><category term="Swift" /><category term="Swift-Grammar" /><category term="꼼곰한 재은 씨의 스위프트:문법편" /><category term="이재은" /><category term="루비페이퍼" /><category term="ISBN:979-11-86710-23-4" /><category term="옵셔널" /><category term="Optional" /><category term="언래핑" /><category term="unwrapping" /><summary type="html">스위프트 문법 스터디</summary></entry><entry><title type="html">CHAPTER06: 옵셔널 - 1. 옵셔널 타입 선언과 정의</title><link href="https://sanghyuk.dev/swift-grammar/6-1/" rel="alternate" type="text/html" title="CHAPTER06: 옵셔널 - 1. 옵셔널 타입 선언과 정의" /><published>2021-02-05T00:00:00+09:00</published><updated>2021-02-05T00:00:00+09:00</updated><id>https://sanghyuk.dev/swift-grammar/6-1</id><content type="html" xml:base="https://sanghyuk.dev/swift-grammar/6-1/">&lt;p&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/swift.png&quot; alt=&quot;Swift&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;text-center&quot;&gt;&lt;a href=&quot;https://hits.seeyoufarm.com&quot;&gt;&lt;img src=&quot;https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsanghyuk.dev%2Fswift-grammar%2F6-1%2F&amp;amp;count_bg=%23FA7343&amp;amp;title_bg=%23555555&amp;amp;icon=swift.svg&amp;amp;icon_color=%23E7E7E7&amp;amp;title=Views&amp;amp;edge_flat=false&quot; alt=&quot;Hits&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;옵셔널(Optional)은 스위프트에서 도입된 새로운 개념으로서 언어 차원에서 프로그램의 안정성을 높이기 위해 사용하는 개념이다. 옵셔널의 개념을 한 문장으로 정의하자면 ‘nil을 사용할 수 있는 타입과 사용할 수 없는 타입을 구분하고, 사용할 수 있는 타입을 가리켜 옵셔널 타입(Optional Type)이라고 부른다’라고 할 수 있다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;여기서 말하는 nil이란, &lt;strong&gt;값이 없음&lt;/strong&gt;을 의미하는 특수한 값이다. 정수형의 0이나, 문자열의 ““과는 다른, 말 그대로 순수하게 하무 값도 없다는 것을 의미한다. 이런 특수성 때문에 nil은 종종 실제 값으로는 처리할 수 없는, 무엇인가 문제가 발생했을 때 이를 의미하기 위해 사용된다.&lt;/p&gt;
-
-&lt;p&gt;앞에서 잠깐 다룬 딕셔너리를 떠올려보자. 저장된 값을 읽으려면 딕셔너리 변수명 뒤에 대괄호와 함께 키 값을 넣어주어야 하는데, 종종 잘못된 키를 대입할 때가 있다. 오타이거나, 혹은 이미 삭제된 키를 사용하는 경우가 대표적이다. 이같은 상황에서 스위프트는 우리에게 뭔가 ‘너 지금 잘못했어. 그 키는 지금의 딕셔너리에는 존재하지 않아’라고 알려주고 싶어한다.&lt;/p&gt;
-
-&lt;p&gt;하지만 오류를 발생시키는 것은 그리 좋지 않다. 겨우 딕셔너리 키에 대한 잘못된 참조 하나 때문에 실행을 중단시키는 것은 매정할 뿐만 아니라, 스위프트는 최대한 안정성을 높이고자 노력하는 언어이다. 하지만 결과값을 공백을 반환할 수는 없다. 그랬다면 사용자가 자신이 실수한 것을 알지 못하고 정말 ‘그 키에는 공백이 저장되어 있었나보군’이라고 착각하게 될지도 모르기 때문이다. 이런 상황에서 스위프트는 오류도 발생시키지 않고 뭔가 문제가 있었다는 것도 알려주기 위해 nil이라는 값을 반환하는 것이다.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;capital&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;KR&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Seoul&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;CN&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Beijing&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;JP&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Tokyo&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;capital&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ko&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// nil&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;이처럼 스위프트에서는 값을 처리하는 과정에 문제가 있을 경우 많은 부분에서 오류를 발생시키는 대신 결과값을 nil로 반환한다. 하지만 모든 타입이 nil을 반환할 수 있는 것은 아니며 오직 옵셔널 타입만 nil을 반환할 수 있다. 다시 말해, nil을 반환하려면 해당 값이 옵셔널 타입으로 정의되어 있어야 한다.&lt;/p&gt;
-
-&lt;p&gt;여기에서 중요한 것은 “오류가 발생할 가능성”이다. 경우에 따라서는 오류가 발생하지 않을 수도 있지만, 언젠가 오류가 발생할 수 있는 가능성이 아주 조금이라도 있다면 모두 옵셔널 타입으로 정의해야 한다. 이해를 돕기 위해 또다른 예를 살펴보자. 문자열 “123”을 숫자로 변환해야 한다고 가정해 보겠다.&lt;/p&gt;
-
-&lt;p&gt;일반적으로 사람의 인식에서는 “그저 큰따옴표만 떼면 된다”라고 생각할지도 모르겠지만, 프로그래밍에서 문자열 “123”을 숫자로 바꾸려면 다소 복잡한 변환 과정을 거쳐야 한다. 다행히 스위프트를 포함한 많은 프로그래밍 언어에서는 문자열을 숫자로 변환해주는 간편한 방법을 제공한다. 스위프트에서는 Int 객체의 생성자 옵션에 숫자로 변환할 문자열을 넣어주면 정수로 변환된다. 사용 형식은 다음과 같다.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;바꿀&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;문자열&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;예를 들어, 문자열 “123”을 숫자로 바꾸려면 다음과 같이 작성하면 된다. 상수 num은 문자열 “123”이 아니라 정수 123이 대입된 Int 타입의 상수로 정의된다.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;123&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;다른 값을 넣어도 마찬가지이다. 문자열을 정수로 변환한 값을 얻을 수 있따. 그런데 만약 “123”이나 “456”처럼 숫자로 바꿀 수 있는 문자열 대신, 아래와 같이 문자열을 인자값으로 넣으면 어떻게 될까?&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Swift&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;무척 난감한 상황이다. 일반 문자열은 숫자로 변환할 수 없기 떄문이다. 따라서 컴파일러는 이럴 떄 “죄송합니다. 이 문자열은 숫자로 변환할 수 없습니다”라고 난감함을 표현해야 한다. 개발자가 상황을 이해하고 적절히 대응할 수 있는 구문을 보완할 수 있도록 말이다.&lt;/p&gt;
-
-&lt;p&gt;대부분 프로그래밍 언어에서는 이런 상황을 오류로 처리하거나 혹은 예외사항으로 처리한다. 오류 처리 구문을 사용할 수 있는 대표적인 언어인 자바는 이럴 떄 NumberFormatException() 예외를 발생함으로써 개발자가 인지하고 이에 대응하는 코드를 작성할 수 있도록 돕는다. 비단 자바뿐만 아니라 PHP도 오류 코드를 발생시키고, 자바스크립트 역시 NaN을 반환하여 변환에 실패했음을 알려준다.&lt;/p&gt;
-
-&lt;p&gt;그러나 스위프트는 조금 다르다. 언어의 안정성을 위해 가급적 오류를 발생시키지 않으려고 노력한다. 오류가 발생하면 프로그램의 실행 흐름이 중단되고 경우에 따라 앱의 동작이 멈추거나 아예 꺼져버릴 수도 있으므로, 언어의 안정성을 위해서는 될 수 있으면 피해야 하는 상황일 수밖에 없다. 이런 맥락에서 스위프트는 문자열의 정수 변환이 실패하더라도 실행을 중지시키거나 오류를 발생시키지 않고 억지로 값을 반환하려고 노력한다. 반환하는 값이 그 무엇이 도든 간에 말이다.&lt;/p&gt;
-
-&lt;p&gt;하지만 아무 값이나 반환할 수는 없다. 특히 0을 반환해서는 안 된다. 누군가 Int(“0”)을 호출했을 떄 정상적인 처리 결과로 정수 0이 반환된 경우와 구분할 수 없기 떄문이다. 또한 공백을 사용해서도 안 된다. 공백은 일반적으로 문자열로 처리되는 경향이 있어, 반환 타입이 일치하지 않을 뿐만 아니라 공백 또한 실패를 의미하는 값은 아니기 떄문이다. 이런 상황에서 개발자들은 실패를 의미하면서도 오류를 던지는 것이 아닌 값이 필요했다. 이런 목적에서 정의된 값이 바로 “값이 없음”을 뜻하는 nil이다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;다른 언어에서 Null이나 null로 표현되기도 하는 nil은 &lt;strong&gt;값이 없다는 것&lt;/strong&gt;을 표현하기 위해 사용하는 일종의 특수 값이다. 이 값은 원래 오브젝티브-C에서 쓰이던 값이었는데, 스위프트로 넘어오면서 의미가 약간 달라졌다. 오브젝티브-C에서는 빈 메모리 주소를 가리키는 값이었지만 스위프트에서는 단순히 &lt;strong&gt;‘값이 없음’&lt;/strong&gt;을 의미하게 된 것이다. 스위프트에서는 뭔가 연산 과정에서 정상적으로 값을 처리하지 못하는 상황이 발생했을 떄 제대로 된 결과값 대신 nil을 반환한다. 앞에서 예로 든 문자열을 숫자로 변환하는 과정에서도 잘못된 인자값으로 인해 문자열의 정수 반환이 실패했을 떄, ‘인자값이 잘못되었으므로 이 변환 처리는 실패입니다. 따라서 아무 값도 반환되지 않습니다’라는 의미를 표현하기 위해 nil을 반환한다.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Swift&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&amp;gt;&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;nil&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;그런데 스위프트에서는 nil의 사용에 제약을 걸어두었다. 바로 일반 자료형은 nil 값을 가질 수 없다는 것이다. 문자열이나 정수 등은 일반 자료형이기 때문에 &lt;strong&gt;‘값이 없음’&lt;/strong&gt;을 뜻하는 nil 값을 저장할 수 없다. 만약 일반 자료형에 억지로 nil 값을 대입하려고 하면 다음과 같은 오류가 발생한다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2021-02-05-6-1/1.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2021-02-05-6-1/1.png&quot; alt=&quot;일반 자료형에 nil을 대입하려고 했을 때의 오류&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;함수에서 값을 반환할 때에도 마찬가지이다. 함수는 반환 타입이 정해져 있기 때문에 항상 그 타입에 맞는 값을 반환해야 하는데, 처리 과정이 실패했을 경우에는 nil을 반환하게 된다. 하지만 일반 자료형에는 nil 값을 할당할 수 없다는 스위프트의 특성 때문에 nil을 반환하면 오류가 발생한다.&lt;/p&gt;
-
-&lt;p&gt;이때 사용하는 타입이 바로 옵셔널 타입이다. 옵셔널 타입으로 선언된 자료형은 nil 값을 저장할 수 있다. 만약 nil 값을 저장해야 하거나 혹은 함수의 반환값에 nil이 포함될 가능성이 있다면, 다시 말해 오류가 발생할 가능성이 있다면 반환 타입을 반드시 옵셔널 타입으로 설정해야 한다. 따라서 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Int(&amp;lt;바꿀문자열&amp;gt;)&lt;/code&gt; 구문의 반환 타입은 옵셔널 타입으로 정의된다.&lt;/p&gt;
-
-&lt;p&gt;사실 옵셔널 타입은 별도로 존재하는 자료형이 아니다. 스위프트에서 모든 기본 자료형들은 그에 대응하는 옵셔널 타입이 존재한다. 다시 말해 정수형에 대응하는 옵셔널 타입과, 문자열에 대응하는 옵셔널 타입이 모두 있다는 뜻이다. 또한, 클래스나 구조체를 이용하여 만든 객체도 옵셔널 타입으로 바꿀 수 있다. 함수를 통해서 반환 가능한 모든 타입들 역시 옵셔널 타입으로 변경할 수 있다.&lt;/p&gt;
-
-&lt;p&gt;어떤 자료형을 사용하는지에 따라 대응하는 옵셔널 타입은 다르다. 정수 타입을 옵셔널 타입으로 변경하면 Optional Int 타입이 되고, 문자열을 옵셔널 타입으로 바꾸면 Optional String이 된다. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Int(&amp;lt;바꿀문자열&amp;gt;)&lt;/code&gt; 구문의 반환타입은 Optional Int이다.&lt;/p&gt;
-
-&lt;p&gt;그런데 스위프트에서 옵셔널 타입이 실제로 가질 수 있는 값의 종류는 오직 두 가지 뿐이다. 하나는 &lt;strong&gt;nil이 아닌 값&lt;/strong&gt;, 또다른 하나는 &lt;strong&gt;nil 값&lt;/strong&gt;이다. nil이 아닌 값은 실제 실행 결과에서 오류가 발생하지 않았을 때 반환되며, 실제 실행 과정에서 오류가 발생했을 때에는 nil이 반환된다.&lt;/p&gt;
-
-&lt;p&gt;헷갈릴지도 모르겠지만 여기에서 말하는 ‘nil이 아닌 값’은 “ABC” 또는 123 등의 구체적인 값이 아니라 정말 nil이 아닌 값 그 자체이다. 이것은 반환하려는 실제 값이 옵셔널이라는 객체로 둘러 싸인 상태를 의미한다. 다시 말해 처리 과정에 문제가 있었다면 nil이 반환되고, 문제가 없어 처리가 성공했다면 옵셔널 객체로 감싸진 결과값이 반환된다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2021-02-05-6-1/2.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2021-02-05-6-1/2.png&quot; alt=&quot;옵셔널 타입이 가질 수 있는 값의 경우&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;결국, 옵셔널 타입이란 &lt;strong&gt;반환하고자 하는 값을 옵셔널 객체로 다시 한 번 감싼 형태&lt;/strong&gt;를 의미한다. 하지만 성공했을 때에는 일반 값을 반환하고, 그렇지 않으면 특수하게 처리된 예외나 NaN 값을 반환하는 방식으로 나누어 반환하는 다른 프로그래밍의 반환 방식과는 다르다. 스위프트에서는 일단 오류가 발생할 가능성이 있기만 하면, 성공적으로 처리했더라도 일단 옵셔널 타입으로 감싸서 반환하기 떄문이다.&lt;/p&gt;
-
-&lt;p&gt;문자열 “123”을 숫자로 변환한 값을 반환하고자 한다면 실제로 변환된 값 123을 직접 반환하는 것이 아니라 옵셔널 타입으로 값을 감싼 Optional(123)을 반환한다. 만약 숫자로 변환하지 못할 문자열(예를 들어, “안녕하세요”와 같은)이 입력되어 정상적인 변환이 불가능한 상황이라면 Optional(“안녕하세요”)가 아니라 nil 값을 반환한다. 이떄 Optional(123)과 nil은 모두 옵셔널 타입이다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2021-02-05-6-1/3.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2021-02-05-6-1/3.png&quot; alt=&quot;문자열의 정수 변환 처리 결과&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;처리가 성공적일 경우, 옵셔널 타입으로 반환된 값을 열어보면 실제 값이 옵셔널 타입으로 둘러싸여 있는 것을 볼 수 있다. 이를 &lt;strong&gt;옵셔널 래핑(Optional Wrapping)&lt;/strong&gt;이라고 한다. 이렇게 받은 값은 &lt;strong&gt;옵셔널 언래핑(Optional Unwrapping)&lt;/strong&gt;이라고 불리는 특수한 처리 과정을 통해 옵셔널 타입을 해제하고 실제 값을 추출하여 사용해야 한다. 단, 처리 결과가 실패여서 옵셔널 타입의 값이 nil이라면 옵셔털 타입을 해제해서는 안 된다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/images/posts/Swift-Grammar/2021-02-05-6-1/4.png&quot;&gt;&lt;img src=&quot;/assets/images/posts/Swift-Grammar/2021-02-05-6-1/4.png&quot; alt=&quot;문자열의 정수 변환 처리 결과&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;질문 : 차라리 모든 값을 옵셔널 타입으로 선언하고 사용하면 안 되나요? 일반 타입과 옵셔널 타입으로 나누어 사용하는 건 헷갈리고 불편할 것 같아서요.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;모든 값을 옵셔널 타입으로 선언하는 것은, 일반 자료형에 nil 값을 대입할 수 잇도록 허용하는 것과 다를 바가 없다. 그런데 모든 값이 nil을 가질 수 있다는 것은 또 다른 문제를 발생시킨다. 값을 사용할 때마다 일일이 nil인지 아닌지를 체크하여 사용해야 한다. 이는 프로그래밍 로직을 복잡하게 만들 뿐만 아니라 처리 과정 또한 어렵게 만든다. 그러므로 꼭 필요한 경우에만 제한적으로 옵셔널 타입을 적용하는 것이 좋다.&lt;/p&gt;
-
-&lt;h1 id=&quot;1-옵셔널-타입-선언과-정의&quot;&gt;1. 옵셔널 타입 선언과 정의&lt;/h1&gt;
-
-&lt;p&gt;일반 자료형을 옵셔널 타입으로 만드는 방법은 단순하다. 우리가 사용하는 자료형 뒤에 퀘스천 마크(물음표)만 붙이면 된다. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;'String?'&lt;/code&gt; 은 Optional String 타입을 의미하고, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;'Int?'&lt;/code&gt;는 Optional Int 타입을 의미한다. String 타입에는 nil을 대입할 수 없지만 String? 타입에는 nil을 대입할 수 있다. 다음 예제들은 다양한 옵셔널 타입을 보여주고 있다.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// 옵셔널 Int 타입&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;optInt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// 옵셔널 String 타입&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;optString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// 옵셔널 Double 타입&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;optDouble&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// 옵셔널 Array 타입&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;optArr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]?&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// 옵셔널 Dictionary 타입&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;optDic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Dictionary&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;optDic2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]?&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// 옵셔널 Class 타입&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;optClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;AnyObject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;일반 자료형을 선언만 하고 초기화하지 않으면 아예 아무것도 할당되지 않지만, 옵셔널 타입으로 자료형을 선언하면 자동으로 nil로 초기화된다. 물론, 옵셔널 내부에 있는 자료형에 nil 값이 부여된다는 것은 아니다. 옵셔널 타입 자체에 nil이 부여된다는 것이다.&lt;/p&gt;
-
-&lt;p&gt;옵셔널 타입으로 선언된 변수나 상수에 실제 값을 할당하는 방법은 일반 타입의 그것과 동일하다. 다음은 옵셔널 타입의 변수와 상수에 값을 할당하는 방법이다.&lt;/p&gt;
-
-&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// 옵셔널 Int 타입&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;optInt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;optInt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// 옵셔널 String 타입&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;optString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;optString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Swift&quot;&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// 옵셔널 Array 타입&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;optArr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]?&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;optArr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;C&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;JAVA&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Objective-C&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;SmallTalk&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// 옵셔널 Dictionary 타입&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;optDic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]?&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;optDic&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;국어&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;94&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;수학&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;88&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;영어&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;96&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;옵셔널 타입의 변수에 값을 할당할 때에는 옵셔널 타입임을 인지할 필요가 거의 없다. 일반 변수처럼 값을 할당하면 옵셔널 객체 내부에 값이 대입되기 때문이다. 즉, 값을 대입할 때에는 옵셔널이 아닌 일반 변수처럼 생각하고 다루어도 무방하다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;
-&lt;a href=&quot;https://sanghyuk.dev/swift-grammar/2-5/&quot; class=&quot;btn btn--info&quot;&gt;이전 내용 보기&lt;/a&gt;
-&lt;a href=&quot;https://sanghyuk.dev/ios/2/&quot; class=&quot;btn btn--success&quot;&gt;iOS 면접 질문 목록 보기&lt;/a&gt;
-&lt;a href=&quot;https://sanghyuk.dev/swift-grammar/6-2/&quot; class=&quot;btn btn--info&quot;&gt;다음 내용 보기&lt;/a&gt;
-&lt;/center&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Swift-Grammar" /><category term="Swift" /><category term="Swift-Grammar" /><category term="꼼곰한 재은 씨의 스위프트:문법편" /><category term="이재은" /><category term="루비페이퍼" /><category term="ISBN:979-11-86710-23-4" /><category term="옵셔널" /><summary type="html">스위프트 문법 스터디</summary></entry></feed>
+&lt;/center&gt;</content><author><name>SANGHYUK LEE</name></author><category term="Swift-Grammar" /><category term="Swift" /><category term="Swift-Grammar" /><category term="꼼곰한 재은 씨의 스위프트:문법편" /><category term="이재은" /><category term="루비페이퍼" /><category term="ISBN:979-11-86710-23-4" /><category term="함수" /><category term="문법" /><summary type="html">스위프트 문법 스터디</summary></entry></feed>

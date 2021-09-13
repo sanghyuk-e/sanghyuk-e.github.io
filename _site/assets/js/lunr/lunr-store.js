@@ -178,4 +178,16 @@ var store = [{
         "tags": ["Product-Manager","CPO","Chief Product Officer"],
         "url": "https://sanghyuk.dev/product-manager/6/",
         "teaser": null
+      },{
+        "title": "[CHAPTER 5] 대기업: 끊임없는 제품 혁신",
+        "excerpt":"대기업: 끊임없는 제품 혁신 규모의 확장에 성공했고 이제 영속하는 비즈니스를 만들기 원하는 기업들도 여전히 힘든 도전이 기다리고 있다. 강한 기술 제품 회사는 끊임없는 제픔 혁신이 필요하다는 것을 잘 알고 있다. 현재 고객과 비즈니스를 위해 지속해서 새로운 가치를 제공해야 하는 것을 의미한다. 현재 제품을 단순히 수정하고 최적화하는 것(이런 것을 가치 확보라...","categories": ["Product-Manager"],
+        "tags": ["Product-Manager","Product","Manager","PM"],
+        "url": "https://sanghyuk.dev/product-manager/7/",
+        "teaser": "https://sanghyuk.dev/assets/images/posts/ProductManager/ProductManager.png"
+      },{
+        "title": "[CHAPTER 6] 실패한 제품의 근본 원인",
+        "excerpt":"실패한 제품의 근본 원인 수 많은 제품이 실패하는 근본적인 원인이 무엇인지 알아보는 것으로 시작해보자. 어떤 규모이건, 어느 지역에 있든, 거의 모든 회사가 같은 방식으로 일하고 있음이 관찰됐다. 그리고 이러한 방식은 실제로 최고의 회사가 일하는 방식과는 거리가 멀다는 것이다. 이번 주제는 우리들을 무기력하게 만들 수도 있다. 참고 견뎌보자. 위 그림은 대부분...","categories": ["Product-Manager"],
+        "tags": ["Product-Manager","Product","Manager","PM"],
+        "url": "https://sanghyuk.dev/product-manager/8/",
+        "teaser": "https://sanghyuk.dev/assets/images/posts/ProductManager/ProductManager.png"
       }]
