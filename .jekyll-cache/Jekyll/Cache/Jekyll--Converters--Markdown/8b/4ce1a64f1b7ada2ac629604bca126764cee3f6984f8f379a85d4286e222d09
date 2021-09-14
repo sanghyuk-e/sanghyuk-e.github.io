@@ -1,4 +1,4 @@
-I"F&<p><img src="/assets/images/posts/Blog/Jekyll.jpeg" alt="jekyll" class="align-center" /></p>
+I"�%<p><img src="/assets/images/posts/Blog/Jekyll.jpeg" alt="jekyll" class="align-center" /></p>
 
 <h1 id="jekyll-블로그-검색엔진에-등록하기---naver">Jekyll 블로그 검색엔진에 등록하기 - NAVER</h1>
 
@@ -6,53 +6,37 @@
 
 <h2 id="네이버-웹-마스터-도구에-속성-추가">네이버 웹 마스터 도구에 속성 추가</h2>
 
-<ol>
-  <li><a href="https://searchadvisor.naver.com/">네이버 서치어드바이저</a>에 접속한다. 로그인을 진행하는데 Naver 계정이 필요하디. (대한민국 사람이면 없을리가 없다.)</li>
-</ol>
+<p><a href="https://searchadvisor.naver.com/">네이버 서치어드바이저</a>에 접속한다. 로그인을 진행하는데 Naver 계정이 필요하다. (대한민국 사람이면 없을리가 없다.)</p>
 
 <p><a href="/assets/images/posts/Blog/2020-12-29-1/1.png"><img src="/assets/images/posts/Blog/2020-12-29-1/1.png" alt="서치어드바이저 로그인" class="align-center" /></a></p>
 
-<ol>
-  <li>웹 마스터 도구로 접속한다.</li>
-</ol>
+<p>웹 마스터 도구로 접속한다.</p>
 
 <p><a href="/assets/images/posts/Blog/2020-12-29-1/2.png"><img src="/assets/images/posts/Blog/2020-12-29-1/2.png" alt="웹마스터 도구 접속" class="align-center" /></a></p>
 
-<ol>
-  <li>사이트 등록 란에 자신의 jekyll 블로그 주소를 입력하여 추가한다. (ex.http://[github 사용자명].github.io/ 또는 자신이 사용하는 도메인)</li>
-</ol>
+<p>사이트 등록 란에 자신의 jekyll 블로그 주소를 입력하여 추가한다. (ex.http://[github 사용자명].github.io/ 또는 자신이 사용하는 도메인)</p>
 
 <p><a href="/assets/images/posts/Blog/2020-12-29-1/3.png"><img src="/assets/images/posts/Blog/2020-12-29-1/3.png" alt="사이트 등록" class="align-center" /></a></p>
 
 <h2 id="사이트-소유-확인">사이트 소유 확인</h2>
 
-<ol>
-  <li>제공하는 HTML 파일을 다운로드 한다.</li>
-</ol>
+<p>제공하는 HTML 파일을 다운로드 한다.</p>
 
 <p><a href="/assets/images/posts/Blog/2020-12-29-1/4.png"><img src="/assets/images/posts/Blog/2020-12-29-1/4.png" alt="HTML 다운" class="align-center" /></a></p>
 
-<ol>
-  <li>다운받은 HTML 파일을 자신의 Jekyll 블로그의 가장 상위 디렉토리에 업로드한다. 이 과정에서 git에 commit 과 push 를 해야한다. 정상적으로 업로드 되었는지 확인한다.</li>
-</ol>
+<p>다운받은 HTML 파일을 자신의 Jekyll 블로그의 가장 상위 디렉토리에 업로드한다. 이 과정에서 git에 commit 과 push 를 해야한다. 정상적으로 업로드 되었는지 확인한다.</p>
 
 <p><a href="/assets/images/posts/Blog/2020-12-29-1/5.png"><img src="/assets/images/posts/Blog/2020-12-29-1/5.png" alt="업로드 확인" class="align-center" /></a></p>
 
-<ol>
-  <li>정상 업로드 되었다면 <strong>소유확인</strong> 버튼을 누른다.</li>
-</ol>
+<p>정상 업로드 되었다면 <strong>소유확인</strong> 버튼을 누른다.</p>
 
 <p><a href="/assets/images/posts/Blog/2020-12-29-1/6.png"><img src="/assets/images/posts/Blog/2020-12-29-1/6.png" alt="소유확인" class="align-center" /></a></p>
 
-<ol>
-  <li>소유확인이 완료되면 정상이다.</li>
-</ol>
+<p>소유확인이 완료되면 정상이다.</p>
 
 <p><a href="/assets/images/posts/Blog/2020-12-29-1/7.png"><img src="/assets/images/posts/Blog/2020-12-29-1/7.png" alt="소유확인 완료" class="align-center" /></a></p>
 
-<ol>
-  <li>웹마스터 도구에서 등록된 사이트를 확인할 수 있다.</li>
-</ol>
+<p>웹마스터 도구에서 등록된 사이트를 확인할 수 있다.</p>
 
 <p><a href="/assets/images/posts/Blog/2020-12-29-1/8.png"><img src="/assets/images/posts/Blog/2020-12-29-1/8.png" alt="사이트 등록 확인" class="align-center" /></a></p>
 
@@ -136,34 +120,34 @@ Sitemap: http://[자신의 github 사용자명].github.io/sitemap.xml
 
 <h2 id="네이버-웹마스터-도구에-feedxml-sitemapxml-제출하기">네이버 웹마스터 도구에 feed.xml, sitemap.xml 제출하기</h2>
 
-<ol>
+<ul>
   <li>
     <p>네이버 웹마스터 도구에 접속한다.</p>
   </li>
   <li>
     <p>자신이 추가한 연동 사이트를 선택한다.</p>
   </li>
-</ol>
+</ul>
 
 <p><a href="/assets/images/posts/Blog/2020-12-29-1/11.png"><img src="/assets/images/posts/Blog/2020-12-29-1/11.png" alt="연동 사이트 선택" class="align-center" /></a></p>
 
-<ol>
+<ul>
   <li>
     <p>화면 좌측에 나타난 메뉴에서 [요청] → [RSS 제출] 순으로 선택한다.</p>
   </li>
   <li>
     <p>RSS URL 란에 ‘http://[github 사용자명].github.io/feed.xml’ 를 입력한다. (ex.http://[github 사용자명].github.io/feed.xml)</p>
   </li>
-</ol>
+</ul>
 
 <p><a href="/assets/images/posts/Blog/2020-12-29-1/12.png"><img src="/assets/images/posts/Blog/2020-12-29-1/12.png" alt="RSS 등록" class="align-center" /></a></p>
 
-<ol>
+<ul>
   <li>
     <p>확인 버튼을 눌러 등록한다.</p>
   </li>
   <li>
     <p>같은 방법으로 화면 좌측에 나타난 메뉴에서 [요청] → [사이트맵 제출] 을 눌러 사이트맵을 등록한다.</p>
   </li>
-</ol>
+</ul>
 :ET

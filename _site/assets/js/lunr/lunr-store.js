@@ -102,13 +102,13 @@ var store = [{
         "teaser": "https://sanghyuk.dev/assets/images/posts/Codeit/codeit.png"
       },{
         "title": "Jekyll 블로그 검색엔진에 등록하기 - Naver",
-        "excerpt":"Jekyll 블로그 검색엔진에 등록하기 - NAVER 블로그에 작성한 글이 검색엔진에 노출시키기 위해서는 블로그를 등록하는 과정이 필요하다. 이번에는 Jekyll로 작성된 블로그가 네이버에서 검색되도록 설정하는 과정이다. 네이버 웹 마스터 도구에 속성 추가 네이버 서치어드바이저에 접속한다. 로그인을 진행하는데 Naver 계정이 필요하디. (대한민국 사람이면 없을리가 없다.) 웹 마스터 도구로 접속한다. 사이트 등록 란에 자신의...","categories": ["Blog"],
+        "excerpt":"Jekyll 블로그 검색엔진에 등록하기 - NAVER 블로그에 작성한 글이 검색엔진에 노출시키기 위해서는 블로그를 등록하는 과정이 필요하다. 이번에는 Jekyll로 작성된 블로그가 네이버에서 검색되도록 설정하는 과정이다. 네이버 웹 마스터 도구에 속성 추가 네이버 서치어드바이저에 접속한다. 로그인을 진행하는데 Naver 계정이 필요하다. (대한민국 사람이면 없을리가 없다.) 웹 마스터 도구로 접속한다. 사이트 등록 란에 자신의...","categories": ["Blog"],
         "tags": ["jekyll","blog","search engine","naver","지킬","블로그","네이버","검색"],
         "url": "https://sanghyuk.dev/blog/2/",
         "teaser": "https://sanghyuk.dev/assets/images/posts/Blog/Jekyll.jpeg"
       },{
         "title": "Jekyll 블로그 검색엔진에 등록하기 - Google",
-        "excerpt":"Jekyll 블로그 검색엔진에 등록하기 - Google 블로그에 작성한 글이 검색엔진에 노출시키기 위해서는 블로그를 등록하는 과정이 필요하다. 이번에는 Jekyll로 작성된 블로그가 구글에서 검색되도록 설정하는 과정이다. 구글 Search Console에 속성 추가 구글 Search Console에 접속한다. 로그인을 진행하는데 Google 계정이 필요하디. 사이트 등록 란에 자신의 jekyll 블로그 주소를 입력하여 추가한다. (ex.http://[github 사용자명].github.io/ 또는...","categories": ["Blog"],
+        "excerpt":"Jekyll 블로그 검색엔진에 등록하기 - Google 블로그에 작성한 글이 검색엔진에 노출시키기 위해서는 블로그를 등록하는 과정이 필요하다. 이번에는 Jekyll로 작성된 블로그가 구글에서 검색되도록 설정하는 과정이다. 구글 Search Console에 속성 추가 구글 Search Console에 접속한다. 로그인을 진행하는데 Google 계정이 필요하다. 사이트 등록 란에 자신의 jekyll 블로그 주소를 입력하여 추가한다. (ex.http://[github 사용자명].github.io/ 또는...","categories": ["Blog"],
         "tags": ["jekyll","blog","search engine","google","지킬","블로그","구글","검색"],
         "url": "https://sanghyuk.dev/blog/3/",
         "teaser": "https://sanghyuk.dev/assets/images/posts/Blog/Jekyll.jpeg"
@@ -189,5 +189,11 @@ var store = [{
         "excerpt":"실패한 제품의 근본 원인 수 많은 제품이 실패하는 근본적인 원인이 무엇인지 알아보는 것으로 시작해보자. 어떤 규모이건, 어느 지역에 있든, 거의 모든 회사가 같은 방식으로 일하고 있음이 관찰됐다. 그리고 이러한 방식은 실제로 최고의 회사가 일하는 방식과는 거리가 멀다는 것이다. 이번 주제는 우리들을 무기력하게 만들 수도 있다. 참고 견뎌보자. 위 그림은 대부분...","categories": ["Product-Manager"],
         "tags": ["Product-Manager","Product","Manager","PM"],
         "url": "https://sanghyuk.dev/product-manager/8/",
+        "teaser": "https://sanghyuk.dev/assets/images/posts/ProductManager/ProductManager.png"
+      },{
+        "title": "[CHAPTER 7] 린과 애자일을 넘어",
+        "excerpt":"린과 애자일을 넘어 사람들은 항상 제품을 만드는 마법의 무기를 찾는다. 그리고 해당 산업의 누군가로부터 저서, 코핑, 교육, 컨설팅을 언제든 제공받을 수 있는 상황이기를 기대한다. 하지만 바법의 무기 같은 것은 없으며, 방법은 항상 스스로 찾아야만 한다. 다만 이렇게 되면 반발이 일어난다. 린과 애자일을 비평하는 것이 인기를 끌고 있다. 의심할 여지 없이...","categories": ["Product-Manager"],
+        "tags": ["Product-Manager","Product","Manager","PM"],
+        "url": "https://sanghyuk.dev/product-manager/9/",
         "teaser": "https://sanghyuk.dev/assets/images/posts/ProductManager/ProductManager.png"
       }]
