@@ -1,0 +1,858 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.19.3 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>[CHAPTER 6] 실패한 제품의 근본 원인 - Sanghyuk’s Blog</title>
+<meta name="description" content="Part.1 최고의 기술 기업에서 배운 것">
+
+
+  <meta name="author" content="SANGHYUK LEE">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Sanghyuk's Blog">
+<meta property="og:title" content="[CHAPTER 6] 실패한 제품의 근본 원인">
+<meta property="og:url" content="https://sanghyuk.dev/productmanager/8/">
+
+
+  <meta property="og:description" content="Part.1 최고의 기술 기업에서 배운 것">
+
+
+
+  <meta property="og:image" content="https://sanghyuk.dev/assets/images/posts/ProductManager/ProductManager.png">
+
+
+
+
+
+  <meta property="article:published_time" content="2021-09-11T00:00:00+09:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://sanghyuk.dev/productmanager/8/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "SANGHYUK LEE",
+      "url": "https://sanghyuk.dev/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Sanghyuk's Blog Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!-- darkmode css -->
+
+<link rel="stylesheet" href="/assets/css/main_dark.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Sanghyuk's Blog
+          <span class="site-subtitle">iOS Developer & Service Planner</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/categories/">Categories📚</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/sanghyuk-e">Repositories🗄</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://www.notion.so/Jack-ee94936743e146e9922525556b9de5d3">Resume📑</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <!-- 다크 모드 토글 버튼 -->
+        
+        <input id="toggle_dark_theme" class="tgl tgl-light" type="checkbox">
+        <label for="toggle_dark_theme" class="tgl-btn"></label>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/posts/ProductManager/ProductManager.png');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          [CHAPTER 6] 실패한 제품의 근본 원인
+
+        
+      </h1>
+      
+        <p class="page__lead">Part.1 최고의 기술 기업에서 배운 것
+</p>
+      
+      
+        <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  7 minute read
+
+</p>
+      
+      
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/bio-me.png" alt="SANGHYUK LEE" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">SANGHYUK LEE</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>흥미롭고 즐거운 것들을 찾아 헤메고 있습니다.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Seoul</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="mailto:sanghyuk.eee@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/sanghyuk-e/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/sanghyuk-lee/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://instagram.com/sanghyuk.e" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">Instagram</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Categories</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/categories/iOS">iOS</a></li>
+          
+            <li><a href="/categories/ProductManager">Product Manager</a></li>
+          
+            <li><a href="/categories/CodeIt">Code it</a></li>
+          
+            <li><a href="/categories/git">iOS</a></li>
+          
+            <li><a href="/categories/SwiftGrammar">Swift Grammar</a></li>
+          
+            <li><a href="/categories/Blog">Blog</a></li>
+          
+            <li><a href="/categories/Firebase">Firebase</a></li>
+          
+            <li><a href="/categories/Planner">Planner</a></li>
+          
+            <li><a href="/categories/Development">Development</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="[CHAPTER 6] 실패한 제품의 근본 원인">
+    <meta itemprop="description" content="Part.1 최고의 기술 기업에서 배운 것">
+    <meta itemprop="datePublished" content="2021-09-11T00:00:00+09:00">
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#실패한-제품의-근본-원인">실패한 제품의 근본 원인</a></li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <p class="text-center"><a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsanghyuk.dev%2Fproduct-manager%2F8%2F&amp;count_bg=%23555555&amp;title_bg=%230581A6&amp;icon=&amp;icon_color=%23E7E7E7&amp;title=hits&amp;edge_flat=false" alt="Hits" /></a></p>
+
+<h1 id="실패한-제품의-근본-원인">실패한 제품의 근본 원인</h1>
+
+<p>수 많은 제품이 실패하는 근본적인 원인이 무엇인지 알아보는 것으로 시작해보자.</p>
+
+<p>어떤 규모이건, 어느 지역에 있든, 거의 모든 회사가 같은 방식으로 일하고 있음이 관찰됐다. 그리고 이러한 방식은 실제로 최고의 회사가 일하는 방식과는 거리가 멀다는 것이다.</p>
+
+<p>이번 주제는 우리들을 무기력하게 만들 수도 있다. 참고 견뎌보자.</p>
+
+<p><img src="/assets/images/posts/ProductManager/2021-09-11-8/1.png" alt="실패한 제품의 근본 원인" class="align-center" /></p>
+
+<p>위 그림은 대부분 회사가 여전히 사용하고 있는 제품 개발 프로세스다. 모든 것은 <strong>아이디어</strong>에서 출발한다. 대부분 아이디어는 내부(임원, 핵심 이해 관계자 또는 비즈니스 담당자) 혹은 외부(현재 또는 잠재 고객들)에서 유입된다. 아이디어가 어디에서 발생했건 간에, 항상 비즈니스의 각 분야에서 제품 관리자가 처리해 주기를 바라는 엄청난 양의 과제들이다.</p>
+
+<p>이제 대부분 회사는 이러한 아이디어들의 우선순위를 매겨 <strong>로드맵</strong>으로 전환하기를 원한다. 그들은 두 가지 이유로 로드맵을 사용한다. 첫째는 가장 중요한 일을 먼저 수행해 주기를 원하기 때문이며, 둘째는 각 업무가 언제 준비 상태가 될지 예측하고 싶기 때문이다.</p>
+
+<p>로드맵을 작성하기 위해 보통 <strong>분기 또는 연간 계획 세션</strong>과 같은 별도의 시간을 마련한다. 이때 리더들은 아이디어를 검토하면서 제품 로드맵에 대해 협의한다. 하지만 우선순위를 선정하기 위해 그들은 먼저 각 아이디어에 대한 <strong>비즈니스 케이스</strong> 정의가 필요하다. 어떤 회사들은 비즈니스 케이스에 대한 별도 양식이 있고, 없는 회사도 있다. 어쨋든 각 아이디어에 대해 두 가지를 분명히 알아야 한다는 것이 핵심이다. ① 얼마만큼의 매출이나 가치를 만들어 내는 것인가? ② 얼마만큼의 비용이나 시간이 필요한 것인가? 이러한 정보는 다음 분기의 로드맵(때로는 1년의 로드맵)을 작성하는 데 활용된다.</p>
+
+<p>이때 제품과 기술 조직은 진격 명령이 떻어지면 보통 가장 높은 우선운위의 아이디어부터 차례대로 실행하게 된다.</p>
+
+<p>어떤 아이디어가 가장 높은 우선운위에 있으면 제품 관리자가 가장 먼저 해야 할 일은 해당 이해 관계자를 만나서 아이디어를 구체화하는 것이다. 이를 통해 일련의 ‘요구사항’을 정리한다.</p>
+
+<p>이러한 요구사항은 사용자 스토리(user story) 형태이거나, 아마도 기능 명세와 같은 양식의 형태일 것이다. 요구사항은 디자이너와 엔지니어에게 무엇이 만들어져야 하는지를 커뮤니케이션하기 위함이다.</p>
+
+<p>요구사항이 모두 수집되고 나면 <strong>사용자 경험 디자인팀</strong>(그 팀이 회사에 존재한다고 가정)은 상호작용 디자인(interaction design), 시각 디자인(visual design), 물리적인 기기의 경우 산업 디자인(industrial design)에 대한 진행을 요청한다.</p>
+
+<p>경국 그 요구사항과 디자인 결과물은 <strong>엔지니어</strong>에게 전달된다. 대개 이 시점에서 애자일이 등장한다.</p>
+
+<p>아무튼 엔지니어들은 보통 그 과제를 <strong>이터레이션(iteration, 반복 업무 단위)</strong>으로 나눈다. 스크럼(scrum) 프로세스에서 말하는 ‘스프린트(sprint)’다. 아이디어를 구현하기 위해 한 번에서 세 번 정도의 스프린트가 걸린다.</p>
+
+<p><strong>QA 테스트(QA test)</strong>가 스프린트 일부로 포함되어 있으면 다행이다. 혹은 별도 QA 팀이 있다면 그 신규 아이디어 과제가 예상대로 동작하는지, 다른 문제를 만들어 내지는 않는지(이런 것을 <strong>회귀 테스트</strong>라고 한다)를 검증한다.</p>
+
+<p>QA 담당자로부터 이상이 없음을 확인하는 녹색 신호를 받으면, 그 신규 아이디어는 마침내 실제 고객에게 <strong>배포(deploy)</strong>된다.</p>
+
+<p>대다수의 크고 작은 기업들은 이러한 방식을 필수적으로, 이미 오랫동안 사용하고 있다. 여전히 이런 기업들은 일관된 불평불만을 제기한다. <strong>혁신이 부족하고</strong>, 제품을 고객에게 전달하기까지 <strong>너무 오랜 시간이 걸린다</strong>는 것이다.</p>
+
+<p>아마 눈치챘겠지만, 요즘 거의 모든 사람이 하고자 하는 ‘애자일’을 잠깐 언급했다. 반면에 방금 설명했던 상황은 완전히 <strong>‘폭포수(waterfall)’</strong> 프로세스에 대한 것이었다. 엔지니어 관점에서 말하자면 그들은 보통 주어진 폭포수 프로세스의 환경에서 할 수 있는 최대한의 애자일을 실천하고 있다.</p>
+
+<p>앞서 설명한 것이 대부분 팀이 하는 방식인 것은 알겠다. 그런데 왜 이것이 수많은 실패의 필연적인 이유인가? 그 이유를 찾기 위해 단편적인 내용의 조각들을 연결해 보자. 그래서 우리는 왜 이 보편적인 업무 방식이 많은 제품 실패에 대한 책임인지 보다 분명하게 알 수 있을 것이다.</p>
+
+<p>다음의 목록을 통해 이러한 업무 방식이 가지는 가장 큰 문제 10가지를 공유할 것이다. 이 10가지 문제는 팀을 망칠 수 있는 <strong>매우 심각한 이슈</strong>라는 것을 명심하자. 많은 회사에서 한 개 이상, 심지어는 모든 문제를 가지고 있다.</p>
+
+<ol>
+  <li>
+    <p>위에서부터 시작해 보자. 바로 <strong>아이디어의 출처</strong>다. 이 모델을 사용하면 판매 확대를 위한 기능이나 이해 관계자 위주로 재품이 끌려가게 된다. 이 방식이 뛰어난 제품 아이디어를 가져오지는 못한다는 것이다. 또한, 이러한 접근 방법은 팀에게 필요한 권한 위임이 안 된다. 이 모델을 따르면 제품팀은 마치 외부 용병처럼 그저 열심히 실행할 뿐이다.</p>
+  </li>
+  <li>
+    <p>다음으로 <strong>비즈니스 케이스</strong>의 치명적인 결함에 관해 이야기해 보자. 큰 규모의 투자가 필요한 아이디어일 경우에 한해서는 비즈니스 케이스가 필요할 수 있다. 하지만 많은 회사가 로드맵을 작성하는 단계에서 비즈니스 케이스를 작성하는 것은 정말 말도 안된다. 그 이유를 설명해 보겠다. 모든 비즈니스 케이스의 핵심적인 두 가지 요소를 기억하는가? ‘얼마만큼의 돈을 벌 수 있는가’와 ‘얼마만큼의 비용이 드는가’다. 냉엄한 진실은, 현재 시점에서 우리는 이 두가지 수치에 대한 근거가 전혀 없다는 것이다. 솔직히 우리는 알 방법이 없다.
+우리가 만드는 것으로 얼마만큼의 돈을 벌 수 있을지는 결국 얼마나 좋은 솔루션을 만들어 낼지에 달려 있기 때문이다. 만일 팀이 환상적으로 일을 해냈다면 큰 성공을 만들어 낼 수도 있다. 말하자면 비즈니스 전체의 추세에 영향을 줄 수도 있다. 하지만 현실은, 많은 제품 아이디어가 결국 아무것도 이루어 내지 못한다는 것이다. 효과가 없었다는 것을 과장하는 표현이 아니다. <strong>말 그대로 아무것도 모른다</strong>(A/B 테스트를 통해서 알 수 있다).
+어떤 경우에도 제품 개발의 가장 중요한 교훈 중 하나는 <strong>우리가 모르는 것을 알아간다</strong>는 것이다. 그리고 단지 이 단계에서는 우리가 얼마만큼의 돈을 벌 수 있는지 알 수 없다.
+마찬가지로 우리가 제품을 만드는 데 얼마만큼의 비용이 들어갈지도 알 수 없다. 실제 어떤 솔루션을 만들지도 모르는 상태에서 엔지니어가 예측하는 것은 불가능에 가까운 일이다. 대부분의 내공 있는 엔지니어들은 이 단계에서 추정하는 것을 거부할 것이다. 하지만 일부는 티셔츠 사이즈를 측정하는 오래된 방법으로 타협한다. 이 아이디어가 ‘스몰, 미디움, 라지, 엑스라지’인지만 알게 해달라고 말이다.
+하지만 많은 회사가 우선순위 로드맵을 정말 원하고 있고, 일단 활용이 되면 아이디어를 평가한ㄴ 시스템이 필요하다. 그래서 사람들은 비즈니스 케이스 게임을 하게 된다.</p>
+  </li>
+  <li>
+    <p>회사가 <strong>제품 로드맵</strong>에 대해 빠져들기 시작하면 더 큰 이슈가 발생하기 시작한다. 지난 수년간 셀 수 없을 정도로 많은 로드맵을 보아 왔으며, 대부분은 우선순위가 정해진 기능과 프로젝트들의 목록이 구성되어 있었다. 예를 들어 마케팅은 특정 캠페인을 위해 이런 기능을 원하고, 영업은 새로운 고객을 확보하기 위해 저 기능을 원하며, 또 누구는 페이팔(PayPal) 연동을 원할 수 있다.
+하지만 여기에 가장 큰 문제가 있다. <strong>제품에 관한 두 가지 불편한 진실</strong>이다. 
+첫 번째 진실은, <strong>당신의 아이디어 중 최소 절반 이상은 유효하지 않을 것이라는 사실이다.</strong> 아이디어가 기대한 효과를 만들지 못하는 데는 여러 이유가 있다. 가장 흔한 이유는, 이 아이디어에 대해 우리만큼 고객이 관심을 가지지 않는다는 것이다. 그래서 그들은 사용하지 않는 것을 선택한다. 때로는 그들이 사용하기 원하고 실제 사용해 보기도 한다. 하지만 제품이 지나치게 복잡해서 쓰임새보다 오히려 골칫거리가 더 많아진다. 그래서 사람들은 다시 사용하지 않게 된다. 그리고 가끔은 사람들이 좋아하는 제품을 생각해 냈지만, 우리가 예상했던 것보다 더 큰 비용이 드는 상황이 발생한다. 결국 고객에게 그 제품을 전달하는 데 필요한 시간과 비용을 감당하지 못하겠다는 결정을 하게 된다.
+그래서 제품 로드맵에 있는 최소 절반 이상의 아이디어는 기대했던 효과를 만들어 내지 못한다고 장담한다.(정말 훌륭한 제품팀은 네 개중 세 개의 아이더는 그들이 기대했던 성과를 내지 못한다고 가정한다).
+첫 번째가 충분하지 않다면 두 번째 불편한 진실이 여기 있다. 아이디어가 충분히 잠재적인 가치가 있는 것으로 파악되었더라도 필요한 비즈니스 가치를 만들어 내는 수준에 도달하려면 최소 몇 번의 <strong>이터레이션</strong>을 반복해야 한다는 것이다. 우리는 이것을 <strong>돈을 버는 데 필요한 시간(time to money)</strong>이라고 한다. 제품을 만들면서 깨달은 가장 중요한 교훈은 이 두 가지 불편한 진실에서 벗어나는 경우는 없다는 것이다. 엄청 똑똑하다고 해도 마찬가지다. 정말 뛰어난 팀들은 이러한 불편한 진실들을 대처하는 방법이 다르다.</p>
+  </li>
+  <li>
+    <p>다음은 이 모델에서 <strong>제품 관리의 역할</strong>에 대해 생각해 보자. 사실 이러한 상황에서는 제품 관리라고 하는 것보다 프로젝트 관리라고 부르는 것이 더 맞을 것 같다. 이 모델에서는 엔지니어를 위해 <strong>요구사항을 수집하고 문서화해 주는 것</strong>이 주요 업무다. 이는 실제 기술 제품 관리라고 하는 일과는 180도 다르다는 것을 짚고 넘어가고 싶다.</p>
+  </li>
+  <li>
+    <p>디자인의 역할도 상황이 비슷하다. 디자인의 진정한 가치를 담기에는 너무 늦은 상황이라서 대부분은 우리가 이른바 ‘돼지 입술에 립스틱 바르기(lipstick on the pig)’를 하게 된다. 이미 상황은 더 나빠졌으므로 엉망인 제품에 페인트 코팅이라도 씌우려고 시도한다. 사용자 경험(UX, User Experience) 디자이너도 이것이 바람직하지 않다는 것을 잘 알고 있지만, 이렇게라도 그들이 할 수 있는 방법으로 보기 좋고 일관된 디자인을 해나간다.</p>
+  </li>
+  <li>
+    <p>아마 이 모델에서 놓치는 가장 큰 기회는 <strong>엔지니어들이 너무 늦게 참여한다</strong>는 것이다. 엔지니어들이 단지 코드를 짜는 일만 한다면 그들이 가진 가치의 절반만 활용하는 것이나 마찬가지다. 제품 개발에서 작은 비밀이 있다면 <strong>엔지니어가 보통 혁신을 하는 데 가장 훌륭한 원천</strong>이라는 것이다. 그러나 이 모델에서 그들은 회의에도 초대받지 못한다.</p>
+  </li>
+  <li>
+    <p>엔지니어팀을 너무 늦게 참여시키는 것뿐 아니라 애자일의 원칙과 핵심적인 장점이 너무 늦게 작동된다. 이러한 방식으로 업무를 하면 팀은 애자일 방법론의 실질적인 가치와 잠재성을 단지 20%만 활용하게 된다. 이는 제품 구현과 전달에만 애자일이 적용되는 것이며, 다른 모든 조직과 업무 상황에는 해당하지 않는다.</p>
+  </li>
+  <li>
+    <p>이 모든 프로세스는 다분히 <strong>프로젝트 중심적</strong>이다. 회사는 프로젝트에 투자하고, 프로젝트에 인력을 지원하며, 조직에 프로젝트 단위로 압박하며, 결국 프로젝트를 출시하게 된다. 불행하게도 <strong>프로젝트는 결과물에 대한 것</strong>이고, <strong>제품은 비즈니스 썽과에 대한 것</strong>이다. 이 프로세스는 고아와 같은 신세의 프로젝트들을 일으킨다. 결과적으로 무언가 출시되었지만, 처음에 생각한 목표에 부합하지 못했다고 하자. 그렇다면 애초에 무엇이 중요했던 것일까? 어떤 경우에도 이것은 매우 치명적인 문제이며, 우리에게 필요한 제품 개발 방식과는 거리가 멀다.</p>
+  </li>
+  <li>
+    <p>전통적인 폭포수 방식이 여전히 가지고 있는 가장 큰 문제는 위험이 가장 마지막에 발견된다는 것이다. <strong>고객에 대한 검증이 너무 늦게 일어난다</strong>는 의미다.
+린 방법(Lean method)의 핵심적인 원칙은 낭비를 줄이는 것이다. 가장 큰 낭비의 형태는 결국 원하지도 않는 기능이나 제품을 발견하기 위해 디자인-구현-테스트-배포해 나가는 것이다. 아이러니한 사실은 많은 팀이 폭포수 프로세스를 적용하고 있으면서도 스스로 린의 원칙을 적용하고 있다고 착각한다는 것이다. 그들은 가장 값비싸고 느린 방법으로 아이디어를 실행하고 있다.</p>
+  </li>
+  <li>
+    <p>끝으로, 우리가 이 프로세스로 시간과 비용을 낭비하느라 정신없을 때 발생하는 가장 큰 손실은 따로 있다. 바로 그 시간에 조직이 할 수 있었던 혹은 해야만 했던 것에 대한 <strong>기회비용</strong>이다. 우리는 시간과 돈을 다시 돌릴 수 없다.</p>
+  </li>
+</ol>
+
+<p>많은 기업이 엄청난 시간과 비용을 들이고도 매우 허망한 성과를 거두는 현상은 그리 놀라운 일도 아니다. 이 사실이 당신을 매우 우울하게 만든다고 미리 경고했다. 하지만 중요한 것은 이제 당신은 회사가 일하는 방식을 어떻게 바꿔야 하는지 깊이 이해하고 있다는 사실이다. 당신의 회사가 위에서 설명한 방식으로 일을 하고 있다면 말이다.</p>
+
+<p>반가운 소식은 최고의 팀들은 절대 앞서 설명한 방식처럼 일하지 않는다고 약속할 수 있다는 것이다.</p>
+
+<hr />
+
+<p><br /></p>
+<center>
+<a href="https://sanghyuk.dev/Product-Manager/7/" class="btn btn--info">이전 내용 보기</a>
+<a href="https://sanghyuk.dev/Product-Manager/9/" class="btn btn--info">다음 내용 보기</a>
+</center>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#manager" class="page__taxonomy-item" rel="tag">Manager</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#pm" class="page__taxonomy-item" rel="tag">PM</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#productmanager" class="page__taxonomy-item" rel="tag">ProductManager</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#product" class="page__taxonomy-item" rel="tag">Product</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#productmanager" class="page__taxonomy-item" rel="tag">ProductManager</a>
+    
+    </span>
+  </p>
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-09-11T00:00:00+09:00">September 11, 2021</time></p>
+
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/productmanager/7/" class="pagination--pager" title="[CHAPTER 5] 대기업: 끊임없는 제품 혁신
+">Previous</a>
+    
+    
+      <a href="/productmanager/9/" class="pagination--pager" title="[CHAPTER 7] 린과 애자일을 넘어
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/posts/ProductManager/ProductManager.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/productmanager/12/" rel="permalink">[CHAPTER 9] 강한 제품팀의 원칙
+</a>
+      
+    </h2>
+    <!-- 기존 읽는데 필요한 시간이 보이는 부분 / 변경 후 작성날짜로 표기
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  6 minute read
+
+</p>
+    
+    -->
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> September 24 2021</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Part.2 사람
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/posts/ProductManager/ProductManager.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/productmanager/11/" rel="permalink">[CHAPTER 8-1] 최소 기능 제품(MVP)
+</a>
+      
+    </h2>
+    <!-- 기존 읽는데 필요한 시간이 보이는 부분 / 변경 후 작성날짜로 표기
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+
+</p>
+    
+    -->
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> September 23 2021</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Part.1 최고의 기술 기업에서 배운 것
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/posts/ProductManager/ProductManager.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/productmanager/10/" rel="permalink">[CHAPTER 8] 핵심 개념
+</a>
+      
+    </h2>
+    <!-- 기존 읽는데 필요한 시간이 보이는 부분 / 변경 후 작성날짜로 표기
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  3 minute read
+
+</p>
+    
+    -->
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> September 20 2021</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Part.1 최고의 기술 기업에서 배운 것
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/posts/ProductManager/ProductManager.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/productmanager/9/" rel="permalink">[CHAPTER 7] 린과 애자일을 넘어
+</a>
+      
+    </h2>
+    <!-- 기존 읽는데 필요한 시간이 보이는 부분 / 변경 후 작성날짜로 표기
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+
+</p>
+    
+    -->
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> September 13 2021</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Part.1 최고의 기술 기업에서 배운 것
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+          <li><a href="https://github.com/sanghyuk-e/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="https://www.linkedin.com/in/sanghyuk-lee/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/sanghyuk.e" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 SANGHYUK LEE. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  
+    <script src="/assets/js/custom/dark-theme.js"></script>
+  
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    <script>
+  'use strict';
+
+  (function() {
+    var commentContainer = document.querySelector('#utterances-comments');
+
+    if (!commentContainer) {
+      return;
+    }
+
+    var script = document.createElement('script');
+    script.setAttribute('src', 'https://utteranc.es/client.js');
+    script.setAttribute('repo', 'sanghyuk-e/Comments');
+    script.setAttribute('issue-term', 'pathname');
+    script.setAttribute('theme', 'github-light');
+    script.setAttribute('crossorigin', 'anonymous');
+
+    commentContainer.appendChild(script);
+  })();
+</script>
+
+  
+
+
+
+
+
+  </body>
+</html>

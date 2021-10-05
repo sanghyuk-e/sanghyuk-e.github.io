@@ -14,12 +14,47 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-docs:
-  - title: Getting Started
+
+posts:
+  - title: Categories
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-  - title: Getting Started
+      - title: "iOS"
+        url: /categories/iOS
+      - title: "Product Manager"
+        url: /categories/ProductManager
+      - title: "Code it"
+        url: /categories/CodeIt
+      - title: "iOS"
+        url: /categories/git
+      - title: "Swift Grammar"
+        url: /categories/SwiftGrammar
+      - title: "Blog"
+        url: /categories/Blog
+      - title: "Firebase"
+        url: /categories/Firebase
+      - title: "Planner"
+        url: /categories/Planner
+      - title: "Development"
+        url: /categories/Development
+
+pages:
+  - title: Categories
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
+      - title: "iOS"
+        url: /categories/iOS
+      - title: "Product Manager"
+        url: /categories/ProductManager
+      - title: "Code it"
+        url: /categories/CodeIt
+      - title: "iOS"
+        url: /categories/git
+      - title: "Swift Grammar"
+        url: /categories/SwiftGrammar
+      - title: "Blog"
+        url: /categories/Blog
+      - title: "Firebase"
+        url: /categories/Firebase
+      - title: "Planner"
+        url: /categories/Planner
+      - title: "Development"
+        url: /categories/Development

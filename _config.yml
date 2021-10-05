@@ -274,13 +274,6 @@ compress_html:
 
 # Defaults
 defaults:
-  # _docs
-  - scope:
-      path: ""
-      type: docs
-    values:
-      sidebar:
-      nav: "docs"
   # _posts
   - scope:
       path: ""
@@ -292,6 +285,8 @@ defaults:
       comments: true
       share: false
       related: true
+      sidebar:
+        nav: "posts"
 
   # _pages
   - scope:
@@ -304,6 +299,8 @@ defaults:
       comments: false
       share: true
       related: false
+      sidebar:
+        nav: "pages"
 
 # 다크모드를 위해 추가된 부분
 # _config.yml

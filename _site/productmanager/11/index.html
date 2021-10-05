@@ -1,0 +1,792 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.19.3 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>[CHAPTER 8-1] 최소 기능 제품(MVP) - Sanghyuk’s Blog</title>
+<meta name="description" content="Part.1 최고의 기술 기업에서 배운 것">
+
+
+  <meta name="author" content="SANGHYUK LEE">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Sanghyuk's Blog">
+<meta property="og:title" content="[CHAPTER 8-1] 최소 기능 제품(MVP)">
+<meta property="og:url" content="https://sanghyuk.dev/productmanager/11/">
+
+
+  <meta property="og:description" content="Part.1 최고의 기술 기업에서 배운 것">
+
+
+
+  <meta property="og:image" content="https://sanghyuk.dev/assets/images/posts/ProductManager/ProductManager.png">
+
+
+
+
+
+  <meta property="article:published_time" content="2021-09-23T00:00:00+09:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://sanghyuk.dev/productmanager/11/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "SANGHYUK LEE",
+      "url": "https://sanghyuk.dev/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Sanghyuk's Blog Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!-- darkmode css -->
+
+<link rel="stylesheet" href="/assets/css/main_dark.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Sanghyuk's Blog
+          <span class="site-subtitle">iOS Developer & Service Planner</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/categories/">Categories📚</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/sanghyuk-e">Repositories🗄</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://www.notion.so/Jack-ee94936743e146e9922525556b9de5d3">Resume📑</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <!-- 다크 모드 토글 버튼 -->
+        
+        <input id="toggle_dark_theme" class="tgl tgl-light" type="checkbox">
+        <label for="toggle_dark_theme" class="tgl-btn"></label>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/posts/ProductManager/ProductManager.png');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          [CHAPTER 8-1] 최소 기능 제품(MVP)
+
+        
+      </h1>
+      
+        <p class="page__lead">Part.1 최고의 기술 기업에서 배운 것
+</p>
+      
+      
+        <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+
+</p>
+      
+      
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/bio-me.png" alt="SANGHYUK LEE" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">SANGHYUK LEE</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>흥미롭고 즐거운 것들을 찾아 헤메고 있습니다.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Seoul</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="mailto:sanghyuk.eee@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/sanghyuk-e/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/sanghyuk-lee/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://instagram.com/sanghyuk.e" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">Instagram</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Categories</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/categories/iOS">iOS</a></li>
+          
+            <li><a href="/categories/ProductManager">Product Manager</a></li>
+          
+            <li><a href="/categories/CodeIt">Code it</a></li>
+          
+            <li><a href="/categories/git">iOS</a></li>
+          
+            <li><a href="/categories/SwiftGrammar">Swift Grammar</a></li>
+          
+            <li><a href="/categories/Blog">Blog</a></li>
+          
+            <li><a href="/categories/Firebase">Firebase</a></li>
+          
+            <li><a href="/categories/Planner">Planner</a></li>
+          
+            <li><a href="/categories/Development">Development</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="[CHAPTER 8-1] 최소 기능 제품(MVP)">
+    <meta itemprop="description" content="Part.1 최고의 기술 기업에서 배운 것">
+    <meta itemprop="datePublished" content="2021-09-23T00:00:00+09:00">
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#최소-기능-제품">최소 기능 제품</a></li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <p class="text-center"><a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsanghyuk.dev%2Fproduct-manager%2F11%2F&amp;count_bg=%23555555&amp;title_bg=%230581A6&amp;icon=&amp;icon_color=%23E7E7E7&amp;title=hits&amp;edge_flat=false" alt="Hits" /></a></p>
+
+<h1 id="최소-기능-제품">최소 기능 제품</h1>
+
+<p><strong>최소 기능 제품(MVP)</strong>은 제품 세계에서 가장 중요한 개념 중 하나이며, 꽤 오랫동안 활용되고 있다. 이 개념은 2001년 프랭크 로빈슨(Frank Robinson)에 의해 처음 만들어 졌다. 그리고 2011년에 에릭 리스(Eric Ries)의 ⟪린 스타트업(The Lean Startup)⟫이라는 책에서부터 큰 인기를 끌게 되었다.</p>
+
+<p>에릭의 책은 제품팀에 큰 도움이 되고 있으며, 모든 제품을 다루는 사람들의 필독서라 칭해진다. 하지만 대부분의 사람은 MVP의 콘셉트를 도입하면서 제품팀에 큰 혼란을 초래한다.</p>
+
+<p>MVP를 만드는 데 애를 먹고 있는 팀들이 있는데 대부분의 경우에 훨씬 더 짧은 시간과 노력으로 동일한 학습을 달성할 수 있다고 말할 수 있다. 그들은 며칠 또는 심지어 몇 시간 만에 학습할 수도 있는 일을 가지고 그야말로 몇 달 동안이나 MVP를 만드는 데 시간을 허비한다.</p>
+
+<p>또 다른 불행스러운 결과는 회사에서 제품팀 외(특히 영업과 마케팅의 핵심 리더들)에 관련한 일이다. 그들은 고객들이 구매하고 사용하게 하기 위해 제품팀이 대체 무슨 일을 하고 있는지 혼란스럽고 당황해하는 경우가 많다. 위의 두 가지 안타까운 결과는 대부분 사람들이 이 개념을 학습해 나갈 때 발생한다. 이슈가 발생하는 근본 원인은, MVP는 실제 제품이 아니어야 함에도 MVP에서 ‘P’가 <strong>제품</strong>을 상징해서라고 생각한다(제품이라는 것은 엔지니어가 자신감을 가지고 출시할 수 있고, 고객이 원하는 일을 처리할 수 있도록 당신이 판매하고 지원할 수 있는 것이다).</p>
+
+<p>MVP는 <strong>프로토타입</strong>이지 제품이 아니다.</p>
+
+<p>비록 최소한의 기능을 하는 것일지라도 학습하기 위해 실제 제품 수준의 것을 만드는 것은 상당한 시간과 비용의 낭비를 초래한다. 당연히 이것은 린의 원칙과도 대조된다.</p>
+
+<p>제품팀, 회사, 잠재 고객에게는 더욱 일반적인 개념인 <strong>프로토타입</strong>을 사용했을 때 분명하게 이해할 수 있다는 것을 알게 되었다. 그래서 제품 발견 에서는 다양한 형태의 <strong>프로토타입</strong>으로, 제품 실행 단계에서는 <strong>제품</strong>으로 구분해서이야기 한다.</p>
+
+<hr />
+
+<p><br /></p>
+<center>
+<a href="https://sanghyuk.dev/Product-Manager/10/" class="btn btn--info">이전 내용 보기</a>
+<a href="https://sanghyuk.dev/Product-Manager/12/" class="btn btn--info">다음 내용 보기</a>
+</center>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#manager" class="page__taxonomy-item" rel="tag">Manager</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#mvp" class="page__taxonomy-item" rel="tag">MVP</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#pm" class="page__taxonomy-item" rel="tag">PM</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#productmanager" class="page__taxonomy-item" rel="tag">ProductManager</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#product" class="page__taxonomy-item" rel="tag">Product</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#productmanager" class="page__taxonomy-item" rel="tag">ProductManager</a>
+    
+    </span>
+  </p>
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-09-23T00:00:00+09:00">September 23, 2021</time></p>
+
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/productmanager/10/" class="pagination--pager" title="[CHAPTER 8] 핵심 개념
+">Previous</a>
+    
+    
+      <a href="/productmanager/12/" class="pagination--pager" title="[CHAPTER 9] 강한 제품팀의 원칙
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/posts/ProductManager/ProductManager.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/productmanager/12/" rel="permalink">[CHAPTER 9] 강한 제품팀의 원칙
+</a>
+      
+    </h2>
+    <!-- 기존 읽는데 필요한 시간이 보이는 부분 / 변경 후 작성날짜로 표기
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  6 minute read
+
+</p>
+    
+    -->
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> September 24 2021</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Part.2 사람
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/posts/ProductManager/ProductManager.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/productmanager/10/" rel="permalink">[CHAPTER 8] 핵심 개념
+</a>
+      
+    </h2>
+    <!-- 기존 읽는데 필요한 시간이 보이는 부분 / 변경 후 작성날짜로 표기
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  3 minute read
+
+</p>
+    
+    -->
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> September 20 2021</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Part.1 최고의 기술 기업에서 배운 것
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/posts/ProductManager/ProductManager.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/productmanager/9/" rel="permalink">[CHAPTER 7] 린과 애자일을 넘어
+</a>
+      
+    </h2>
+    <!-- 기존 읽는데 필요한 시간이 보이는 부분 / 변경 후 작성날짜로 표기
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+
+</p>
+    
+    -->
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> September 13 2021</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Part.1 최고의 기술 기업에서 배운 것
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/posts/ProductManager/ProductManager.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/productmanager/8/" rel="permalink">[CHAPTER 6] 실패한 제품의 근본 원인
+</a>
+      
+    </h2>
+    <!-- 기존 읽는데 필요한 시간이 보이는 부분 / 변경 후 작성날짜로 표기
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  7 minute read
+
+</p>
+    
+    -->
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> September 11 2021</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Part.1 최고의 기술 기업에서 배운 것
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+          <li><a href="https://github.com/sanghyuk-e/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="https://www.linkedin.com/in/sanghyuk-lee/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/sanghyuk.e" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 SANGHYUK LEE. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  
+    <script src="/assets/js/custom/dark-theme.js"></script>
+  
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    <script>
+  'use strict';
+
+  (function() {
+    var commentContainer = document.querySelector('#utterances-comments');
+
+    if (!commentContainer) {
+      return;
+    }
+
+    var script = document.createElement('script');
+    script.setAttribute('src', 'https://utteranc.es/client.js');
+    script.setAttribute('repo', 'sanghyuk-e/Comments');
+    script.setAttribute('issue-term', 'pathname');
+    script.setAttribute('theme', 'github-light');
+    script.setAttribute('crossorigin', 'anonymous');
+
+    commentContainer.appendChild(script);
+  })();
+</script>
+
+  
+
+
+
+
+
+  </body>
+</html>
