@@ -24,7 +24,7 @@ posts:
         url: /categories/ProductManager
       - title: "Code it"
         url: /categories/CodeIt
-      - title: "iOS"
+      - title: "Git"
         url: /categories/git
       - title: "Swift Grammar"
         url: /categories/SwiftGrammar
@@ -46,7 +46,7 @@ pages:
         url: /categories/ProductManager
       - title: "Code it"
         url: /categories/CodeIt
-      - title: "iOS"
+      - title: "Git"
         url: /categories/git
       - title: "Swift Grammar"
         url: /categories/SwiftGrammar
