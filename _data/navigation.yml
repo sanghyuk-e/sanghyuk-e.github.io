@@ -20,13 +20,13 @@ posts:
     children:
       - title: "iOS"
         url: /categories/iOS
-      - title: "Product Manager"
+      - title: "ProductManager"
         url: /categories/ProductManager
-      - title: "Code it"
-        url: /categories/CodeIt
+      - title: "codeit"
+        url: /categories/codeit
       - title: "Git"
-        url: /categories/git
-      - title: "Swift Grammar"
+        url: /categories/Git
+      - title: "SwiftGrammar"
         url: /categories/SwiftGrammar
       - title: "Blog"
         url: /categories/Blog
@@ -42,13 +42,13 @@ pages:
     children:
       - title: "iOS"
         url: /categories/iOS
-      - title: "Product Manager"
+      - title: "ProductManager"
         url: /categories/ProductManager
-      - title: "Code it"
-        url: /categories/CodeIt
+      - title: "codeit"
+        url: /categories/codeit
       - title: "Git"
-        url: /categories/git
-      - title: "Swift Grammar"
+        url: /categories/Git
+      - title: "SwiftGrammar"
         url: /categories/SwiftGrammar
       - title: "Blog"
         url: /categories/Blog

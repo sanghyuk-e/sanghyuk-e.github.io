@@ -6,7 +6,7 @@ var store = [{
         "teaser": null
       },{
         "title": "[git] 버전 관리 무시 목록(.gitignore) 설정",
-        "excerpt":".gitignore 1. 위험성 특정 파일은 git에서 버전 관리 대상에서 제외해야 한다 프로젝트를 업로드할 때 개인키가 프로젝트 폴더내에 있을 수 있고, 이런 중요한 설정 정보는 git 저장소에 추가하지 말아야 한다. 이로인해서 해킹에 대상이 될 수 있고, 심각한 피해를 입을 수 있다. 2. 해결방안 git 에는 이러한 문제를 방지하기 위한 무시 목록을...","categories": ["git"],
+        "excerpt":".gitignore 1. 위험성 특정 파일은 git에서 버전 관리 대상에서 제외해야 한다 프로젝트를 업로드할 때 개인키가 프로젝트 폴더내에 있을 수 있고, 이런 중요한 설정 정보는 git 저장소에 추가하지 말아야 한다. 이로인해서 해킹에 대상이 될 수 있고, 심각한 피해를 입을 수 있다. 2. 해결방안 git 에는 이러한 문제를 방지하기 위한 무시 목록을...","categories": ["Git"],
         "tags": ["git","github","gitignore","깃","깃헙"],
         "url": "https://sanghyuk.dev/git/1/",
         "teaser": "https://sanghyuk.dev/assets/images/posts/Git/github.png"
@@ -78,7 +78,7 @@ var store = [{
         "teaser": "https://sanghyuk.dev/assets/images/posts/Codeit/codeit.png"
       },{
         "title": "Mac 업데이트 후 xcrun error 해결방법",
-        "excerpt":"MacOS를 업데이트를 할 때마다 여러 문제가 발생하는데, 이번에도 개발 관련 이슈가 터졌다. 매번 구글에 검색하여 해결했는데 이번에는 블로그에 간단하게 정리하려고 한다. 깃에 커밋을 하려고 디렉토리로 이동을 했는데 왠지 모르게 어색한 느낌이 들었다. 자세히 보니 터미널에 브랜치 표시도 나오지 않았고 해당 디렉토리의 현재 상태도 보이지 않았다. 아니나 다를까 깃에 문제가 생겨있었다....","categories": ["git"],
+        "excerpt":"MacOS를 업데이트를 할 때마다 여러 문제가 발생하는데, 이번에도 개발 관련 이슈가 터졌다. 매번 구글에 검색하여 해결했는데 이번에는 블로그에 간단하게 정리하려고 한다. 깃에 커밋을 하려고 디렉토리로 이동을 했는데 왠지 모르게 어색한 느낌이 들었다. 자세히 보니 터미널에 브랜치 표시도 나오지 않았고 해당 디렉토리의 현재 상태도 보이지 않았다. 아니나 다를까 깃에 문제가 생겨있었다....","categories": ["Git"],
         "tags": ["Swift","git","terminal","error","xcrun","깃","깃헙","에러","터미널"],
         "url": "https://sanghyuk.dev/git/2/",
         "teaser": "https://sanghyuk.dev/assets/images/posts/Git/github.png"
