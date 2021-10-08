@@ -634,20 +634,27 @@
 
 <p>사용자 정의 함수를 만드는 방법을 알아보자. 스위프트에서 함수를 정의하는 형식은 다음과 같다.</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">func</span> <span class="nf">함수명</span><span class="p">(</span><span class="nv">매개변수1</span><span class="p">:</span> <span class="n">타입</span><span class="p">,</span> <span class="nv">매개변수2</span><span class="p">:</span> <span class="n">타입</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">반환타입</span> <span class="p">{</span>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre><span class="kd">func</span> <span class="nf">함수명</span><span class="p">(</span><span class="nv">매개변수1</span><span class="p">:</span> <span class="n">타입</span><span class="p">,</span> <span class="nv">매개변수2</span><span class="p">:</span> <span class="n">타입</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">반환타입</span> <span class="p">{</span>
     <span class="n">실행내용</span>
     <span class="k">return</span> <span class="n">반환값</span>
 <span class="p">}</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>스위프트에서 함수를 정의할 때 func 키워드를 사용한다. 함수를 선언할 때 키워드를 사용하지 않는 언어들도 많지만 스위프트는 명시적으로 func 키워드를 사용하여 함수를 선언해야 한다. func 키워드 다음에는 함수의 이름을 작성하는데, 이때 [+, -, *, /] 같은 연산자와 예약어는 사용할 수 없다.</p>
 
 <p>함수의 이름에 사용할 수 있는 문자들은 영어나 숫자, 한자, 바이너리 이미지 등으로 다양하지만, 첫 글자는 반드시 영어 또는 언더바(_)로 시작해야 한다. 언더바 이외의 특수문자나 숫자로 시작할 경우 컴파일러에 의해 오류가 발생한다. 대신 두 번째 글자부터는 이런 제약이 없으므로 영어, 숫자, 일부 특수문자를 충분히 활용할 수 있다. 단, 숫자나 특수 문자 등을 너무 남발하면 함수의 핵심인 재사용성과 생산성 측면에서 불편함이 야기될 수 있으므로 주의해야 한다.</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">func</span> <span class="nf">s0110</span><span class="p">()</span> <span class="p">{</span>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="kd">func</span> <span class="nf">s0110</span><span class="p">()</span> <span class="p">{</span>
     <span class="nf">print</span><span class="p">(</span><span class="s">"사당역 5번 출구"</span><span class="p">)</span>
 <span class="p">}</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>이 함수는 스위프트에서 함수명에 적용되는 규칙을 정확하게 지키고 있어 아무런 문제가 없다. 하지만 실제로 사용하기에 적절하지는 않다. 여러 개의 숫자로 이루어져 있어 쉽게 헷갈릴 수 있기 때문이다. 무엇보다 함수를 작성한 사람 이외에는 함수의 기능과 함수명을 연관 짓기 어렵다는 것이 치명적인 단점이다. 이 함수 하나만 사용한다면 외워서 사용할 수도 있겠지만, 이같은 함수들이 백 개쯤 된다고 생각해보자. 그것은 악몽이다.</p>
 
@@ -671,11 +678,15 @@
 
 <p>함수명을 작성하고 나면 다음으로 해야 할 것은 함수의 인자값 개수와 형태를 정의하기 위해 소괄호로 영역을 표시해 주는 것이다. 이 공간에는 함수가 호출될 때 전달되는 입력값을 대입 받기 위한 변수의 이름과 타입이 정의되는데, 이를 <strong>매개변수</strong>라고 한다. 영어로는 <strong>파라미터(Parameter)</strong>라고도 부른다. 오브젝티브-C에서 콜론(;) 다음에 매개변수명이 작성되던 것과 달리 스위프트에서는 괄호 내부에 쉼표(,)로 구분된 매개변수가 차례로 정의된다. 함수의 인자값이 필요 없는 경우라면 매개변수를 생략할 수 있으며, 이때 함수를 정의하는 형식은 다음과 같이 변경된다. 위의 함수 정의 구문과 비교해 보자.</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">func</span> <span class="nf">함수명</span><span class="p">(</span> <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">반환타입</span> <span class="p">{</span>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre><span class="kd">func</span> <span class="nf">함수명</span><span class="p">(</span> <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">반환타입</span> <span class="p">{</span>
     <span class="n">실행내용</span>
     <span class="k">return</span> <span class="n">반환값</span>
 <span class="p">}</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>매개변수가 없는 함수를 작성할 때는 함수명 뒤의 매개변수 영역을 표시하는 괄호 내부를 비워두면 된다. 일부 언어에서는 매개변수를 사용하지 않는 함수의 경우 매개변수 영역을 비워두는 대신 void라는 키워드를 명시적으로 작성할 것을 강제하기도 하지만, 스위프트에서는 그냥 빈칸으로 두면 된다. 하지만 매개변수가 없더라도 괄호는 생략할 수 없다.</p>
 
@@ -685,11 +696,15 @@
 
 <p>함수의 성격에 따라서는 반환값이 전혀 없는 함수를 작성할 수도 있다. 이런 경우를 “아무 값도 반환하지 않는다.” 또는 “void 타입을 반환한다.”고 표현한다. 반환 타입을 생략할 수 없도록 설계된 언어에서는 반환 타입을 void로 작성하도록 강제되기도 하지만, 스위프트에서는 다음과 같이 반환 타입을 생략함으로써 반환값이 없음을 표현할 수 있다.</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">func</span> <span class="nf">함수명</span><span class="p">(</span><span class="nv">매개변수1</span><span class="p">:</span> <span class="n">타입</span><span class="p">,</span> <span class="nv">매개변수2</span><span class="p">:</span> <span class="n">타입</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span> <span class="p">{</span>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre><span class="kd">func</span> <span class="nf">함수명</span><span class="p">(</span><span class="nv">매개변수1</span><span class="p">:</span> <span class="n">타입</span><span class="p">,</span> <span class="nv">매개변수2</span><span class="p">:</span> <span class="n">타입</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span> <span class="p">{</span>
     <span class="n">실행내용</span>
     <span class="k">return</span> <span class="n">반환값</span>
 <span class="p">}</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <hr />
 

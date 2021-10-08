@@ -605,21 +605,29 @@
 
 <p>문자열을 숫자로 변환해주는 생성자 Int(문자열) 이야기를 조금 더 해보자. 숫자로 바꿀 수 있는 문자열 <code class="language-plaintext highlighter-rouge">"123"</code>이 입력되면 숫자로 변환할 수 있지만, 그럴 수 없는 일반 문자열이 입력되면 잠재적인 오류 가능성이 있다고 설명했다. 이 때문에 Int(문자열)은 그냥 정수가 아니라 옵셔널 타입의 정수값을 반환하도록 설계되어 있다. Int 구조체의 생성자를 정의하는 구문 일부를 살펴보면 알 수 있다.</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">extension</span> <span class="kt">Int</span> <span class="p">{</span>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="kd">extension</span> <span class="kt">Int</span> <span class="p">{</span>
     <span class="kd">public</span> <span class="nf">init</span><span class="p">?(</span><span class="n">_</span> <span class="nv">text</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">radix</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="k">default</span><span class="p">)</span>
 <span class="p">}</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>Int(문자열) 구문이 반환하는 옵셔널 타입을 분석해보면, <code class="language-plaintext highlighter-rouge">"안녕하세요"</code>처럼 숫자로 바꿀 수 없는 문자열이 입력되었을 떄 옵셔널 타입에는 nil이 할당된 상태로 반환된다. 다른 문자열이 입력되어 변환에 성공하면 Optional(123)이라는 옵셔널 값이 할당된다. 어쨋거나 두 경우 모두 옵셔널 타입으로 반환되는 것만은 분명하다.</p>
 
 <p>이렇게 전달받은 옵셔널 타입의 결과값은 그 자체로는 아무것도 할 수 없다. 옵셔널 타입은 애초에 연산을 지원하지 않는 타입이다. 따라서 옵셔널 타입과 일반 타입은 서로 연산할 수 없으며 옵셔널 타입끼리의 연산이나 결합도 지원하지 않는다. 옵셔널 Int 타입과 일반 Int 타입의 연산도, 옵셔널 String과 일반 String 결합도 모두 불가능하다.</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// ( x ) : 옵셔널 타입은 결합 연산 또는 더하기 연산이 가능한 데이터 타입이 아님</span>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre><span class="c1">// ( x ) : 옵셔널 타입은 결합 연산 또는 더하기 연산이 가능한 데이터 타입이 아님</span>
 <span class="kt">Int</span><span class="p">(</span><span class="s">"123"</span><span class="p">)</span> <span class="o">+</span> <span class="kt">Int</span><span class="p">(</span><span class="s">"123"</span><span class="p">)</span>
 
 <span class="c1">// ( x ) : Int? 와 Int 는 서로 다른 타입이므로 연산이 불가능함</span>
 <span class="kt">Int</span><span class="p">(</span><span class="s">"123"</span><span class="p">)</span> <span class="o">+</span> <span class="mi">30</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>이 옵셔널 값을 그대로 사용하는 방법을 알아보자. 우리가 결과값으로 전달받은 것은 Optional이라는 객체이다. 그 내부에 우리가 원하는 값이 들어있을 것이다. 이 값을 우리가 원하는 대로 사용하려면 실제 값을 둘러싼 옵셔널 객체를 해제해야 한다. 옵셔널 객체를 해제하면 일반 타입의 값이 되는데, 이 값이 비로소 우리가 직접 사용할 수 잇는 값이다. 이처럼 옵셔널 객체를 해제하고 내부에 있는 값을 추출하는 과정을 옵셔널 해제라고 한다. 다른 말로 옵셔널 언래핑(Optional Unwrapping)이라고도 한다.</p>
 
@@ -635,30 +643,47 @@
 
 <p>옵셔널을 강제 해제하는 방법은 무척 단순하다. 옵셔널 타입의 값 뒤에 <code class="language-plaintext highlighter-rouge">!</code>기호만 붙여주면 된다. 이렇게 처리해 주면 옵셔널 객체가 해제되고, 그 내부에 저장된 값을 꺼내 사용할 수 있게 된다. 이때 사용된 <code class="language-plaintext highlighter-rouge">!</code> 기호를 가리켜 옵셔널에 대한 ‘강제 해제 연산자(Forced-Unwrapping Operator)’라고 한다. 이와 관련된 다음 예제를 살펴보자. 옵셔널 Int 타입으로 선언된 optInt를 강제 해제 연산자를 사용하여 값을 추출하는 구문이다.</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// 옵셔널 타입의 변수 선언</span>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre><span class="c1">// 옵셔널 타입의 변수 선언</span>
 <span class="k">var</span> <span class="nv">optInt</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span> <span class="o">=</span> <span class="mi">3</span>
 
 <span class="nf">print</span><span class="p">(</span><span class="s">"옵셔널 자체의 값 : </span><span class="se">\(</span><span class="n">optInt</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
 <span class="nf">print</span><span class="p">(</span><span class="s">"!로 강제해제한 값 : </span><span class="se">\(</span><span class="n">optInt</span><span class="o">!</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>다음은 위 구문을 실행한 결과이다.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>옵셔널 자체의 값 : Optional(3)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>옵셔널 자체의 값 : Optional(3)
 !로 강제해제한 값 : 3
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>뱐수 optInt를 Int 타입으로 정의하면서 <code class="language-plaintext highlighter-rouge">?</code>를 붙여 옵셔널 타입으로 선언했다. 옵셔널 타입에 대입된 값은 옵셔널 객체로 감싸 처리되므로, 변수 자체를 출력하면 ‘Optional(3)’이라는 값이 출력된다. 이어서 두 번째 print 구문을 살펴보자. optInt 뒤에 <code class="language-plaintext highlighter-rouge">!</code> 연산자를 붙였더니 3이 출력되었다. 이는 옵셔널 타입의 값이 ! 연산자 덕분에 해제되었기 때문이다. 이처럼 옵셔널 타입으로부터 값을 추출하려면 옵셔널 값 뒤에 ! 연산자를 붙이면 된다. 앞에서 옵셔널 타입끼리 연산은 불가능하다고 이야기했지만, 강제 해제 연산자를 사용하면 일반 타입으로 해제되므로 연산이 가능하다.</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">Int</span><span class="p">(</span><span class="s">"123"</span><span class="p">)</span><span class="o">!</span> <span class="o">+</span> <span class="kt">Int</span><span class="p">(</span><span class="s">"123"</span><span class="p">)</span><span class="o">!</span> <span class="c1">// 246</span>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre><span class="kt">Int</span><span class="p">(</span><span class="s">"123"</span><span class="p">)</span><span class="o">!</span> <span class="o">+</span> <span class="kt">Int</span><span class="p">(</span><span class="s">"123"</span><span class="p">)</span><span class="o">!</span> <span class="c1">// 246</span>
 <span class="kt">Int</span><span class="p">(</span><span class="s">"123"</span><span class="p">)</span><span class="o">!</span> <span class="o">+</span> <span class="mi">30</span> <span class="c1">// 153</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>여기서 이상한점이 있다. 옵셔널 타입의 변수나 상수에 ! 연산자만 붙이면 일반 타입처럼 사용할 수 있는 앞서 설명대로라면 그냥 모든 옵셔널 타입에 ! 연산자를 붙여서 사용해버리면 되는것이다. 게다가 옵셔널 변수의 값이 nil일 때도 강제 해제 연산자를 붙일수는 있는데, 실제로 값이 nil인 옵셔널 변수에 이 연산자를 붙이면 오류가 발생한다. 이렇게 된다면 굳이 힘들게 옵셔널 타입을 사용하는 의미가 있을까?</p>
 
 <p>그래서 옵셔널 변수나 상수를 안전하게 사용하려면 조건이 따른다. 강제 해제 연산자를 사용할 때에는 먼저 옵셔널 값이 nil인지 점검해야 한다. 그리고 옵셔널 값이 nil이 아닐 떄에만 강제 해제 연산자를 붙여서 값을 추출해야 한다. 다음 구문을 보자.</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">str</span> <span class="o">=</span> <span class="s">"123"</span>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="rouge-code"><pre><span class="k">var</span> <span class="nv">str</span> <span class="o">=</span> <span class="s">"123"</span>
 <span class="k">var</span> <span class="nv">intFromStr</span> <span class="o">=</span> <span class="kt">Int</span><span class="p">(</span><span class="n">str</span><span class="p">)</span>
 
 <span class="k">if</span> <span class="n">intFromStr</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
@@ -666,18 +691,27 @@
 <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
     <span class="nf">print</span><span class="p">(</span><span class="s">"값 변환에 실패하였습니다."</span><span class="p">)</span> <span class="c1">// ②</span>
 <span class="p">}</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>앞서 여러 차례 설명한 바와 같이 Int(문자열) 생성자는 옵셔널 정수값을 반환한다. 따라서 위 예제에서 Int(문자열)의 결과를 대입받는 intFromStr 상수 역시 옵셔널 타입으로 정의된다. 옵셔널은 값이 없는 nil이거나 정상적인 값을 옵셔널 객체로 둘러싼 두 가지 경우만 존재하므로 옵셔널 값이 nil인지를 if 조건절로 점검해야 한다. 그리고 그에 맞는 조건절 블록 내에서만 강제 해제 연산자를 사용해야 한다. 이것이 오류 없이 안전하게 옵셔널 타입을 해제하여 사용할 수 있는 방법이다.</p>
 
 <p>위 예제에서 Int(문자열) 생성자의 변환 대상이 되는 문자열 “123”은 숫자로 변환할 수 있는 문자열이므로 intFromStr은 nil이 아니다. 정확히는 Optional(123)이다. 따라서 if 조건절이 참이 되면서 ①의 내용이 실행되므로 실행 결과는 다음과 같다.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>값이 변환되었습니다. 변환된 값은 123입니다.
-</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>값이 변환되었습니다. 변환된 값은 123입니다.
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>만약 대입된 값이 숫자로 변환할 수 없는 “Swift” 문자열이라면 어떻게 실행될까?</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">str</span> <span class="o">=</span> <span class="s">"Swift"</span>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="rouge-code"><pre><span class="k">var</span> <span class="nv">str</span> <span class="o">=</span> <span class="s">"Swift"</span>
 <span class="k">var</span> <span class="nv">intFromStr</span> <span class="o">=</span> <span class="kt">Int</span><span class="p">(</span><span class="n">str</span><span class="p">)</span>
 
 <span class="k">if</span> <span class="n">intFromStr</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
@@ -685,29 +719,35 @@
 <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
     <span class="nf">print</span><span class="p">(</span><span class="s">"값 변환에 실패하였습니다."</span><span class="p">)</span> <span class="c1">// ②</span>
 <span class="p">}</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>입력된 문자열은 Int(<문자열>)을 통해 숫자로 변환할 수 없는 값이므로 실행 결과는 nil이다. if 조건절이 거짓이므로 else 블록 영역인 ②가 실행된다. 따라서 결과는 다음과 같다.</문자열></p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>값 변환에 실패하였습니다.
-</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>값 변환에 실패하였습니다.
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>else 블록에서 ! 연산자를 사용하면 nil에 대한 옵셔널 강제 해제가 실행되어 오류가 발생한다. 따라서 ! 연산자는 확실히 옵셔널의 값이 nil이 아닌 조건에서만 사용해야 한다.</p>
 
 <p>위 구문에서 주의 깊게 살펴보아야 할 부분이 있다. if에서 nil 값을 비교하는 데 사용된 조건절이다.</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">intFromStr</span> <span class="o">!=</span> <span class="kc">nil</span>
-</code></pre></div></div>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="n">intFromStr</span> <span class="o">!=</span> <span class="kc">nil</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>이 조건절에서 intFromStr와 비교연산자 != 사이에 의도적인 공백이 있음을 알아야 한다. 이 공백은 단순히 가독성을 높이기 위해 추기된 것이 아니다. 일반적으로 연산자 앞에 공백이 있을 필요는 없다. 일부는 가독성을 위해 공백을 집어넣기도 하지만 그것은 습관일 뿐, 컴파일러의 규칙상 반드시 그래야 하는 것은 아니다.</p>
 
 <p>그런데 이번처럼 옵셔널 타입의 nil 점검을 위한 != 연산자를 사용할 때는 반드시 앞에 공백을 두어야 한다. 문법의 오류를 방지하기 위한 목적이다. intFromStr 변수처럼 옵셔널 타입의 값을 비교 연산자와 함께 사용하면서 공백을 두지 않으면 컴파일러는 이 구문을 다음 두 가지로 해석할 수 있다.</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">intFromStr</span><span class="o">!=</span><span class="kc">nil</span>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre><span class="n">intFromStr</span><span class="o">!=</span><span class="kc">nil</span>
 
 <span class="c1">// 해석 ① : (intFromStr)!=(nil) -&gt; 원래 의도한 대로 intFromStr 변수와 nil의 비교</span>
 <span class="c1">// 해석 ② : (intFromStr)=nil -&gt; intFromStr 변수의 옵셔널 강제 해제 + nil 값의 할당</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>결국, 해석의 차이가 발생할 수 있으므로 구문이 모호해지는 결과를 가져온다. 컴파일러는 이를 확실하게 해석하지 못하므로 구문 분석 오류가 발생하게 된다. 이러한 상황을 방지하기 위해 옵셔널 타입이 비교 대상이라면 부등 비교 연산자(!=)를 사용할 때 공백을 두어야 한다. ‘아버지가방에들어가십니다’가 생각나는, 의외로 띄어쓰기가 중요해지는 이야기라고 할 수 있겠다.</p>
 
@@ -717,17 +757,31 @@
 
 <p>옵셔널 바인딩은 <strong>조건문 내에서 일반 상수에 옵셔널 값을 대입하는 방식</strong>으로 이루어진다. 반드시 조건문에서 사용해야만 하며, 상수에 옵셔널 값을 대입한 결과는 true/false 로 리턴된다. 우리가 배운 대표적인 조건절인 if를 사용하여 옵셔널 바인딩하는 예제를 살펴보자.</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">str</span> <span class="o">=</span> <span class="s">"Swift"</span>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre><span class="k">var</span> <span class="nv">str</span> <span class="o">=</span> <span class="s">"Swift"</span>
 <span class="k">if</span> <span class="k">let</span> <span class="nv">intFromStr</span> <span class="o">=</span> <span class="kt">Int</span><span class="p">(</span><span class="n">str</span><span class="p">)</span> <span class="p">{</span>
     <span class="nf">print</span><span class="p">(</span><span class="s">"값이 변환되었습니다. 변환된 값은 </span><span class="se">\(</span><span class="n">intFromStr</span><span class="se">)</span><span class="s">입니다."</span><span class="p">)</span>
 <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
     <span class="nf">print</span><span class="p">(</span><span class="s">"값 변환에 실패하였습니다."</span><span class="p">)</span>
 <span class="p">}</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>앞의 구문과 매우 비슷하지만, infFromStr가 상수로 선언되었다는 점과 이 상수가 옵셔널이 아닌 일반 타입이라는 점이 다르다. 강제 해제 연산자를 사용하지 않아도 옵셔널 값이 일반 변수나 상수에 할당되면서 자연스럽게 옵셔널 타입이 해제되지만, 값이 nil이더라도 값의 할당이 실패하여 결과값이 false로 반환될 뿐이므로 오류는 발생하지 않는다. 단지 else 블록이 실행 될 뿐이다. 또다른 구문 하나를 보자.</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">func</span> <span class="nf">intStr</span><span class="p">(</span><span class="nv">str</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="p">{</span>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="rouge-code"><pre><span class="kd">func</span> <span class="nf">intStr</span><span class="p">(</span><span class="nv">str</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="p">{</span>
     <span class="k">guard</span> <span class="k">let</span> <span class="nv">intFromStr</span> <span class="o">=</span> <span class="kt">Int</span><span class="p">(</span><span class="n">str</span><span class="p">)</span> <span class="k">else</span> <span class="p">{</span>
         <span class="nf">print</span><span class="p">(</span><span class="s">"값 변환에 실패하였습니다."</span><span class="p">)</span>
         <span class="k">return</span>
@@ -735,7 +789,7 @@
 
     <span class="nf">print</span><span class="p">(</span><span class="s">"값이 변환되었습니다. 변환된 값은 </span><span class="se">\(</span><span class="n">intFromStr</span><span class="se">)</span><span class="s">입니다."</span><span class="p">)</span>
 <span class="p">}</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>위 구문은 guard 구문을 이용하여 옵셔널 바인딩을 구현한 예제이다. guard 구문은 특성상 함수나 메소드에만 사용할 수 있기 때문에 intStr() 함수를 정의하고 그 안에 guard 구문을 작성하였다. 실제로 앱을 만드는 과정 거의 대부분은 함수로 이루어지기 때문에, guard 구문을 사용할 여지는 많다.</p>
 
@@ -743,17 +797,25 @@
 
 <p>옵셔널과 관련하여, 앞 장에서 학습했던 딕셔너리에 값을 입력하고 사용하는 예제를 다시 살펴보자.</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// 딕셔너리 선언</span>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre><span class="c1">// 딕셔너리 선언</span>
 <span class="k">var</span> <span class="nv">capital</span> <span class="o">=</span> <span class="p">[</span><span class="s">"KR"</span><span class="p">:</span> <span class="s">"Seoul"</span><span class="p">,</span> <span class="s">"EN"</span><span class="p">:</span> <span class="s">"London"</span><span class="p">,</span> <span class="s">"FR"</span><span class="p">:</span> <span class="s">"Paris"</span><span class="p">]</span>
 
 <span class="nf">print</span><span class="p">(</span><span class="n">capital</span><span class="p">[</span><span class="s">"KR"</span><span class="p">])</span>
 <span class="nf">print</span><span class="p">(</span><span class="n">capital</span><span class="p">[</span><span class="s">"KR"</span><span class="p">]</span><span class="o">!</span><span class="p">)</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// 실행 결과
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>// 실행 결과
 Optional("Seoul")
 Seoul
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>딕셔너리에 키로 접근하면 그 결과값은 옵셔널 타입으로 반환된다. 값을 출력한 결과를 확인하면 금세 알 수 있다. 옵셔널 타입 대신 일반 타입의 값을 얻으려면 capital[“KR”] 뒤에 ! 연산자를 붙여야 한다. 그렇지 않으면 옵셔널 타입이 그대로 반환되어 예제에서 보는 것과 같이 Optional(“Seoul”)이 반환된다. 그런데 딕셔너리는 왜 옵셔널 타입의 값을 반환하는 것일까?</p>
 
@@ -763,7 +825,16 @@ Seoul
 
 <p>사실 위 코드 역시 잘 구성된 코드는 아니다. nil 여부를 체크하지 않고 ! 연산자를 사용하여 바로 강제 해제를 실행한 것 때문이다. 이를 그대로 실행하면 오류가 발생할 수 있으므로 다음과 같이 보완하는 것이 좋다.</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="p">(</span><span class="n">capital</span><span class="p">[</span><span class="s">"KR"</span><span class="p">]</span> <span class="o">!=</span> <span class="kc">nil</span><span class="p">)</span> <span class="p">{</span>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre><span class="k">if</span> <span class="p">(</span><span class="n">capital</span><span class="p">[</span><span class="s">"KR"</span><span class="p">]</span> <span class="o">!=</span> <span class="kc">nil</span><span class="p">)</span> <span class="p">{</span>
     <span class="nf">print</span><span class="p">(</span><span class="n">capital</span><span class="p">[</span><span class="s">"KR"</span><span class="p">]</span><span class="o">!</span><span class="p">)</span>
 <span class="p">}</span>
 
@@ -772,7 +843,7 @@ Seoul
 <span class="k">if</span> <span class="k">let</span> <span class="nv">val</span> <span class="o">=</span> <span class="n">capital</span><span class="p">[</span><span class="s">"KR"</span><span class="p">]</span> <span class="p">{</span>
     <span class="nf">print</span><span class="p">(</span><span class="n">val</span><span class="p">)</span>
 <span class="p">}</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>옵셔널 타입에서 ! 연산자를 사용할 떄는 반드시 nil 점검을 해 주어야 오류를 미연에 방지할 수 있다는 점, 잊지 말아야 한다.</p>
 
@@ -780,51 +851,73 @@ Seoul
 
 <p>옵셔널 타입의 값을 사용하려면 항상 ! 연산자를 사용하여 옵셔널을 <strong>강제 해제(Forced-unwrapping)</strong>하든가, 아니면 옵셔널 바인딩을 통해 일반 자료형으로 바꾸어 주어야 한다. 이렇게 해야 옵셔널 객체로 감싸진 값을 꺼낼 수 있다. 하지만 명시적으로 강제 해제를 하지 않아도 컴파일러에서 자동으로 옵셔널을 해제해주는 경우가 있다. 다음 예제를 보자</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">optInt</span> <span class="o">=</span> <span class="kt">Int</span><span class="p">(</span><span class="s">"123"</span><span class="p">)</span>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre><span class="k">let</span> <span class="nv">optInt</span> <span class="o">=</span> <span class="kt">Int</span><span class="p">(</span><span class="s">"123"</span><span class="p">)</span>
 
 <span class="k">if</span> <span class="p">((</span><span class="n">optInt</span><span class="o">!</span><span class="p">)</span> <span class="o">==</span> <span class="mi">123</span><span class="p">)</span> <span class="p">{</span>
     <span class="nf">print</span><span class="p">(</span><span class="s">"optInt == 123"</span><span class="p">)</span>
 <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
     <span class="nf">print</span><span class="p">(</span><span class="s">"optInt != 123"</span><span class="p">)</span>
 <span class="p">}</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>문자열을 숫자로 변환한 옵셔널 상수의 값이 nil이 아니면 ! 연산자를 사용하여 옵셔널 값을 강제 해제하고 이 값을 정수 123과 비교하는 예제이다. 그 결과는 다음과 같다.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>optInt == 123
-</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>optInt == 123
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>이번에는 강제 해제하지 않은 옵셔널 타입과 정수 123을 비교해보자.</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="p">(</span><span class="n">optInt</span> <span class="o">==</span> <span class="mi">123</span><span class="p">)</span> <span class="p">{</span>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre><span class="k">if</span> <span class="p">(</span><span class="n">optInt</span> <span class="o">==</span> <span class="mi">123</span><span class="p">)</span> <span class="p">{</span>
     <span class="nf">print</span><span class="p">(</span><span class="s">"optInt == 123"</span><span class="p">)</span>
 <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
     <span class="nf">print</span><span class="p">(</span><span class="s">"optInt != 123"</span><span class="p">)</span>
 <span class="p">}</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>강제 해제하지 않은 옵셔널 값은 Optional(123)이므로 정수값 123과 다르다. 따라서 위 예제에서는 else 영역이 실행되어야 한다. 하지만 실제로 실행한 결과는 그렇지 않다.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>optInt == 123
-</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>optInt == 123
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>이상한 결과이다. 해제하지 않은 옵셔널 값 자체로 정수와 비교한 결과는 예상대로라면 일치하지 않는다고 나왔어야 한다. 그런데 결과는 값이 일치하는 것으로 보여주고 있다. 어떻게 된 것일까?</p>
 
 <p>옵셔널 타입으로 감싼 변수나 상수는 그 값을 사용하기 위해 반드시 ! 연산자를 사용하여 옵셔널 객체를 해제해야 한다. 하지만 굳이 해제하지 않아도 괜찮을 때가 있다. 옵셔널 객체의 값을 비교 연산자를 사용하여 비교하는 경우가 그에 해당하는데, 명시적으로 옵셔널 객체를 강제 해제하지 않아도 한쪽이 옵셔널, 다른 한쪽이 일반 타입이라면 자동으로 옵셔널 타입을 해제하여 비교 연산을 수행한다. 따라서 아래의 예제에서 모든 결과는 true이다.</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">tempInt</span> <span class="o">=</span> <span class="kt">Int</span><span class="p">(</span><span class="s">"123"</span><span class="p">)</span>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre><span class="k">let</span> <span class="nv">tempInt</span> <span class="o">=</span> <span class="kt">Int</span><span class="p">(</span><span class="s">"123"</span><span class="p">)</span>
 
 <span class="n">tempInt</span> <span class="o">==</span> <span class="mi">123</span>              <span class="c1">// true</span>
 <span class="n">tempInt</span> <span class="o">==</span> <span class="kt">Optional</span><span class="p">(</span><span class="mi">123</span><span class="p">)</span>    <span class="c1">// true</span>
 <span class="n">tempInt</span><span class="o">!</span> <span class="o">==</span> <span class="mi">123</span>             <span class="c1">// true</span>
 <span class="n">tempInt</span><span class="o">!</span> <span class="o">==</span> <span class="kt">Optional</span><span class="p">(</span><span class="mi">123</span><span class="p">)</span>   <span class="c1">// true</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>말하자면 비교 연산을 처리할 떄는 옵셔널 타입 여부에 구애받지 않고 일반 자료형처럼 값을 비교하면 된다는 것이다. 이는 옵셔널 타입에 값을 할당할 때도 마찬가지이다.</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">optValue01</span> <span class="o">=</span> <span class="kt">Optional</span><span class="p">(</span><span class="mi">123</span><span class="p">)</span>  <span class="c1">// ①</span>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre><span class="k">var</span> <span class="nv">optValue01</span> <span class="o">=</span> <span class="kt">Optional</span><span class="p">(</span><span class="mi">123</span><span class="p">)</span>  <span class="c1">// ①</span>
 <span class="k">var</span> <span class="nv">optValue02</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span> <span class="o">=</span> <span class="mi">123</span>      <span class="c1">// ②</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>원칙적으로 옵셔널 타입의 변수나 상수를 정의할 떄는 대입할 값을 Optional() 객체로 감싼 ①의 방식으로 처리해야 한다. 하지만 ②처럼 감싸지지 않은 순수 리터럴을 직접 대입할 수도 있다. 주의할 점은 타입 어노테이션 없이 직접 대입하면 단순히 일반 Int 타입의 변수로 선언되므로 타입 어노테이션을 추가하여 Int 타입이면서 동시에 옵셔널 타입이라는 것을 명시해 주어야 한다는 것 이다. 그러면 값 123은 대입될 대상이 옵셔널 타입이라는 것을 인지하고, 그것에 맞게 Optional(123)으로 변환된다.</p>
 
@@ -834,30 +927,39 @@ Seoul
 
 <p>옵셔널의 묵시적 해제 구문은(이하 <strong>묵시적 옵셔널</strong>) 일반 옵셔널 타입의 변수 선언 구문과 매우 유사하다. ? 연산자 대신 ! 연산자만 붙여주면 그뿐이다. 먼저 일반 옵셔널 변수를 선언하는 구문을 보자.</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// 명시적 옵셔널 선언</span>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="c1">// 명시적 옵셔널 선언</span>
 <span class="k">var</span> <span class="nv">str</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="s">"Swift Optional"</span>
 <span class="nf">print</span><span class="p">(</span><span class="n">str</span><span class="p">)</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>위 구문의 실행 결과는 아래와 같다.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Optional("Swift Optional")
-</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>Optional("Swift Optional")
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>문자열 변수 str을 옵셔널 타입으로 선언하고, 여기에 “Swift Optional”이라는 문자열을 대입했다. 이를 출력해 보면 대입된 문자열이 옵셔널 객체로 감싸진 것을 확인할 수 있다. 이제 이 구문을 묵시적 옵셔널로 바꾸어 보자. 딱히 큰 수정이 필요하지는 않다. 단지 ? 연산자를 제거하고 ! 연산자로 그 자리를 대체하기만 하면 된다. 하지만 결과는 사뭇 다르다.</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// 묵시적 옵셔널 선언</span>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="c1">// 묵시적 옵셔널 선언</span>
 <span class="k">var</span> <span class="nv">str</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span> <span class="o">=</span> <span class="s">"Swift Optional"</span>
 <span class="nf">print</span><span class="p">(</span><span class="n">str</span><span class="p">)</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Swift Optional
-</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>Swift Optional
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>타입 어노테이션 뒤에 붙은 연산자 하나만 바꾸었을 뿐인데 결과는 전혀 달라졌다. 출력된 구문에서 옵셔널 객체가 사라졌다. 컴파일러에 의해 옵셔널 객체가 자동으로 해제된 것이다. 혹시 str 변수가 일반 타입인 것을 아닐까? 혹시 모르니 nil 값을 대입해 보자.</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">str</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span> <span class="o">=</span> <span class="kc">nil</span>
-</code></pre></div></div>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="k">var</span> <span class="nv">str</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span> <span class="o">=</span> <span class="kc">nil</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>nil을 대입해도 아무 문제가 없다. 이는 곧 str이 옵셔널 타입으로 정의되어 있음을 의미한다.</p>
 
@@ -865,12 +967,17 @@ Seoul
 
 <p>묵시적 옵셔널을 사용하면 옵셔널 타입 변수의 연산도 간단하게 처리할 수 있다.</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">value01</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span> <span class="o">=</span> <span class="mi">10</span>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre><span class="k">var</span> <span class="nv">value01</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span> <span class="o">=</span> <span class="mi">10</span>
 <span class="n">value01</span> <span class="o">+</span> <span class="mi">5</span> <span class="c1">// 오류</span>
 
 <span class="k">var</span> <span class="nv">value02</span><span class="p">:</span> <span class="kt">Int</span><span class="o">!</span> <span class="o">=</span> <span class="mi">10</span>
 <span class="n">value02</span> <span class="o">+</span> <span class="mi">5</span> <span class="c1">// 15</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>일반적으로 옵셔널 타입과 일반 타입을 직접 연산하는 것은 오류이지만, 묵시적 해제를 선언한 옵셔널 타입은 다르다. 직접 일반 타입과 연산해도 문제가 되지 않는다. 이처럼 묵시적 해제를 선언한 옵셔널은 일반 타입처럼 사용할 수 있기 때문에 굉장히 편리하게 사용할 수 있다.</p>
 
@@ -886,8 +993,9 @@ Seoul
 
 <p>이다. 다음 구문을 보자.</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Int</span><span class="o">!</span> <span class="o">=</span> <span class="kt">Int</span><span class="p">(</span><span class="s">"123"</span><span class="p">)</span>
-</code></pre></div></div>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="k">var</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Int</span><span class="o">!</span> <span class="o">=</span> <span class="kt">Int</span><span class="p">(</span><span class="s">"123"</span><span class="p">)</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>이 구문은 Int(문자열)이 반환하는 값이 옵셔널 타입이기 떄문에 어쩔 수 없이 value 변수를 옵셔널 타입으로 선언해야 한다. 하지만 Int(“123”)은 누가 봐도 제대로 정수로 변환될 것이 확실하다. 이런 확실한 값에 굳이 옵셔널 처리를 해 줄 필요는 사실 거의 없다. 이때 위와 같이 value 변수를 묵시적 옵셔널로 선언한다면 옵셔널 타입 여부에 신경 쓰지 않고 일반 변수처럼 편하게 사용할 수 있다. 하지만 이 경우가 묵시적 옵셔널을 사용해야 하는 이유로 납득하기는 조금 어렵다. Int(“123”)! 처럼 대입하는 값 쪽에 강제 해제 연산자를 붙여주면 처음부터 value를 일반 변수로 만들어줄 수 있기 때문이다.</p>
 
@@ -897,17 +1005,25 @@ Seoul
 
 <p>다음은 애플에서 스위프트 언어를 발표할 때 제시했던 코드로, nil 값을 점검하면서 사용하는 오브젝티브-C 코드와 이를 옵셔널을 사용하여 간결하게 표현한 스위프트 코드를 함께 보여주고 있다. 이 처럼 옵셔널을 이용하여 간결하게 처리할 수 있는 문법을 <strong>옵셔널 체인(Optional Chain)</strong>이라고 하는데, 스위프트의 옵셔널 개념이 코드를 얼마나 간결하게 만들어줄 수 있는지 보여주는 대표적인 예라고 할 수 있다. 옵셔널 체인에 대한 문법은 클래스에 대해 학습하는 과정에서 자세히 다루겠다.</p>
 
-<div class="language-objectivec highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// 오브젝티브-C 코드</span>
+<div class="language-objectivec highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre><span class="c1">// 오브젝티브-C 코드</span>
 <span class="k">if</span> <span class="p">(</span><span class="n">myDelegate</span> <span class="o">!=</span> <span class="nb">nil</span><span class="p">)</span> <span class="p">{</span>
     <span class="k">if</span> <span class="p">([</span><span class="n">myDelegate</span> <span class="nf">respondsToSelector</span><span class="p">:</span><span class="k">@selector</span><span class="p">(</span><span class="nf">scrollViewDidScroll</span><span class="p">:)])</span> <span class="p">{</span>
         <span class="p">[</span><span class="n">myDelegate</span> <span class="nf">scrollViewDidScroll</span><span class="p">:</span><span class="n">myScrollView</span><span class="p">];</span>
     <span class="p">}</span>
 <span class="p">}</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// 스위프트 코드</span>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre><span class="c1">// 스위프트 코드</span>
 <span class="n">myDelegate</span><span class="p">?</span><span class="o">.</span><span class="nf">scrollViewDidScroll</span><span class="p">?(</span><span class="n">myScrollView</span><span class="p">)</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <hr />
 

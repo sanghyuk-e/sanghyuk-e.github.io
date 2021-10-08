@@ -1,4 +1,4 @@
-I"C3<p><img src="/assets/images/posts/Swift-Grammar/swift.png" alt="Swift" /></p>
+I"~6<p><img src="/assets/images/posts/Swift-Grammar/swift.png" alt="Swift" /></p>
 
 <p class="text-center"><a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsanghyuk.dev%2Fswift-grammar%2F1-3%2F&amp;count_bg=%23FA7343&amp;title_bg=%23555555&amp;icon=swift.svg&amp;icon_color=%23E7E7E7&amp;title=Views&amp;edge_flat=false" alt="Hits" /></a></p>
 
@@ -36,12 +36,14 @@
 
 <ul>
   <li>오브젝티브-C에서의 메소드 호출
-    <div class="language-objectivec highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="err">인스턴스명</span> <span class="nf">increment</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span>
-</code></pre></div>    </div>
+    <div class="language-objectivec highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="p">[</span><span class="err">인스턴스명</span> <span class="nf">increment</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span>
+</pre></td></tr></tbody></table></code></pre></div>    </div>
   </li>
   <li>스위프트에서의 메소드 호출
-    <div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">인스턴스명</span><span class="o">.</span><span class="nf">incrementBy</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
-</code></pre></div>    </div>
+    <div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="n">인스턴스명</span><span class="o">.</span><span class="nf">incrementBy</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</pre></td></tr></tbody></table></code></pre></div>    </div>
   </li>
 </ul>
 
@@ -49,18 +51,25 @@
 
 <p>오브젝티브-C에서는 존재하지 않는 객체에 대한 참조를 위해 nil이라는 상수를 사용한다. nil과 NULL의 차이에 대해 궁굼해 하는 사람들이 있는데, 엄격하게 말해서 오브젝티브-C에서 정의된 nil 상수와 C에서 정의된 NULL 상수 간에 차이는 있지만, 오브젝티브-C 문법에서 두 상수는 기술적으로 혼용할 수 있다. 일반적으로 nil은 클래스 객체를 참조하는 데에 사용되고, NULL은 그 밖에 다른 포인터 자료형에 사용된다.</p>
 
-<div class="language-objectivec highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// 객체의 빈 참조에 사용되는 nil</span>
+<div class="language-objectivec highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre><span class="c1">// 객체의 빈 참조에 사용되는 nil</span>
 <span class="n">UIViewController</span> <span class="o">*</span><span class="n">uvc</span> <span class="o">=</span> <span class="nb">nil</span><span class="p">;</span>
 
 <span class="c1">// 포인터 자료형의 빈 참조에 사용되는 NULL</span>
 <span class="kt">int</span> <span class="o">*</span><span class="n">sPtr</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>반면, 스위프트에서 nil은 옵셔널 타입의 기본값으로 사용되며 <strong>‘값이 존재하지 않음’</strong>을 의마한다. 스위프트에서는 NULL 상수가 정의되어 있지 않다.</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// 옵셔널 타입의 기본값으로 nil이 대입</span>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre><span class="c1">// 옵셔널 타입의 기본값으로 nil이 대입</span>
 <span class="k">var</span> <span class="nv">name</span> <span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <h2 id="37-포인터-사용">3.7 포인터 사용</h2>
 
@@ -74,7 +83,18 @@
 
 <p>그러나 스위프트에서는 객체지향용 타입으로 클래스뿐만 아니라 구조체, 열거형까지 제공한다. 이들 객체 타입은 모두 인스턴스를 만들 수 있으며 인스턴스와 관련된 변수, 상수를 속성(property)으로 선언하여 사용할 수 있다. 그뿐만 아니라 이들 객체 타입에 인스턴스 메소드와 타입 메소드를 작성하여 사용할 수도 있다.</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// 클래스 (Class)</span>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre><span class="c1">// 클래스 (Class)</span>
 <span class="kd">class</span> <span class="kt">SampleClass</span> <span class="p">{</span>
 <span class="p">}</span>
 
@@ -85,7 +105,7 @@
 <span class="c1">// 열거형 (Enumeration)</span>
 <span class="kd">enum</span> <span class="kt">SampleEnum</span> <span class="p">{</span>
 <span class="p">}</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <h2 id="39-익명-함수">3.9 익명 함수</h2>
 

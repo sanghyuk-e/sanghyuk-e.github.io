@@ -1,4 +1,4 @@
-I"p<p>MacOS를 업데이트를 할 때마다 여러 문제가 발생하는데, xcrun error를 해결하고 나니 CocoaPods에서 다른 오류가 발생했다. CocoaPods로 새로운 라이브러리를 추가하려고 install 을 하려는데 다음과 같은 오류 메시지가 등장했다.</p>
+I"�	<p>MacOS를 업데이트를 할 때마다 여러 문제가 발생하는데, xcrun error를 해결하고 나니 CocoaPods에서 다른 오류가 발생했다. CocoaPods로 새로운 라이브러리를 추가하려고 install 을 하려는데 다음과 같은 오류 메시지가 등장했다.</p>
 
 <p><img src="/assets/images/posts/iOS/2020-12-04-1/1.png" alt="CocoaPods 에러" /></p>
 
@@ -10,9 +10,11 @@
 
 <p>고맙게도 위의 링크에서 👍가 가장 많은 댓글에서 해결 방법을 얻었다. 해결 방법은 간단한데 각자 설치한 방법에 따라서 CocoaPods를 재설치 하면 되는 것 같았다. 회사의 맥은 Homebrew를 통해 설치되었으므로 다음과 같은 명령어를 사용하면 된다.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ brew install cocoapods --build-from-source
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>$ brew install cocoapods --build-from-source
 $ brew link --overwrite cocoapods
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>하지만 한 번에 잘 되는 걸 본 적이 거의 없다. 첫 번째 명령어를 입력하니 다음과 같은 오류가 발생했다.</p>
 
@@ -22,6 +24,7 @@ $ brew link --overwrite cocoapods
 
 <p>추가적으로 Homebrew를 이용하지 않고 일반적인 방법으로 CocoaPods를 설치한 사람은 다음과 같은 명령어를 사용하면 된다고 한다.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo gem install cocoapods
-</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>$ sudo gem install cocoapods
+</pre></td></tr></tbody></table></code></pre></div></div>
 :ET

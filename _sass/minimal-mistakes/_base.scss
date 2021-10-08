@@ -66,6 +66,9 @@ small,
 p {
   margin-bottom: 1.3em;
 }
+p > strong {
+  color: #2b78a2;
+}
 
 u,
 ins {
@@ -171,8 +174,9 @@ td > code {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
   font-size: 0.8em;
-  background: $code-background-color;
+  background: #e8e8f7; /*$code-background-color;*/
   border-radius: $border-radius;
+  color: #2b78a2;
 
   &:before,
   &:after {

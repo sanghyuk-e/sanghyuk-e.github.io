@@ -1,4 +1,4 @@
-I"I<p><img src="/assets/images/posts/Git/github.png" alt="Github" /></p>
+I",<p><img src="/assets/images/posts/Git/github.png" alt="Github" /></p>
 
 <h1 id="gitignore">.gitignore</h1>
 
@@ -19,10 +19,13 @@
 
 <p>여러 파일을 한번에 지정할 경우 * 을 사용한다.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jdbc.properties
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>jdbc.properties
 *.class
 *.jar
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>위와 같이 작성하면 git add 명령어를 실행했을 때 jdbc.properties 파일을 제외하며, .class와 .jar 확장자를 가진 파일을 모두 무시한다.</p>
 
@@ -33,16 +36,19 @@
 <h2 id="4-응용">4. 응용</h2>
 <p>만약 .gitignore 목록에 있는 파일을 추가해야 할 경우 -f 옵션을 이용해 추가할 수 있다.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add -f jdbc.properties
-</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>git add -f jdbc.properties
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>.gitignore 에 설정한 내용은 하위 디렉토리에도 동일하게 적용된다.</p>
 
 <p>만약 특정 하위 디렉토리가 다른 ignore 를 적용해야 할 경우 해당 디렉토리에 .gitignore 을 새로 만들어준다.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>*
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>*
 !jdbc.properties
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 <p>위와 같은 .gitignore 을 새로 만들어 config 폴더에 넣을 경우, 기본적으로 config 의 모든 파일을 무시하면서 jdbc.properties 라는 파일은 버전을 관리한다. !는 이전의 ignore 패턴을 무효화 하는 문자열이다.</p>
 
 <p>만약 파일명에 ! 가 들어갈 경우 escape 문자인 \ 를 ! 앞에 붙여준다.</p>

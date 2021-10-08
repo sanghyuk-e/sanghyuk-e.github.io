@@ -1,4 +1,4 @@
-I"5<p><img src="/assets/images/posts/Git/github.png" alt="Github" /></p>
+I"�<p><img src="/assets/images/posts/Git/github.png" alt="Github" /></p>
 
 <p>MacOS를 업데이트를 할 때마다 여러 문제가 발생하는데, 이번에도 개발 관련 이슈가 터졌다. 매번 구글에 검색하여 해결했는데 이번에는 블로그에 간단하게 정리하려고 한다.</p>
 
@@ -8,8 +8,9 @@
 
 <p>찾아보니 해당 오류는 git을 비롯하여 다수의 개발 툴들이 xcrun 에러를 뱉는다고 한다. xcode cli 이슈라고 하는 것 같은데 해결 방법은 의외로 간단했다. <code class="language-plaintext highlighter-rouge">xcode-select</code> 명령어를 사용하여 xcode cli만 따로 설치하는 방법으로 이 문제를 해결할 수 있다.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ xcode-select --install
-</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>$ xcode-select --install
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p><img src="/assets/images/posts/Git/2020-12-03-2/2.png" alt="xcode-select 명령어" /></p>
 
