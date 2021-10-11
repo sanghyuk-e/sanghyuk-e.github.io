@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /categories/SwiftGrammar
-title: "Post about Swift Grammar"
+title: "Swift Grammar 카테고리의 포스트"
 author_profile: true
 sidebar_main: true
 search : false

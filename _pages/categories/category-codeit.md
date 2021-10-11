@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /categories/CodeIt
-title: "Post about Code it"
+title: "Code it 카테고리의 포스트"
 author_profile: true
 sidebar_main: true
 search : false

@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /categories/iOS
-title: "Post about iOS"
+title: "iOS 카테고리의 포스트"
 author_profile: true
 sidebar_main: true
 search : false
